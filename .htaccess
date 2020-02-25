@@ -1,0 +1,65 @@
+AddType 'text/plain; charset=UTF-8' md
+DirectorySlash off # Don't add slash to end of directories.
+RewriteEngine on
+
+#Force HTTPS:
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+AddType application/font-woff .woff2
+
+
+
+
+# If the requested path is not a directory, and it ends with a slash, remove the slash.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_URI} /$
+RewriteRule ^(.*)/$ $1 [R=301,nc,QSA]
+
+# If the requested path is a directory, and also a valid file if the slash is removed, remove the slash.
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} /$
+RewriteRule ^(.*)/$ $1 [nc,QSA]
+
+# If the requested path is a directory, and index.md exists use index.md as a default document
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}index.md -f
+RewriteRule (.*) md2html.php?$1/index.md [QSA]
+
+# If /path does not exist, but path.md does exist, send that .md file to the renderer.
+#RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.md -f
+RewriteRule (.*) md2html.php?$1.md [QSA]
+
+# Make the .php extension optional for URLs pointing to php files.
+# If there exists a filename.php that matches the requested path, and the url doesn't end with /, then use filename.php.
+# TODO: this 500's from too many redirects if requesting products/a.php and products.php exists but products/a.php doesn't exist.
+# It seems to happen because it first processes /products ?
+# TODO: If a file and a directory have the same name, prefer the file.
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*)$ $1.php [L,QSA]
+
+
+
+
+
+# Map all url's that end in .less to the .less compiler.
+ReWriteRule ^(.*)\.less$ /common/tools/less.php?$1.less [nc,QSA]
+
+# Map all image resize commands to the image resizer.
+RewriteCond %{QUERY_STRING} w=(.+) [OR]
+RewriteCond %{QUERY_STRING} h=(.+) [OR]
+RewriteCond %{QUERY_STRING} s=(.+) [OR]
+RewriteCond %{QUERY_STRING} format=(.+)
+ReWriteRule ^(.*)\.(jpg|jpeg|png|gif|webp)$ /common/tools/resize-image.php?url=$1.$2 [nc,QSA]
+
+# Map all url's that end in .js?min to the js shrinker
+RewriteCond %{QUERY_STRING} min
+ReWriteRule ^(.*)\.js /common/tools/jshrink.php?$1.js [nc]
+
+Options -Indexes
+
+# Send 404's to /404.php, if it exists
+ErrorDocument 404 /404.php
