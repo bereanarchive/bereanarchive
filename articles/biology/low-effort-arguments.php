@@ -10,7 +10,6 @@ $headerStyle = "background-image: linear-gradient(transparent, transparent, rgba
 // $content
 ob_start()?>
 <aside>
-	by John Berea
 	<br>Published: Spring 2017
 	<br>Updated:
 	<?=date('F j, Y', filemtime(__FILE__))?>
@@ -33,7 +32,7 @@ ob_start()?>
 <p>There's also the common variant, "micro and macro evolution are terms invented by
 	creationists."&nbsp; I can see how the terms aren't well defined, but the difference
 	is recognized by many well known biologists.</p>
- <h3>Micro- and Macroevolution are legitimate terms used by biologists</h3>
+<h3>Micro- and Macroevolution are legitimate terms used by biologists</h3>
 <p>Evolution.berkeley.edu defines <em>macroevolution</em> as "evolution on a grand scale--what
 	we see when we look at the over-arching history of life: stability, change, lineages
 	arising, and extinction."[^berkeley-macroevolution]</p>
@@ -41,7 +40,14 @@ ob_start()?>
 	Jon Tennant is currently undertaking a PhD in vertebrate macroevolution."[^john-tennant]</p>
  <h3>It's common for evolutionary biologists to debate whether repeated microevolution
 		can lead to macro</h3>
-<p>Or if different processes are needed.&nbsp; Biologist Andrew M. Simons writes:</p>
+
+
+<p>Roger Lewin describes the controversy at a 1980 evolutionary biology conference in Chicago:</p>
+<blockquote>
+The central question of the Chicago conference was whether the mechanisms underlying microevolution can be extrapolated to explain the phenomena of macroevolution.  At 
+the risk of doing violence to the positions of some of the people at the meeting, the answer can be given as a clear, No.  What is not clear, however, is whether microevolution is totally decoupled from macroevolution:  The two can more probably be seen as a continuum with a notable overlap."[^lewin-1980]
+</blockquote>
+<p>Biologist Andrew M. Simons writes:</p>
 <blockquote>
 	<p>A persistent debate in evolutionary biology is one over the continuity of microevolution
 		and macroevolution--whether macroevolutionary trends are governed by the principles
@@ -87,6 +93,7 @@ ob_start()?>
 		such as genetic drift and natural selection.[^zimmer-macroevolution]</p>
 </blockquote>
 <h3>Many recognize macroevolution must entail more than long-term microevolution</h3>
+
 <p>Evolutionary developmental biologist Eric Davidson wrote that changes in developmental
 	networks are fundamentally different than small changes and species divergences:</p>
 <blockquote>
@@ -144,12 +151,6 @@ ob_start()?>
 		creationists, macro and microevolution describe fundamentally identical processes
 		on different time scales” looks like it was stuck in by someone who was a popular
 		fan of evolution but not very deep into the field.[^matzke-many-writers]</p>
-</blockquote>
-<p>Biologist "Albeartross" commented on reddit:</p>
-<blockquote>
-	<p>It's a (minor) pet peeve of mine when people claim that macroevolution is just microevolution
-		over a longer period of time. But that doesn't preclude the validity of macroevolution
-		or microevolution.[^albeartross]</p>
 </blockquote>
  <h2>Argument 2:&nbsp; "Darwinist, Darwinism and Darwinian, and Evolutionist are not real terms"</h2>
 <p>On the contrary, proponents of evolutionary theory often use them in reference to
@@ -539,6 +540,11 @@ ob_start()?>
  <h2>Sources</h2>
 <div class="footnotes">
 	<ol>
+		<li>[^lewin-1980]: Lewin, R.&nbsp; "<a href="https://science.sciencemag.org/content/210/4472/883">Evolutionary Theory Under Fire</a>."&nbsp; Science.&nbsp; 1980.
+			<small>See first page, second column, middle.<br>
+			Mirrors:&nbsp; <a href="http://archive.is/BwgOx">Archive.is</a> | <a href="low-effort-arguments/sources/lewin-1980.png">Local Screenshot</a>
+			</small>		
+		</li>
 		<li>[^john-tennant]:Tennent, Jon.&nbsp; "<a href="http://blog.thingswedontknow.com/2013/02/mass-extinction.html">Mass Extinction</a>".
 			&nbsp;Things we don't know, 2013.<span class="comment">Mirrors: <a href="https://web.archive.org/web/20160609212441/http://blog.thingswedontknow.com/2013/02/mass-extinction.html" target="_blank">Archive.org</a></span>
 		</li>
@@ -585,8 +591,6 @@ ob_start()?>
 			&nbsp;Evolution and Development, 2010.</li>
 		<li>[^matzke-many-writers]:Matzke, Nick. <a href="http://www.uncommondescent.com/intelligent-design/a-world-famous-chemist-tells-the-truth-theres-no-scientist-alive-today-who-understands-macroevolution/#comment-447138">Comment at UncommonDescent</a>.
 			&nbsp;2013.
-		</li>
-		<li>[^albeartross]:"Albeartross."&nbsp; <a href="http://www.reddit.com/r/Christianity/comments/1kw2vk/need_some_help_reaching_an_agreement_between/cbtlbiq">Reddit comment</a>.&nbsp; 2013.
 		</li>
 		<li>[^eldredge-website]:Eldredge, Nile.&nbsp; "<a href="https://web.archive.org/web/20140706112853/http://www.nileseldredge.com/">NilesEldrege.com</a>."&nbsp; 2015.
 		</li>

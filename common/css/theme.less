@@ -246,7 +246,7 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 }
 
 // General text content
-.text { overflow-wrap: break-word;
+.text { word-break: break-word;
 
 	.breadcrumbs { font-size: 80%; color: #aaa; max-width: calc(100% - 200px); margin-bottom: 3px;
 		a, a:visited { color: #77f }
@@ -296,7 +296,11 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	h1 + h2 { margin-top: 0.25em }
 	h2 + h3, h3 + h4, h3 + p, h4 + p { margin-top: 0 }
 	h3:first-child { margin-top: 0 }
-	p + blockquote { margin-top: -0.7em } 	/* Reduced margin below p if followed by a blockquote */
+	
+	/* Reduced margin between p and blockquote */
+	blockquote ~ p { margin-bottom: .2em } 	
+	p + blockquote { margin-top: 0 }
+	
 	blockquote p:first-child, .highlight p:first-child { margin-top: 0 }
 	blockquote p:last-child, .highlight p:last-child { margin-bottom: 0 }
 
@@ -313,6 +317,8 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 			> p:last-child { margin: 0 }
 		}
 	}
+	
+	/* lines separating each row */
 	table.style1 { table-layout: fixed; margin-bottom: 1.5em;
 		th { text-align: left;
 			p { margin: 0 }
@@ -339,6 +345,35 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	}
 
 	table.small { font-size: 85%; margin-left: 0; margin-top: 0 }
+	
+		
+	/**
+	 * Generates classes to apply to a table to set its column widths:
+	 * For td1-10 all the way from 5% to 100%.
+	 * .text table.td1-5 td:nth-child(1) { width: 5% }
+	 * .text table.td1-10 td:nth-child(1) { width: 10% }
+	 * This is useful for markdown, since there we can only apply a class to the whole table.
+	 * To understand the less loop, go to http://lesscss.org/features/ and scroll to Recursive Mixings.  */
+	.generate-tds(@i, @j: 5) when (@j =< 100) {
+		table.td@{i}-@{j} {
+			th:nth-child(@{i}), td:nth-child(@{i}) {
+				width: (@j * 1%);
+			}
+		}
+		.generate-tds(@i, (@j + 5)); // Continue loop
+	}
+	.generate-tds(1);
+	.generate-tds(2);
+	.generate-tds(3);
+	.generate-tds(4);
+	.generate-tds(5);
+	.generate-tds(6);
+	.generate-tds(7);
+	.generate-tds(8);
+	.generate-tds(9);
+	.generate-tds(10);
+	
+	
 
 	// Width of right sidebar (30px right margin, 30px right padding, 230px sidebar width)
 	.wide { width: calc(100% + 290px); position: relative; z-index: 0; background-color: white; border-top-right-radius: 12px; border-bottom-right-radius: 12px;
@@ -372,7 +407,7 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	div.item { display: flex; margin: 5px 0 15px 0;
 		&.subItem { margin-left: 100px }
 		img { width: 90px; height: 90px; margin-right: 12px; border: 1px solid black; border-radius: 12px }
-		h4 { margin: 0 }
+		h4 { margin: 0; border-bottom: none }
 	}
 
 
@@ -382,15 +417,15 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 		img { width: 90px; height: 90px; margin-right: 12px; border: 1px solid black; border-radius: 12px }
 	}
 
-	aside { position: absolute; clear: right; left: calc(100% + 30px); min-width: 180px; max-width: 230px; color: black; font-size: 85%; line-height: 1.4; z-index: 1;
+	aside { position: absolute; clear: right; left: calc(100% + 30px); min-width: 180px; max-width: 230px; width: 100%; color: black; font-size: 85%; line-height: 1.4; z-index: 1;
 
-		img { margin-bottom: 5px }
+		img { width: 100%; margin-bottom: 5px }
 		ol li:before { color: inherit } // override gray color
 	}
 
 	aside.companionArticle { box-sizing: border-box; background-color: #ccd8ef; border: 1px dashed #024; border-radius: 5px; padding: .5em .5em .4em .5em !important; color: #448;
 
-		img { width: 100%; border: 1px solid black; border-radius: 12px }
+		img { border: 1px solid black; border-radius: 10px } /* Same as img rounded. */
 	}
 
 	aside.inner { position: static; clear: right; border: 1px solid black; padding: 0 3px 0 10px; background-color: #fff6ee; margin-left: 20px; margin-bottom: 10px; float: right; border-radius: 6px; width: 200px; min-width: 200px; min-height: 20px; font-size: 85% }

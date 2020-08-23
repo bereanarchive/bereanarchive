@@ -10,8 +10,7 @@ $caption = 'False color electron microscope image of the mouth and eye of a moth
 
 // $content
 ob_start()?>
-<aside>by John Berea
-	<br>Published: Spring 2017
+<aside>Published: Spring 2017
 	<br>Updated:
 	<?=date('F j, Y', filemtime(__FILE__))?>
 </aside>

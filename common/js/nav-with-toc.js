@@ -1,5 +1,6 @@
 
-
+var scrollHighlightEnabled = true;
+	
 /**
  * Javascript for the table of contents that is included in nav-with-toc.php. */
 $(function() {
@@ -25,13 +26,12 @@ $(function() {
 
 
 	// TOC item clicks
-	$(navToc).on('click', 'a', function(e) {		
+	$(navToc).on('click', 'a', function(e) {
 		e.preventDefault();
 		highlightToc(this, tocHighlight);
 	});
 
 	// Highlight TOC entries on scroll
-	var scrollHighlightEnabled = true;
 	$(document).on('scroll', function() { 
 		if (!scrollHighlightEnabled)
 			return;
@@ -50,7 +50,7 @@ $(function() {
  * @return {HTMLElement[]} */
 function createToc(container) {
 	$(container).find('h2,h3,h4,h5,h6').addClass('__heading'); // Giving them a temporary class makes sure we find them in order.
-	var headings = $(container).find('.__heading').removeClass('__heading').toArray();
+	var headings = $(container).find('.__heading').removeClass('__heading');
 
 	var result = [];
 	for (var i=0, h; h=headings[i]; i++) {

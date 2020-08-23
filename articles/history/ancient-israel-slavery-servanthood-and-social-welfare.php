@@ -1,7 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
-$title = 'Ancient Israel:  Slavery, Servanthood, and Social Welfare';
+$title = 'Ancient Israel:  Slavery, Servanthood, and Social Welfare | Berean Archive';
 $image = '/articles/history/ancient-israel-slavery-servanthood-and-social-welfare/header-square.jpg';
 $headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('ancient-israel-slavery-servanthood-and-social-welfare/header-wide.jpg')";
 $caption = '<em>Ancient Mesopotamia</em>, a painting by Jeff Brown.[^painting] Some aspects
@@ -13,7 +13,6 @@ $caption = '<em>Ancient Mesopotamia</em>, a painting by Jeff Brown.[^painting] S
 // $content
 ob_start()?>
 <aside>
-	By John Berea<br>
 	Published: Spring 2017<br>
 	Updated: <?=date('F j, Y', filemtime(__FILE__))?>
 </aside>
@@ -592,8 +591,8 @@ style="width: 100%;">
 	are still regulations for what should happen if that contract fails, and this interpretation
 	of the "escape clause" seems the most parsimonious in resolving these two commands.</p>
 <h3>Objection 4:&nbsp; Numbers 31</h3>
-<p>This objection is addressed in the <a href="ancient-israel-warfare-and-conquest"
-	>Warfare and Conquest</a> article.</p>
+<p>This objection is addressed in the <a href="ancient-israel-morality-of-the-conquest-of-canaan"
+	>Morality of the Conquest of Canaan</a> article.</p>
 <h3>Objection 5:&nbsp; "Slavery is morally wrong in any circumstance"</h3>
 <p>Given that Hebrew עֶבֶד (ebed) can mean a subordinate of any priveledge, and
 	that the other Old Testament comamnds make it impossible for masters to

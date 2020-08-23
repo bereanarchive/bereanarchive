@@ -4,6 +4,7 @@ $bodyClasses = 'noSidebars';
 $headerStyle = "background-image: url('/common/img/site/berea.jpg'); background-position: 65% 100%";
 $caption     = 'The Haliacmon river near the site of ancient Berea, Greece.  Copyright <a href="https://www.google.com/maps/@40.449937,22.218712,3a,75y,90t/data=!3m8!1e2!3m6!1s113074573!2e1!3e10!6s%2F%2Flh3.googleusercontent.com%2Fproxy%2FtyO4iRfN8QWlhQphql0AgZww-yi5k2G6UuFIu1xWZbDDKCHlmP-C8aXgynz33s3zb5Bb4282wr84RJJa-N8MUEsDmJHJdWA%3Dw203-h135!7i6000!8i4000">Google Maps</a>.';
 $theme       = 'common/includes/theme.php';
+$image       = '/common/img/site/berea-fb.jpg';
 
 
 ob_start()?>

@@ -1,5 +1,4 @@
 <?php
-// TODO: This will remove parent footnotes if the
 
 #
 #
@@ -2493,13 +2492,13 @@ class ParsedownExtra extends Parsedown
 			),
 		);
 
-		//uasort($this->DefinitionData['Footnote'], 'self::sortFootnotes'); // Commented out by JohnBerea, because with our change below this puts footnotes in a random order.
+		//uasort($this->DefinitionData['Footnote'], 'self::sortFootnotes'); // Modified by Berean Archive:  Commented out, because with our change below this puts footnotes in a random order.
 
 		foreach ($this->DefinitionData['Footnote'] as $definitionId => $DefinitionData)
 		{
 			if ( ! isset($DefinitionData['number']))
 			{
-			//	continue; // Commented out by JohnBera so that we leave footnotes that are never cited.
+			//	continue; // Commented out by Berean Archive so that we leave footnotes that are never cited.
 				// This is necessary because sometimes we only cite a child of a footnote.
 				// However this causes footnotes to be put in a random order, which we fix in the reOrderFootnotes() pass.
 			}
@@ -2538,7 +2537,7 @@ class ParsedownExtra extends Parsedown
 					array(
 						array(
 							// 'rawHtml' => '&#160;',
-							'rawHtml' => ' ', // modified by John Berea to use literal char 160..
+							'rawHtml' => ' ', // modified by Berean Archive to use literal char 160.
 							'allowRawHtmlInSafeMode' => true,
 						),
 					),
@@ -2835,7 +2834,9 @@ class ParsedownExtreme extends ParsedownExtra
 	{
 		$Block = parent::blockSetextHeader($Line, $Block);
 
-		if (preg_match('/[ ]*{('.$this->regexAttribute.'+)}[ ]*$/', $Block['element']['handler']['argument'], $matches, PREG_OFFSET_CAPTURE)) {
+		// Modified by Berean Archive for Php 7.4 compatibility.
+		// if (preg_match('/[ ]*{('.$this->regexAttribute.'+)}[ ]*$/', $Block['element']['handler']['argument'], $matches, PREG_OFFSET_CAPTURE)) {
+		if (preg_match('/[ ]*{('.$this->regexAttribute.'+)}[ ]*$/', $Block['element']['handler']['argument']??'', $matches, PREG_OFFSET_CAPTURE)) {
 			$attributeString = $matches[1][0];
 
 			$Block['element']['attributes'] = $this->parseAttributeData($attributeString);

@@ -1,5 +1,5 @@
 ---
-title:        HIV Evolution
+title:        HIV Evolution | Berean Archive
 headerStyle:  background-image: url('/articles/biology/hiv-evolution/header-wide.jpg')
 image:        /articles/biology/hiv-evolution/header-square.jpg
 caption:      A computer rendered HIV-1 particle.[^dubrow-2014]
@@ -54,10 +54,13 @@ HIV-1 group M (for major) accounts for the "vast majority (perhaps 98%) of HIV i
 
 ## Population Size
 <aside>
-<img src="hiv-evolution/follicular-dendritic-cell2.jpg?w=220">
+	<a class="lightbox" href="hiv-evolution/follicular-dendritic-cell2.jpg">
+    	<img class="rounded" src="hiv-evolution/follicular-dendritic-cell2.jpg?w=220">
+    </a>
 Electron microscope image of a follicular dendritic cell, artificially colored.
 Follicular dendritic cells are major reservoirs for HIV-1 within the lymph nodes.
 </aside>
+
 
 ### Population Per Infected Person
 
@@ -109,6 +112,7 @@ Various studies estimate that about 10^10^ to 10^12^ HIV viruses exist in an inf
         <a href="http://www.pandasthumb.org/archives/2007/11/an-open-letter-9.html"> An Open Letter to Dr. Michael Behe (Part 7)</a>&nbsp; (Nov 16, 2007</li>
     </ol>
 </aside>
+
 
 Rather than by counting and extrapolating, some studies (not included above) measure HIV genetic diversity, and use that to estimate *effective* population sizes in the range of 450 to 10^5^ HIV ++virions++ per person.[^althaus-2005] These estimates "are many orders of magnitude lower than the census size--a result that has surprised and perplexed many in the HIV-1 community."[^tan-2005]
 
@@ -170,7 +174,7 @@ What's the purpose of this comparison?  When HIV uncovers evolutionary gains tha
 
 The annotated[^rambaut-2004] chart below shows all strains of HIV circulating within humans (red lines) and their inferred origins from monkey and ape SIV (gray lines). Longer vertical lines indicate more fixed mutations.  Blue numbers indicate the total number of mutations fixed during the time represented by the red vertical lines.  The sum of all blue numbers indicates that about 5,160 mutations have become fixed among the various HIV subtypes since first entering humans.
 
-<img src="hiv-evolution/hiv-phylogeny.png" class="wide inverted">
+<a class="lightbox" href="hiv-evolution/hiv-phylogeny.png"><img src="hiv-evolution/hiv-phylogeny.png" class="wide inverted"></a>
 
 Confounding these estimates, most evolution occurs within a single host and is then lost:  "HIV evolves extremely rapidly within individuals, viral evolution is somewhat slower on a population level,"[^andrews-2017]  Although there's still "extensive viral diversity both within and between hosts,"[^andrews-2017]
 
@@ -196,7 +200,7 @@ During the process of entering humans, HIV-1 groups M and N both and separately 
 
 However "it is likely that SIV jumped into humans many times"[^sharp-2010] before it led to the modern AIDS epidemic.  Since these species-crossing attempts occurred perhaps far into the remote past, it's not possible to estimate how many viral replications occurred before SIV was able to discover these mutations.
 
-<img src="hiv-evolution/vpu-alignment.png" class="wide inverted">
+<a class="lightbox" href="hiv-evolution/vpu-alignment.png"><img src="hiv-evolution/vpu-alignment.png" class="wide inverted"></a>
 
 <small>The differences in the Vpu protein in HIV/SIV in various species.[^sauter-2010]  Each letter represents an amino acid. "Hydrophobic TM [transmembrane] domain", "α-helix", and "β-turn" are different regions of the protein.</small>
 
@@ -213,7 +217,7 @@ In order for HIV's Vpu gene to counteract tetherin, at least three amino acids w
 
 Likewise, the diagram above (under Hydrophobic TM domain) shows that HIV-1's Vpu protein differs from SIV at amino acid positions 14, 18, and 22, among many other mutations that don't affect its anti-tetherin ability.  Amino acids 14 and 22 are different amino acids than those there before. They are not simply reversions to the amino acids found in monkey SIVs.
 
-HIV's re-acquisition of its ability to counteract tetherin appears to be a stepwise evolutionary gain where mutations gradually improved the ability, since "chimeras within each region yielded intermediate phenotypes."[^lim-2010]  In other words, each mutation made HIV increasingly better at counteracting tetherin.
+HIV's acquisition of its ability to counteract human tetherin appears to be a stepwise evolutionary gain where mutations gradually improved the ability, since "chimeras within each region yielded intermediate phenotypes."[^lim-2010]  In other words, each mutation made HIV increasingly better at counteracting tetherin.
 
 ### Evading HLA
 
@@ -257,7 +261,7 @@ This section is incomplete, although there are many other gains that could be do
 [^sanford-2007]: Sanford, John, et al.  "[Mendel's Accountant: A biologically realistic forward-time population genetics program.](http://www.scpe.org/index.php/scpe/article/download/407/77)"  Scalable Computing.  2007.<small>The authors explain: "each nucleotide in a smaller genome on average plays a greater relative role in the organism’s fitness"</small>
 [^user813801-2014]:  "[How many organisms have ever lived on Earth?](https://biology.stackexchange.com/a/19569)"  Biology.StackExchange.  2014.  <small>The answer estimates: "5.95 * 10^39^ Bacteria that ever lived," and most cellular organisms are bacteria.</small>
 [^behe-2007]: Behe, Michael J.  "The Edge of Evolution."  2007.  [Page 63](https://books.google.com/books?id=HGuwiG78ILcC&q=%22slightly%20fewer%20than%201040%20cells%22).  <small>Behe estimates: "throughout the course of history there would have been slightly fewer than 10^40^ cells."</small>
- 
+
 [^dong-2011]: Dong et al.  "[Extensive HLA-driven viral diversity following a narrow-source HIV-1 outbreak in rural China](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3743462/)."  Blood.  2011.
 [^guha-2013]: Guha, et al.  "[Innate Immune Evasion Strategies by Human Immunodeficiency Virus Type 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3767209/)."  ISRN AIDS.  2013.
 [^guha-2013:a]: <small>"The HIV-1 RNA genome can be mutated randomly which helps the virus to evade immune recognition by the host."</small>

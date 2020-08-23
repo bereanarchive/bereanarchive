@@ -178,8 +178,7 @@ ob_start()?>
 	<h2>Sources</h2>
 	<div class="footnotes">
 		<ol>
-			<li>[^crick-1980]:Crick, Francis and Leslie Orgel.&nbsp; "
-				<a href="http://profiles.nlm.nih.gov/ps/access/SCBCDG.pdf">Selfish DNA: The Ultimate Parasite</a>."&nbsp;       Nature.&nbsp; 1980.</li>
+			<li>[^crick-1980]:Crick, Francis and Leslie Orgel.&nbsp; "<a href="http://profiles.nlm.nih.gov/ps/access/SCBCDG.pdf">Selfish DNA: The Ultimate Parasite</a>."&nbsp;       Nature.&nbsp; 1980.</li>
 			<li>Mirrors:&nbsp; <a href="https://web.archive.org/web/20150919160849/http://profiles.nlm.nih.gov/ps/access/SCBCDG.pdf">Archive.org</a> | <a href="/articles/reviews/crick-orgel-selfish-dna-1980">Local excerpt with comment</a>
 			</li>
 			<li>[^gregory-2014]:Gregory, T. Ryan and Alexander Palazzo.&nbsp; "<a href="http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1004351">The Case for Junk DNA</a>."&nbsp; PLOS Genetics.&nbsp;      2014.
@@ -198,8 +197,7 @@ ob_start()?>
 			<li>[^beaulieu-2008]:Beaulieu, Jeremy M. et al.&nbsp; "<a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2008.02528.x/full">Genome size is a strong predictor of cell size and stomatal density in angiosperms</a>."&nbsp;      New Phytologist.&nbsp; 2008.</li>
 			<li>[^gregory-2001]:Gretory, T. Ryan.&nbsp; "<a href="https://www.ncbi.nlm.nih.gov/labs/articles/11783946/">The Bigger the C-Value, the Larger the Cell</a>."&nbsp;      Blood Cells, Molecules, and Diseases.&nbsp; 2001.</li>
 			<li>[^toms-hardware-2014]: "<a href="http://www.tomshardware.com/news/respawn-titanfall-pc-gaming-install-electronic-arts,26275.html">Why Titanfall's Install Requires 48 GB: Uncompressed Audio</a>."&nbsp;      Tom's Hardware.&nbsp; 2014.</li>
-			<li>[^everywhere-2013]:Reddit user west_of_everywhere.&nbsp; "
-				<a href="https://www.reddit.com/r/askscience/comments/1l3zfx/how_come_theres_a_amoeba_with_200_times_larger/cbvsn0n/">Comment on How come there's a Amoeba with 200 times larger gene set than humans?</a>"&nbsp; Reddit.&nbsp; 2013.
+			<li>[^everywhere-2013]:Reddit user west_of_everywhere.&nbsp; "<a href="https://www.reddit.com/r/askscience/comments/1l3zfx/how_come_theres_a_amoeba_with_200_times_larger/cbvsn0n/">Comment on How come there's a Amoeba with 200 times larger gene set than humans?</a>"&nbsp; Reddit.&nbsp; 2013.
 			</li>
 			<li>[^gregory-2007]:Gregory, T. Ryan.&nbsp; "<a href="http://www.genomicron.evolverzone.com/2007/04/onion-test/">The onion test</a>."&nbsp;      Genomicon Blog.&nbsp; 2007.</li>
 			<li>[^mattick-2010]:Mattick, John.&nbsp; "<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2905358/">Video Q&amp;A: Non-coding RNAs and eukaryotic evolution - a personal view</a>."&nbsp; BMC Biol.&nbsp; 2010.

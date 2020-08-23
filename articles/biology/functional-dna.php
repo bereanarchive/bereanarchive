@@ -1,7 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
-$title = 'Functional DNA is Evidence of Design';
+$title = 'Functional DNA is Evidence of Design | Berean Archive';
 $image = '/articles/biology/functional-dna/header-square.jpg';
 $headerStyle = "background-image: url('functional-dna/header-wide.jpg')";
 $caption = 'The pufferfish[^pufferfish] genome is  8 times smaller than the human genome, a fact 
@@ -11,7 +11,6 @@ $caption = 'The pufferfish[^pufferfish] genome is  8 times smaller than the huma
 // $content
 ob_start()?>
 <aside>
-	By John Berea<br>
 	Published around May 2017
 </aside>
 
@@ -222,7 +221,7 @@ ob_start()?>
 	different sections of DNA at different stages of development, in precise and reproducible
 	patterns.</p>
 <aside><img src="/common/img/portraits/john-mattick.jpg?w=230" class="rounded">John Mattick is a
-	molecular biologist whose research focuses on non-coding DNA.&nbsp; Mattick directs the Genomics England
+	molecular biologist whose research focuses on non-coding DNA.&nbsp; Mattick directs Genomics England
 	and is a member of the Australian Academy of Science.
 	&nbsp;Mattick is a proponent of evolutionary theory.</aside>
 <p>For example, Genome researcher John Mattick describes his observations of DNA being copied
@@ -396,7 +395,7 @@ this DNA causes loss of function, as can be seen in Mattick's numerous citations
 <h3>3.&nbsp; From Disease + Trait Association</h3>
 
 <p>A review in 2012 looked at 920 studies involving the genomes of thousands of
-	people[^maurano-2012].&nbsp; They found that 4.9% of function altering mutations occurred
+	people[^maurano-2012].&nbsp; They found that only 4.9% of function altering mutations occurred
 	within protein-coding DNA (red slice in figure B):</p>
 <p><img src="functional-dna/maurano-2012-gwas.png" class="wide inverted"></p>
 <p><span>Likewise another broad research review found only 4% of function altering
@@ -410,7 +409,7 @@ this DNA causes loss of function, as can be seen in Mattick's numerous citations
 	functional, suggesting that they are only 26/31.5=83% as functional as non-synonymous sites.</p>
 <p>At least 75%[^axe-2004] of amino-acid altering mutations within exons are deleterious, which
 	implies that 75%*83% =62.25% of mutations at synonymous sites are deleterious.&nbsp;  Combining
-	the synonymous and non-synonymous rates gives75% * 70% + 62% * 30% = 71.1% of mutations within
+	the synonymous and non-synonymous rates gives 75% * 70% + 62% * 30% = 71.1% of mutations within
 	exons being deleterious.&nbsp; Although one bacterial study estimated that as many as 95%
 	of mutations within exons are deleterious.[^lind-2010]</p>
 <h4>Estimating functional DNA</h4>
@@ -1032,8 +1031,7 @@ Important roles have also been demonstrated for Alu-derived RNAs in the regulati
 			insight into the human genome through the lens of evolution</a>."&nbsp; Garvan
 			Institute.&nbsp; 2013. <small>Mirrors:&nbsp;
 			<a href="http://archive.is/TWtUu">Archive.is</a>
-			<a href="functional-dna/sources/graur-how-to-assemble-a-human-genome-2013-slide5.png">Local
-			screenshot</a>
+			<a href="https://web.archive.org/web/20160106070951/http://www.garvan.org.au/news-events/news/new-insight-into-the-human-genome-through-the-lens-of-evolution">Archive.org</a>
 			</small></li>
 		<li>[^parker-2011]:"<a href="http://genome.cshlp.org/content/early/2011/10/03/gr.112516.110.full.pdf">New
 			families of human regulatory RNA structures identified by comparative analysis of

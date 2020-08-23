@@ -15,17 +15,33 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0">
 		<?php if (isset($image)): // Image preview used by facebook when sharing hte article. ?>
-			<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?><?=$image?>">
+			<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?><?=htmlspecialchars($image)?>">
+		<?php else:?>
+			<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?>/common/img/site/berea-fb.jpg">
 		<?php endif?>
-		<title><?=@$title?> | Berean Archive</title>
+		<?php if (isset($descriptoin)): // Image preview used by facebook when sharing hte article. ?>
+			<meta property="og:descriptoin" content="<?=htmlspecialchars($descriptoin)?>">
+		<?php else:?>
+			<meta property="og:description" content="An excessively cited library of Christian evidence.">
+		<?php endif?>
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="<?=@htmlspecialchars($title)?>" />
+		
+		<title><?=@$title?></title>
+
+		<?php /*
+		<base href="/<?=dirname(trim(strtok($_SERVER["REQUEST_URI"], '?'), '/'))?>/" />
+        */?>
 
 		<link rel="stylesheet" href="/common/css/theme.less">
 		<link rel="stylesheet" href="/common/css/theme-dark.less">
 		<link rel="stylesheet" href="/common/css/footnotes.css">
+		<link rel="stylesheet" href="/common/css/magnific.css">
 		
 		<script defer src="/common/js/lib/jquery.min.js"></script>
 		<script defer src="/common/js/lib/hammer.min.js"></script>
 		<script defer src="/common/js/lib/tether.min.js"></script>
+		<script defer src="/common/js/lib/magnific.min.js"></script>
 		<script defer src="/common/js/main.js"></script>
 
 		<script defer src="/common/js/definitions.js"></script>
@@ -35,7 +51,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 		<?=@$header?>
 	</head>
 
-	<body class="<?=@$_COOKIE['mode']?> <?=@$bodyClasses?>">
+	<body class="<?=$_COOKIE['mode']??''?> <?=@$bodyClasses?>">
 		<div id="wrapper">
 
 			<div id="topBar">
@@ -63,7 +79,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 				<div id="darkSlider" title="Toggle dark mode">
 					<label class="sliderButton" for="darkMode">
 						<input type="checkbox" value="None" id="darkMode" name="check"
-							<?=@$_COOKIE['mode']==='dark' ? 'checked' : ''?>/>
+							<?=($_COOKIE['mode']??'')==='dark' ? 'checked' : ''?>/>
 							<span></span>
 					</label>
 				</div>
@@ -73,7 +89,6 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 					checkbox.addEventListener('change', function() {
 						document.body.classList.toggle('dark', checkbox.checked);
 						document.cookie = "mode=" + (checkbox.checked ? 'dark' : '') + '; path=/; expires=Tue, 19 Jan 2038 0:00:00 UTC ';
-						console.log(document.cookie);
 					});
 				</script>
 			</div>
@@ -101,5 +116,12 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 						<a href="http://libguides.mit.edu/usingimages" target="_blank">criteria for fair use</a>.</p>
 			</div>
 		</div>
+		
+		<script>
+		
+			window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+		
+		
+		</script>
 	</body>
 </html>

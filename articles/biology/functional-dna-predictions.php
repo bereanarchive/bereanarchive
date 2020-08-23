@@ -1,7 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
-$title = 'Predictions of Junk versus Functional DNA';
+$title = 'Predictions of Junk versus Functional DNA | Berean Archive';
 $image = '/articles/biology/functional-dna-predictions/header-square.jpg';
 $headerStyle = "background-image: url('functional-dna-predictions/header-wide.jpg')";
 $caption = 'A circuit board.&nbsp; Because DNA is way too small for good photos.';
@@ -13,7 +13,6 @@ $caption = 'A circuit board.&nbsp; Because DNA is way too small for good photos.
 // $content
 ob_start()?>
 <aside>
-	By John Berea<br>
 	Published: Jan 2017 <br>
 	Updated: <?=date('F j, Y', filemtime(__FILE__))?>
 </aside>
@@ -752,7 +751,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 		<tr>
 			<td><img src="/common/img/portraits/christian-de-duve.jpg?w=150"></td>
 			<td>
-				<p><b>Christian de Duve</b>, 1995<br>Nobel Laureate biologist who discoverd the lysosome and peroxisome.</p>
+				<p><b>Christian de Duve</b>, 1995<br>Nobel Laureate biologist who discovered the lysosome and peroxisome.</p>
 				<blockquote>
 					To quote Dawkins:  "The true 'purpose' of DNA is to survive, no more and no less. 
 					The simplest way to explain the surplus DNA is to suppose that it is a 
@@ -1323,7 +1322,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 		<tr>
 			<td>2,000,000</td>
 			<td>
-				Casey Luskin and David Klinghoffer writing for the Discover
+				Casey Luskin and David Klinghoffer writing for the Discovery
 				Institute[^klinghoffer-2012] (although views within the Discovery Institute vary).</td>
 		</tr>
 	</tbody>

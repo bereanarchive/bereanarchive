@@ -167,7 +167,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		//	http_response_code(500); // This prevents it from being used and displayed.
 
 		$filename = str_replace('"', "'", $originalPath);
-		$message = addslashes(str_replace('"', "'", html_entity_decode($e->getMessage()))); // message is html encoded.
+		$message = addslashes(str_replace('"', "'", html_entity_decode($e->getMessage(). ' ' . $e->getTraceAsString()))); // message is html encoded.
 		$message = str_replace("\r\n", ' \A ', $message);
 		$message = str_replace("\r", ' \A ', $message);
 		$message = str_replace("\n", ' \A ', $message);
@@ -565,15 +565,15 @@ class Less_Parser{
 	public static $default_options = array(
 		'compress'				=> false,			// option - whether to compress
 		'strictUnits'			=> false,			// whether units need to evaluate correctly
-		'strictMath'			=> true,			// whether math has to be within parenthesis.  Changed from false to true by John Berea
-		'relativeUrls'			=> false,			// option - whether to adjust URL's to be relative.  Changed from true to false by John Berea.  Otherwise relative url's are calculated from the /admin/tools folder!
+		'strictMath'			=> true,			// whether math has to be within parenthesis.  Changed from false to true by Berean Archive
+		'relativeUrls'			=> false,			// option - whether to adjust URL's to be relative.  Changed from true to false by Berean Archive.  Otherwise relative url's are calculated from the /admin/tools folder!
 		'urlArgs'				=> '',				// whether to add args into url tokens
 		'numPrecision'			=> 8,
 
 		'import_dirs'			=> array(),
 		'import_callback'		=> null,
 		'cache_dir'				=> null,
-		'cache_method'			=> false, 			// false, 'serialize', 'php', 'var_export', 'callback'; // Changed from 'php' to false by John Berea, since we do our own caching.
+		'cache_method'			=> false, 			// false, 'serialize', 'php', 'var_export', 'callback'; // Changed from 'php' to false by Berean Archive, since we do our own caching.
 		'cache_callback_get'	=> null,
 		'cache_callback_set'	=> null,
 
@@ -2294,7 +2294,7 @@ class Less_Parser{
 
 		$this->expectChar(']');
 
-		return $this->NewObj3('Less_Tree_Attribute',array( $key, $op[0], $val));
+		return $this->NewObj3('Less_Tree_Attribute',array( $key, $op[0]??null, $val));
 	}
 
 	//
@@ -6402,7 +6402,7 @@ class Less_Tree_Import extends Less_Tree{
 			} else {
 				$pathValue = $this->getPath();
 				//if( $pathValue && preg_match('/css([\?;].*)?$/',$pathValue) ){
-				if( $pathValue && (preg_match('/css([\?;].*)?$/',$pathValue) || preg_match('/php([\?;].*)?$/',$pathValue)) ){ // Modified by John Berea.  This makes less link to php files instead of importing the literal php code directly.
+				if( $pathValue && (preg_match('/css([\?;].*)?$/',$pathValue) || preg_match('/php([\?;].*)?$/',$pathValue)) ){ // Modified by Berean Archive.  This makes less link to php files instead of importing the literal php code directly.
 					$this->css = true;
 				}
 			}
@@ -10254,7 +10254,7 @@ class Less_Exception_Chunk extends Less_Exception_Parser{
 				case 40:
 					$parenLevel++;
 					$lastParen = $this->parserCurrentIndex;
-					continue;
+					break;
 
 				// )
 				case 41:
@@ -10262,18 +10262,18 @@ class Less_Exception_Chunk extends Less_Exception_Parser{
 					if( $parenLevel < 0 ){
 						return $this->fail("missing opening `(`");
 					}
-					continue;
+					break;
 
 				// ;
 				case 59:
 					//if (!$parenLevel) { $this->emitChunk();	}
-					continue;
+					break;
 
 				// {
 				case 123:
 					$level++;
 					$lastOpening = $this->parserCurrentIndex;
-					continue;
+					break;
 
 				// }
 				case 125:
@@ -10283,10 +10283,10 @@ class Less_Exception_Chunk extends Less_Exception_Parser{
 
 					}
 					//if (!$level && !$parenLevel) { $this->emitChunk(); }
-					continue;
+					break;
 				// \
 				case 92:
-					if ($this->parserCurrentIndex < $this->input_len - 1) { $this->parserCurrentIndex++; continue; }
+					if ($this->parserCurrentIndex < $this->input_len - 1) { $this->parserCurrentIndex++; break; }
 					return $this->fail("unescaped `\\`");
 
 				// ", ' and `
@@ -10297,7 +10297,7 @@ class Less_Exception_Chunk extends Less_Exception_Parser{
 					$currentChunkStartIndex = $this->parserCurrentIndex;
 					for ($this->parserCurrentIndex = $this->parserCurrentIndex + 1; $this->parserCurrentIndex < $this->input_len; $this->parserCurrentIndex++) {
 						$cc2 = $this->CharCode($this->parserCurrentIndex);
-						if ($cc2 > 96) { continue; }
+						if ($cc2 > 96) { break; }
 						if ($cc2 == $cc) { $matched = 1; break; }
 						if ($cc2 == 92) {        // \
 							if ($this->parserCurrentIndex == $this->input_len - 1) {
@@ -10306,12 +10306,12 @@ class Less_Exception_Chunk extends Less_Exception_Parser{
 							$this->parserCurrentIndex++;
 						}
 					}
-					if ($matched) { continue; }
+					if ($matched) { break; }
 					return $this->fail("unmatched `" . chr($cc) . "`", $currentChunkStartIndex);
 
 				// /, check for comment
 				case 47:
-					if ($parenLevel || ($this->parserCurrentIndex == $this->input_len - 1)) { continue; }
+					if ($parenLevel || ($this->parserCurrentIndex == $this->input_len - 1)) { break; }
 					$cc2 = $this->CharCode($this->parserCurrentIndex+1);
 					if ($cc2 == 47) {
 						// //, find lnfeed
@@ -10325,21 +10325,21 @@ class Less_Exception_Chunk extends Less_Exception_Parser{
 						for ($this->parserCurrentIndex = $this->parserCurrentIndex + 2; $this->parserCurrentIndex < $this->input_len - 1; $this->parserCurrentIndex++) {
 							$cc2 = $this->CharCode($this->parserCurrentIndex);
 							if ($cc2 == 125) { $lastMultiCommentEndBrace = $this->parserCurrentIndex; }
-							if ($cc2 != 42) { continue; }
+							if ($cc2 != 42) { break; }
 							if ($this->CharCode($this->parserCurrentIndex+1) == 47) { break; }
 						}
 						if ($this->parserCurrentIndex == $this->input_len - 1) {
 							return $this->fail("missing closing `*/`", $currentChunkStartIndex);
 						}
 					}
-					continue;
+					break;
 
 				// *, check for unmatched */
 				case 42:
 					if (($this->parserCurrentIndex < $this->input_len - 1) && ($this->CharCode($this->parserCurrentIndex+1) == 47)) {
 						return $this->fail("unmatched `/*`");
 					}
-					continue;
+					break;
 			}
 		}
 

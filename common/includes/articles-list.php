@@ -59,6 +59,18 @@ $articleCategories = (object)[
             'thumb'=>'/articles/history/ancient-israel-morality-of-the-conquest-of-canaan/header-square.jpg',
             'description'=>'Are the Old Testament military campaigns of Israel inconsistent with being led by a just and
                 loving God?&nbsp; This article makes the case for consistency and justness.'
+        ],
+        (object)[
+            'name'=>'Shroud of Turin',
+            'url'=>'/articles/history/shroud-of-turin',
+            'thumb'=>'/articles/history/shroud-of-turin/header-square.jpg',
+            'description'=>''
+        ],
+        (object)[
+            'name'=>'Shroud of Turin:  Carbon Dating',
+            'url'=>'/articles/history/shroud-of-turin-carbon-dating',
+            'thumb'=>'/articles/history/shroud-of-turin-carbon-dating/header-square.jpg',
+            'description'=>''
         ]
     ]
 ];

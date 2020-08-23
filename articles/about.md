@@ -46,7 +46,9 @@ There's subjectivity here, but we don't intentionally omit contrary facts and do
 
 Is that claim really true?  Does the source really say what we claim it does?  Who knows?  So we include links, page numbers, quotes, screenshots, archive.org mirrors, and so on.  And we use hostile sources when possible.  Because why trust a random site like us?
 
-<img src="about/credible-hulk.jpg" style="max-width: 100%; border: 2px solid black"/>
+
+
+<img src="about/credible-hulk.jpg" style="max-width: 100%; border: 2px solid black; display: block; margin: 0 auto"/>
 
 ### 9.  Open source
 
@@ -54,13 +56,13 @@ The Berean Archive is run like an open source software project.  The whole site 
 
 ### 10.  Public Domain
 
-All original content on the Berean Archive is placed under the [CC0 "Public Domain" license](https://creativecommons.org/about/cc0/) and is [published on GitHub](https://github.com/bereanarchive/bereanarchive).  This means you can take this article's code and content and do whatever you want with it.  If you're not happy with how we run things, you can even clone the entire website as your own and charge people to access it.  
+All original content on the Berean Archive is placed under the [CC0 "Public Domain" license](https://creativecommons.org/about/cc0/) and is [published on GitHub](https://github.com/bereanarchive/bereanarchive).  This means you can take an article's code and content and do whatever you want with it.  If you're not happy with how we run things, you can even clone the entire website as your own and charge people to access it.  Although in these cases you'll have to make sure you either have permission to use any third party content (such as images) or they fall under fair use.
 
 Although that'd be silly because we already publish it for free.  Yet legally we'd have no recourse against you.  And you may run into trouble with other people if your use of third party stuff no longer falls under fair use.  
 
-I am not a lawyer and this does not constitute legal advice.
+I''m not a lawyer and this is not legal advice.  Even though it is, it's actually not.
 
-<img src="about/always-allowed.jpg" style="max-width: 100%"/>
+<img src="about/always-allowed.jpg" style="width: 100%"/>
 
 ## What's the scope of this site?
 

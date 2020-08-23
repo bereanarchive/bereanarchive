@@ -1,8 +1,8 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
-$title = 'Ancient Israel:  Morality of the Conquest of Canaan';
-$image = '/articles//history/ancient-israel-morality-of-the-conquest-of-canaan/header-square.jpg';
+$title = 'Ancient Israel:  Morality of the Conquest of Canaan | Berean Archive';
+$image = '/articles/history/ancient-israel-morality-of-the-conquest-of-canaan/header-square.jpg';
 $headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(56, 48, 32, .6)), url('ancient-israel-morality-of-the-conquest-of-canaan/header-wide.jpg')";
 $caption = 'Ai is taken by Joshua, depicted by James Tissot[^tissot-ai]';
 
@@ -10,7 +10,6 @@ $caption = 'Ai is taken by Joshua, depicted by James Tissot[^tissot-ai]';
 // $content
 ob_start()?>
 <aside>
-	By John Berea<br>
 	Published: Spring 2017
 	<br>Updated:
 	<?=date('F j, Y', filemtime(__FILE__))?>

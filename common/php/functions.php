@@ -89,6 +89,20 @@ class Markdown {
 	}
 
 	static function markdownToHtml($markdown) {
+
+		/* // new
+		require_once 'common/php/Parsedown.php';
+		require_once 'common/php/ParsedownExtra.php';
+		require_once 'common/php/ParsedownExtended.php';
+
+		$pd = new ParseDownExtended([
+			'scripts' => true, // Superscript and subscript.
+			"mark" => true,
+			"insert" => true
+		]);
+		*/
+
+		// Old:
 		// Use ParseDown to convert from Markdown to Html.
 		require_once 'common/php/ParsedownExtreme.php'; // It's big and adds to load time, so only require it if we use it.
 
@@ -98,6 +112,8 @@ class Markdown {
 		$pd->insert(true);
 		$pd->mark(true);
 		//$pd->footnotes(false);
+
+
 		$markdown = $pd->text($markdown);
 		
 
@@ -113,6 +129,20 @@ class Markdown {
 
 			// Remove the {: ... }
 			return preg_replace('/{[^}]+?}/', '', $result);
+		}, $markdown);
+
+
+		// Replace invalid characters in <a id=""> attributes.
+		// Otherwise javascript can't link to them.
+		$markdown = preg_replace_callback('/id="(.*)"/', function($matches) {
+			// Remove characatesr that have special meaning to css selectors.
+			$id = preg_replace('/[.#+~*,>=^$|:()\[\]]/', '', $matches[1]);
+
+			// Make sure id starts with a letter.
+			if (preg_match('/^[^a-z]/', $id))
+				$id = 'i' . $id;
+
+			return ' id="'.$id.'"';
 		}, $markdown);
 
 		return $markdown;
@@ -260,7 +290,7 @@ class Markdown {
 		};
 
 
-		if (false && $cachePath) {
+		if ($cachePath) {
 			$cacheFile = $cachePath . preg_replace('/\\//', '_', $mdFilePath) . '.mdCache';
 
 			$params = cache($mdFilePath, $cacheFile, $process);
