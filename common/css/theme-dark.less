@@ -67,11 +67,13 @@ body.dark {
 		.wide { background-color: @bgColor }
 
 		img.rounded { border: 1px solid gray }
-		.inverted { filter: invert(89.8%) hue-rotate(180deg) } 		// Makes white match #13 background color
 		
 		input, textarea { background-color: black; color: #aaa; border: 1px solid gray }
 		button { background-color: black; color: #aaa;; border: 1px solid gray }
 	}
+	
+	
+	.mfp-wrap.inverted, img.inverted { filter: invert(89.8%) hue-rotate(180deg) } // Makes white match #13 background color
 
 	#content { background: url('/common/img/site/blackstone.jpg');
 		#main { background-color: @bgColor; box-shadow: 0 0 12px black }
@@ -85,7 +87,7 @@ body.dark {
 		a, a:visited { color: #47a }
 	}
 
-/*
+	/*
 	.cleanTooltip > div { background-color: #111; border: 1px solid black; color: #aaa; box-shadow: 0 0 15px black;
 
 		.cleanTooltipHeader { position: relative; background: #333; color: white }

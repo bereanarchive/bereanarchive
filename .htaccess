@@ -20,7 +20,7 @@ RewriteRule ^(.*)/$ /$1 [R=301,nc,QSA]
 # If the requested path is a directory, and also a valid file if the slash is removed, remove the slash.
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_URI} /$
-RewriteRule ^(.*)/$ /$1 [R,nc,QSA]
+RewriteRule ^(.*)/$ /$1 [R=301,nc,QSA]
 
 # If the requested path is a directory, and index.md exists use index.md as a default document
 RewriteCond %{REQUEST_FILENAME} -d

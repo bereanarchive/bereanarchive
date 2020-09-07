@@ -324,13 +324,15 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 			p { margin: 0 }
 		}
 		tr { border-bottom: 1px solid #cccccc }
-		td { padding: 5px 15px 5px 2px }
-		td:last-child { padding-right: 0 }
+		th, td { padding: 5px 15px 5px 2px }
+		th:last-child, td:last-child { padding-right: 0 }
 		td p:last-child { margin-bottom: 0 }
 	}
 
 	table.style2 { margin-bottom: 1.5em;
 		th { text-align: left }
+		th, td { padding: 5px 15px 5px 2px }
+		th:last-child, td:last-child { padding-right: 0 }
 	}
 	table.quotes { table-layout: fixed;
 		td:first-child { text-align: center; padding: 7px 0 20px 0; width: 20%;
@@ -349,7 +351,7 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 		
 	/**
 	 * Generates classes to apply to a table to set its column widths:
-	 * For td1-10 all the way from 5% to 100%.
+	 * For td1-5 all the way from 5% to 100%.
 	 * .text table.td1-5 td:nth-child(1) { width: 5% }
 	 * .text table.td1-10 td:nth-child(1) { width: 10% }
 	 * This is useful for markdown, since there we can only apply a class to the whole table.
@@ -395,6 +397,7 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	.footnotes li { padding-bottom: .5em }
 	.footnotes li ol { margin-top: .25em; margin-bottom: 0; padding-bottom: 0 }
 	.footnotes li li { padding-bottom: .25em; margin-bottom: 0 }
+	.footnotes li p:first-of-type { margin: 0 }
 
 	// Useful classes
 	p.compact { margin: 0 }

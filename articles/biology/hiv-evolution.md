@@ -34,10 +34,6 @@ The rest of this article quantizes HIV population sizes, mutations, and useful e
 
 ## History and Groups
 
-<aside>
-<iframe e="" width="230" height="130" src="https://players.brightcove.net/1399189305/370f2eae-5572-4746-8886-72790b360bff_default/index.html?videoId=5776792262001" allowfullscreen="" frameborder="0"></iframe>
-<p>This video shows how HIV infects cells.</p>
-</aside>
 HIV came from SIV (simian immunodeficiency virus) in chimpanzees, which in turn came from SIV in monkeys:
 
 1. SIV is a <dfn>retrovirus</dfn> that infects monkeys and apes, with different SIV variants infecting each species.  In some African monkeys SIV is not known to cause any harmful effects.[^sharp-2010:a]
@@ -188,9 +184,9 @@ The chart above omits HIV-1 group M subtypes H through K, which would increase t
 
 Since first entering humans in the 1920s, about 5,000 or fewer constructive mutations became fixed among the various HIV subtypes.
 
-### Specific Evolutionary Gains 
+## Specific Evolutionary Gains 
 
-#### Vpu
+### Vpu
 
 Tetherin is a protein used inside mammal cells to build tethers "between virus envelopes and the cytoplasmic membrane of the cell, preventing the release of those viruses."[^sharp-2010]
 

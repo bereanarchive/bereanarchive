@@ -16,7 +16,9 @@ class FS {
 				break;
 			}
 		} while (strlen($path2 = dirname($path2)) > 1);
-		mkdir($path, $permissions, true);
+
+		if (!is_dir($path))
+			mkdir($path, $permissions, true);
 	}
 }
 

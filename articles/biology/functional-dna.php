@@ -500,7 +500,7 @@ this DNA causes loss of function, as can be seen in Mattick's numerous citations
 		genome at ~<b>15.6%</b>.[^smith-2013]</p>
 </blockquote>
 <p>Some studies of conserved mammal DNA estimate lower amounts, but they do not take shape and RNA
-	structure conservation into account[^rands-2014], do not include lineage-specific conservation,
+	structure conservation into account,[^rands-2014] do not include lineage-specific conservation,
 	or they were done before more mammal genomes were available for study.</p>
 <p>Furthermore, this is not to say that natural selection can actually maintain
 	16-30% of the DNA in a mammal.&nbsp; With this much function, harmful mutations would arrive

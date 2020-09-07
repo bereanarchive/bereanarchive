@@ -14,13 +14,17 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0">
+		<?php if(isset($base)): // This will mess up paths in typora.  ?>
+			<base href="<?=htmlspecialchars($base)?>">
+		<?php endif?>
+		
 		<?php if (isset($image)): // Image preview used by facebook when sharing hte article. ?>
 			<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?><?=htmlspecialchars($image)?>">
 		<?php else:?>
 			<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?>/common/img/site/berea-fb.jpg">
 		<?php endif?>
-		<?php if (isset($descriptoin)): // Image preview used by facebook when sharing hte article. ?>
-			<meta property="og:descriptoin" content="<?=htmlspecialchars($descriptoin)?>">
+		<?php if (isset($description)): // Image preview used by facebook when sharing hte article. ?>
+			<meta property="og:descriptoin" content="<?=htmlspecialchars($description)?>">
 		<?php else:?>
 			<meta property="og:description" content="An excessively cited library of Christian evidence.">
 		<?php endif?>
@@ -41,7 +45,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 		<script defer src="/common/js/lib/jquery.min.js"></script>
 		<script defer src="/common/js/lib/hammer.min.js"></script>
 		<script defer src="/common/js/lib/tether.min.js"></script>
-		<script defer src="/common/js/lib/magnific.min.js"></script>
+		<script defer src="/common/js/lib/magnific.js"></script>
 		<script defer src="/common/js/main.js"></script>
 
 		<script defer src="/common/js/definitions.js"></script>

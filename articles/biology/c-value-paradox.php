@@ -10,8 +10,7 @@ $caption = '"The Onion Test" has become a common argument of junk DNA proponents
 
 // $content
 ob_start()?>
-<aside>by John Berea
-	<br>Published: Spring 2017
+<aside>Published: Spring 2017
 	<br>Updated:
 	<?=date('F j, Y', filemtime(__FILE__))?>
 </aside>

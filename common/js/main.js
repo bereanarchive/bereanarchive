@@ -10,7 +10,7 @@ $(function() {
 
 		document.body.classList.remove('mobileMenu');
 		var hash = '#' + this.href.split(/#/)[1];
-		var el = document.querySelector(hash.replace(/\./, '\.'));
+		var el = $(hash.replace(/\./, '\.'))[0]; // querySelector won't easily work here bc selectors often have : and other special chars.
 		if (el) {
 			e.preventDefault();
 			scrollHighlightEnabled = false;
@@ -51,10 +51,14 @@ $(function() {
 	// Take every img.lightbox and wrap it in a link that opens the lightbox.
 	// This saves a step when writing new articles.
 	$('img.lightbox').each(function(i, img) {
-		//console.log(img);
 		var a = document.createElement('a');
 		a.href = img.src.split('?')[0];
 		a.className = 'lightbox';
+
+		// Add inverted class containing a element,
+		// so that the magnific selector below can add it to the mainClass of magnific.
+		if (img.classList.contains('inverted'))
+			a.classList.add('inverted');
 		img.parentNode.insertBefore(a, img);
 		a.appendChild(img);
 	});
@@ -63,7 +67,7 @@ $(function() {
 	$('a.lightbox').magnificPopup({
 		type:'image',
 		gallery:{
-			enabled:true
+		//	enabled: true // Messes up which lightboxes are inverted.
 		},
 		mainClass: 'mfp-with-zoom', // this class is for CSS animation below
 
@@ -73,7 +77,25 @@ $(function() {
 			easing: 'ease-in-out', // CSS transition easing function
 		}
 	});
-	
+
+
+	$('a.lightbox.inverted').magnificPopup({
+		type:'image',
+		gallery:{
+		//	enabled: true // Messes up which lightboxes are inverted.
+		},
+		mainClass: 'mfp-with-zoom inverted', // this class is for CSS animation below
+
+		zoom: {
+			enabled: true, // By default it's false, so don't forget to enable it
+			duration: 200, // duration of the effect, in milliseconds
+			easing: 'ease-in-out', // CSS transition easing function
+		}
+	});
+
+
+
+
 	// Hack to start loading on mouse enter.
 	// Otherwise sometimes the zoom animation doesn't play.
 	// https://github.com/dimsemenov/Magnific-Popup/issues/1035#issuecomment-480933392

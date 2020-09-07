@@ -2,7 +2,7 @@
 
 class Parse {
 	// Read data from inside the given tagname.
-	public static function getTagContent($text, $startTag, $endTag, &$end = 0) {
+	public static function getTagContent(string $text, string $startTag, string $endTag, &$end = 0) : string {
 		$start = strpos($text, $startTag);
 		if ($start === false)
 			return '';
@@ -42,7 +42,7 @@ function splitAA( $string, $splitOuter=';', $splitInner=':') {
 	return $result;
 }
 
-function cache($inputPath, $outputPath, $processor) {
+function cache(string $inputPath, string $outputPath, callable $processor) {
 
 	if (!file_exists($outputPath) || filemtime($inputPath) > filemtime($outputPath)) {
 		$result = $processor(file_get_contents($inputPath));
@@ -53,13 +53,13 @@ function cache($inputPath, $outputPath, $processor) {
 		return $result;
 	}
 	return unserialize(file_get_contents($outputPath));
-
-
 }
 
 class Markdown {
 
-	static function getParamsFromMarkdown($markdownContent) {
+	/** 
+	 *  */
+	static function getParamsFromMarkdown(string $markdownContent) : array {
 
 		// Convert front matter to params.
 		$params = [];
@@ -88,30 +88,31 @@ class Markdown {
 		return $params;
 	}
 
-	static function markdownToHtml($markdown) {
+	static function markdownToHtml(string $markdown) : string {
 
-		/* // new
-		require_once 'common/php/Parsedown.php';
-		require_once 'common/php/ParsedownExtra.php';
-		require_once 'common/php/ParsedownExtended.php';
+		// new
+		if (true) {
+			require_once 'common/php/Parsedown.php';
+			require_once 'common/php/ParsedownExtra.php';
+			require_once 'common/php/ParsedownExtended.php';
 
-		$pd = new ParseDownExtended([
-			'scripts' => true, // Superscript and subscript.
-			"mark" => true,
-			"insert" => true
-		]);
-		*/
+			$pd = new ParseDownExtended([
+				'scripts' => true, // Superscript and subscript.
+				"mark" => true,
+				"insert" => true
+			]);
+		}
+		else {
+			// Old:
+			// Use ParseDown to convert from Markdown to Html.
+			require_once 'common/php/ParsedownExtreme.php'; // It's big and adds to load time, so only require it if we use it.
 
-		// Old:
-		// Use ParseDown to convert from Markdown to Html.
-		require_once 'common/php/ParsedownExtreme.php'; // It's big and adds to load time, so only require it if we use it.
-
-
-		$pd = new ParseDownExtreme();
-		$pd->superscript(true);
-		$pd->insert(true);
-		$pd->mark(true);
-		//$pd->footnotes(false);
+			$pd = new ParseDownExtreme();
+			$pd->superscript(true);
+			$pd->insert(true);
+			$pd->mark(true);
+			//$pd->footnotes(false);
+		}
 
 
 		$markdown = $pd->text($markdown);
@@ -134,16 +135,17 @@ class Markdown {
 
 		// Replace invalid characters in <a id=""> attributes.
 		// Otherwise javascript can't link to them.
-		$markdown = preg_replace_callback('/id="(.*)"/', function($matches) {
-			// Remove characatesr that have special meaning to css selectors.
-			$id = preg_replace('/[.#+~*,>=^$|:()\[\]]/', '', $matches[1]);
-
-			// Make sure id starts with a letter.
-			if (preg_match('/^[^a-z]/', $id))
-				$id = 'i' . $id;
-
-			return ' id="'.$id.'"';
-		}, $markdown);
+		// But this completely broke the footnotes system with its "fn:source:a" syntax, so it's commented out.
+//		$markdown = preg_replace_callback('/id="(.*?)"/', function($matches) {
+//			// Remove characatesr that have special meaning to css selectors.
+//			$id = preg_replace('/[.#+~*,>=^$|:()\[\]]/', '', $matches[1]);
+//
+//			// Make sure id starts with a letter.
+//			if (preg_match('/^[^a-z]/', $id))
+//				$id = 'i' . $id;
+//
+//			return ' id="'.$id.'"';
+//		}, $markdown);
 
 		return $markdown;
 	}
@@ -152,10 +154,8 @@ class Markdown {
 	 * Given a string of html containing <div class="footnotes"><ol><li id="fn:sourceName">... ,
 	 * Find the li's with id's indicating they should be children, such as <li id="fn:sourceName:a">
 	 * and make them children of the parents with the same sourceName.
-	 * The format of html we use as input is what's output by parsdown.
-	 * @param $html
-	 * @return string */
-	static function reOrderFootnotes(string $html) {
+	 * The format of html we use as input is what's output by parsdown.*/
+	static function reOrderFootnotes(string $html) : string{
 
 		$doc = new DomDocument();
 		$utf8Prefix = '<?xml encoding="utf-8" ?>';
@@ -192,10 +192,12 @@ class Markdown {
 
 				// If this is false then the child has no parent.
 				if (isset($parents[$id])) {
-				
+
 					$parent = $parents[$id];
-					if ($parent->lastChild->nodeName !== 'ol')
+					if ($parent->lastChild->nodeName !== 'ol') {
+
 						$parent->appendChild($doc->createElement('ol'));
+					}
 
 					/** @var DOMElement $ol */
 					$ol = $parent->lastChild;
@@ -250,7 +252,7 @@ class Markdown {
 	}
 
 
-	static function buildTheme($params) {
+	static function buildTheme(array $params) : string {
 		extract($params);
 		if (isset($params['theme'])) {
 			ob_start();
@@ -262,7 +264,7 @@ class Markdown {
 	}
 
 
-	static function render($mdFilePath, $cachePath=null) {
+	static function render(string $mdFilePath, string $cachePath=null) : string {
 	
 
 		$process = function($content) {

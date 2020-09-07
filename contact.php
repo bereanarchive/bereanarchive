@@ -62,9 +62,6 @@ ob_start()?>
 	<div class="bots">	
 		<?php /* 1. If a bot fills out this field instead of email1 and email2 we fail it.  Removed via js.*/?>
 		<input name="email" type="email" style="position: absolute; left: -999px" required>
-		
-		<?php /* 2. If a bot fills out this field, we fail it.   Hidden via css. */?>
-		<input name="address" tabindex="-1">
 	</div>	
 	<?php /* 3. Time the form was created.  If a bot fills it out faster than 4 seconds, we fail it. */?>
 	<input name="qwerty" type="hidden" value="<?=base64_encode(openssl_encrypt(microtime(true), 'AES-256-CFB', '', OPENSSL_RAW_DATA, '0123456789abcdef'))?>">	
