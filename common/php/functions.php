@@ -59,17 +59,21 @@ class Markdown {
 
 	/** 
 	 *  */
-	static function getParamsFromMarkdown(string $markdownContent) : array {
+	static function parseFrontMatterAndContent(string $markdownContent) : array {
 
 		// Convert front matter to params.
 		$params = [];
 		$frontMatterEnd = 0;
-		$frontMatter = Parse::getTagContent($markdownContent, '---', '---', $frontMatterEnd);
-		if (strlen($frontMatter))
-			$params = splitAA(trim($frontMatter), "\s*\n\s*", ":\s*");
+		if (substr(ltrim($markdownContent), 0, 3) === '---') {
+			$frontMatter = Parse::getTagContent($markdownContent, '---', '---', $frontMatterEnd);
+			if (strlen($frontMatter))
+				$params = splitAA(trim($frontMatter), "\s*\n\s*", ":\s*");
 
-		// Content param is all the markdown.
-		$params['content'] = substr($markdownContent, $frontMatterEnd);
+			// Content param is all the markdown.
+			$params['content'] = substr($markdownContent, $frontMatterEnd);
+		}
+		else // No frontmatter.
+			$params['content'] = $markdownContent;
 
 
 		// Eval any php code within the params.
@@ -92,6 +96,7 @@ class Markdown {
 
 		// new
 		if (true) {
+			// These are big and adds to load time, so only require it if we're not cached and need to use it.
 			require_once 'common/php/Parsedown.php';
 			require_once 'common/php/ParsedownExtra.php';
 			require_once 'common/php/ParsedownExtended.php';
@@ -105,7 +110,7 @@ class Markdown {
 		else {
 			// Old:
 			// Use ParseDown to convert from Markdown to Html.
-			require_once 'common/php/ParsedownExtreme.php'; // It's big and adds to load time, so only require it if we use it.
+			require_once 'common/php/ParsedownExtreme.php';
 
 			$pd = new ParseDownExtreme();
 			$pd->superscript(true);
@@ -256,7 +261,7 @@ class Markdown {
 		extract($params);
 		if (isset($params['theme'])) {
 			ob_start();
-			require_once trim($params['theme'], '/\\');
+			require_once ltrim($params['theme'], '/\\'); // Remove beginning slashes from theme path.
 			return ob_get_clean();
 		}
 		else // TODO: Print html/head/body so we can at least still set title and a few other attributes.
@@ -265,25 +270,26 @@ class Markdown {
 
 
 	static function render(string $mdFilePath, string $cachePath=null) : string {
-	
+
 
 		$process = function($content) {
 
 			// Split out variables from markdown front matter and the content.
-			$params = self::getParamsFromMarkdown($content);
+			$params = self::parseFrontMatterAndContent($content);
 
 			//  If we have a caption, temporarily add it to the content so we can markdownify it all together.
 			// This allows citations in the caption to cite footnotes in the content.
 			$hasCaption = isset($params['caption']);
 			if ($hasCaption)
-				$params['content'] = $params['caption'] . '@@@CaptionContent@@@' .$params['content'];
+				$params['content'] = $params['caption'] . "\r\n\r\n@@@CaptionContent@@@\r\n\r\n" . $params['content'];
 
 
 			$params['content'] = self::markdownToHtml($params['content']);
 
+
 			// Split it back apart again.
 			if ($hasCaption)
-				list($params['caption'], $params['content']) = explode('@@@CaptionContent@@@', $params['content'], 2);
+				list($params['caption'], $params['content']) = explode('<p>@@@CaptionContent@@@</p>', $params['content'], 2);
 
 			
 			$params['content'] = self::reOrderFootnotes($params['content']);
@@ -297,10 +303,8 @@ class Markdown {
 
 			$params = cache($mdFilePath, $cacheFile, $process);
 		}
-		else { // no cache
+		else // no cache
 			$params = $process(file_get_contents($mdFilePath));
-		}
-
 
 		$html = self::buildTheme($params);
 
