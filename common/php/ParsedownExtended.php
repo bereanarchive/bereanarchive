@@ -493,7 +493,8 @@ class ParsedownExtended extends DynamicParent
 
 				'extent' => strlen($matches[0]),
 				'element' => array(
-					'name' => 'ins',
+					//'name' => 'ins',
+					'name' => 'dfn', // Changed by Beran Archive.
 					'text' => $matches[2]
 				),
 			);

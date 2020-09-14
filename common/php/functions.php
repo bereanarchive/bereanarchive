@@ -123,17 +123,17 @@ class Markdown {
 		$markdown = $pd->text($markdown);
 		
 
-		// Add attributes to the subsequent element with {:class="..."}
+		// Add attributes to the subsequent element with {[attribute="..."}
 		// We use ^½ to match anything, since ½ is rarely used.
-		$markdown = preg_replace_callback('/{:([^}]+)[^½]+?<\w[^½]*?>/m', function($matches) {
+		$markdown = preg_replace_callback('/{\[([^]]+)[^½]+?<\w[^½]*?>/m', function($matches) {
 
-			$attribsAndTag = $matches[0];  // Matches text starting with {: up past } and until and including the first > that's part of an open tag.
-			$attribs = $matches[1];        // Matches only what's inside the {: ... }.
+			$attribsAndTag = $matches[0];  // Matches text starting with {[ up past } and until and including the first > that's part of an open tag.
+			$attribs = $matches[1];        // Matches only what's inside the {[ ... ]}.
 
 			// Insert the new attribs before the last >
 			$result = substr($attribsAndTag, 0, strlen($attribsAndTag)-1) . ' ' . $attribs . '>';
 
-			// Remove the {: ... }
+			// Remove the {[ ... }
 			return preg_replace('/{[^}]+?}/', '', $result);
 		}, $markdown);
 

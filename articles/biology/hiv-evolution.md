@@ -36,7 +36,7 @@ The rest of this article quantizes HIV population sizes, mutations, and useful e
 
 HIV came from SIV (simian immunodeficiency virus) in chimpanzees, which in turn came from SIV in monkeys:
 
-1. SIV is a <dfn>retrovirus</dfn> that infects monkeys and apes, with different SIV variants infecting each species.  In some African monkeys SIV is not known to cause any harmful effects.[^sharp-2010:a]
+1. SIV is a ++retrovirus++ that infects monkeys and apes, with different SIV variants infecting each species.  In some African monkeys SIV is not known to cause any harmful effects.[^sharp-2010:a]
 2. At an unknown time in the past, two different forms of SIV entered Chimpanzees and combined into a new strain[^sharp-2010:b] that was sometimes deadly.[^sharp-2010:c] 
 3. Sometime "around the 1920s,"[^sharp-2010] SIV first entered humans, becoming HIV.  
 
@@ -62,7 +62,7 @@ Follicular dendritic cells are major reservoirs for HIV-1 within the lymph nodes
 
 Various studies estimate that about 10^10^ to 10^12^ HIV viruses exist in an infected person:
 
-{:class="small style1 td1-25"}
+{[class="small style1 td1-25"]}
 
 | Study                                | Estimate                                                     |
 | ------------------------------------ | ------------------------------------------------------------ |
@@ -126,7 +126,7 @@ Sadly there are "an estimated 42 million people carrying the [HIV] virus at pres
 
 If "perhaps 10^11^ virions are produced daily,"[^coffin-2013] 14,600 days over 40 years times 10^11^ virions per person per day times 4.2x10^7^ people with HIV gives a total of 6.13x10^22^ HIV virions that have ever existed in humans. That gives us:
 
-{:class="highlight compact"}
+{[class="highlight compact"]}
 
 1. 14,000 reproduction cycle "generations" of HIV over the last 100 years.
 2. 4x10^18^ total HIV virions existing in all humans at any given time.
@@ -136,9 +136,9 @@ However, only one in 100 or fewer virions go on to infect other cells: "perhaps 
 
 ## HIV Mutations
 
-HIV has "about 2×10^-5^ mutations per site per replication cycle."[^zanini-2017] An earlier study "reported a much higher mutation rate," but it "focused on integrated <dfn>provirus</dfn> and might not reflect the mutational frequency in the circulating HIV-1 virions."[^zanini-2017]  The HIV-1 genome is 9181 ++nucleotides++, so that works out to:
+HIV has "about 2×10^-5^ mutations per site per replication cycle."[^zanini-2017] An earlier study "reported a much higher mutation rate," but it "focused on integrated ++provirus++ and might not reflect the mutational frequency in the circulating HIV-1 virions."[^zanini-2017]  The HIV-1 genome is 9181 ++nucleotides++, so that works out to:
 
-{:class="highlight compact"}
+{[class="highlight compact"]}
 
 1. HIV has about 0.18 mutations per replication, or one mutation every 5.6 replications.
 2. HIV genomes have had a total of about 10^22^ mutations since first entering humans about 100 years ago.
@@ -151,7 +151,7 @@ For comparison, the common bacteria E. coli have a genome of about 5.4 million n
 
 For humans, the numbers are similarly large.  We have a 3 billion nucleotide haploid genome and about 33 mutations per haploid genome per generation.  Thus it would take about 273 million human reproductions to test every possible single nucleotide mutation, and 2x10^26^ human reproductions to try every possible combination of two mutations.  The table below extrapolates further for combinations of 3, 4, and 5 mutations:
 
-{:class="small style1" style="width: 100%"}
+{[class="small style1" style="width: 100%"]}
 
 | Every combination of | Times found by HIV | E coli Needed | Humans Needed |
 | -------------------- | ------------------ | ------------- | ------------- |
@@ -180,7 +180,7 @@ Likewise if we wanted to compare the number of mutations separating humans and m
 
 The chart above omits HIV-1 group M subtypes H through K, which would increase the number of fixed mutations beyond 5,160.  However, even though HIV shows "stronger positive selection than any other organism studied so far,"[^rambaut-2004] and most mutations with HIV's ENV gene "confer a selective advantage,"[^rambaut-2004] (HIV has about 10 genes) it's unlikely that all 5,160 mutations are positively selected and ++constructive++.  So we will use the upper-bound estimate:
 
-{:class="highlight"}
+{[class="highlight"]}
 
 Since first entering humans in the 1920s, about 5,000 or fewer constructive mutations became fixed among the various HIV subtypes.
 
@@ -200,7 +200,7 @@ However "it is likely that SIV jumped into humans many times"[^sharp-2010] befor
 
 <small>The differences in the Vpu protein in HIV/SIV in various species.[^sauter-2010]  Each letter represents an amino acid. "Hydrophobic TM [transmembrane] domain", "α-helix", and "β-turn" are different regions of the protein.</small>
 
-{:class="compact small"}
+{[class="compact small"]}
 
 - HIV-1 = humans
 - SIVcpz = chimpanzee
@@ -257,7 +257,6 @@ This section is incomplete, although there are many other gains that could be do
 [^sanford-2007]: Sanford, John, et al.  "[Mendel's Accountant: A biologically realistic forward-time population genetics program.](http://www.scpe.org/index.php/scpe/article/download/407/77)"  Scalable Computing.  2007.<small>The authors explain: "each nucleotide in a smaller genome on average plays a greater relative role in the organism’s fitness"</small>
 [^user813801-2014]:  "[How many organisms have ever lived on Earth?](https://biology.stackexchange.com/a/19569)"  Biology.StackExchange.  2014.  <small>The answer estimates: "5.95 * 10^39^ Bacteria that ever lived," and most cellular organisms are bacteria.</small>
 [^behe-2007]: Behe, Michael J.  "The Edge of Evolution."  2007.  [Page 63](https://books.google.com/books?id=HGuwiG78ILcC&q=%22slightly%20fewer%20than%201040%20cells%22).  <small>Behe estimates: "throughout the course of history there would have been slightly fewer than 10^40^ cells."</small>
-
 [^dong-2011]: Dong et al.  "[Extensive HLA-driven viral diversity following a narrow-source HIV-1 outbreak in rural China](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3743462/)."  Blood.  2011.
 [^guha-2013]: Guha, et al.  "[Innate Immune Evasion Strategies by Human Immunodeficiency Virus Type 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3767209/)."  ISRN AIDS.  2013.
 [^guha-2013:a]: <small>"The HIV-1 RNA genome can be mutated randomly which helps the virus to evade immune recognition by the host."</small>
