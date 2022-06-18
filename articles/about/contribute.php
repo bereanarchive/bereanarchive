@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 $title       = 'Contributing Guidelines | Berean Archive';
 $headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('contribute-header-wide.jpg'); background-position: 75% 50%";
-$bodyClasses = 'noSidebars';
+$sideBars    = false;
 
 
 // $page['content']['main']

@@ -23,13 +23,13 @@ function stem(word) {
  * @returns {object<string, string>} Map from term to definition. */
 function parseMarkdownDefinitions(text) {
 	let result = {};
-	let items = text.split(/\r?\n\r?\n/g);
+	let items = text.split(/\r?\n[ \t]*\r?\n/g); // split on two line returns with optional whitespace in between.
 	for (let item of items) {
-		let pieces = item.split(/\r?\n:\s*/);
+		let pieces = item.split(/\r?\n:\s*/); // Split on line return followed by colon.
 		let terms =  pieces[0].split(/\s*,\s*/g);
 		let definition = pieces[1].trim();
 		for (let term of terms)
-			result[term.toLowerCase()] = definition;
+			result[term.trim().toLowerCase()] = definition;
 	}
 	return result;
 }
@@ -55,7 +55,7 @@ function addTooltips(definitions) {
 			el.parentNode.removeChild(el);
 			console.log('No defintion for ' + term);
 		}
-	};
+	}
 
 }
 

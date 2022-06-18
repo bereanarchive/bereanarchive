@@ -39,7 +39,7 @@ $title = 'Contact';
 $image = '/articles/biology/functional-dna/header-square.jpg';
 $headerStyle = "background: url('contact/header-wide.jpg') no-repeat 93% 0; background-size: cover";
 $caption = 'Header image from <a href="https://commons.wikimedia.org/wiki/File:Woodswink03.jpg">WikiMedia Commons</a>, slightly modified to enhance colors and remove objects.';
-$bodyClasses = 'noSidebars';
+$sideBars = false;
 
 
 // $content
@@ -68,7 +68,7 @@ ob_start()?>
 	<script>
 		var email = document.querySelector('.bots input[name="email"]');
 		email.parentNode.removeChild(email);
-		document.querySelector('.bots input[name="address"]').setAttribute('aria-hidden', true);
+		//document.querySelector('.bots input[name="address"]').setAttribute('aria-hidden', true);
 	</script>
 	<style>
 		.bots input[name="address"] { opacity: 0; height: 0 }

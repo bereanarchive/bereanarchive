@@ -1,23 +1,28 @@
 <?php
 /**
- * @param $title
- * @param $image
- * @param $headerStyle
- * @param $caption
- * @param $bodyClasses
- * @param $content
+ * @param string $title
+ * @param string $image
+ * @param string $headerStyle
+ * @param string $caption
+ * @param string $bodyClasses
+ * @param string $content
+ * @param bool $sideBars
  */
 
-require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
+/*
+$pdo = new PDO('sqlite:test.sqlite3');
+//$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$pdo->query("PRAGMA synchronous = OFF");
+$pdo->query("PRAGMA journal_mode = OFF"); no rollbacks, db corrupt on app or system crash.
+$pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:22')");
+*/
 ?>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0">
-		<?php if(isset($base)): // This will mess up paths in typora.  ?>
-			<base href="<?=htmlspecialchars($base)?>">
-		<?php endif?>
-		
+
 		<?php if (isset($image)): // Image preview used by facebook when sharing hte article. ?>
 			<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?><?=htmlspecialchars($image)?>">
 		<?php else:?>
@@ -26,7 +31,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 		<?php if (isset($description)): // Image preview used by facebook when sharing hte article. ?>
 			<meta property="og:descriptoin" content="<?=htmlspecialchars($description)?>">
 		<?php else:?>
-			<meta property="og:description" content="An excessively cited library of Christian evidence.">
+			<meta property="og:description" content="An open source, excessively cited library of Christian evidence.">
 		<?php endif?>
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="<?=@htmlspecialchars($title)?>" />
@@ -55,7 +60,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 		<?=@$header?>
 	</head>
 
-	<body class="<?=$_COOKIE['mode']??''?> <?=@$bodyClasses?>">
+	<body class="<?=$_COOKIE['mode']??''?> <?=@$bodyClasses?> <?=isset($markdownFile) ? 'markdown' : ''?>">
 		<div id="wrapper">
 
 			<div id="topBar">
@@ -71,8 +76,8 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 					<li><a href="/articles/about">About</a></li>
 					<li><a href="/articles/about/contribute">Contribute</a></li>
 					<li><a href="/contact">Contact</a></li>
+					<li><a href="https://github.com/bereanarchive/bereanarchive" target="_blank">Github</a></li>
 					<?php /*
-					<li><a href="https://github.com/bereanarchive">Github</a></li>
 					<li><a href="/forum">Forum</a></li>
                     */ ?>
 				</ul>
@@ -98,7 +103,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 			</div>
 
 
-			<div id="imageHeader"style="<?=@$headerStyle?>">
+			<div id="imageHeader" style="<?=@$headerStyle?>">
 				<div class="caption">
 					<?=@$caption?>
 				</div>
@@ -108,24 +113,26 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 
 			<div id="content">
-				<div id="side1"><?php include 'common/includes/nav-with-toc.php'?></div>
+				<?php if ($sideBars ?? true):?>
+					<div id="side1"><?php include 'common/includes/nav-with-toc.php'?></div>
+				<?php endif?>
 				<div id="main" class="text"><?=@$content?></div>
-				<div id="side2"></div>
+				<?php if ($sideBars ?? true):?>
+					<div id="side2"></div>
+				<?php endif?>
 			</div>
 			<div id="footer" style="position: relative" class="include">
 				<p>All code and content on The Berean Archive is
 					placed under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0 Universal</a> "Public
 					Domain" license unless originating from a third party or denoted otherwise.</p>
-					<p>Use of media from other websites is believed to meet the
-						<a href="http://libguides.mit.edu/usingimages" target="_blank">criteria for fair use</a>.</p>
+
+				<p>Use of media from other websites is believed to meet the
+					<a href="http://libguides.mit.edu/usingimages" target="_blank">criteria for fair use</a>.
+					<?php if (isset($startRenderTime)):?>
+						Rendered in <?=@number_format(microtime(true) - $startRenderTime, 5)?> seconds.
+					<?php endif?>
+				</p>
 			</div>
 		</div>
-		
-		<script>
-		
-			window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-		
-		
-		</script>
 	</body>
 </html>

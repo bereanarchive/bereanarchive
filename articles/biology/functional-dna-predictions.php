@@ -478,7 +478,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 					<p>Calculating the rate of evolution in terms of <dfn>nucleotide</dfn>
 					<dfn>substitutions</dfn> seems to give a value so high that many of the mutations involved
 					must be neutral ones...</p>
-					<p>Haldane's formula shows that if new alleles produced by nucleotide replacement are substituted in a population at
+					<p>Haldane's formula shows that if new <dfn>alleles</dfn> produced by nucleotide replacement are substituted in a population at
 					the rate of one substitution every 2 yr, then the substitutional load becomes so large that no mammalian
 					species could tolerate it.&nbsp; Thus the very high rate of nucleotide substitution which I have calculated can only be reconciled with the 
 					limit set by the substitutional load by assuming that most mutations produced by nucleotide replacements are almost neutral in natural selection.[^kimura-1968]</p>

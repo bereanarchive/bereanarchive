@@ -13,7 +13,7 @@ dfn { font-style: italic } /* Otherwise missing in Safari and Chrome */
 h1 { font-size: 2em; margin: 0.67em 0 } /* Needed to make Firefox 4+, Safari, and Chrome consistent. */
 mark { background: #ff0; color: #000000 } /* Otherwise missing in IE 8/9 */
 small { font-size: 80% } /* Make consistant across browsers */
-sup { font-size: 70%; height: 0; line-height: 1; position: relative; vertical-align: baseline; top: -0.5em } /* Prevent `sub` and `sup` affecting `line-height` in all browsers. */
+sup { font-size: 70%; height: 0; line-height: 1; position: relative; vertical-align: baseline; top: -0.6em } /* Prevent `sub` and `sup` affecting `line-height` in all browsers. */
 sub { font-size: 70%; height: 0; line-height: 1; position: relative; vertical-align: baseline; bottom: -0.25em }
 a img { border: 0 } /* Remove a > img border for IE 8/9/10 */
 svg:not(:root) { overflow: hidden } /* Needed for IE 9/10/11 */
@@ -36,7 +36,7 @@ textarea { overflow: auto; color: inherit; font: inherit; margin: 0 } /* Remove 
 table { border-collapse: collapse; border-spacing: 0 } /*  Remove most spacing between table cells. */
 td, th { padding: 0; vertical-align: top }
 
-blockquote { overflow: auto } /* Prevent from overlapping floating elements, stackoverflow.com/a/2212758 */
+blockquote { overflow-x: auto; overflow-y: hidden } /* Prevent from overlapping floating elements, stackoverflow.com/a/2212758 */
 
 
 // Colors:
@@ -86,8 +86,8 @@ small { display: block }
 .mobile { display: none }
 
 
-::-webkit-scrollbar { width: 12px; height: 12px; background-color: transparent }
-::-webkit-scrollbar-thumb { background: #999; border-radius: 6px }
+::-webkit-scrollbar { background: transparent }
+::-webkit-scrollbar-thumb { background: #bbb; border-radius: 6px }
 
 .cleanTooltipBody {
 	a:active, a:hover { text-decoration: underline }
@@ -101,10 +101,6 @@ small { display: block }
 
 
 // Body styles
-body.noSideBars {
-	#side1, #side2 { display: none }
-}
-
 body.scrolled {  // This class is added when we've scrolled past 0.
 	#nav {
 		#navScrollWithPage { position: fixed; top: 0;
@@ -176,12 +172,12 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	border-top: 1px solid #333; border-bottom: 1px solid #333 }
 
 // Content
-#content { position: relative; min-height: 80px; box-sizing: border-box; display: flex; flex-direction: row; justify-content: center;
-	align-items: center; flex: 1 0 auto; background: url('/common/img/site/graystone.jpg');	//  flex-direction: column needed for ie to center.
+#content { position: relative; min-height: 80px; box-sizing: border-box; display: flex; flex-direction: row;
+	flex: 1 0 auto; /*background: url('/common/img/site/whitestone.jpg')*/;
 
 	#side1 { width: 230px; min-width: 230px; min-height: 10px; margin: 20px 0; padding-left: 10px; align-self: flex-start }
-	#main { padding: 40px 40px 80px 40px; margin: 0 30px; box-sizing: border-box; max-width: 790px; position: relative;
-		flex-grow: 1; background-color: white; box-shadow: 0 0 25px rgba(0, 0, 0, 0.4); align-self: flex-start }
+	#main { padding: 40px 40px 80px 40px; margin: 0 30px; box-sizing: border-box; max-width: ~"min(100%, 790px)"; position: relative;
+		flex-grow: 1; background-color: white; /*box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);*/ align-self: flex-start }
 
 	#side2 { width: 230px; min-width: 230px; min-height: 10px; margin: 40px 0; padding-right: 10px } 	// neg z so wide elements from #main will be on top.
 }
@@ -203,22 +199,22 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 		}
 
 		// Moves left or right depending on what tab is clicked.  Has a vertical scrollbar if contents don't fit.
-		#navSlideContainer { font-size: 85%; white-space: nowrap; position: relative; width: 200%; height: 100%; 
+		#navSlideContainer { font-size: 75%; white-space: nowrap; position: relative; width: 200%; height: 100%; 
 			transition: transform 0.25s cubic-bezier(0.215, 0.61, 0.355, 1); table-layout: fixed; margin-top: 0;
 			> div { box-sizing: border-box; width: 50%; display: block; float: left; white-space: normal; overflow-y: auto; 
 			overflow-x: hidden; padding-bottom: 20px }
 
 			// Site Map
-			#navSiteMap { 
+			#navSiteMap {  max-height: calc(100vh - 130px);
 				input { border-radius: 5px; padding: 2px 10px; border: 1px solid #cccccc } // search box, not used yet.
-				h3 { font-size: 130%; line-height: 1.3; font-family: Cabin, sans-serif; margin: .5em 5px .5em 0;
-					padding: 4px 7px; border-radius: 5px; background-color: white; box-shadow: 0 0 4px rgba(0, 0, 0, 0.15) }
+				h3 { font-size: 130%; line-height: 1.3; margin: .5em 5px .5em 0;
+					padding: 4px 7px; border-radius: 5px; background-color: white; box-shadow: 0 0 2px rgba(0, 0, 0, 0.35) }
 
 
 				ul { padding-left: 0; list-style-type: none;
 					li { font-size: 110%; margin: 0 0 0 0.5em;
-						a { text-decoration: none; color: #35f; display: flex; align-items: center; line-height: 1.1 }
-						div { margin-bottom: 10px; vertical-align: middle }
+						a { text-decoration: none; color: #555; display: flex; align-items: center; line-height: 1.1 }
+						div { margin-bottom: 3px; vertical-align: middle }
 						img { border: 1px solid black; border-radius: 6px; margin-right: 6px }
 						a:hover { text-decoration: underline }
 					}
@@ -226,14 +222,14 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 			}
 
 			// This Article
-			#navToc { padding-left: 10px; // Leave room for highlighter
-				a { display: block; box-sizing: border-box; text-decoration: none; color: inherit; line-height: 110%; margin: .5em 0 .65em 0;
+			#navToc {  max-height: calc(100vh - 130px); padding-left: 10px; // Leave room for highlighter
+				a { display: block; box-sizing: border-box; text-decoration: none; color: inherit; line-height: 110%; margin: .5em 0 .5em 0;
 					&:hover { text-decoration: underline }
 					&.h2:first-child { margin-top: 0.5em }
-					&.h2 { font-size: 110%; font-weight: bold; font-family: Cabin, sans-serif; margin: 1em 5px .5em 0;
-						padding: 4px 7px; border-radius: 5px; background-color: white; box-shadow: 0 0 4px rgba(0, 0, 0, 0.15) }
+					&.h2 { font-size: 110%; font-weight: bold; margin: 1em 5px .5em 0;
+						padding: 4px 7px; border-radius: 5px; background-color: white; box-shadow: 0 0 2px rgba(0, 0, 0, 0.35) }
 
-					&.h3 { color: #355; margin-left: 0.5em }
+					&.h3 { color: #555; margin-left: 0.5em }
 					&.h4 { display: none }
 					&.h54 { display: none }
 				}
@@ -256,16 +252,22 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	h1 { font-size: 470%; font-family: Alegreya Sans, serif; font-weight: 100; line-height: 1; margin: 0;
 		color: white; position: absolute; bottom: calc(100% + 30px); left: 0; z-index: 3;
 		text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #000000, 0 0 8px #000000 }
-	h2 { color: #530; font-weight: 300; font-size: 240%; line-height: 125%; margin: 1.4em 0 .25em 0;
+	h2 { color: #542; font-weight: 300; font-size: 240%; line-height: 125%; margin: 2em 0 .25em 0;
 		border-bottom: 2px solid #553300; font-family: Open Sans, sans-serif; letter-spacing: -0.01em }
-	h3 { margin-top: 1.3em; margin-bottom: 0; font-size: 152%; line-height: 150%; color: #260; font-weight: normal; font-family: Cabin, sans-serif }
-	h4 { color: black; font-size: 100%; line-height: 120%; font-weight: bold; margin-top: .75em; margin-bottom: 0; 	
-		border-bottom: 2px solid #bbb; display: table; font-size: 105% }
+	h3 { margin-top: 1.5em; margin-bottom: 0; font-size: 152%; line-height: 150%; color: #526847; font-weight: normal; font-family: Cabin, sans-serif }
+	h4 { color: black; font-size: 100%; line-height: 120%; font-weight: bold; margin-top: 1.5em; margin-bottom: 0; 	
+		border-bottom: 2px solid rgba(0, 0, 0, .4); display: table; font-size: 105% }
 	h5 { color: black; font-size: 100%; font-weight: normal; margin-top: .75em; margin-bottom: 0; text-decoration: underline }
 
-	ol, ul { margin: .5em 0 .5em 0 }
-	p, blockquote, .highlight { margin: .5em 0 1em 0 }
-	blockquote { padding: .2em .4em .2em 1em; background-color: #e4e2de; border: 1px dashed #443300; font-size: 95%; line-height: 1.33; border-radius: 5px; color: #332211 }
+
+	p, blockquote, .highlight { margin: 1.5em 0 .25em 0 }
+	p:first-of-type { margin-top: 0 }
+	ol, ul { margin: 1em 0 .25em 0 }
+
+	blockquote { position: relative; padding: .6em .6em .6em 2.2em; border-radius: 5px; background-color: #efeeed; font-size: 95%; bcolor: #332211 }
+	blockquote:before { position: absolute; font-family: arial; content: '“'; height: 0; width: 0; line-height: 0; top: 0.5em; left: 0.1em; color: #8884;
+		font-size: 400%;
+	}
 
 	ol, ul { margin-left: 0; padding-left: 1.1em }
 	ol.highlight, ul.highlight { padding-left: 2.2em; padding-bottom: .7em }
@@ -273,9 +275,10 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	a, a:visited { color: #00c; text-decoration: none; position: relative }
 	a:hover { text-decoration: underline }
 
-	ol li { margin: 0; padding: 0 0 .6em 0.5em }
-	ul li { margin: 0 0 0.6em 0.4em }
-	li p, li p { margin: 0 }
+	li { margin: 0; padding: 0 0 1em 1em }
+	li:last-of-type { padding-bottom: 0 }
+	li p { margin-top: .5em }
+	li p:first-of-type { margin-top: 0 }
 	
 	// Special elements
 	q { font-style: italic; font-weight: 200; font-family: Open Sans, sans-serif; font-size: 90%; display: block; margin-bottom: 10px;
@@ -290,19 +293,24 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	li ol, li ul { margin-bottom: .5em }
 
 
-
 	// Reduce margin between some elements
 	h1:first-child { margin-top: 0 }
 	h1 + h2 { margin-top: 0.25em }
-	h2 + h3, h3 + h4, h3 + p, h4 + p { margin-top: 0 }
+	h2 + h3, h3 + h4,
+	h2 + p, h3 + p, h4 + p,
+	h2 + blockquote, h3 + blockquote, h4 + blockquote,
+	aside + p { margin: 0 }
 	h3:first-child { margin-top: 0 }
 	
 	/* Reduced margin between p and blockquote */
-	blockquote ~ p { margin-bottom: .2em } 	
-	p + blockquote { margin-top: 0 }
+	p + blockquote { margin-top: .25em }
 	
-	blockquote p:first-child, .highlight p:first-child { margin-top: 0 }
-	blockquote p:last-child, .highlight p:last-child { margin-bottom: 0 }
+	blockquote p:first-child,
+	.highlight p:first-child { margin-top: 0 }
+	blockquote p:last-child,
+	.highlight p:last-child { margin-bottom: 0 }
+
+
 
 	// Gray numbers alongside list
 	ol { counter-reset: item }
@@ -334,6 +342,8 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 		th, td { padding: 5px 15px 5px 2px }
 		th:last-child, td:last-child { padding-right: 0 }
 	}
+	
+	/* A two column table of quotes, with a portrait in the first column and the quote in the second. */
 	table.quotes { table-layout: fixed;
 		td:first-child { text-align: center; padding: 7px 0 20px 0; width: 20%;
 			img { width: 100%; border-radius: 10px; border: 1px solid black }
@@ -422,8 +432,8 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	}
 
 	aside { position: absolute; clear: right; left: calc(100% + 30px); min-width: 180px; max-width: 230px; width: 100%; color: black; font-size: 85%; line-height: 1.4; z-index: 1;
-
-		img { width: 100%; margin-bottom: 5px }
+		img { width: 100%; margin-top: 1.5em; margin-bottom: 5px }
+		p { margin: 0 }
 		ol li:before { color: inherit } // override gray color
 	}
 
@@ -438,7 +448,6 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	.img-left { float: left; border-radius: 10px; border: 1px solid black; margin: 5px 20px 5px 5px }
 
 	// Added by Parsedown.
-	.footnote-ref { padding-right: .4em } // add spacing between numbered citations in the text.
 	div.footnotes hr,
 	.footnote-backref { display: none }
 
@@ -467,8 +476,8 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 
 // Tablet
 @media screen and (max-width: 1200px) {
-	#content { 
-		#main { max-width: 760px; padding: 20px 20px 40px 20px;
+	#content {
+		#main { max-width: ~"calc(100%, 760px)"; padding: 20px 20px 40px 20px; margin: 0 0 0 30px;
 
 			// Move asides within #main
 			aside { position: relative; z-index: 1; float: right; left: 0; padding: 0 5px 0 10px; margin-left: 20px; margin-bottom: 10px }
@@ -483,7 +492,7 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 
 
 // Mobile
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 850px) {
 	.mobile { display: inherit }
 	.desktop { display: none }
 
@@ -529,7 +538,7 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 
 		#darkSlider { transform: scale(1.55); transform-origin: top right }
 	}
-	#content { 
+	#content { background-image: none;
 		#side1 { width: 0; min-width: 0; padding: 0;
 			// Repurpose the nav as opening from the top menu.
 			#nav { position: fixed; z-index: 1; top: 35px; left: 0; height: calc(100vh - 35px); margin-top: 0; margin-left: -100vw; opacity: 0; background-color: rgba(0, 0, 0, 0);
@@ -549,12 +558,13 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 				}
 			}
 		}
-		#main { padding: 20px 15px; margin: 0;
+		#main { padding: 20px 15px; margin: 0; box-shadow: none;
 			p.title { font-size: 230% }
 			h1 { padding-left: 15px; font-size: 350% }
 			h2 { font-size: 200% }
 			h3 { line-height: 120% }
-			aside { margin-left: 5px }
+			aside { margin-left: 5px; min-width: 150px; max-width: 150px }
+			li { padding-left: .5em }
 		}
 	}
 }

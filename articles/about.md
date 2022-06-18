@@ -1,8 +1,8 @@
 ---
 title:        About
 headerStyle:  background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .75)), url('/common/img/site/header-books.jpg')
-bodyClasses:  noSidebars
 theme:        common/includes/theme.php
+sidebars:     false
 ---
 
 # About

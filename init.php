@@ -11,20 +11,11 @@ if (isset($_GET['debug'])) {
 set_error_handler(function ($level, $message, $file, $line) {
 
 	// Ignore errors not enabled for reporting.
-	$er = error_reporting();
-	if (!($level & $er))
+	if (!($level & error_reporting()))
 		return;
 
-	$errorTypes = [
-		E_ERROR				=> 'Error:',        		E_WARNING		 => 'Warning:',
-		E_PARSE				=> 'Parsing Error:',		E_NOTICE		 => 'Notice:',
-		E_CORE_ERROR		=> 'Core Error:',   		E_CORE_WARNING   => 'Core Warning:',
-		E_COMPILE_ERROR		=> 'Compile Error:',		E_COMPILE_WARNING=> 'Compile Warning:',
-		E_USER_ERROR		=> 'User Error:',   		E_USER_WARNING	 => 'User Warning:',
-		E_USER_NOTICE		=> 'User Notice:',  		E_STRICT		 => 'Strict Notice:',
-		E_RECOVERABLE_ERROR => 'Catchable Fatal Error',	E_DEPRECATED     => 'Deprecated',
-		E_USER_DEPRECATED   => 'User Deprecated',       0 => ''];
-
+	// https://www.php.net/manual/en/errorfunc.constants.php#119731
+	$errorTypes = array_flip(array_slice(get_defined_constants(true)['Core'], 1, 15, true));
 	throw new ErrorException($errorTypes[$level].' '.$message, 0, $level, $file, $line);
 });
 

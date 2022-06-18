@@ -1,8 +1,10 @@
 var Footnotes = {
 
 	blockElements: ['li', 'p', 'div', 'blockquote', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
-	isMobile: window.navigator.maxTouchPoints || 'ontouchstart' in document,  // stackoverflow.com/a/45113336
 
+	isMobile: function() {
+		return window.screenX < 1024 && (window.navigator.maxTouchPoints || 'ontouchstart' in document) // stackoverflow.com/a/45113336
+	},
 
 	/**
 	 * Find the first parent of el that matches one of hte parentTagnames.
@@ -41,8 +43,8 @@ var Footnotes = {
 		e.preventDefault();
 		e.stopPropagation();
 		e.stopImmediatePropagation(); // prevent scrolling code.
-		
-		
+
+
 		var $ = jQuery;
 
 		var alreadyExists = $('[data-id="' + id + '"]').length > 0;
@@ -104,7 +106,7 @@ var Footnotes = {
 		block.parentNode.insertBefore(tooltipEl, block.nextSibling);
 
 
-		if (Footnotes.isMobile) {
+		if (Footnotes.isMobile()) {
 			$(tooltipEl).hide().slideDown(200);
 
 			// Scroll to where the tooltip appeared.
@@ -142,7 +144,7 @@ var Footnotes = {
 			var $tooltip = $('.cleanTooltip');
 
 			// Slide-up tooltips opened on modal.
-			if (Footnotes.isMobile)
+			if (Footnotes.isMobile())
 				$tooltip.slideUp(200, function () {
 					$tooltip.remove();
 				});
@@ -179,7 +181,7 @@ var Footnotes = {
 			scrollTop: jQuery(el).offset().top - 50
 		}, 500);
 	},
-	
+
 	// These functions are used only when not in markdown mode:
 	// Because md2html.php and parsedown already convert the markdown footnotes.
 
@@ -213,7 +215,7 @@ var Footnotes = {
 			node = node.nextSibling;
 		}
 	},
-	
+
 
 	/**
 	 * Visit all nodes that are descendants of parent.
@@ -243,83 +245,86 @@ $(function() {
 /**
  * This code creates hyperlinked footnotes by matching [^tags] in the page text
  * with those inside <div class="footnotes">.
- * It's only used on php pages that don't go through the markdown processor. */
-jQuery(function () {
-	var $ = jQuery;
+ * !!! This code is only used on the old format php pages that don't go through the markdown processor !!! */
+if (!document.body.classList.contains('markdown')) {
 
-	var footnotes = []; // array of footnote id's.
-	var $entries = $('.entry-content');
-	if (!$entries.length)
-		$entries = $(document.body); // Search the entry.  If there is no entry, search the whole body.
+	jQuery(function () {
+		let $ = jQuery;
 
-	for (var i=0, entry; entry = $entries[i]; i++) {
+		var footnotes = []; // array of footnote id's.
+		var $entries = $('.entry-content');
+		if (!$entries.length)
+			$entries = $(document.body); // Search the entry.  If there is no entry, search the whole body.
 
-		// If is internet explorer, merge ajacent text nodes.  Because IE splits text nodes apart.
-		if (window.navigator.userAgent.indexOf('Trident') !== -1)
-			Footnotes.mergeAdjacentTextNodes(entry);
+		for (let i = 0, entry; entry = $entries[i]; i++) {
 
-		// Replace [footnote id] shortcodes that we find and build a list of them.
-		var footnotesEl = $('.footnotes')[0];
-		if (!footnotesEl)
-			return;
+			// If is internet explorer, merge ajacent text nodes.  Because IE splits text nodes apart.
+			if (window.navigator.userAgent.indexOf('Trident') !== -1)
+				Footnotes.mergeAdjacentTextNodes(entry);
 
-		Footnotes.visitNodes(footnotesEl, function (node) {
-			for (var i = 0, child; child = node.childNodes[i]; i++) {
-				if (child.nodeType === 3) { // text node
-					var matchCount = 0;
+			// 1. Find all of the footnotes:  :  [^name]
+			var footnotesEl = $('.footnotes')[0];
+			if (!footnotesEl)
+				return;
 
-					var newHtml = child.textContent.replace(/\[\^([^\]]+)\s*\]\:/g, function (match, id) {
-						footnotes.push(id);
-						matchCount++;
+			Footnotes.visitNodes(footnotesEl, function (node) {
+				for (let i = 0, child; child = node.childNodes[i]; i++) {
+					if (child.nodeType === 3) { // text node
+						var matchCount = 0;
 
-						var parent = Footnotes.findParent(child, Footnotes.blockElements);
-						parent.id = 'fn:' + id;
+						var newHtml = child.textContent.replace(/\[\^([^\]]+)\s*\]:/g, function (match, id) {
+							footnotes.push(id);
+							matchCount++;
 
-						return '';
-					});
+							var parent = Footnotes.findParent(child, Footnotes.blockElements);
+							parent.id = 'fn:' + id;
 
-					// If we found a footnote.
-					if (matchCount) {
-						var newNode = $('<span>' + newHtml + '</span>')[0];
-						// Wrapping it in a span fixes a bug that causes some of the text to go missing.
-						// The cause is unknown.
-						node.insertBefore(newNode, child);
-						node.removeChild(child);
+							return '';
+						});
+
+						// If we found a footnote.
+						if (matchCount) {
+							var newNode = $('<span>' + newHtml + '</span>')[0];
+							// Wrapping it in a span fixes a bug that causes some of the text to go missing.
+							// The cause is unknown.
+							node.insertBefore(newNode, child);
+							node.removeChild(child);
+						}
 					}
 				}
-			}
-		});
+			});
 
 
-		// Replace source [cite id] short codes in the rest of the text.
-		//var entry = $('.text')[0];
-		var entry = document.body; // so we get footnotes from the header.
-		Footnotes.visitNodes(entry, function (node) {
-			for (var i=0, child; child = node.childNodes[i]; i++) {
-				if (child.nodeType === 3) { // text node
-					var matchCount = 0;
-					var newHtml = child.textContent.replace(/\[\^([^\]]+)\s*\]/g, function (match, subMatch) {
-						matchCount++;
+			// 2. Find all the places in the document that cite the footnotes:  [^name]
+			let entry2 = document.body; // so we get footnotes from the header.
+			Footnotes.visitNodes(entry2, function (node) {
+				for (var i = 0, child; child = node.childNodes[i]; i++) {
+					if (child.nodeType === 3) { // text node
+						var matchCount = 0;
+						var newHtml = child.textContent.replace(/\[\^([^\]]+)\s*\]/g, function (match, subMatch) {
+							matchCount++;
 
-						// Find index in footnotes
-						var index = footnotes.indexOf(subMatch);
+							// Find index in footnotes
+							var index = footnotes.indexOf(subMatch);
 
-						if (index !== -1)
-							return '<sup class="fnref' + (index+1) + ':' + subMatch + '">' + 
-								'<a class="footnote-ref" id="' + subMatch + '-inline" ' +
-								'title="Show footnote." href="#fn:' + subMatch + '">' + (index + 1) + '</a></sup>';
-						else
-							console.log('Could not find footnote for "[cite ' + subMatch + ']"');
-						return subMatch;
-					});
-					if (matchCount) {
-						var newNode = $('<span>' + newHtml + '</span>')[0];
-						node.insertBefore(newNode, child);
-						node.removeChild(child);
+							if (index !== -1)
+								return '<sup class="fnref' + (index + 1) + ':' + subMatch + '">' +
+									'<a class="footnote-ref" id="' + subMatch + '-inline" ' +
+									'title="Show footnote." href="#fn:' + subMatch + '">' + (index + 1) + '</a></sup>';
+							else {
+								console.log('Could not find footnote for "[' + subMatch + ']"');
+							}
+							return subMatch;
+						});
+						if (matchCount) {
+							var newNode = $('<span>' + newHtml + '</span>')[0];
+							node.insertBefore(newNode, child);
+							node.removeChild(child);
+						}
 					}
 				}
-			}
-		});
-	}
-});
+			});
+		}
+	});
+}
 

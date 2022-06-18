@@ -8,15 +8,15 @@ $(function() {
 		$(document.body).toggleClass('scrolled', window.pageYOffset > $nav.offset().top);
 
 		// Adjust height of navSlideContainer to match available height.
-		var $navSlideContainer = $('#navSlideContainer');
-		if ($navSlideContainer.length) {
-			var height = window.innerHeight - ($('#navSlideContainer').offset().top - window.pageYOffset);
-			var fromBottom = $(document).height() - ($(window).scrollTop() + window.innerHeight);
-			var footerHeight = $('#footer').outerHeight()
-			if (fromBottom < footerHeight)
-				height -= (footerHeight - fromBottom);		
-			$('#navSlideContainer > div').css({maxHeight: height});
-		}
+		//var $navSlideContainer = $('#navSlideContainer');
+		//if ($navSlideContainer.length) {
+		//	var height = window.innerHeight - ($('#navSlideContainer').offset().top - window.pageYOffset);
+		//	var fromBottom = $(document).height() - ($(window).scrollTop() + window.innerHeight);
+		//	var footerHeight = $('#footer').outerHeight()
+		//	if (fromBottom < footerHeight)
+		//		height -= (footerHeight - fromBottom);		
+		//	$('#navSlideContainer > div').css({maxHeight: height});
+		//}
 	});
 	
 	// Enable swipe to close mobile menu

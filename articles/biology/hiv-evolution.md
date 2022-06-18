@@ -12,16 +12,15 @@ theme:        common/includes/theme.php
 	Published:  October 2017<br>
 	Updated: May 3, 2018
 </aside>
+<q>"The human immunodeficiency virus... is one of the fastest evolving entities known."[^berkeley-2017]</q>
 
-<q>The human immunodeficiency virus... is one of the fastest evolving entities known.[^berkeley-2017]</q>
+<q>HIV shows stronger positive selection [having more beneficial mutations] than any other organism studied so far."[^rambaut-2004]</q>
 
-<q>HIV shows stronger positive selection [having more beneficial mutations] than any other organism studied so far.[^rambaut-2004]</q>
-
-<q> HIV evolves extremely rapidly, exhibiting the highest recorded biological mutation rate currently known to science.[^andrews-2017]</q>
+<q>"HIV evolves extremely rapidly, exhibiting the highest recorded biological mutation rate currently known to science."[^andrews-2017]</q>
 
 ## Overview
 
-Since first entering humans about 100 years ago, HIV has had more ++mutations++ and more replications than (for example) the fewer than 10^20^ mammals that would've ever lived during a 200 million year evolutionary timeline.[^user813801-2014] [^behe-2007]  Even though natural selection is much stronger in an RNA virus like HIV than in large ++genome++ mammals,[^rambaut-2004:a] [^lynch-2006] [^sanford-2007]  HIV has evolved very little terms of new or modified function.  This strongly suggests evolution would not have enough opportunity to create the the vast and largely different information in the genomes of all mammals, where there was less opportunity for evolution to act.
+Since first entering humans about 100 years ago, HIV has had more ++mutations++ and more replications than (for example) the fewer than 10^20^ mammals that would've ever lived during a 200 million year evolutionary timeline.[^user813801-2014] [^behe-2007]  Even though natural selection is much stronger in an ++RNA++ virus like HIV than in large ++genome++ mammals,[^rambaut-2004:a] [^lynch-2006] [^sanford-2007]  HIV has evolved very little terms of new or modified function.  This strongly suggests evolution would not have enough opportunity to create the the vast and largely different information in the genomes of all mammals, where there was less opportunity for evolution to act.
 
 During the 100 years of HIV evolution there's been:
 
@@ -56,8 +55,6 @@ HIV-1 group M (for major) accounts for the "vast majority (perhaps 98%) of HIV i
 Electron microscope image of a follicular dendritic cell, artificially colored.
 Follicular dendritic cells are major reservoirs for HIV-1 within the lymph nodes.
 </aside>
-
-
 ### Population Per Infected Person
 
 Various studies estimate that about 10^10^ to 10^12^ HIV viruses exist in an infected person:
@@ -68,7 +65,7 @@ Various studies estimate that about 10^10^ to 10^12^ HIV viruses exist in an inf
 | ------------------------------------ | ------------------------------------------------------------ |
 | Haase et al, 1996[^haase-1996]       | "the FDC-associated [follicular dendritic cell] pool of HIV RNA would be about **10^11^** copies in a 70-kg HIV infected individual." <br /><br />Follicular dendritic cells are major reservoirs for HIV-1 within the lymph nodes. |
 | Perelson et al, 1996[^perelson-1996] | "The estimated average total HIV-1 production was 10.3x10^9^ ++virions++ per day." This is **1.3x10^10^** <br /><br />"the average HIV-1 generation time--defined as the time from release of a virion until it infects another cell and causes the release of a new generation of viral particles--is **2.6 days**." |
-| Brown, 1997[^brown-1997])            | "HIV infections are initiated from a small inoculum and increase very rapidly to **≈10^10^** in the first stages of infection, so a considerable reduction in N e [effective population size] would be expected to be due to this expansion." |
+| Brown, 1997[^brown-1997])            | "HIV infections are initiated from a small inoculum and increase very rapidly to **≈10^10^** in the first stages of infection, so a considerable reduction in N<sub>e</sub> [effective population size] would be expected to be due to this expansion." |
 | Rambaut et al, 2004[^rambaut-2004]   | "[HIV] has a viral generation time of ~2.5 days and produces **~10^10^ to 10^12^** new virions each day" Perelson, 1996 is cited for this estimate. |
 | Coffin et al, 2013[^coffin-2013]     | "In the case of HIV-1 infection, perhaps **10^11^** virions are produced daily; the number of cells infected in the same time span is... unlikely to exceed 10^9^."<br /><br />"this result is consistent with the high natural turnover rate of activated effector memory helper T cells, the primary target for HIV-1 infection, on the order of 10^10^ cells per day, of which only a small fraction are infected after the initial primary infection phase." |
 ### Estimated Observed and Effective Population Size Discrepancies
@@ -108,13 +105,11 @@ Various studies estimate that about 10^10^ to 10^12^ HIV viruses exist in an inf
         <a href="http://www.pandasthumb.org/archives/2007/11/an-open-letter-9.html"> An Open Letter to Dr. Michael Behe (Part 7)</a>&nbsp; (Nov 16, 2007</li>
     </ol>
 </aside>
-
-
 Rather than by counting and extrapolating, some studies (not included above) measure HIV genetic diversity, and use that to estimate *effective* population sizes in the range of 450 to 10^5^ HIV ++virions++ per person.[^althaus-2005] These estimates "are many orders of magnitude lower than the census size--a result that has surprised and perplexed many in the HIV-1 community."[^tan-2005]
 
-However, models estimating effective population "are heavily influenced by variations in allele frequency" and should "be taken as a lower bound" with the true values "likely to be much higher."[^maldarelli-2013] This is because low genetic diversity in HIV leads to lower effective population size estimates.  Even if the real population size is much larger.
+However, models estimating effective population "are heavily influenced by variations in ++allele++ frequency" and should "be taken as a lower bound" with the true values "likely to be much higher."[^maldarelli-2013] This is because low genetic diversity in HIV leads to lower effective population size estimates.  Even if the real population size is much larger.
 
-Why would HIV have low genetic diversity? Because in each HIV infection, the HIV starts as only a small number of virus particles and then expands to nearly a trillion viruses. And rapidly expanding populations have lower genetic diversity.  HIV is also subject to strong selection, and selection removes variants from a population.
+Why would HIV have low genetic diversity? Because in each HIV infection, the HIV starts as only a small number of virus particles and then expands to nearly a trillion viruses. And rapidly expanding populations have lower genetic diversity.  HIV is also subject to strong ++selection++, and selection removes variants from a population.
 
 Therefore since the effective population size is misleading, and since observation trumps such models, the observed population size estimates in the table above are more reliable.
 
@@ -209,19 +204,52 @@ However "it is likely that SIV jumped into humans many times"[^sharp-2010] befor
 - SIVgsn =greater spot-nosed monkeys
 - SIVmus = mustached monkeys
 
-In order for HIV's Vpu gene to counteract tetherin, at least three amino acids were changed in the Vpu's transmembrane region:  "three amino acid positions, A14, W22, and, to a lesser extent, A18, are required for tetherin antagonism."[^vigan-2010]  This was confirmed by splicing those regions into a Vpu gene from chimpanzee SIV:  "SIVcpz Vpu was able to completely rescue the Tetherin restriction phenotype when it encoded both regions 1-8 and 14-22 from HIV-1."[^lim-2010] 
+### Is the evolution of HIV's Anti-tetherin activity Irreducibly Complex?
 
-Likewise, the diagram above (under Hydrophobic TM domain) shows that HIV-1's Vpu protein differs from SIV at amino acid positions 14, 18, and 22, among many other mutations that don't affect its anti-tetherin ability.  Amino acids 14 and 22 are different amino acids than those there before. They are not simply reversions to the amino acids found in monkey SIVs.
+Some evolutionists point to HIV-1's anti-tetherin activity as proof that evolution can create features that require a large number of simultaneous mutations in many organisms.  This is a non-sequitur for two reasons.  First, as noted above, HIV has had the mutational resources to explore most possible combinations of five mutations.  Exploration this vast can only happen in RNA viruses like HIV, since they have huge populations, very small genomes, and very high mutation rates.  Larger and more complex organisms would never be able to explore that many combinations even if given trillions of years.  Irreducible complexity (as defined by its originator, Michael Behe[^behe-2007b]) is a function of population size--larger populations can overcome more simultaneous mutations.
 
-HIV's acquisition of its ability to counteract human tetherin appears to be a stepwise evolutionary gain where mutations gradually improved the ability, since "chimeras within each region yielded intermediate phenotypes."[^lim-2010]  In other words, each mutation made HIV increasingly better at counteracting tetherin.
+Second, HIV-1's anti-tetherin ability seems as if it was acquired gradually one improving mutation at a time, rather than occurring through multiple simultaneous mutations.
+
+#### HIV-1 Group M
+
+In order for HIV 1 group M's Vpu gene to counteract tetherin, at least three ++amino acids++ are needed in the Vpu's transmembrane region:  "three amino acid positions, A14, W22, and, to a lesser extent, A18, are required for tetherin antagonism."[^vigan-2010]  Another research group reached similar conclusions by splicing that and an adjacent region into a Vpu gene from chimpanzee SIV:  "SIVcpz Vpu was able to completely rescue the tetherin restriction phenotype when it encoded both regions 1-8 and 14-22 from HIV-1."[^lim-2010][^lim-2010]  The researchers saw that "chimeras within each region yielded intermediate ++phenotypes++, suggesting that these regions harbored several minor determinants."[^lim-2010][^lim-2010] 
+
+We can calculate the mutational path for those three amino acids to mutate to get anti-tetherin activity in HIV-1 group M.  The diagram above (under Hydrophobic TM domain) shows that HIV-1 group M's Vpu protein differs from the SIV's at amino acid positions 14 and 18.  The W at position 22 was already present in chimpanzee SIVcpzPtt, the groups that most closely resemble human HIV-1 groups M and N.  The necessary mutations:
+
+- **Position 14:**  Chimpanzee SIVcpzPtt has amino acid G (glycine) at position 14.  A DNA codon table shows that going from amino acid G (glycine) to A (alanine) at position 14 would involve changing only one nucleotide.
+  - SIVcpzPtt MB66 has a V (valine) at position 14, which would also only involve changing one nucleotide to mutate to the A (alenine) of HIV 1 group M.
+  - SIVcpzPtt MT145 and GAB1 have an I and an L at position 14, which would require changing two nucleotides, which would require changing two nucleotides to become an A.
+- **Position 18:**  Most Chimpanzee CIVcpzPtt strains have amino acid E (glutamic acid) at position 18.  Changing that to amino acid A (alenine) in HIV-1 group M would take only one mutation.
+  - SIVcpzPtt MT145 and GAB1 have an L at position 18, which would require changing two nucleotides to become an A.
+- **Position 22:**  This position is already a W in all SIVcpzPtt.
+- **Positions 1-8?:**  Possible additional unknown mutations at these spots may confer additional anti-tetherin activity, since this region "harbored several minor determinants."[^lim-2010] Since chimeras within this region "yielded intermediate phenotypes",[^lim-2010]  we don't have evidence any of these mutations would need to happen simultaneously.
+
+Therefore, HIV-1 group M's anti tetherin activity could have begun with a single mutation changing the amino acid at position 14, then a second mutation that enhanced the anti-tetherin activity at position 18.
+
+Of course there were many other mutations that don't affect its anti-tetherin ability.  It should be stated that this is a new mutational pathway that grants anti-tetherin ability, not simply reversions to the amino acids found in monkey SIVs.
+
+#### HIV-1 Group N
+
+Unfortunately, I haven't found conclusive data on whether the evolution of anti-tetherin activity in HIV-1 group N is or isn't gradual.  A 2012 study found that "four TMD amino acid substitutions (E15A, V19A, I25L and V26L) were sufficient to render the SIVcpz Vpu active against human tetherin."[^sauter-2012]  Figure 5A in their paper (reproduced below) shows human HIV-1 group N in yellow, SIV in blue, and how the researches mixed and matched the amino acids to get different results:
+
+- Changing amino acids at positions 25-26 alone is marked as making no difference, although the gray triangle above the "25" in the second part of figure 5B (not reproduced here) might indicate very slight improvement.
+- Changing amino acids at 15 and 25-26 shows low anti-tetherin activity, 
+- Changing amino acids at 15, 19, and 25-26 grants moderate anti-tetherin activity.
+- Also changing 16-18 grants high anti-tetherin activity.
+
+Unfortunately the researchers didn't test position 15 by itself, 25 and 26 separately, or 16-18 separately, so we don't know if doing so grants stepwise gains.
+
+<a class="lightbox" href="hiv-evolution/sauter-2012-figure5a.png"><img src="hiv-evolution/sauter-2012-figure5a.png" class="inverted"></a>
+
+<small>Each row is a list of amino acids in part of the VPU protein from a strain of HIV, SIV, or an artificially created hybrid.  Yellow sequences are from human HIV-1 group N, blue from Chimpanzee SIV.  Under the Tetherin Release column, - indicates no activity, (+) is low activity, + is moderate activity, and ++ is high activity.</small>
 
 ### Evading HLA
 
-The human leukocyte antigen system is a set of genes that creates proteins on cell surfaces to present viral proteins to white blood cells.  A 2011 study looked at HIV evolution within a Chinese sub-population over a course of 10 years.  Among RNA letter variations seen in the HIV gag, reverse transcriptase, integrase, and nef genes, finding "24%-56% were sites of HLA-associated selection."[^dong-2011]  In simple terms, these mutations helped HIV survive, likely by changing the structure of HIV proteins enough that they were no longer recognized by the immune system.[^guha-2013:a]
+The human leukocyte antigen system is a set of genes that creates proteins on cell surfaces to present viral ++proteins++ to white blood cells.  A 2011 study looked at HIV evolution within a Chinese sub-population over a course of 10 years.  Among RNA letter variations seen in the HIV gag, reverse transcriptase, integrase, and nef genes, finding "24%-56% were sites of HLA-associated selection."[^dong-2011]  In simple terms, these mutations helped HIV survive, likely by changing the structure of HIV proteins enough that they were no longer recognized by the immune system.[^guha-2013:a]
 
 However, some of these mutations end up harming HIV in other ways, and those often revert when infecting a new host with a different immune system:
 
-> The long-term stability of T-cell escape mutants depends on the ++fitness++ cost incurred by the virus; variants with a high-fitness cost tend to revert to the original sequence after transmission to a host without the selecting HLA allele, unless an appropriate compensatory mutation is also present.  Other variants revert only slowly, if at all...[^dong-2011]
+> The long-term stability of T-cell escape mutants depends on the ++fitness++ cost incurred by the virus; variants with a high-fitness cost tend to revert to the original sequence after transmission to a host without the selecting HLA ++allele++, unless an appropriate compensatory mutation is also present.  Other variants revert only slowly, if at all...[^dong-2011]
 
 ### Other notable evolutionary gains
 
@@ -257,7 +285,8 @@ This section is incomplete, although there are many other gains that could be do
 [^sanford-2007]: Sanford, John, et al.  "[Mendel's Accountant: A biologically realistic forward-time population genetics program.](http://www.scpe.org/index.php/scpe/article/download/407/77)"  Scalable Computing.  2007.<small>The authors explain: "each nucleotide in a smaller genome on average plays a greater relative role in the organism’s fitness"</small>
 [^user813801-2014]:  "[How many organisms have ever lived on Earth?](https://biology.stackexchange.com/a/19569)"  Biology.StackExchange.  2014.  <small>The answer estimates: "5.95 * 10^39^ Bacteria that ever lived," and most cellular organisms are bacteria.</small>
 [^behe-2007]: Behe, Michael J.  "The Edge of Evolution."  2007.  [Page 63](https://books.google.com/books?id=HGuwiG78ILcC&q=%22slightly%20fewer%20than%201040%20cells%22).  <small>Behe estimates: "throughout the course of history there would have been slightly fewer than 10^40^ cells."</small>
+[^behe-2007b]: Behe, Michael J.  "The Edge of Evolution."  2007.  Page 60.<small>Behe writes:  "Recall that the odds against getting two necessary, independent mutations are the multiplied odds for getting each mutation individually. What if a problem arose during the course of life on earth that required a cluster of mutations that was twice as complex as a CCC? (Let’s call it a double CCC.) For example, what if instead of the several amino acid changes needed for chloroquine resistance in malaria, twice that number were needed? In that case the odds would be that for a CCC times itself. Instead of 10^20 cells to solve the evolutionary problem, we would need 10^40 cells."  A "CCC" is Behe's own term: "chloroquine-complexity cluster."  It's what he calls the two simultaneous mutations needed for p. falciparum (the parasite that causes malaria) to evolve resistence to the drug chloroquine.</small>
 [^dong-2011]: Dong et al.  "[Extensive HLA-driven viral diversity following a narrow-source HIV-1 outbreak in rural China](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3743462/)."  Blood.  2011.
 [^guha-2013]: Guha, et al.  "[Innate Immune Evasion Strategies by Human Immunodeficiency Virus Type 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3767209/)."  ISRN AIDS.  2013.
 [^guha-2013:a]: <small>"The HIV-1 RNA genome can be mutated randomly which helps the virus to evade immune recognition by the host."</small>
-
+[^sauter-2012]: SAuter, Daniel.  "[Human Tetherin Exerts Strong Selection Pressure on the HIV-1 Group N Vpu Protein](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3534379/)."  PLoS Pathogen.  2012.
