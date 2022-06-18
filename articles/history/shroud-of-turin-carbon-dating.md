@@ -199,7 +199,7 @@ is swelling, becoming more transparent, and detaching from the fibers."[^rogers-
     </p>
 	<img class="rounded lightbox" src="shroud-of-turin-carbon-dating/rogers-2002-encrustation.jpg?w=230">
     <p markdown="1">"Encrusted cotton fibers from the outer surface of Raes sample #5 (400X) after treatment with aqueous iodine and drying"[^rogers-2002]</p>
-    <img class="rounded lightbox" src="shroud-of-turin-carbon-dating/brown-2005-2.png?w=230">
+    <img class="rounded lightbox" src="shroud-of-turin-carbon-dating/brown-2005-2.jpg?w=230">
     <p markdown="1">Electron microscope image showing the cross section of an individual fiber from a Raes thread.  A proportionally large amount of encrustation is seen surrounding the fiber.[^brown-2005]
     </p>
      <img class="rounded lightbox" src="shroud-of-turin-carbon-dating/moon-2015-encrustations.png?w=230">
@@ -210,6 +210,7 @@ is swelling, becoming more transparent, and detaching from the fibers."[^rogers-
 <img class="rounded lightbox" src="shroud-of-turin-carbon-dating/wax-on-shroud2.jpg?w=230">
 <p markdown="1">A smaller spot of what may be black wax on the 1988 carbon dated sample sent to the Arizona lab.[^freer-waters-2010:a]</p>
 </aside>
+
 
 
 

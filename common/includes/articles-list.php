@@ -65,13 +65,13 @@ $articleCategories = (object)[
             'url'=>'/articles/history/shroud-of-turin',
             'thumb'=>'/articles/history/shroud-of-turin/header-square.jpg',
             'description'=>''
-        ],
+        ]*/,
         (object)[
-            'name'=>'Shroud of Turin:  Carbon Dating',
+            'name'=>'Shroud of Turin:  1988 Carbon Dating',
             'url'=>'/articles/history/shroud-of-turin-carbon-dating',
             'thumb'=>'/articles/history/shroud-of-turin-carbon-dating/header-square.jpg',
-            'description'=>''
+            'description'=>"The Shroud of Turin is a linen burial cloth with the image and blood of a man having wounds matching the crucifixion of Christ, as if the imprint of his body was flash-burned into the shroud's fibers.  However, carbon dating in 1988 puts the shroud in the middle ages, not the time of Christ.  This article disproves that carbon date."
         ]
-        */
+
     ]
 ];
