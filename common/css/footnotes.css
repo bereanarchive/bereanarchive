@@ -13,7 +13,7 @@
 /* The black header at the top of the pop-up tooltips. */
 .cleanTooltipHeader { position: relative; font-weight: bold; padding: 1px 15px; border-top-left-radius: 10px; border-top-right-radius: 10px }
 
-.cleanTooltipHeader a { position: absolute; top: -4px; right: 3px; display: block; text-decoration: none; font: bold 15px arial; padding: 4px 6px; color: #ccc }
+.cleanTooltipHeader a { position: absolute; top: -4px; right: 3px; display: block; text-decoration: none; font: bold 15px Arial; padding: 4px 6px; color: #ccc }
 .cleanTooltipHeader a:hover { color: white }
 
 /* The content of the tooltip. */

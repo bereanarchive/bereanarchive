@@ -41,20 +41,6 @@ blockquote { overflow-x: auto; overflow-y: hidden } /* Prevent from overlapping 
 
 // Colors:
 // Berean Brown:  #6c5d53
-
-@font-face {
-	font-family: "Cabin";
-	font-weight: 400;
-	src: url("/common/fonts/Cabin 400.woff2") format("woff")
-}
-@font-face {
-	font-family: "Cabin";
-	font-weight: 600;
-	src: url("/common/fonts/Cabin 600.woff2") format("woff")
-}
-
-
-
 @font-face {
 	font-family: "Open Sans";
 	font-weight: 300;
@@ -145,10 +131,10 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 #imageHeader { position: relative; height: 300px; min-height: 300px; z-index: 2; margin-top: 20px;
 	background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; /* min-height needed for flex in firefox */
 
-	.caption { position: absolute; top: 100%; right: 0; font-size: 70%; text-align: right; color: #777; padding: 6px;
-		line-height: 1.2; font-family: arial, sans-serif;
+	.caption { position: absolute; top: 100%; right: 0; font-size: 70%; text-align: right; color: #888; padding: 6px;
+		line-height: 1.2; font-family: Arial, sans-serif;
 		p { margin: 0 }
-		a, a:visited { color: #999; text-decoration: none }
+		a, a:visited { color: inherit; opacity: .7; text-decoration: none }
 		a:active, a:hover { text-decoration: underline }
 	}
 }
@@ -159,7 +145,7 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	ul { margin: 0 auto; list-style-type: none; padding: 0; }
 	li { display: inline-block; margin: 0 }
 	li#topNavMobile { display: none }
-	ul li a { display: inline-block; padding: 0 10px 0 10px; color: #666; text-decoration: none; font: bold 100% arial;
+	ul li a { display: inline-block; padding: 0 10px 0 10px; color: #666; text-decoration: none;
 		&.primary { color: #888;
 			&:hover { color: #aaa }
 		}
@@ -175,8 +161,8 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 #content { position: relative; min-height: 80px; box-sizing: border-box; display: flex; flex-direction: row;
 	flex: 1 0 auto; /*background: url('/common/img/site/whitestone.jpg')*/;
 
-	#side1 { width: 230px; min-width: 230px; min-height: 10px; margin: 20px 0; padding-left: 10px; align-self: flex-start }
-	#main { padding: 40px 40px 80px 40px; margin: 0 30px; box-sizing: border-box; max-width: ~"min(100%, 790px)"; position: relative;
+	#side1 { position: sticky; top: 0; width: 230px; min-width: 230px; min-height: 10px; margin: 20px 0; padding-left: 10px; align-self: flex-start }
+	#main { padding: 40px 40px 80px 40px; margin: 0 30px; box-sizing: border-box; position: relative;
 		flex-grow: 1; background-color: white; /*box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);*/ align-self: flex-start }
 
 	#side2 { width: 230px; min-width: 230px; min-height: 10px; margin: 40px 0; padding-right: 10px } 	// neg z so wide elements from #main will be on top.
@@ -244,6 +230,8 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 // General text content
 .text { word-break: break-word;
 
+	> * { max-width: 100% }
+
 	.breadcrumbs { font-size: 80%; color: #aaa; max-width: calc(100% - 200px); margin-bottom: 3px;
 		a, a:visited { color: #77f }
 	}
@@ -265,7 +253,7 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	ol, ul { margin: 1em 0 .25em 0 }
 
 	blockquote { position: relative; padding: .6em .6em .6em 2.2em; border-radius: 5px; background-color: #efeeed; font-size: 95%; bcolor: #332211 }
-	blockquote:before { position: absolute; font-family: arial; content: '“'; height: 0; width: 0; line-height: 0; top: 0.5em; left: 0.1em; color: #8884;
+	blockquote:before { position: absolute; font-family: Arial, sans-serif; content: '“'; height: 0; width: 0; line-height: 0; top: 0.5em; left: 0.1em; color: #8884;
 		font-size: 400%;
 	}
 
@@ -357,8 +345,7 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	}
 
 	table.small { font-size: 85%; margin-left: 0; margin-top: 0 }
-	
-		
+
 	/**
 	 * Generates classes to apply to a table to set its column widths:
 	 * For td1-5 all the way from 5% to 100%.
@@ -385,22 +372,10 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	.generate-tds(9);
 	.generate-tds(10);
 	
-	
 
 	// Width of right sidebar (30px right margin, 30px right padding, 230px sidebar width)
-	.wide { width: calc(100% + 290px); position: relative; z-index: 0; background-color: white; border-top-right-radius: 12px; border-bottom-right-radius: 12px;
-
-		/*
-		&:before { content: ''; display: block; position: absolute; z-index: -2;
-			top: 0; left: calc(100% - 260px); width: 260px; height: 100%; background-color: white;
-			border-top-right-radius: 12px; border-bottom-right-radius: 12px; box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
-		}
-		&:after { content: ''; display: block; position: absolute; z-index: -1;
-			top: 0; left: 0; width: 100%; height: 100%; background-color: white;
-			border-top-right-radius: 12px; border-bottom-right-radius: 12px; 
-		}
-		*/
-	}
+	.wide { width: calc(100% + 290px); max-width: initial; position: relative; z-index: 0; background-color: white;
+		border-top-right-radius: 12px; border-bottom-right-radius: 12px }
 
 	// Footnotes
 	.footnotes { font-size: 90%; line-height: 1.3; color: #333; margin-left: 0; margin-top: 0 }
@@ -445,16 +420,9 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 	aside.inner { position: static; clear: right; border: 1px solid black; padding: 0 3px 0 10px; background-color: #fff6ee; margin-left: 20px; margin-bottom: 10px; float: right; border-radius: 6px; width: 200px; min-width: 200px; min-height: 20px; font-size: 85% }
 	img.aside-inner { float: right; margin-left: 20px; margin-bottom: 10px }
 
-	.img-left { float: left; border-radius: 10px; border: 1px solid black; margin: 5px 20px 5px 5px }
-
 	// Added by Parsedown.
 	div.footnotes hr,
 	.footnote-backref { display: none }
-
-	// table widths, since we can't set widths in mardkwon
-	table.td1-25 {
-		th:first-of-type, td:first-of-type { width: 25% }
-	}
 
 
 	label { font-weight: bold; font-size: 85% }
@@ -560,7 +528,7 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 		}
 		#main { padding: 20px 15px; margin: 0; box-shadow: none;
 			p.title { font-size: 230% }
-			h1 { padding-left: 15px; font-size: 350% }
+			h1 { padding-left: 15px; font-size: 280% }
 			h2 { font-size: 200% }
 			h3 { line-height: 120% }
 			aside { margin-left: 5px; min-width: 150px; max-width: 150px }
@@ -568,7 +536,6 @@ div#darkSlider { position: absolute; top: 0; right: 0; padding: 2px 5px; font-si
 		}
 	}
 }
-
 
 // Print styles
 @media print {

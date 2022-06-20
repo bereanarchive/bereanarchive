@@ -32,5 +32,4 @@
 			</div>
 		</div>
 	</div>
-	<script defer src="/common/js/nav.js"></script>
 </div>

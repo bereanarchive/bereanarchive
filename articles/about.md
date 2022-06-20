@@ -76,10 +76,3 @@ The Internet is a strange, dangerous, and permanent place.  I go by John Berea h
 
 The goal is to have many other people [contribute](/articles/about/contribute) to this site.  What they reveal about themselves is up to them.
 
-
-
-## Are you young earth?
-This site doesn't take a position on the age of the earth.  I don't take a position.  We just present the data and see where it goes.  If you want to argue for one side or the other, talk with us and submit an article.
-
-
-

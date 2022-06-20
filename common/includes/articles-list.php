@@ -52,14 +52,14 @@ $articleCategories = (object)[
             'url'=>'/articles/history/ancient-israel-slavery-servanthood-and-social-welfare',
             'thumb'=>'/articles/history/ancient-israel-slavery-servanthood-and-social-welfare/header-square.jpg',
             'description'=>'Hebrew uses the same word for "servant" and "slave" and even high-ranking officials were "slaves" to the king.  Unlike other ancient cultures, Israel\'s strict regulations made it impossible to treat a servant/slave inhumanely.'
-        ],
+        ]/*,
         (object)[
             'name'=>'Ancient Israel:  Morality of the Conquest of Canaan',
             'url'=>'/articles/history/ancient-israel-morality-of-the-conquest-of-canaan',
             'thumb'=>'/articles/history/ancient-israel-morality-of-the-conquest-of-canaan/header-square.jpg',
             'description'=>'Are the Old Testament military campaigns of Israel inconsistent with being led by a just and
                 loving God?&nbsp; This article makes the case for consistency and justness.'
-        ]/*,
+        ],
         (object)[
             'name'=>'Shroud of Turin',
             'url'=>'/articles/history/shroud-of-turin',

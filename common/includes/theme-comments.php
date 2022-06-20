@@ -13,8 +13,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 		.text h1 { margin-top: 0 }
 	</style>
 	<link rel="stylesheet" href="/common/css/theme.less">
-	<script defer src="/common/js/lib/jquery.js"></script>
-	<script defer src="/common/js/lib/hammer.js"></script>
+	<script defer src="/common/js/lib/jquery.min.js"></script>
 	<script defer src="/common/js/main.js"></script>
 	<?=@$header?>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0">

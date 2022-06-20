@@ -53,7 +53,7 @@ function createToc(container) {
 	var headings = $(container).find('.__heading').removeClass('__heading');
 
 	var result = [];
-	for (var i=0, h; h=headings[i]; i++) {
+	for (let i=0, h; h=headings[i]; i++) {
 		var text = h.innerText;
 		var anchor = h.id || h.innerText.replace(/ /g, '-').replace(/[^0-9a-z\-]/gi, '');
 		if (!h.id)

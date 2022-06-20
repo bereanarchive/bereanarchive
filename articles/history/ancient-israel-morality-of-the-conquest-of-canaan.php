@@ -906,8 +906,6 @@ And  not all were even taken:  "Nebuzaradan the captain of the guard left in the
 		<li>[^day-2002]:Day, John.&nbsp; "Yahweh and the Gods and Goddesses of Canaan."&nbsp; Sheffield Academic Press.&nbsp; 2002.
 			<small>Mirrors:&nbsp; <a href="ancient-israel-morality-of-the-conquest-of-canaan/sources/day-yahweh-and-the-gods-pages-211-212.png">Local screenshot</a></small>
 		</li>
-
-[^day-2002]
 	</ol>
 </div>
 <?php $content = ob_get_clean();

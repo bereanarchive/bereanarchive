@@ -43,6 +43,7 @@ $pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:
         */?>
 
 		<link rel="stylesheet" href="/common/css/theme.less">
+		<link rel="stylesheet" href="/common/css/theme.css">
 		<link rel="stylesheet" href="/common/css/theme-dark.less">
 		<link rel="stylesheet" href="/common/css/footnotes.css">
 		<link rel="stylesheet" href="/common/css/magnific.css">

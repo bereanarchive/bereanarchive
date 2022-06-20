@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 1);
 /**
  * @param string $_GEt['url']
  * @param ?int   $_GET['w']
@@ -272,18 +273,37 @@ class ImageUtil {
 		// I used to use createimagefromstring(get_file_contents($url))
 		// But testing shows that this path can resize larger images before reaching the memory limit.
 		$ext = strtolower(pathinfo($url, PATHINFO_EXTENSION));
-		if ($ext === 'jpg' || $ext === 'jpeg')
-			return imagecreatefromjpeg($url);
-		elseif ($ext === 'png')
-			return imagecreatefrompng($url);
-		elseif ($ext === 'gif')
-			return imagecreatefromgif($url);
-		elseif ($ext === 'webp')
-			return imagecreatefromwebp($url);
-		elseif ($ext === 'avif' && function_exists('imagecreatefromavif')) // php 8.1
-			return imagecreatefromavif($url);
-		elseif ($ext === 'bmp')
-			return imagecreatefrombmp($url);
+		$result = true;
+		if ($ext === 'jpg' || $ext === 'jpeg') {
+			$result = @imagecreatefromjpeg($url);
+			if ($result)
+				return $result;
+		}
+		if ($ext === 'png' || !$result) { // Try other types if the extension doesn't match.
+			$result = @imagecreatefrompng($url);
+			if ($result)
+				return $result;
+		}
+		if ($ext === 'gif' || !$result) {
+			$result = @imagecreatefromgif($url);
+			if ($result)
+				return $result;
+		}
+		if ($ext === 'webp' || !$result) {
+			$result = @imagecreatefromwebp($url);
+			if ($result)
+				return $result;
+		}
+		if (($ext === 'avif' || !$result) && function_exists('imagecreatefromavif')) { // php 8.1
+			$result = @imagecreatefromavif($url);
+			if ($result)
+				return $result;
+		}
+		if ($ext === 'bmp' || !$result) {
+			$result = @imagecreatefrombmp($url);
+			if ($result)
+				return $result;
+		}
 		return null;
 	}
 

@@ -34,6 +34,5 @@
 			<div id="navToc"></div>
 		</div>
 	</div>
-	<script defer src="/common/js/nav.js"></script>
 	<script defer src="/common/js/nav-with-toc.js"></script>
 </div>
