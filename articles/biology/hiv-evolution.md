@@ -261,8 +261,6 @@ This section is incomplete, although there are many other gains that could be do
 [^sanford-2007]: Sanford, John, et al.  "[Mendel's Accountant: A biologically realistic forward-time population genetics program.](http://www.scpe.org/index.php/scpe/article/download/407/77)"  Scalable Computing.  2007.<small>The authors explain: "each nucleotide in a smaller genome on average plays a greater relative role in the organism’s fitness"</small>
 [^user813801-2014]:  "[How many organisms have ever lived on Earth?](https://biology.stackexchange.com/a/19569)"  Biology.StackExchange.  2014.  <small>The answer estimates: "5.95 * 10^39^ Bacteria that ever lived," and most cellular organisms are bacteria.</small>
 [^behe-2007]: Behe, Michael J.  "The Edge of Evolution."  2007.  [Page 63](https://books.google.com/books?id=HGuwiG78ILcC&q=%22slightly%20fewer%20than%201040%20cells%22).  <small>Behe estimates: "throughout the course of history there would have been slightly fewer than 10^40^ cells."</small>
-
 [^dong-2011]: Dong et al.  "[Extensive HLA-driven viral diversity following a narrow-source HIV-1 outbreak in rural China](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3743462/)."  Blood.  2011.
 [^guha-2013]: Guha, et al.  "[Innate Immune Evasion Strategies by Human Immunodeficiency Virus Type 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3767209/)."  ISRN AIDS.  2013.
 [^guha-2013:a]: <small>"The HIV-1 RNA genome can be mutated randomly which helps the virus to evade immune recognition by the host."</small>
-
