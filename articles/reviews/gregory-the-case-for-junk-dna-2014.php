@@ -10,7 +10,7 @@ $page['title'] = 'Comment on:  Ohno, So Much Junk in our Genome, 1972 | Berean A
 $page['theme'] = 'common/includes/theme-comments.php';
 $page['head'] = '';
 
-//$content
+//$page_content
 ob_start()?>
 <div class="authorship">by John Berea
 	<br>Published: Jan 2017
@@ -110,10 +110,9 @@ ob_start()?>
 		structure, and other roles, but at present evidence from the published literature
 		suggests that these represent a small minority of the human genome.</p>
 </blockquote>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
-// $page['content']['']
 ob_start()?>
 
 <?php $page['content'][''] = ob_get_clean();

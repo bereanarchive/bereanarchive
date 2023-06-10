@@ -10,7 +10,7 @@ $page['title'] = 'Comment on:  Ohno, So Much Junk in our Genome, 1972 | Berean A
 $page['theme'] = 'common/includes/theme-comments.php';
 $page['head'] = '';
 
-//$content
+//$page_content
 ob_start()?>
 <div class="authorship">by John Berea
 	<br>Published: Jan 2017
@@ -56,7 +56,7 @@ ob_start()?>
 		differential expression is indeed reproducibly tissue-specific, supporting specific
 		regulation of lincRNA expression.</p>
 </blockquote>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 // $page['content']['']

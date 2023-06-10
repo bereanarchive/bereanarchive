@@ -10,7 +10,7 @@ $page['title'] = 'Comment on: The extent of functionality in the human genome | 
 $page['theme'] = 'common/includes/theme-comments.php';
 $page['head'] = '';
 
-//$content
+//$page_content
 ob_start()?>
 <div class="authorship">by John Berea
 	<br>Published: Jan 2017
@@ -75,7 +75,7 @@ ob_start()?>
 		that natural selection accounts for the existence of complex organisms (Behe 2003;
 		Wells 2011).</p>
 </blockquote>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 // $page['content']['']

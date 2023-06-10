@@ -35,14 +35,14 @@ if (!empty($_POST)) {
 
 
 // Setup page.
-$title = 'Contact';
+$page_title = 'Contact';
 $image = '/contact-files/header-wide.jpg';
 $headerStyle = "background: url('contact-files/header-wide.jpg') no-repeat 93% 0; background-size: cover";
 $caption = 'Header image from <a href="https://commons.wikimedia.org/wiki/File:Woodswink03.jpg">WikiMedia Commons</a>, slightly modified to enhance colors and remove objects.';
 $sideBars = false;
 
 
-// $content
+// $page_content
 ob_start()?>
 <h1>Contact</h1>
 
@@ -97,7 +97,7 @@ ob_start()?>
 	<button style="float: right; font-weight: bold">Send Message</button>
 
 </form>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 require_once 'common/includes/theme.php';

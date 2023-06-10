@@ -1,5 +1,5 @@
 <?php 
-$title       = 'The Berean Archive';
+$page_title       = 'The Berean Archive';
 $headerStyle = "background: url('/common/img/site/berean-archive-small-logo-white2.svg') no-repeat 20px 10%, url('/common/img/site/berea2.jpg') no-repeat 25% 50% / cover; filter: drop-shadow( -5px -5px 5px #000 );";
 $caption     = 'The Haliacmon river near the site of ancient Berea, Greece.  Copyright <a href="https://www.google.com/maps/@40.449937,22.218712,3a,75y,90t/data=!3m8!1e2!3m6!1s113074573!2e1!3e10!6s%2F%2Flh3.googleusercontent.com%2Fproxy%2FtyO4iRfN8QWlhQphql0AgZww-yi5k2G6UuFIu1xWZbDDKCHlmP-C8aXgynz33s3zb5Bb4282wr84RJJa-N8MUEsDmJHJdWA%3Dw203-h135!7i6000!8i4000">Google Maps</a>.';
 $image       = '/common/img/site/berea-fb.jpg';
@@ -37,6 +37,6 @@ checking his citations of the Old Testament.&nbsp; In that same spirit our artic
 
 
 <?php
-$content = ob_get_clean();
+$page_content = ob_get_clean();
 
 require_once $theme;

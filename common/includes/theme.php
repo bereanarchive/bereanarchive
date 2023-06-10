@@ -1,11 +1,11 @@
 <?php
 /**
- * @param string $title
+ * @param string $page_title
  * @param string $image
  * @param string $headerStyle
  * @param string $caption
  * @param string $bodyClasses
- * @param string $content
+ * @param string $page_content
  * @param bool $sideBars
  */
 
@@ -34,9 +34,9 @@ $pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:
 			<meta property="og:description" content="An open source, excessively cited library of Christian evidence.">
 		<?php endif?>
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="<?=@htmlspecialchars($title)?>" />
+		<meta property="og:title" content="<?=@htmlspecialchars($page_title)?>" />
 		
-		<title><?=@$title?></title>
+		<title><?=@$page_title?></title>
 
 		<?php /*
 		<base href="/<?=dirname(trim(strtok($_SERVER["REQUEST_URI"], '?'), '/'))?>/" />
@@ -117,7 +117,7 @@ $pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:
 				<?php if ($sideBars ?? true):?>
 					<div id="side1"><?php include 'common/includes/nav-with-toc.php'?></div>
 				<?php endif?>
-				<div id="main" class="text"><?=@$content?></div>
+				<div id="main" class="text"><?=@$page_content?></div>
 				<?php if ($sideBars ?? true):?>
 					<div id="side2"></div>
 				<?php endif?>

@@ -1,13 +1,13 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
-$title = 'Ancient Israel:  Morality of the Conquest of Canaan | Berean Archive';
+$page_title = 'Ancient Israel:  Morality of the Conquest of Canaan | Berean Archive';
 $image = '/articles/history/ancient-israel-morality-of-the-conquest-of-canaan-files/header-square.jpg';
 $headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(56, 48, 32, .6)), url('ancient-israel-morality-of-the-conquest-of-canaan-files/header-wide.jpg')";
 $caption = 'Ai is taken by Joshua, depicted by James Tissot[^tissot-ai]';
 
 
-// $content
+// $page_content
 ob_start()?>
 <aside>
 	Published: Spring 2017
@@ -15,7 +15,7 @@ ob_start()?>
 	<?=date('F j, Y', filemtime(__FILE__))?>
 </aside>
 
-<h1><?=htmlspecialchars($title)?></h1>
+<h1><?=htmlspecialchars($page_title)?></h1>
 <h2>Overview</h2>
 <p>This is a summary of key points from the rest of this article.</p>
 <p>In the Old Testament are the military campaigns of Israel inconsistent with being led by a just and loving God, and inconsistent with his own commands?&nbsp;  This article makes the case for consistency and justness.
@@ -908,7 +908,7 @@ And  not all were even taken:  "Nebuzaradan the captain of the guard left in the
 		</li>
 	</ol>
 </div>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 

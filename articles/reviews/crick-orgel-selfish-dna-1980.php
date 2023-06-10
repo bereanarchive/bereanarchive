@@ -10,7 +10,7 @@ $page['title'] = 'Comment on:  Ohno, So Much Junk in our Genome, 1972 | Berean A
 $page['theme'] = 'common/includes/theme-comments.php';
 $page['head'] = '';
 
-//$content
+//$page_content
 ob_start()?>
 <div class="authorship">by John Berea
 	<br>Published: Jan 2017
@@ -75,7 +75,7 @@ ob_start()?>
 			in the human genome.&nbsp; It seems totally implausible that the number of radically
 			different genes needed in a salamander is 20 times that in a man.</p>
 	</blockquote>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 

@@ -2,7 +2,7 @@
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 
-$title       = 'Contributing Guidelines | Berean Archive';
+$page_title       = 'Contributing Guidelines | Berean Archive';
 $headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('/contribute-files/header-wide.jpg'); background-position: 75% 50%";
 $sideBars    = false;
 
@@ -234,7 +234,7 @@ Naming conventions for locally mirrored sources (pdfs / images / html pages)
 	</li>
 </ol>
 
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 

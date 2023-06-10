@@ -2,12 +2,12 @@
 
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
-$title = 'Low-Effort Arguments in the Evolution Debate | Berean Archive';
+$page_title = 'Low-Effort Arguments in the Evolution Debate | Berean Archive';
 $image = '/articles/biology/low-effort-arguments-files/header-square.jpg';
 $headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .4)), url('low-effort-arguments-files/header.jpg')";
 
 
-// $content
+// $page_content
 ob_start()?>
 <aside>
 	<br>Published: Spring 2017
@@ -652,7 +652,7 @@ the risk of doing violence to the positions of some of the people at the meeting
 		</li>
 	</ol>
 </div>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 require_once 'common/includes/theme.php';

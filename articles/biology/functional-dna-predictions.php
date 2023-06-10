@@ -1,7 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
-$title = 'Predictions of Junk versus Functional DNA | Berean Archive';
+$page_title = 'Predictions of Junk versus Functional DNA | Berean Archive';
 $image = '/articles/biology/functional-dna-predictions-files/header-square.jpg';
 $headerStyle = "background-image: url('functional-dna-predictions-files/header-wide.jpg')";
 $caption = 'A circuit board.&nbsp; Because DNA is way too small for good photos.';
@@ -10,7 +10,7 @@ $caption = 'A circuit board.&nbsp; Because DNA is way too small for good photos.
 
 
 
-// $content
+// $page_content
 ob_start()?>
 <aside>
 	Published: Jan 2017 <br>
@@ -2113,7 +2113,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 		</li>
 	</ol>
 </div>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 require_once 'common/includes/theme.php';;

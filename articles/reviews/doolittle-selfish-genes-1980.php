@@ -10,7 +10,7 @@ $page['title'] = 'Comment on:  Ohno, So Much Junk in our Genome, 1972 | Berean A
 $page['theme'] = 'common/includes/theme-comments.php';
 $page['head'] = '';
 
-//$content
+//$page_content
 ob_start()?>
 <div class="authorship">by John Berea
 	<br>Published: Jan 2017
@@ -71,7 +71,7 @@ ob_start()?>
 		accurate by Darwinian selection operating on organismal phenotype.&nbsp; The most
 		plausible form of "remultiplication of the 'correct' surviving sequences" is transposition.</p>
 </blockquote>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 

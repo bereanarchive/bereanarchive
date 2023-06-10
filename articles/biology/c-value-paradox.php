@@ -1,14 +1,14 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
-$title = 'The C-Value Paradox | Berean Archive';
+$page_title = 'The C-Value Paradox | Berean Archive';
 $image = '/articles/biology/c-value-paradox-files/header-square.jpg';
 $headerStyle = "background-image: url('c-value-paradox-files/header-wide.jpg')";
 $caption = '"The Onion Test" has become a common argument of junk DNA proponents.';
 
 
 
-// $content
+// $page_content
 ob_start()?>
 <aside>Published: Spring 2017
 	<br>Updated:
@@ -205,7 +205,7 @@ ob_start()?>
 			<li>[^kkrieger]:<a href="https://web.archive.org/web/20120204065621/http://www.theprodukkt.com/kkrieger">.kkrieger official website</a>.      2012.</li>
 		</ol>
 	</div>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 require_once 'common/includes/theme.php';

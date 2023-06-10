@@ -7,7 +7,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 <head>
 	<meta charset="UTF-8">
 	<title>
-		<?=@$title?>
+		<?=@$page_title?>
 	</title>
 	<style>
 		.text h1 { margin-top: 0 }
@@ -27,7 +27,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 				<?php include 'common/includes/nav-logo-only.php'?>
 			</div>
 			<div id="main" class="placeholder text" style="">
-				<?=$content?>
+				<?=$page_content?>
 			</div>
 		</div>
 

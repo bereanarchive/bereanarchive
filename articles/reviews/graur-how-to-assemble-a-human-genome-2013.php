@@ -10,7 +10,7 @@ $page['title'] = 'Comment on:  Ohno, So Much Junk in our Genome, 1972 | Berean A
 $page['theme'] = 'common/includes/theme-comments.php';
 $page['head'] = '';
 
-//$content
+//$page_content
 ob_start()?>
 <div class="authorship">by John Berea
 	<br>Published: Jan 2017
@@ -51,10 +51,9 @@ ob_start()?>
 	will therefore have larger genomes.&nbsp; But this argument was rebutted in a
 	<a
 	href="https://www.ncbi.nlm.nih.gov/pubmed/18356967">2008 paper</a>by T. Ryan Gregory.</p>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
-// $page['content']['']
 ob_start()?>
 
 <?php $page['content'][''] = ob_get_clean();

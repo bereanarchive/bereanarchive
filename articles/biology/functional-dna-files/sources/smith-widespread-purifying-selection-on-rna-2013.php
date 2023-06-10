@@ -10,7 +10,7 @@ $page['title'] = 'Comment on: Widespread purifying selection on RNA structure in
 $page['theme'] = 'common/includes/theme-comments.php';
 $page['head'] = '';
 
-//$content
+//$page_content
 ob_start()?>
 <div class="authorship">by John Berea
 	<br>Published: Jan 2017
@@ -112,7 +112,7 @@ ob_start()?>
 		a base on the top mutates, a base on the bottom can also mutate to match it again,
 		which maintains the same secondary structure.</p>
 </div>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 // $page['content']['']

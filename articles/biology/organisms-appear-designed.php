@@ -2,13 +2,13 @@
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 
-$title = 'Organisms Appear Designed | Berean Archive';
+$page_title = 'Organisms Appear Designed | Berean Archive';
 $image = '/articles/biology/organisms-appear-designed-files/header-square.jpg';
 $headerStyle = "background-image: url('organisms-appear-designed-files/header-wide.jpg')";
 $caption = 'False color electron microscope image of the mouth and eye of a moth[^moth]';
 
 
-// $content
+// $page_content
 ob_start()?>
 <aside>Published: Spring 2017
 	<br>Updated:
@@ -345,7 +345,7 @@ ob_start()?>
 			&nbsp;Sandwalk.&nbsp; 2016.</li>
 	</ol>
 </div>
-<?php $content = ob_get_clean();
+<?php $page_content = ob_get_clean();
 
 
 // $page['content']['side2']
