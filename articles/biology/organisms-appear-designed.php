@@ -3,8 +3,8 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 
 $title = 'Organisms Appear Designed | Berean Archive';
-$image = '/articles/biology/organisms-appear-designed/header-square.jpg';
-$headerStyle = "background-image: url('organisms-appear-designed/header-wide.jpg')";
+$image = '/articles/biology/organisms-appear-designed-files/header-square.jpg';
+$headerStyle = "background-image: url('organisms-appear-designed-files/header-wide.jpg')";
 $caption = 'False color electron microscope image of the mouth and eye of a moth[^moth]';
 
 
@@ -276,7 +276,7 @@ ob_start()?>
 		<li>[^simpson-plan-purpose]:Simpson, George Gaylord.&nbsp; "<a href="https://www.jstor.org/stable/19203?seq=1"
 			>The problem of plan and purpose in nature</a>."&nbsp; Scientific Monthly.&nbsp; 1947
 			.
-			<span class="comment">Mirrors:&nbsp; <a href="/articles/biology/organisms-appear-designed/sources/simpson-plan-and-purpose-1947.png">Local screenshot</a>
+			<span class="comment">Mirrors:&nbsp; <a href="/articles/biology/organisms-appear-designed-files/sources/simpson-plan-and-purpose-1947.png">Local screenshot</a>
 				</span>
 
 		</li>
@@ -285,11 +285,11 @@ ob_start()?>
 			<span class="comment">Mirrors:&nbsp; <a href="https://books.google.com/books?id=azHIbT79PE8C&amp;q=%22Organisms%20appear%20as%20if%22">Google Books</a></span>
 		</li>
 		<li>[^crick-mad-pursuit-138]:Crick, Francis.&nbsp; "What Mad Pursuit."&nbsp; 1990.
-			&nbsp;Page 138.<span class="comment">Mirrors:&nbsp; <a href="http://books.google.com/books?id=azHIbT79PE8C&amp;q=%22Biologists%20must%20constantly%20keep%20in%20mind%20that%20what%20they%20see%20was%20not%20designed%22">Google Books</a> | <a href="/articles/biology/organisms-appear-designed/sources/crick-what-mad-pursuit-p138-139.png">Local screenshot</a></span>
+			&nbsp;Page 138.<span class="comment">Mirrors:&nbsp; <a href="http://books.google.com/books?id=azHIbT79PE8C&amp;q=%22Biologists%20must%20constantly%20keep%20in%20mind%20that%20what%20they%20see%20was%20not%20designed%22">Google Books</a> | <a href="/articles/biology/organisms-appear-designed-files/sources/crick-what-mad-pursuit-p138-139.png">Local screenshot</a></span>
 		</li>
 		<li>[^lewontin-1978]:Lewontin, Richard.&nbsp; "<a href="http://www.scientificamerican.com/article/adaptation/">Adaptation</a>."
 			&nbsp;Scientific American, 1978.&nbsp; Page 213, bottom of first column.
-			<span class="comment">Mirrors:&nbsp; <a href="/articles/biology/organisms-appear-designed/sources/lewontin-adaptation-1978-page213.png">Local screenshot</a>
+			<span class="comment">Mirrors:&nbsp; <a href="/articles/biology/organisms-appear-designed-files/sources/lewontin-adaptation-1978-page213.png">Local screenshot</a>
 				</span>
 		</li>
 		<li>[^shapiro-photo]:Photo of James Shapiro from <a href="http://www.evolutionnews.org/2012/05/more_reasons_to059221.html">EvolutionNews.org</a>.
@@ -325,7 +325,7 @@ ob_start()?>
 		<li><span>[^dawkins-river-page17]:Dawkins, Richard.&nbsp; "River Out of Eden."&nbsp; 2008.&nbsp; <a href="https://books.google.com/books?id=DxmKvnPyBSoC&amp;q=%22machine%20code%20of%20the%20genes%22#v=snippet&amp;q=%22machine%20code%20of%20the%20genes%22&amp;f=false">Page 17</a>.</span>
 		</li>
 		<li><span><span>[^dawkins-river-page98]:Dawkins, Richard.&nbsp; "River Out of Eden."&nbsp; 1995.&nbsp; <a href="https://books.google.com/books?id=OUgwcZCQtZsC&amp;dq=river+out+of+eden&amp;focus=searchwithinvolume&amp;q=%22The+illusion+of+purpose%22">Page 98</a>.<span>
-			<span class="comment">Mirrors:&nbsp; <a href="/articles/biology/organisms-appear-designed/sources/dawkins-river-1995-page98.png">Local screenshot</a>
+			<span class="comment">Mirrors:&nbsp; <a href="/articles/biology/organisms-appear-designed-files/sources/dawkins-river-1995-page98.png">Local screenshot</a>
 					</span>
 			</span>
 			</span>

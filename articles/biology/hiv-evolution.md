@@ -1,7 +1,7 @@
 ---
 title:        HIV Evolution | Berean Archive
-headerStyle:  background-image: url('/articles/biology/hiv-evolution/header-wide.jpg')
-image:        /articles/biology/hiv-evolution/header-square.jpg
+headerStyle:  background-image: url('/articles/biology/hiv-evolution-files/header-wide.jpg')
+image:        /articles/biology/hiv-evolution-files/header-square.jpg
 caption:      A computer rendered HIV-1 particle.[^dubrow-2014]
 theme:        common/includes/theme.php
 ---
@@ -49,8 +49,8 @@ HIV-1 group M (for major) accounts for the "vast majority (perhaps 98%) of HIV i
 
 ## Population Size
 <aside>
-	<a class="lightbox" href="hiv-evolution/follicular-dendritic-cell2.jpg">
-    	<img class="rounded" src="hiv-evolution/follicular-dendritic-cell2.jpg?w=220">
+	<a class="lightbox" href="hiv-evolution-files/follicular-dendritic-cell2.jpg">
+    	<img class="rounded" src="hiv-evolution-files/follicular-dendritic-cell2.jpg?w=220">
     </a>
 Electron microscope image of a follicular dendritic cell, artificially colored.
 Follicular dendritic cells are major reservoirs for HIV-1 within the lymph nodes.
@@ -165,7 +165,7 @@ What's the purpose of this comparison?  When HIV uncovers evolutionary gains tha
 
 The annotated[^rambaut-2004] chart below shows all strains of HIV circulating within humans (red lines) and their inferred origins from monkey and ape SIV (gray lines). Longer vertical lines indicate more fixed mutations.  Blue numbers indicate the total number of mutations fixed during the time represented by the red vertical lines.  The sum of all blue numbers indicates that about 5,160 mutations have become fixed among the various HIV subtypes since first entering humans.
 
-<a class="lightbox" href="hiv-evolution/hiv-phylogeny.png"><img src="hiv-evolution/hiv-phylogeny.png" class="wide inverted"></a>
+<a class="lightbox" href="hiv-evolution-files/hiv-phylogeny.png"><img src="hiv-evolution-files/hiv-phylogeny.png" class="wide inverted"></a>
 
 Confounding these estimates, most evolution occurs within a single host and is then lost:  "HIV evolves extremely rapidly within individuals, viral evolution is somewhat slower on a population level,"[^andrews-2017]  Although there's still "extensive viral diversity both within and between hosts,"[^andrews-2017]
 
@@ -191,7 +191,7 @@ During the process of entering humans, HIV-1 groups M and N both and separately 
 
 However "it is likely that SIV jumped into humans many times"[^sharp-2010] before it led to the modern AIDS epidemic.  Since these species-crossing attempts occurred perhaps far into the remote past, it's not possible to estimate how many viral replications occurred before SIV was able to discover these mutations.
 
-<a class="lightbox" href="hiv-evolution/vpu-alignment.png"><img src="hiv-evolution/vpu-alignment.png" class="wide inverted"></a>
+<a class="lightbox" href="hiv-evolution-files/vpu-alignment.png"><img src="hiv-evolution-files/vpu-alignment.png" class="wide inverted"></a>
 
 <small>The differences in the Vpu protein in HIV/SIV in various species.[^sauter-2010]  Each letter represents an amino acid. "Hydrophobic TM [transmembrane] domain", "α-helix", and "β-turn" are different regions of the protein.</small>
 
@@ -239,7 +239,7 @@ Unfortunately, I haven't found conclusive data on whether the evolution of anti-
 
 Unfortunately the researchers didn't test position 15 by itself, 25 and 26 separately, or 16-18 separately, so we don't know if doing so grants stepwise gains.
 
-<a class="lightbox" href="hiv-evolution/sauter-2012-figure5a.png"><img src="hiv-evolution/sauter-2012-figure5a.png" class="inverted"></a>
+<a class="lightbox" href="hiv-evolution-files/sauter-2012-figure5a.png"><img src="hiv-evolution-files/sauter-2012-figure5a.png" class="inverted"></a>
 
 <small>Each row is a list of amino acids in part of the VPU protein from a strain of HIV, SIV, or an artificially created hybrid.  Yellow sequences are from human HIV-1 group N, blue from Chimpanzee SIV.  Under the Tetherin Release column, - indicates no activity, (+) is low activity, + is moderate activity, and ++ is high activity.</small>
 

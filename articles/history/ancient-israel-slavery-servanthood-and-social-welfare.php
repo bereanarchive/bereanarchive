@@ -2,8 +2,8 @@
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 $title = 'Ancient Israel:  Slavery, Servanthood, and Social Welfare | Berean Archive';
-$image = '/articles/history/ancient-israel-slavery-servanthood-and-social-welfare/header-square.jpg';
-$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('ancient-israel-slavery-servanthood-and-social-welfare/header-wide.jpg')";
+$image = '/articles/history/ancient-israel-slavery-servanthood-and-social-welfare-files/header-square.jpg';
+$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('ancient-israel-slavery-servanthood-and-social-welfare-files/header-wide.jpg')";
 $caption = '<em>Ancient Mesopotamia</em>, a painting by Jeff Brown.[^painting] Some aspects
 		may be anachronistic for Ancient Israel.';
 
@@ -28,7 +28,7 @@ ob_start()?>
 	because of their sexual abuse and killing of children (Lev 18:21-30, Deut 12:31, Deut 18:9-10, Psalm 106:35-38, 2 Chron 28:3).
 	Three main points:</p>
 <aside>
-	<img src="ancient-israel-slavery-servanthood-and-social-welfare/harold-copping-rebekah.jpg"
+	<img src="ancient-israel-slavery-servanthood-and-social-welfare-files/harold-copping-rebekah.jpg"
 	     class="rounded" style="width: 100%">
 	<p>Rebekah at the Well. Painting by Harold Copping.</p>
 	<p>In Genesis 24:10-20, Abraham sent his servant (Hebrew עֶבֶד - ebed)
@@ -218,7 +218,7 @@ ob_start()?>
 <h2>Nature of Servitude in Ancient Israel</h2>
 <h3>Laws to safeguard against poverty and prevent indentured servitude</h3>
 <aside>
-	<img src="ancient-israel-slavery-servanthood-and-social-welfare/harold-copping-ruth-1923.jpg?w=230"
+	<img src="ancient-israel-slavery-servanthood-and-social-welfare-files/harold-copping-ruth-1923.jpg?w=230"
 	class="rounded" style="width: 100%;">
 	<p>Ruth meets Boaz.&nbsp; Painting by Harold Copping, 1923.</p>
 	<p>In Ruth 2:7, Ruth gathered about 21 liters of barley in a single day by gleaning
@@ -299,7 +299,7 @@ ob_start()?>
 </ol>
 <aside><a href="https://en.wikipedia.org/wiki/Nicolas_Poussin#/media/File:Nicolas_Poussin_-_L%27%C3%89t%C3%A9_ou_Ruth_et_Booz.jpg">The Four Seasons: Summer, or Ruth and Boaz</a>.
 	&nbsp;Painting by Nicolas Poussin, 1664.</aside>
-<img src="ancient-israel-slavery-servanthood-and-social-welfare/poussin-ruth-meets-boaz.jpg?w=800"
+<img src="ancient-israel-slavery-servanthood-and-social-welfare-files/poussin-ruth-meets-boaz.jpg?w=800"
 style="width: 100%;">
 <h3>Laws to protect Israelite servants</h3>
 <ol>
@@ -375,7 +375,7 @@ style="width: 100%;">
 <h2>Servitude in Ancient Israel was unlike early U.S. chattel slavery</h2>
 <h3>Not the same as slavery in Ancient Israel</h3>
 <aside>
-	<img src="ancient-israel-slavery-servanthood-and-social-welfare/uncle-toms-cabin.jpg?w=230"
+	<img src="ancient-israel-slavery-servanthood-and-social-welfare-files/uncle-toms-cabin.jpg?w=230"
 	style="width: 100%;">
 </aside>
 <p>In 1853, the well-known abolitionist Harriet Beecher Stowe wrote:</p>
@@ -476,7 +476,7 @@ style="width: 100%;">
 <aside><a href="https://en.wikipedia.org/wiki/The_Four_Seasons_(Poussin)#/media/File:Four-seasons-autumn.jpg"
 	>The Four Seasons: Autumn</a>. Painting by Nicolas Poussin, 1664
 </aside>
-<img src="ancient-israel-slavery-servanthood-and-social-welfare/poussin-autumn.jpg?w=800"
+<img src="ancient-israel-slavery-servanthood-and-social-welfare-files/poussin-autumn.jpg?w=800"
 style="width: 100%;">
 <h2>Common Objections</h2>
 <h3>Objection 1:&nbsp; "Exodus 21:7-11 allows selling daughters into sexual slavery"</h3>
@@ -547,7 +547,7 @@ style="width: 100%;">
 </p>
 <h4>A Hypothetical Scenario</h4>
 <aside>
-	<img src="ancient-israel-slavery-servanthood-and-social-welfare/faris-sacrificing-to-baal-1891.jpg?w=230" class="rounded" style="width: 100%;">
+	<img src="ancient-israel-slavery-servanthood-and-social-welfare-files/faris-sacrificing-to-baal-1891.jpg?w=230" class="rounded" style="width: 100%;">
 	<p>Sacrificing to Baal. By Habib Faris, 1891.&nbsp; Colorized using <a href="http://colorize.ttic.edu/">Automatic Colorizer</a>.</p>
 	<p>Deut 12:31 says the Canaanites "would even burn their sons and their daughters in the fire to their gods."
 	</p>
@@ -627,7 +627,7 @@ style="width: 100%;">
 		<li>[^Anchor-page-8246]:"Anchor Bible Dictionary Volume 6".&nbsp; Yale University Press,
 			1992.&nbsp;
 			<small>Mirrors:.&nbsp;
-			<a href="ancient-israel-slavery-servanthood-and-social-welfare/sources/anchor-bible-dictionary-page-8246.png" target="_blank">Local screenshot</a>
+			<a href="ancient-israel-slavery-servanthood-and-social-welfare-files/sources/anchor-bible-dictionary-page-8246.png" target="_blank">Local screenshot</a>
 				<br>
 				From page 8246:&nbsp; "The usual term for 'slave' in Mesopotamia was <i>wardum</i>, which at the same time was used not only
 				to designate an actual slave but also adependence inthe broad sense or servility, thus corresponding to Heb
@@ -642,13 +642,13 @@ style="width: 100%;">
 		<li>[^Harris-2006-page-14]:Harris, Sam.&nbsp; "Letter to a Christian
 			Nation."&nbsp; 2006.&nbsp; <a href="https://books.google.com/books?id=PTVEmEjwP7UC&amp;q=%22The%20entire%20civilized%20world%22"
 			target="_blank">Page 14</a>.
-			<small>Mirrors:.&nbsp; <a href="ancient-israel-slavery-servanthood-and-social-welfare/sources/harris-letter-to-a-christian-nation-page-14.png" target="_blank">Local Screenshot</a></small>
+			<small>Mirrors:.&nbsp; <a href="ancient-israel-slavery-servanthood-and-social-welfare-files/sources/harris-letter-to-a-christian-nation-page-14.png" target="_blank">Local Screenshot</a></small>
 		</li>
 		<li>[^Harris-2006-page-18]:Harris, Sam.&nbsp; "Letter to a Christian Nation."&nbsp; 2006.
 			&nbsp;
 			<a href="https://books.google.com/books?id=PTVEmEjwP7UC&amp;q=%22The%20moment%20a%20person%20recognizes%20that%20slaves%22"
 			target="_blank">Page 18</a>.
-			<small>Mirrors:.&nbsp; <a href="ancient-israel-slavery-servanthood-and-social-welfare/sources/harris-letter-to-a-christian-nation-page-18-19.png" target="_blank">Local Screenshot</a></small>
+			<small>Mirrors:.&nbsp; <a href="ancient-israel-slavery-servanthood-and-social-welfare-files/sources/harris-letter-to-a-christian-nation-page-18-19.png" target="_blank">Local Screenshot</a></small>
 		</li>
 		<li>[^hitchens-photo]:Photo of Christopher Hitchens from
 			<a href="https://commons.wikimedia.org/wiki/File:Christopher_Hitchens,_ATF_Party_2005.JPG"
@@ -657,7 +657,7 @@ style="width: 100%;">
 		<li>[^Hitchens-2008]:Hitchens, Christopher.&nbsp; "God is Not Great."&nbsp; 2008.&nbsp;
 			<a href="https://books.google.com/books?id=8kgjU4wbM5oC&amp;q=%22The%20Bible%20may%2C%20indeed%20does%2C%20contain%20a%20warrant%20for%20trafficking%20in%20humans%22"
 			target="_blank">Page 102</a>.
-			<small>Mirrors:.&nbsp; <a href="ancient-israel-slavery-servanthood-and-social-welfare/sources/hitchens-god-is-not-great-page-102.png" target="_blank">Local Screenshot</a></small>
+			<small>Mirrors:.&nbsp; <a href="ancient-israel-slavery-servanthood-and-social-welfare-files/sources/hitchens-god-is-not-great-page-102.png" target="_blank">Local Screenshot</a></small>
 		</li>
 		<li>[^amah]:"<a href="https://www.blueletterbible.org/lang/lexicon/lexicon.cfm?Strongs=H0519&amp;t=RSV"
 			target="_blank">H0519 - 'amah - Strong's Hebrew Lexicon (RSV)</a>."&nbsp; Blue
@@ -674,8 +674,8 @@ style="width: 100%;">
 		<li>[^Anchor-page-8255]:"Anchor Bible Dictionary Volume 6".&nbsp; Yale University Press.&nbsp; 1992.&nbsp; Pages
 			8255-8256
 			<small>Mirrors:.&nbsp; Local screenshots of pages
-				<a href="ancient-israel-slavery-servanthood-and-social-welfare/sources/anchor-bible-dictionary-page-8255.png" target="_blank">8255</a> and
-				<a href="ancient-israel-slavery-servanthood-and-social-welfare/sources/anchor-bible-dictionary-page-8256.png" target="_blank">8256</a>
+				<a href="ancient-israel-slavery-servanthood-and-social-welfare-files/sources/anchor-bible-dictionary-page-8255.png" target="_blank">8255</a> and
+				<a href="ancient-israel-slavery-servanthood-and-social-welfare-files/sources/anchor-bible-dictionary-page-8256.png" target="_blank">8256</a>
 			</small>
 		</li>
 		<li>[^Kenny-2008]:Kenny, Robert.&nbsp; "The Lamb Enters the Dreaming."&nbsp; 2008.
@@ -684,7 +684,7 @@ style="width: 100%;">
 		</li>
 		<li>[^Johnson-2003]:Johnson, Paul.&nbsp; "Art: A New History."&nbsp; 2003.&nbsp; Page
 			33.
-			<small>Mirrors:.&nbsp; <a href="ancient-israel-slavery-servanthood-and-social-welfare/sources/johnson-art-a-new-history-page-33.png" target="_blank"> Local Screenshot</a></small>
+			<small>Mirrors:.&nbsp; <a href="ancient-israel-slavery-servanthood-and-social-welfare-files/sources/johnson-art-a-new-history-page-33.png" target="_blank"> Local Screenshot</a></small>
 		</li>
 		<li>[^Perry-2004]:Perry, Robin A.&nbsp; "Old Testament Story and Christian Ethics."
 			&nbsp;2004.&nbsp; <a href="https://books.google.com/books?e&amp;id=Td0LAAAAYAAJ&amp;q=%22Consider+the+centrality+of+property+offences%22"
@@ -693,7 +693,7 @@ style="width: 100%;">
 		<li>[^Wright-2013]:Wright, Christopher.&nbsp; "Old Testament Ethics for the People
 			of God."&nbsp; 2013.&nbsp; <a href="http://books.google.com/books?id=rnLPHXHiqbcC&amp;q=%22No+other+ancient+near+Eastern+law+has+been+found%22"
 			target="_blank">Page 292</a>.
-			<small>Mirrors:.&nbsp; <a href="ancient-israel-slavery-servanthood-and-social-welfare/sources/wright-old-testament-ethics-page-292.png" target="_blank">Local Screenshot</a></small>
+			<small>Mirrors:.&nbsp; <a href="ancient-israel-slavery-servanthood-and-social-welfare-files/sources/wright-old-testament-ethics-page-292.png" target="_blank">Local Screenshot</a></small>
 
 		</li>
 		<li>[^barnes-1830]:Barnes, Albert.&nbsp; "Notes on the Whole Bible."&nbsp; 1830.&nbsp; Deuteronomy 23.<small>
@@ -709,7 +709,7 @@ style="width: 100%;">
 			<small>"This provision wasn't simply for a foreign slave running <i>to</i> Israel but also for a foreign servant <i>within Israel</i> who was being mistreated."  Copan is a Christian theologian and apologist.<br>
 				Mirrors:
 				<a href="https://books.google.com/books?id=MY-xg5sQw9oC&pg=PA147&q=%22this%20provision%20wasn%27t%20simply%22">Google Books</a> |
-				<a href="ancient-israel-slavery-servanthood-and-social-welfare/sources/copan-2011-page-147.png">Local Screenshot</a>
+				<a href="ancient-israel-slavery-servanthood-and-social-welfare-files/sources/copan-2011-page-147.png">Local Screenshot</a>
 			</small>
 
 		</li>

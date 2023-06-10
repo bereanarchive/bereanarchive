@@ -3,7 +3,7 @@ var Footnotes = {
 	blockElements: ['li', 'p', 'div', 'blockquote', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
 
 	isMobile: function() {
-		return window.screenX < 1024 && (window.navigator.maxTouchPoints || 'ontouchstart' in document) // stackoverflow.com/a/45113336
+		return window.outerWidth < 1024 && (window.navigator.maxTouchPoints || 'ontouchstart' in document) // stackoverflow.com/a/45113336
 	},
 
 	/**

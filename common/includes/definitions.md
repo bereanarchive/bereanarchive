@@ -166,6 +166,9 @@ protein
 purkinje cells
 : Neurons in the cerebellar cortex of the brain.
 
+raman spectroscopy
+: Raman spectroscopy involves shooting light from a laser into a substance and watching how the energy from the laser's photons shifts up or down based on how it interacts with molecules within the substance.  From that data, the molecules within the substance can be inferred.
+
 reproductive rate
 : The average number of offspring an organism has.
 

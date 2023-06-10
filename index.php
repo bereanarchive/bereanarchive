@@ -11,10 +11,9 @@ ob_start()?>
 It will focus on data showing God exists and that Christianity is true, as well as tackling competing claims.</p>
 
 <p>Berea was a city in ancient Greece. In Acts chapter 17, the apostle Paul commended the Bereans for
-checking his citations of the Old Testament. Likewise this site aims to be particularly careful with
-facts and correct any errors in the face  of new information.</p>
+checking his citations of the Old Testament.&nbsp; In that same spirit our articles target a zero-trust audience, providing numerous citations to back up even mildly controversial claims.</p>
 
-<p><a href="/articles/about">Read more</a> about the goals of this  website.</p>
+<p><a href="/about">Read more</a> about the goals of this  website.</p>
 
 <h2>Articles</h2>
 

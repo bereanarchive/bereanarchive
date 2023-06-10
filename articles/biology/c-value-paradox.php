@@ -2,8 +2,8 @@
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 $title = 'The C-Value Paradox | Berean Archive';
-$image = '/articles/biology/c-value-paradox/header-square.jpg';
-$headerStyle = "background-image: url('c-value-paradox/header-wide.jpg')";
+$image = '/articles/biology/c-value-paradox-files/header-square.jpg';
+$headerStyle = "background-image: url('c-value-paradox-files/header-wide.jpg')";
 $caption = '"The Onion Test" has become a common argument of junk DNA proponents.';
 
 
@@ -20,8 +20,8 @@ ob_start()?>
 <h2>Overview</h2>
 <p>Some species have dozens or hundreds of times more DNA than other species of similar  complexity.&nbsp; Because of this, some have argued that most DNA in complex  organisms must be unused junk, and therefore they are not designed.&nbsp; There  are several good reasons to think otherwise:</p>
 <aside class="companionArticle">
-	<a href="/articles/biology/functional-dna-predictions/">
-<img src="/articles/biology/functional-dna/header-square.jpg?w=230"></a>
+	<a href="/articles/biology/functional-dna-predictions">
+<img src="/articles/biology/functional-dna-files/header-square.jpg?w=230"></a>
 	<div>
 		<a href="/articles/biology/functional-dna"><b>Abundant
 		Functional DNA is Evidence of Design</b><br></a>This companion
@@ -80,16 +80,16 @@ ob_start()?>
 <p>However, misreporting and polyploidy certainly don't explain all variations  in C-value among organisms.</p>
 <h3>2. Genome size roughly correlates with number of cell types</h3>
 <p>This figure from Lui et al, 2013[^lui-2013] shows the ratio of noncoding  (NC) DNA to total genome size (TG) in various organisms (A) and the percentage of  non-coding DNA versus the number of cell types (B).
-	<img src="c-value-paradox/non-coding-vs-cell-types.png" class="wide rounded inverted">
+	<img src="c-value-paradox-files/non-coding-vs-cell-types.png" class="wide rounded inverted">
 </p>
 <p>In the figures above, viridiplantae are algae and plants, while metazoa are animals,  with vertebrates being within the deuterostomia. It makes sense that more complex  organisms (measured by number of cell types) would require larger genomes.</p>
 <p>This figure from the same paper[^lui-2013] also shows the distribution,  although note that the top axis is not linear:</p>
 <p>
-	<img src="c-value-paradox/lui-2013-genome-size-vs-cell-types.png" class="inverted" style="width: 100%;">
+	<img src="c-value-paradox-files/lui-2013-genome-size-vs-cell-types.png" class="inverted" style="width: 100%;">
 </p>
 <p>However, there are some notable outliers, as can be seen in this image.&nbsp; Note  that the bottom axis is logarithmic.&nbsp; 1 pg (picogram - one trillionth of a  gram) is about 1 billion letters of DNA:[^memim-2017]</p>
 <p>
-	<img src="c-value-paradox/c-value-ranges.jpg" class="inverted" style="width: 100%;">
+	<img src="c-value-paradox-files/c-value-ranges.jpg" class="inverted" style="width: 100%;">
 </p>
 
 <p>Genome researcher John Mattick explains that rather in protein coding genes, it seems  that larger genomes have more complexity in their non-coding DNA:</p>
@@ -100,7 +100,7 @@ ob_start()?>
 <p>The figure below shows a correlation between genome size and cell size in various  taxa, composited from Beaulieau et al 2008 figure 3[^beaulieu-2008] and Gregory  2001 figures 1 and 3.[^gregory-2001]&nbsp; "Angiosperms" iincludes all flowering  plants, including flowering trees.&nbsp; Reptiles, birds, and mammals show a weaker  correlation because their cell sizes vary less than the other groups.
 </p>
 <p>
-	<img src="c-value-paradox/dna-cell-size.png" class="wide inverted">
+	<img src="c-value-paradox-files/dna-cell-size.png" class="wide inverted">
 </p>
 <p>Cavalier-Smith and Beaton, 1999 explain that more DNA is needed in larger cells  to account for greater rates of production:</p>
 <blockquote>
@@ -113,7 +113,7 @@ ob_start()?>
 <p>Among our own designs it's common to see tradeoffs between size, speed, and other  limitingn factors.&nbsp; A familiar example is in image compression where decoding  and encoding speed also come into play.&nbsp; The png image format offers a small  size without loss of image quality, but most computers are not fast enough to record  a video where every image is saved as a png file in real time.&nbsp; </p>
 <p>The following table shows file sizes for an 8 megapixel photo of diced onion, using  different image encoding formats:</p>
 	<aside>
-		<img src="c-value-paradox/onion-small.jpg" alt="" class="rounded" id="img1" style="width: 100%;">
+		<img src="c-value-paradox-files/onion-small.jpg" alt="" class="rounded" id="img1" style="width: 100%;">
 	</aside>
 	<table class="style1" style="width: 100%;">
 		<tbody>
@@ -124,21 +124,21 @@ ob_start()?>
 				<td>CPU Time</td>
 			</tr>
 			<tr>
-				<td><a href="c-value-paradox/onion.jpg">onion.jpg</a>
+				<td><a href="c-value-paradox-files/onion.jpg">onion.jpg</a>
 				</td>
 				<td>398,672 bytes</td>
 				<td>Lossy (poor)</td>
 				<td>Medium</td>
 			</tr>
 			<tr>
-				<td><a href="c-value-paradox/onion.png">onion.png</a>
+				<td><a href="c-value-paradox-files/onion.png">onion.png</a>
 				</td>
 				<td>11,196,084 bytes</td>
 				<td>Lossless (best)</td>
 				<td>Slow&nbsp; &nbsp; </td>
 			</tr>
 			<tr>
-				<td><a href="c-value-paradox/onion.bmp">onion.bmp</a>
+				<td><a href="c-value-paradox-files/onion.bmp">onion.bmp</a>
 				</td>
 				<td>23,780,576 bytes</td>
 				<td>Lossless (best)</td>
@@ -150,7 +150,7 @@ ob_start()?>
 		<br>
 	</p>
 	<aside>
-		<img src="c-value-paradox/titanfall.jpg" class="rounded" style="width: 100%;">
+		<img src="c-value-paradox-files/titanfall.jpg" class="rounded" style="width: 100%;">
 	</aside>
 	<p>The PC and Xbox One game Titanfall provides another size versus speed tradeoff.&nbsp;   The PC enthusiast website Tom's Hardware explains:</p>
 	<blockquote>

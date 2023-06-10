@@ -36,8 +36,8 @@ if (!empty($_POST)) {
 
 // Setup page.
 $title = 'Contact';
-$image = '/articles/biology/functional-dna/header-square.jpg';
-$headerStyle = "background: url('contact/header-wide.jpg') no-repeat 93% 0; background-size: cover";
+$image = '/contact-files/header-wide.jpg';
+$headerStyle = "background: url('contact-files/header-wide.jpg') no-repeat 93% 0; background-size: cover";
 $caption = 'Header image from <a href="https://commons.wikimedia.org/wiki/File:Woodswink03.jpg">WikiMedia Commons</a>, slightly modified to enhance colors and remove objects.';
 $sideBars = false;
 

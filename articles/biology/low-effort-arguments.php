@@ -3,8 +3,8 @@
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 $title = 'Low-Effort Arguments in the Evolution Debate | Berean Archive';
-$image = '/articles/biology/low-effort-arguments/header-square.jpg';
-$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .4)), url('low-effort-arguments/header.jpg')";
+$image = '/articles/biology/low-effort-arguments-files/header-square.jpg';
+$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .4)), url('low-effort-arguments-files/header.jpg')";
 
 
 // $content
@@ -542,7 +542,7 @@ the risk of doing violence to the positions of some of the people at the meeting
 	<ol>
 		<li>[^lewin-1980]: Lewin, R.&nbsp; "<a href="https://science.sciencemag.org/content/210/4472/883">Evolutionary Theory Under Fire</a>."&nbsp; Science.&nbsp; 1980.
 			<small>See first page, second column, middle.<br>
-			Mirrors:&nbsp; <a href="http://archive.is/BwgOx">Archive.is</a> | <a href="low-effort-arguments/sources/lewin-1980.png">Local Screenshot</a>
+			Mirrors:&nbsp; <a href="http://archive.is/BwgOx">Archive.is</a> | <a href="low-effort-arguments-files/sources/lewin-1980.png">Local Screenshot</a>
 			</small>		
 		</li>
 		<li>[^john-tennant]:Tennent, Jon.&nbsp; "<a href="http://blog.thingswedontknow.com/2013/02/mass-extinction.html">Mass Extinction</a>".

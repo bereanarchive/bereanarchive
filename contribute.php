@@ -3,7 +3,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 
 $title       = 'Contributing Guidelines | Berean Archive';
-$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('contribute-header-wide.jpg'); background-position: 75% 50%";
+$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('/contribute-files/header-wide.jpg'); background-position: 75% 50%";
 $sideBars    = false;
 
 
@@ -120,7 +120,7 @@ ob_start()?>
 		the source, or a local copy of the source in its entirity, if fair use allows it.</li>
 	<li>Use two spaces after each period to improve readability.</li>
 </ol>
-<img src="/articles/about/credible-hulk.jpg" id="img1" style="width: 80%;">
+<img src="/about-files/credible-hulk.jpg" id="img1" style="width: 80%;">
 
 
 <h3>Berean Modified MLA Examples</h3>
@@ -146,16 +146,16 @@ ob_start()?>
 <div class="footnotes">
 	<ol class="compact">
 		<li>Last, First.
-			&nbsp;"Chapter Name".&nbsp; <em>Book Name. </em> Publisher,
+			<em>Book Name.</em> Publisher.&nbsp;
 			Year.&nbsp; Page 1.
 			<small>Mirrors:&nbsp; <a href="#">Local copy</a></small>
 		</li>
 		<li>Behe, Michael
-			J.&nbsp; "Chapter 4: What Darwinism Can Do".&nbsp; <i>The Edge of Evolution.&nbsp; </i>2007.
+			J.&nbsp; <i>The Edge of Evolution.&nbsp; </i>2007.
 			&nbsp;Pages 62-63.
 			<small>Mirrors:&nbsp; <a href="#">Local copy</a></small>
 		</li>
-		<li>Behe, Michael J.&nbsp; "Chapter 4: What Darwinism Can Do".&nbsp;
+		<li>Behe, Michael J.&nbsp; 
 			<i>The Edge of Evolution.&nbsp; </i>2007.&nbsp; Pages 37, 49, and 113.
 			<small>Mirrors:&nbsp; <a href="#">Local copy</a></small>
 		</li>

@@ -29,7 +29,7 @@ $pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:
 			<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?>/common/img/site/berea-fb.jpg">
 		<?php endif?>
 		<?php if (isset($description)): // Image preview used by facebook when sharing hte article. ?>
-			<meta property="og:descriptoin" content="<?=htmlspecialchars($description)?>">
+			<meta property="og:description" content="<?=htmlspecialchars($description)?>">
 		<?php else:?>
 			<meta property="og:description" content="An open source, excessively cited library of Christian evidence.">
 		<?php endif?>
@@ -74,8 +74,8 @@ $pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:
 					<li><a href="/articles/about">News</a></li>
 					<li><a href="/articles/about">Blogs</a></li>
                     */ ?>
-					<li><a href="/articles/about">About</a></li>
-					<li><a href="/articles/about/contribute">Contribute</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/contribute">Contribute</a></li>
 					<li><a href="/contact">Contact</a></li>
 					<li><a href="https://github.com/bereanarchive/bereanarchive" target="_blank">Github</a></li>
 					<?php /*

@@ -2,8 +2,8 @@
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 $title = 'Ancient Israel:  Morality of the Conquest of Canaan | Berean Archive';
-$image = '/articles/history/ancient-israel-morality-of-the-conquest-of-canaan/header-square.jpg';
-$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(56, 48, 32, .6)), url('ancient-israel-morality-of-the-conquest-of-canaan/header-wide.jpg')";
+$image = '/articles/history/ancient-israel-morality-of-the-conquest-of-canaan-files/header-square.jpg';
+$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(56, 48, 32, .6)), url('ancient-israel-morality-of-the-conquest-of-canaan-files/header-wide.jpg')";
 $caption = 'Ai is taken by Joshua, depicted by James Tissot[^tissot-ai]';
 
 
@@ -89,7 +89,7 @@ ob_start()?>
 <p>These four points are outlined in greater detail in four corresponding sections
 	below, followed by a review of the more "troublesome" passages with conquest language.</p>
 	
-	<p><img src="ancient-israel-morality-of-the-conquest-of-canaan/shoot-him-again.png" style="width: 100%" class="inverted"></p>
+	<p><img src="ancient-israel-morality-of-the-conquest-of-canaan-files/shoot-him-again.png" style="width: 100%" class="inverted"></p>
 
 <h2>Perspectives of Critics</h2>
 <table class="quotes" style="width: 100%;">
@@ -172,7 +172,7 @@ ob_start()?>
 <h2>The Guilt of the Canaanites</h2>
 <h3>Canaanite Immorality</h3>
 <aside>
-	<img src="ancient-israel-morality-of-the-conquest-of-canaan/faris-sacrificing-to-baal-1891.jpg?w=230" class="rounded" style="width: 100%;">
+	<img src="ancient-israel-morality-of-the-conquest-of-canaan-files/faris-sacrificing-to-baal-1891.jpg?w=230" class="rounded" style="width: 100%;">
 	<p>Sacrificing to Baal. By Habib Faris, 1891.&nbsp; Colorized using <a href="http://colorize.ttic.edu/">Automatic Colorizer</a>.</p>
 	<p>Deut 12:31 says the Canaanites "would even burn their sons and their daughters in
 		the fire to their gods."
@@ -237,7 +237,7 @@ ob_start()?>
 </ol>
 
 <aside>Three of David's Captains. A painting by James Tissot (1836-1902).</aside>
-<img src="ancient-israel-morality-of-the-conquest-of-canaan/james-tissot-three-of-davids-captains.jpg" class="rounded" style="width: 100%">
+<img src="ancient-israel-morality-of-the-conquest-of-canaan-files/james-tissot-three-of-davids-captains.jpg" class="rounded" style="width: 100%">
 <h3>Repentance Preferred over Death</h3>
 <p>Despite the Canaanite's immorality, elsewhere God indicates he prefers repentance
 	to death:
@@ -321,8 +321,8 @@ ob_start()?>
 	support in the text itself.</p>
 <h3>Driving Out</h3>
 <aside>
-	<a href="ancient-israel-morality-of-the-conquest-of-canaan/james-tissot-defiance-of-goliath.jpg">
-		<img src="ancient-israel-morality-of-the-conquest-of-canaan/james-tissot-defiance-of-goliath.jpg?w=230" class="rounded" style="width: 100%;">
+	<a href="ancient-israel-morality-of-the-conquest-of-canaan-files/james-tissot-defiance-of-goliath.jpg">
+		<img src="ancient-israel-morality-of-the-conquest-of-canaan-files/james-tissot-defiance-of-goliath.jpg?w=230" class="rounded" style="width: 100%;">
 	</a>The Defiance of Goliath. A painting by James Tissot (1836-1902).
 </aside>
 <p>The conquest narratives describe how people of the Canaanite nations were completely
@@ -404,7 +404,7 @@ were made ashes. The Sherden and the Washesh of the sea were made non-existent,
 captured all together and brought on captivity to Egypt like the sands of the shore."[^barako-2013]</blockquote>
 
 <aside>A scene from "Bulding Pharoah's Chariots" on PBS Nova.</aside>
-<img src="ancient-israel-morality-of-the-conquest-of-canaan/building-pharaohs-chariot.jpg?w=1000" style="width: 100%">
+<img src="ancient-israel-morality-of-the-conquest-of-canaan-files/building-pharaohs-chariot.jpg?w=1000" style="width: 100%">
 
 <p>If the  Sherden and the Washesh were litereally made "nonexistent" they couldn't then be taken to Egypt in captivity.</p>
 
@@ -456,8 +456,8 @@ captured all together and brought on captivity to Egypt like the sands of the sh
 
 <h3>Assimilation?</h3>
 <aside>
-	<a href="ancient-israel-morality-of-the-conquest-of-canaan/james-tissot-flight-of-the-spies.jpg">
-		<img src="ancient-israel-morality-of-the-conquest-of-canaan/james-tissot-flight-of-the-spies.jpg?w=230" class="rounded" style="width: 100%;">
+	<a href="ancient-israel-morality-of-the-conquest-of-canaan-files/james-tissot-flight-of-the-spies.jpg">
+		<img src="ancient-israel-morality-of-the-conquest-of-canaan-files/james-tissot-flight-of-the-spies.jpg?w=230" class="rounded" style="width: 100%;">
 	</a>Flight of the Spies. A painting by James Tissot (1836-1902).
 </aside>
 <p>In some cases enemies were assimilated into Israel.</p>
@@ -502,7 +502,7 @@ object of horror and of hissing, and an everlasting disgrace.</blockquote>
 And  not all were even taken:  "Nebuzaradan the captain of the guard left in the land of Judah some of the poor people who owned nothing, and gave them vineyards and fields at the same time." (Jer 39:10)</p>
 
 <aside>Flight of the Prisoners.&nbsp; A painting by James Tissot (1836-1902).</aside>
-<img src="ancient-israel-morality-of-the-conquest-of-canaan/james-tissot-flight-of-the-prisoners.jpg?w=1000" style="width: 100%">
+<img src="ancient-israel-morality-of-the-conquest-of-canaan-files/james-tissot-flight-of-the-prisoners.jpg?w=1000" style="width: 100%">
 
 <h2>Most conquered cities were likely military outposts</h2>
 
@@ -575,8 +575,8 @@ And  not all were even taken:  "Nebuzaradan the captain of the guard left in the
 
 
 <aside>
-	<a href="ancient-israel-morality-of-the-conquest-of-canaan/james-tissot-taking-of-jericho.jpg">
-		<img src="ancient-israel-morality-of-the-conquest-of-canaan/james-tissot-taking-of-jericho.jpg?w=230" class="rounded" style="width: 100%;">
+	<a href="ancient-israel-morality-of-the-conquest-of-canaan-files/james-tissot-taking-of-jericho.jpg">
+		<img src="ancient-israel-morality-of-the-conquest-of-canaan-files/james-tissot-taking-of-jericho.jpg?w=230" class="rounded" style="width: 100%;">
 	</a>The Taking of Jericho. A painting by James Tissot (1836-1902).
 </aside>
 
@@ -769,7 +769,7 @@ And  not all were even taken:  "Nebuzaradan the captain of the guard left in the
 	who had slept with them in Numbers 25:5.&nbsp; The idea of prisoners taken as sex
 	slaves is also inconsistent with the many other laws against sexual immorality:</p>
 <aside class="companionArticle">
-	<img src="/articles/history/ancient-israel-slavery-servanthood-and-social-welfare/header-square2.jpg?w=230"
+	<img src="/articles/history/ancient-israel-slavery-servanthood-and-social-welfare-files/header-square2.jpg?w=230"
 	style="width: 100%;">
 	<h4><a href="/articles/history/ancient-israel-slavery-servanthood-and-social-welfare">Ancient Israel:&nbsp; Slavery, Servanthood, and Social Welfare</a></h4>This companion article addresses the misconception that slavery/servanthood in Ancient
 	Israel was comparable to the barbaric chattel slavery of the early US.&nbsp; Unlike
@@ -901,10 +901,10 @@ And  not all were even taken:  "Nebuzaradan the captain of the guard left in the
 		<li>[^randi-1995]:Randi, James.&nbsp; Skeptic Magazine.&nbsp; 1995.</li>
 		<li>[^zanah]:<a href="http://classic.net.bible.org/strong.php?id=02181">Strong's Concordance - zanah</a>.</li>
 		<li>[^barako-2013]:Barako, Tristan J.&nbsp; "Philistines and Egyptians in Southern Coastal Canaan during the Early Iron Age." in "The Philistines and Other "Sea Peoples in Text and Archaeology."&nbsp; Society of Biblical Literature.&nbsp; 2013.
-			<small>Mirrors:&nbsp; <a href="ancient-israel-morality-of-the-conquest-of-canaan/sources/barako-philistines-and-egyptians-page-39.png">Local screenshot</a></small>
+			<small>Mirrors:&nbsp; <a href="ancient-israel-morality-of-the-conquest-of-canaan-files/sources/barako-philistines-and-egyptians-page-39.png">Local screenshot</a></small>
 		</li>
 		<li>[^day-2002]:Day, John.&nbsp; "Yahweh and the Gods and Goddesses of Canaan."&nbsp; Sheffield Academic Press.&nbsp; 2002.
-			<small>Mirrors:&nbsp; <a href="ancient-israel-morality-of-the-conquest-of-canaan/sources/day-yahweh-and-the-gods-pages-211-212.png">Local screenshot</a></small>
+			<small>Mirrors:&nbsp; <a href="ancient-israel-morality-of-the-conquest-of-canaan-files/sources/day-yahweh-and-the-gods-pages-211-212.png">Local screenshot</a></small>
 		</li>
 	</ol>
 </div>

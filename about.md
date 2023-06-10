@@ -9,7 +9,7 @@ sidebars:     false
 
 ## Why another Christian apologetics site?
 
-<img src="about/xkcd-standards.png" class="inverted" style="max-width: 100%">
+<img src="../about-files/xkcd-standards.png" class="inverted" style="max-width: 100%">
 <small>Image from XKCD</small>
 
 The internet is full of Christian apologetics websites.  Why create yet another one?  The Berean Archive seeks to be an encyclopedia of Christian evidence, with unique features setting it apart from most other apologetics sites:
@@ -20,7 +20,7 @@ This isn't a blog where you have to search multiple posts with redundant content
 
 ### 2.  Summary at the beginning
 
-We don't build anticipation and you don't care about useless, unrelated stories.  We won't waste your time--each article has a summary section at the beginning that includes all the major points in concise format.
+We don't build anticipation and you don't care about useless, unrelated stories.  We won't waste your time--articles typically have a summary section at the beginning that includes all the major points in concise format.
 
 ### 3.  Clearly organized
 
@@ -32,7 +32,7 @@ Our articles aim to be credible, comprehensive, and detailed. But in easy to und
 
 ### 5.  Primarily argue from data
 
-Quotes can be useful for understanding perspective or to describe data that was witnessed.  But we prefer to first argue from data points when available.
+Quotes giving a perspective can be useful too, but we prefer to first argue from data points when available.
 
 ### 6.  Engaging EVERY critical argument
 
@@ -44,15 +44,15 @@ There's subjectivity here, but we don't intentionally omit contrary facts and do
 
 ### 8.  Exhaustive, easily verified citations
 
-Is that claim really true?  Does the source really say what we claim it does?  Who knows?  So we include links, page numbers, quotes, screenshots, archive.org mirrors, and so on.  And we use hostile sources when possible.  Because why trust a random site like us?
+Is that claim really true?  Does the source really say what we claim it does?  Who knows?  So we include links, page numbers, quotes, screenshots, archive.org mirrors, and so on.  When relevant, we explain who the authors are and what research they performed.  And we use hostile sources when possible.  Because why trust a random site like us?
 
 
 
-<img src="about/credible-hulk.jpg" style="max-width: 100%; border: 2px solid black; display: block; margin: 0 auto"/>
+<img src="../about-files/credible-hulk.jpg" style="max-width: 100%; border: 2px solid black; display: block; margin: 0 auto"/>
 
 ### 9.  Open source
 
-The Berean Archive is run like an open source software project.  The whole site (all code and articles) is hosted on [GitHub](https://github.com/bereanarchive/bereanarchive) and we use pull requests to accept additions, improvements, and corrections.  See the [contributing guidelines](/articles/about/contribute) for details.
+The Berean Archive is run like an open source software project.  The whole site (all code and articles) is hosted on [GitHub](https://github.com/bereanarchive/bereanarchive) and we use pull requests to accept additions, improvements, and corrections.  See the [contributing guidelines](/articles/contribute) for details.
 
 ### 10.  Public Domain
 
@@ -62,7 +62,7 @@ Although that'd be silly because we already publish it for free.  Yet legally we
 
 I''m not a lawyer and this is not legal advice.  Even though it is, it's actually not.
 
-<img src="about/always-allowed.jpg" style="width: 100%"/>
+<img src="../about-files/always-allowed.jpg" style="width: 100%"/>
 
 ## What's the scope of this site?
 
@@ -72,7 +72,7 @@ Topics out of scope:  Economic policy, foreign affairs, dealing with various spi
 
 ## Who are you?
 
-The Internet is a strange, dangerous, and permanent place.  I go by John Berea here, which is not my real name.  I run this website and serve as a benevelont dictator deciding what content is allowed.  That's all you need to know about me.
+The Internet is a strange, dangerous, and permanent place.  I go by John Berea here, which is not my real name.  I run this website and serve as a benevolent dictator deciding what content is allowed.  I'm a convinced Christian with conservative views on most topics.  I'm educated in computer science.  That's all you need to know about me.
 
-The goal is to have many other people [contribute](/articles/about/contribute) to this site.  What they reveal about themselves is up to them.
+The goal is to have many other people [contribute](/articles/contribute) to this site.  What they reveal about themselves is up to them.
 

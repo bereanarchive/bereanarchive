@@ -4,7 +4,7 @@ AddType 'text/plain; charset=UTF-8' md
 DirectorySlash off # Don't automatically add a slash to end of directories.
 
 # Hide contents of folders
-Options -Indexes
+#Options -Indexes
 
 # Send 404's to /404.php, if it exists
 ErrorDocument 404 /404.php
@@ -25,9 +25,9 @@ RewriteRule ^(.*)$ $1.php [L,QSA]
 
 
 # If the requested path is a file, isn't a directory, and it ends with a slash, remove the slash.
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} -f
-RewriteRule ^(.*)/$ /$1 [R,nc,QSA]
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} -f
+#RewriteRule ^(.*)/$ /$1 [R,nc,QSA]
 
 
 # If the requested path is a directory, and index.md exists use index.md as a default document
@@ -38,7 +38,7 @@ RewriteRule (.*) common/tools/md2html.php?$1/index.md [QSA]
 
 # Remove the trailing slash from any url.
 # This will prevent us from accessing directories, but we have directory indices off anyway.
-RewriteRule (.*)/$ /$1 [R,nc,QSA]
+#RewriteRule (.*)/$ /$1 [R,nc,QSA]
 
 # Map "file" to "fmd2html.php?file.md" if "file.md" exists.
 RewriteCond %{REQUEST_FILENAME} !-f

@@ -2,8 +2,8 @@
 require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
 
 $title = 'Predictions of Junk versus Functional DNA | Berean Archive';
-$image = '/articles/biology/functional-dna-predictions/header-square.jpg';
-$headerStyle = "background-image: url('functional-dna-predictions/header-wide.jpg')";
+$image = '/articles/biology/functional-dna-predictions-files/header-square.jpg';
+$headerStyle = "background-image: url('functional-dna-predictions-files/header-wide.jpg')";
 $caption = 'A circuit board.&nbsp; Because DNA is way too small for good photos.';
 
 
@@ -630,7 +630,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 				</blockquote>
 				<blockquote>
 					<p>If the human genome is indeed devoid of junk DNA as implied by the ENCODE
-						project, then a long, undirected evolutionary process cannot eplain the
+						project, then a long, undirected evolutionary process cannot explain the
 						human genome... If ENCODE is right, evolution is wrong.[^graur-2013]</p>
 				</blockquote>
 			</td>
@@ -868,9 +868,9 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 <p>Large amounts of junk DNA were also argued for two reasons that do not directly relate to
 	evolutionary theroy:</p>
 <h3>5. The C-value paradox</h3>
-<aside class="companionArticle"><a href="/articles/biology/c-value-paradox/">
-	<img src="/articles/biology/c-value-paradox/header-square.jpg?w=230"></a>
-	<div><a href="/articles/biology/c-value-paradox/"><b>The C-Value Paradox</b><br></a>Because
+<aside class="companionArticle"><a href="/articles/biology/c-value-paradox-files/">
+	<img src="/articles/biology/c-value-paradox-files/header-square.jpg?w=230"></a>
+	<div><a href="/articles/biology/c-value-paradox-files/"><b>The C-Value Paradox</b><br></a>Because
 		some organisms have much more DNA than others of similar complexity, it is often argued that
 		most DNA in complex organisms must be junk, and thus they are not designed. This article
 		argues otherwise.</div>
@@ -1619,7 +1619,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 <p>Although others (including many of the junk DNA proponents quoted above) still maintain that the
 	large majoirty of human DNA is non-functional.</p>
 <div class="companionArticle"><a href="">
-	<img src="/articles/biology/functional-dna/header-square.jpg?w=96">
+	<img src="/articles/biology/functional-dna-files/header-square.jpg?w=96">
 	</a>
 	<div>
 		<p><a href="/articles/biology/functional-dna"><b>Abundant Functional DNA is Evidence
@@ -1655,7 +1655,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			<span class="comment">Mirrors:
 			&nbsp;<a href="http://web.archive.org/web/20151022201201/http://authors.library.caltech.edu/5456/1/hrst.mit.edu/hrs/evolution/public/papers/kingjukes1969/kingjukes1969.pdf">Archive.org</a> |
 			<a href="http://archive.is/wC8zb#selection-21.19-3725.13">Archive.is</a> |
-			<a href="functional-dna-predictions/sources/king-jukes-non-darwinian-evolution-1969.png">Local screenshot</a>
+			<a href="functional-dna-predictions-files/sources/king-jukes-non-darwinian-evolution-1969.png">Local screenshot</a>
 			</span>
 		</li>
 		<li>[^ohno-1972]:Ohno, Susumu.&nbsp; "<a href="http://www.junkdna.com/ohno.html">So much
@@ -1671,7 +1671,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			Press.&nbsp; 1976.
 			<a href="http://books.google.com/books?id=EJeHTt8hW7UC&amp;printsec=frontcover&amp;q=%22Biologists%20are%20racking%20their%20brains%22"
 			>Page 45</a>. <span class="comment">Mirrors:
-			&nbsp;<a href="functional-dna-predictions/sources/dawkins-selfish-gene-1976.png">Local screenshot</a></span></li>
+			&nbsp;<a href="functional-dna-predictions-files/sources/dawkins-selfish-gene-1976.png">Local screenshot</a></span></li>
 		<li>[^doolittle-1980]:Doolittle, Ford and Carmen Sapienza.
 			&nbsp;"<a href="http://www.joelvelasco.net/teaching/167win10/doolittle%20sapienza%2080%20-%20selfish%20dna.pdf"
 			>Selfish genes, the phenotype paradigm and genome evolution</a>."&nbsp; Nature.
@@ -1681,12 +1681,12 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			comment</a></span></li>
 		<li>[^cavalier-smith-1980]:Cavalier-Smith, Thomas.&nbsp; "<a href="https://www.nature.com/articles/285617a0">How Selfish is DNA?</a>"
 			&nbsp;Nature.&nbsp; 1980. <br><span class="comment">Mirrors:
-			<a href="functional-dna-predictions/sources/cavalier-smitih-how-selfish-is-dna-1980.png"> Local
+			<a href="functional-dna-predictions-files/sources/cavalier-smitih-how-selfish-is-dna-1980.png"> Local
 			screenshot</a></span></li>
 		<li>[^dover-1980]:Dover, Gabriel.&nbsp; "<a href="https://www.nature.com/articles/285618a0">Ignorant DNA?</a>"&nbsp; Nature.
 			&nbsp;1980.
 			<span class="comment">Mirrors:
-			&nbsp;<a href="functional-dna-predictions/sources/dover-ignorant-dna-1980.png">Local screenshot</a>
+			&nbsp;<a href="functional-dna-predictions-files/sources/dover-ignorant-dna-1980.png">Local screenshot</a>
 			</span>
 		</li>
 		<li>[^crick-1980]:Crick, Francis and Leslie Orgel.
@@ -1700,7 +1700,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			&nbsp;Random House.&nbsp; 1993.&nbsp; Page 128.<span class="comment">Mirrors:
 			<a href="http://books.google.com/books?id=DjjWea3fgO8C&amp;printsec=frontcover&amp;q=%22The%20evolutionary%20process%20is%20not%20omnicompetent%22">Google
 			Books</a> |
-			<a href="functional-dna-predictions/sources/sagan-shadows-of-forgotten-ancestors-1993-page-128.png">Local
+			<a href="functional-dna-predictions-files/sources/sagan-shadows-of-forgotten-ancestors-1993-page-128.png">Local
 			screenshot</a></span></li>
 		<li>[^miller-1994]:Miller, Kenneth.
 			&nbsp;"<a href="http://www.millerandlevine.com/km/evol/lgd/"
@@ -1722,14 +1722,14 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			</span></li>
 		<li><span>[^denton-1986]:Denton, Michael.&nbsp; "Evolution: A Theory in Crisis."
 			&nbsp;Burnett Books.&nbsp; 1996.&nbsp; Pages 331-332.
-			<span class="comment">Mirrors: <a href="functional-dna-predictions/sources/denton-1986-p331.png">Local screenshot</a>
+			<span class="comment">Mirrors: <a href="functional-dna-predictions-files/sources/denton-1986-p331.png">Local screenshot</a>
 			</span>
 			</span></li>
 		<li>[^behe-1996]:Behe, Michael.&nbsp; Darwin's Black Box.&nbsp; Free Press.&nbsp; 1996.
 			&nbsp; Page 226.
 			<span class="comment">Mirrors:
 			<a href="http://books.google.com/books?id=7L8mkq4jG6EC&amp;q=%22this%20argument%20is%20unconvincing%22">Google
-			Books</a> | <a href="functional-dna-predictions/sources/behe-darwins-black-box-1996-page-226.png">Local
+			Books</a> | <a href="functional-dna-predictions-files/sources/behe-darwins-black-box-1996-page-226.png">Local
 			screenshot</a>
 			</span>
 		</li>
@@ -1767,19 +1767,19 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 		<li>[^denton-2002]:Denton, Michael.&nbsp; "Nature's Destiny."&nbsp; Free Press.&nbsp; 2002.
 			&nbsp; Page 290.<span class="comment">Mirrors:
 			&nbsp;<a href="http://books.google.com/books?id=CdYpDRY0Z6oC&amp;q=%22if%20it%20were%20true%20that%20the%20genomes%20of%20higher%22">Google
-			Books</a> | <a href="functional-dna-predictions/sources/denton-natures-destiny-2002-page-290.png">Local
+			Books</a> | <a href="functional-dna-predictions-files/sources/denton-natures-destiny-2002-page-290.png">Local
 			screenshot</a></span></li>
 		<li>[^collins-2006]:Collins, Francis.&nbsp; "The Language of God."&nbsp; Free Press.
 			&nbsp;2006.&nbsp; Page 135.<span class="comment">Francis Collins is a geneticist,
 			former director of the human genome project and in 2009 was appointed by president
 			Obama as director of the NIH.&nbsp; Mirrors:
-			<a href="functional-dna-predictions/sources/collins-language-of-god-p135.png">Local screenshot</a>
+			<a href="functional-dna-predictions-files/sources/collins-language-of-god-p135.png">Local screenshot</a>
 			</span></li>
 		<li>[^shermer-2006]:Shermer, Michael.&nbsp; "<span>Why Darwin Matters: The Case Against
 			Intelligent Design</span>." Times Books.&nbsp; 2006.&nbsp; Page
 			74.<span class="comment">Mirrors:
 			&nbsp;<a href="http://books.google.com/books?id=X-_dD3gKGHMC&amp;q=%22we%20have%20to%20wonder%20why%22">Google
-			Books</a> | <a href="functional-dna-predictions/sources/shermer-why-darwin-matters-2006-page-74.png">Local
+			Books</a> | <a href="functional-dna-predictions-files/sources/shermer-why-darwin-matters-2006-page-74.png">Local
 			screenshot</a></span></li>
 		<li>[^myers-2008]:Myers, PZ.
 			&nbsp;"<a href="http://scienceblogs.com/pharyngula/2008/02/20/15-misconceptions-about-evolut/">15
@@ -1800,7 +1800,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			Evolution."&nbsp; Free Press.&nbsp; 2009.&nbsp;  Pages 332-333.
 			<span class="comment">Mirrors:&nbsp;
 			<a href="http://books.google.com/books?id=X-_dD3gKGHMC&amp;q=%22we%20have%20to%20wonder%20why%22">Google
-			Books</a> | <a href="functional-dna-predictions/sources/dawkins-greatest-show-2009-page-33.png">Local
+			Books</a> | <a href="functional-dna-predictions-files/sources/dawkins-greatest-show-2009-page-33.png">Local
 			screenshot</a>
 			</span></li>
 		<li>[^avise-2010]:Avise, John.&nbsp; Inside the Human Genome: A Case for Non-Intelligent
@@ -1811,13 +1811,13 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			>132</a>.
 			<span class="comment">In his 2010 book, Avise gives an estimate for how much of the human
 			genome is junk based on repetitive sequences appearing unuseful.Mirrors:&nbsp;
-			<a href="functional-dna-predictions/sources/avise-inside-the-human-genome-2010-pages-82-132.png">Local
+			<a href="functional-dna-predictions-files/sources/avise-inside-the-human-genome-2010-pages-82-132.png">Local
 			screenshot</a>
 			</span>
 		</li>
 		<li>[^stamatoyannopoulos-2012]:"<a href="http://science.sciencemag.org/content/337/6099/1159.summary"
 			>ENCODE Project Writes Eulogy for Junk DNA</a>".&nbsp; Science.&nbsp; 2012.
-			<span class="comment">Mirrors:&nbsp; <a href="functional-dna-predictions/sources/science-encode-2012.png">Local
+			<span class="comment">Mirrors:&nbsp; <a href="functional-dna-predictions-files/sources/science-encode-2012.png">Local
 			screenshot</a></span></li>
 		<li>[^graur-2012]:Graur, Dan.
 			&nbsp;"'<a href="http://gbe.oxfordjournals.org/content/early/2013/02/20/gbe.evt028.full.pdf"
@@ -1830,11 +1830,11 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 		<li>[^graur-2013]:Graur, Dan.&nbsp; "How to Assuemble a Human Genome."&nbsp; 2013.
 			&nbsp;Slide 5.<span class="comment">Mirrors:
 			<a href="http://web.archive.org/web/20130719031933/http://twileshare.com/askq">Archive.org</a>
-			| <a href="functional-dna-predictions/sources/graur-how-to-assemble-a-human-genome-2013-slide5.png">Local
+			| <a href="functional-dna-predictions-files/sources/graur-how-to-assemble-a-human-genome-2013-slide5.png">Local
 			screenshot |
 			</a><a href="/articles/reviews/graur-how-to-assemble-a-human-genome-2013.php">Local excerpt
 			with notes</a>
-			<a href="functional-dna-predictions/sources/graur-how-to-assemble-a-human-genome-2013-slide5.png"></a>
+			<a href="functional-dna-predictions-files/sources/graur-how-to-assemble-a-human-genome-2013-slide5.png"></a>
 			</span></li>
 		<li><span>[^graur-2013b]:Graur, Dan.
 			&nbsp;"<a href="http://judgestarling.tumblr.com/post/66039982758/dear-card-carrying-encode-members-please">Dear
@@ -1856,7 +1856,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			West Coast.”&nbsp; Searching Prothero's book for "ENCODE" produced no results, but
 			sometimes Google book search can be spotty.&nbsp; Mirrors:
 			<a href="https://books.google.com/books?id=_VEqAAAAQBAJ&amp;q=%22Genetics+has+also+shown%22#v=snippet&amp;q=%22Genetics%20has%20also%20shown%22">Google
-			Books</a> | <a href="functional-dna-predictions/sources/prothero-reality-check-2013-page-118.png">Local
+			Books</a> | <a href="functional-dna-predictions-files/sources/prothero-reality-check-2013-page-118.png">Local
 			screenshot</a></span>
 			</span></li>
 		<li>[^gregory-2014]:Gregory, T. Ryan and Alexander Palazzo.
@@ -1892,12 +1892,12 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			out in these so-called deserts that don't code for protein at all. They are copied into
 			RNA, but those RNA molecules are never <dfn>translated</dfn>--instead, they serve some other
 			important function."<br>Mirrors:
-			<a href="functional-dna-predictions/sources/collins-language-of-life-2010-pages-5-6.png"> Local
+			<a href="functional-dna-predictions-files/sources/collins-language-of-life-2010-pages-5-6.png"> Local
 			screenshot</a></span></li>
 		<li>[^dawkins-jonathan-sacks]:Dawkins, Richard.&nbsp;
 			"<a href="http://youtu.be/roFdPHdhgKQ?t=12m56s">Jonathan Sacks and Richard Dawkins at BBC
 			RE:Think festival 12</a>."&nbsp; 2012.
-			<span class="comment">Mirrors: <a href="functional-dna-predictions/sources/dawkins-jonathan-sacks.mp4">Local clip</a>
+			<span class="comment">Mirrors: <a href="functional-dna-predictions-files/sources/dawkins-jonathan-sacks.mp4">Local clip</a>
 			</span></li>
 		<li>[^moran-2012]:Moran, Larry.
 			&nbsp;"<a href="http://sandwalk.blogspot.com/2012/07/darwinists-dont-believe-in-junk-dna.html"
@@ -2032,7 +2032,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			mutations per generation would give 30,000 neutral mutations per 1 beneficial
 			mutation that fixes.&nbsp; 29,999 / 30,000 is <b>99.997%</b> of fixed
 			mutatiosn being netural.<br>Mirrors:&nbsp;
-			<a href="functional-dna-predictions/sources/dodson-1962.png">Local screenshot</a>
+			<a href="functional-dna-predictions-files/sources/dodson-1962.png">Local screenshot</a>
 			</span></li>
 		<li>[^moran-2014b]:Moran, Larry.&nbsp; Comment on
 			"<a href="http://sandwalk.blogspot.com/2014/04/breaking-news-creationist-vincent.html?showComment=1396459508015#c3928367699865279715">Breaking
@@ -2073,7 +2073,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 			>Advances in Human Genetics Volume 3, Chapter 5:&nbsp; The structure and function of
 			chromatin</a>."&nbsp; Springer.&nbsp; 1972<span>.<span class="comment"><span>Mirrors:
 			&nbsp;</span>
-			<a href="functional-dna-predictions/sources/comings-1972.png">Local screenshot</a>
+			<a href="functional-dna-predictions-files/sources/comings-1972.png">Local screenshot</a>
 			</span>
 			</span></li>
 
@@ -2094,13 +2094,13 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 		
 		<li>[^duve-1995]:Duve, Christian de.&nbsp; "Vital Dust: Life as a Cosmic Imperative."&nbsp; 1995.&nbsp;  Pages 222-223.			
 			 <small>Mirrors:&nbsp;
-			 <a href="functional-dna-predictions/sources/duve-1995-pages-222-223.png">Local screenshot</a></small>
+			 <a href="functional-dna-predictions-files/sources/duve-1995-pages-222-223.png">Local screenshot</a></small>
 		</li>
 		<li>[^kitcher-2007]:Kitcher, Philip.&nbsp;
 			"Living With Darwin: Evolution, Design, and the Future of Faith."&nbsp;
 			 Oxford University Press.&nbsp; 2007.&nbsp; Pages 57-58.
 			 <small>Mirrors:&nbsp;
-			 <a href="functional-dna-predictions/sources/kitcher-2007-pages-57-58.png">Local screenshot</a></small>
+			 <a href="functional-dna-predictions-files/sources/kitcher-2007-pages-57-58.png">Local screenshot</a></small>
 		 </li>
 		 
 		<li>[^sarfati-2003]:Sarfati, Jonathan.&nbsp;
