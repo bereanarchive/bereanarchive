@@ -1,9 +1,9 @@
 ---
-title:        Functional DNA is Evidence of Design | Berean Archive
-headerStyle:  background-image: url('functional-dna-files/header-wide.jpg')
-image:        /articles/biology/functional-dna-files/header-square.jpg
-caption:      The pufferfish[^pufferfish] genome is 8 times smaller than the human genome, a fact used by some to argue that most human DNA is unused junk.
-theme:        common/includes/theme.php
+page_title:        Functional DNA is Evidence of Design | Berean Archive
+page_headerStyle:  background-image: url('functional-dna-files/header-wide.jpg')
+page_image:        /articles/biology/functional-dna-files/header-square.jpg
+page_caption:      The pufferfish[^pufferfish] genome is 8 times smaller than the human genome, a fact used by some to argue that most human DNA is unused junk.
+page_theme:        common/includes/theme.php
 ---
 
 # Functional DNA is Evidence of Design

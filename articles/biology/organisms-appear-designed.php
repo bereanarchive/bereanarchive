@@ -1,11 +1,12 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 
 
 $page_title = 'Organisms Appear Designed | Berean Archive';
-$image = '/articles/biology/organisms-appear-designed-files/header-square.jpg';
-$headerStyle = "background-image: url('organisms-appear-designed-files/header-wide.jpg')";
-$caption = 'False color electron microscope image of the mouth and eye of a moth[^moth]';
+$page_image = '/articles/biology/organisms-appear-designed-files/header-square.jpg';
+$page_banner1 = '<div style="background-image: url(\'organisms-appear-designed-files/header-wide.jpg\')"></div>';
+$page_banner2 = 'False color electron microscope image of the mouth and eye of a moth[^moth]';
+
 
 
 // $page_content
@@ -233,7 +234,7 @@ ob_start()?>
 	<tbody>
 		<tr>
 			<td style="width: 20%;">
-				<img src="/common/img/portraits/francisco-ayala.jpg">
+				<img src="/common/img/portraits/francisco-ayala.jpg?w=150">
 			</td>
 			<td>
 				<p><b>Francisco Ayala</b>
@@ -348,10 +349,6 @@ ob_start()?>
 <?php $page_content = ob_get_clean();
 
 
-// $page['content']['side2']
-ob_start()?>
 
-<?php $page['content']['side2'] = ob_get_clean();
-
-
-require_once 'common/includes/theme.php';
+$page_theme = "common/themes/berean/theme.php";
+require_once $page_theme;

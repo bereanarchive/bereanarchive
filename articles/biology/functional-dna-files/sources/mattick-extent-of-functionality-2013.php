@@ -1,14 +1,14 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 
 
 
 
 
-$page['title'] = 'Comment on: The extent of functionality in the human genome | Berean Archive';
-$page['theme'] = 'common/includes/theme-comments.php';
-$page['head'] = '';
+$page_title = 'Comment on: The extent of functionality in the human genome | Berean Archive';
+$page_theme= 'common/includes/theme-comments.php';
+$page_head = '';
 
 //$page_content
 ob_start()?>

@@ -1,10 +1,11 @@
 ---
-title:        Shroud of Turin:  Carbon Dating
-description:  Carbon dating puts the shroud in the middle ages. This article disproves that date.
-image:        /articles/history/shroud-of-turin-carbon-dating-files/header-square.jpg
-headerStyle:  background-image: url('shroud-of-turin-carbon-dating-files/header-wide.jpg')
-caption:      Negative, color-enhanced image of the Shroud of Turin
-theme:        common/includes/theme.php
+page_title:        Shroud of Turin:  Carbon Dating
+page_description:  Carbon dating puts the shroud in the middle ages. This article disproves that date.
+page_image:        /articles/history/shroud-of-turin-carbon-dating-files/header-square.jpg
+page_headerStyle:  background-image: url('shroud-of-turin-carbon-dating-files/header-wide.jpg')
+page_caption:      Negative, color-enhanced image of the Shroud of Turin
+page_theme:        common/includes/theme.php
+
 ---
 
 <aside>
@@ -21,6 +22,7 @@ theme:        common/includes/theme.php
     </ul>
 </aside>
 
+
 # Shroud of Turin:<br>1988 Carbon Dating
 
 
@@ -29,7 +31,10 @@ theme:        common/includes/theme.php
 
 <q>"Researchers, in large numbers, now believe that in the 16th century, a corner of the Shroud had been expertly repaired... leading to erroneous carbon 14 dating in 1988." -- Dan Porter, 2022[^porter-2022:b]</q>
 
+==TODO:  Joe Marino's Aug 2023 paper on evidence for repair:  https://www.academia.edu/105958521/FURTHER_EMPIRICAL_DATA_INDICATING_REPAIRS_IN_THE_C_14_SAMPLE_AREA_OF_THE_SHROUD_OF_TURIN .==
+
 ## Summary
+
 The Shroud of Turin is a burial cloth appearing to have the imprint of Christ's crucified body flashed into its linen fibers, along with blood from beating and crucifixion wounds as described in the gospels--a possible evidence for the resurrection.  However, carbon dating puts the shroud in the middle ages, not the time of Christ.  This article disproves that carbon date.
 
 In 1988, a small piece was cut from the bottom left corner of the Shroud of Turin and carbon-dated at labs in London, Tucson, and Zurich to around 1260 to 1390 AD.[^damon-1989]  This seemed to line up with another piece of evidence.  In 1389 AD, Bishop Pierre d'Arcis drafted an unsent letter explaining that his colleague knew of a man who painted a fake image of Jesus crucified onto a linen shroud, intending to pass it off as the real burial shroud of Christ.[^darcis-1389]  Subsequent to the 1988 carbon dating results, many news outlets reported the shroud was a forgery, a claim that remains in popular media to this day.
@@ -44,7 +49,7 @@ However, the shroud isn't painted.  Rather the image is made from selective dehy
 6. Ray Rogers found vanillin (from the breakdown of ++lignin++) in the carbon-14 dated corner of the Shroud, the medieval backing cloth added to the shroud, and other medieval linens, but non in the rest of the shroud, the dead sea scrolls, or other ancient linens.[^rogers-2005:j] [^rogers-2005:k] [^ball-2005:a]
 7. The carbon-14 dated corner is thinner[^schwalbe-1982:a] [^freer-waters-2010:b] and has lighter weft (vertical) threads than the rest of the shroud.[^raes-1974:b] 
 8. A backing cloth (known as the Holland cloth) was added to the shroud in 1534 to provide support.  However, the part of the Holland cloth behind the corner of the shroud that was carbon dated appears different than the rest of the Holland cloth.  This suggests that sometime after 1534, the bottom left corner of the Holland cloth and the Shroud both went missing (perhaps at the same time) and were later replaced.[^benford-2008:b]
-9. In photographs, three modern textile repair experts have claimed to see differences of the linen between the bottom left corner and the adjacent cloth.[^marino-2000:a] [^marino-2000:b] [^marino-2000:c]
+9. Three out of three modern textile repair experts who were shown photos of the carbon-dated corner have claimed to see differences of the linen between the corner and the adjacent cloth.[^marino-2000:a] [^marino-2000:b] [^marino-2000:c]
 
 Additionally, many suspicious and unscientific activities surrounded the 1988 carbon dating of the shroud, including:
 
@@ -61,6 +66,7 @@ Together this evidence makes a powerful case the 1988 carbon-date cannot be cons
     <p markdown="1">Locations on the shroud where the samples were taken for the 1988 Carbon dating.[^antonacci-2017:a]  The top of the shroud is to the right.
     </p>
 </aside>
+
 
 On April  21, 1988, a 1cm x 7cm sample was cut from the the bottom left corner of the Shroud of Turin, from just above where a sample was cut by Gilbert Raes in 1973 and "away from any patches or charred areas."[^damon-1989:a]  As approved by the Archbishop of Turin,[^damon-1989:b] three samples were cut from it and sent to carbon dating labs in Oxford (England), Tucson (Arizona), and Zürich (Switzerland), along with three control samples send to each lab.  Pictured below are remaining portions of the shroud and control samples received by the Arizona lab that weren't used for carbon dating. 
 
@@ -143,8 +149,7 @@ Ample evidence shows that the carbon-dated sample came from a repaired corner:
     <img class="lightbox rounded" src="shroud-of-turin-carbon-dating-files/king-umberto.jpg?w=230"><br>
     King Umberto II, of Italy
 </aside>
-
-King Umberto II was the last king of Italy, reigning only 34 days in the spring of 1946.  His family, the Savoys, owned the Shroud from 1453 until 1983.  Umberto described how accodring to his family tradition, in generations past his family gave threads from up to 10cm inward from the edges of the Shroud as gifts.  Eventually the shroud edges became so tattered his family was criticized for poor upkeep.  
+King Umberto II was the last king of Italy, reigning only 34 days in the spring of 1946.  His family, the Savoys, owned the Shroud from 1453 until 1983.  Umberto described how according to his family tradition, in generations past his family gave threads from up to 10cm inward from the edges of the Shroud as gifts.  Eventually the shroud edges became so tattered his family was criticized for poor upkeep.  
 
 In 1694 the Savoys enlisted Vittorio Amedeo II and Sebastiano Valfre to repair the edges:  
 
@@ -173,6 +178,7 @@ The sampling corner is visibly more orange than the pale color of the main body 
         </td>
     </tr>
 </table>
+
 The same can be seen in Gian Carlo Durante's 2002 high resolution images of each corner of the shroud.  The shroud becomes much darker toward the corners,[^schwortz-2003:d] either with contamination from many hands holding it by the edges throughout history, or with the edges being repaired and subsequently dyed to a similar color to match.  This is not a lighting artifact, as the light brown backing cloth does not change color near those edges.  The images below (from [ShroudScope.com](http://www.sindonology.org/shroudScope/shroudScope.shtml)) show each of the four corners of the Shroud, covering 212.8cm^2^ in area:
 
 {[class="style2"]}
@@ -186,6 +192,7 @@ The same can be seen in Gian Carlo Durante's 2002 high resolution images of each
     <img  class="rounded lightbox inverted" src="shroud-of-turin-carbon-dating-files/benford-2008-quad-mosaic.png?w=230">
 <p markdown="1">Blue Quad Mosaic image of the radiocarbon corner.[^benford-2008]</p>
 </aside>
+
 ### Spectrographic Images
 
 In 1996, STURP chemist Alan Adler (Jewish) performed ++FTIR++ (infrared color) and ++scanning electron microprobe++ (chemical) analysis on material from all over the shroud, including image and non-image fibers, scorch marks, water stains, and blood.  Adler found:
@@ -233,6 +240,7 @@ is swelling, becoming more transparent, and detaching from the fibers."[^rogers-
     </p>
 </aside>
 
+
 In 2003 Ray Rogers re-examined old notes he took when examining shroud fibers in 1980.  In those notes he wrote that he found furfural and pentoses in the same corner that was later carbon dated in 1988, but not the rest of the shroud.  At the time he didn't understand the reason.[^marino-2022-2:d]
 
 ==TODO: Separate out what Villareal found himself vs what's quoted from others.==
@@ -251,6 +259,7 @@ Below, compare the left photo of the Oxford sample[^oxford-2014] versus the righ
             <a class="lightbox" href="shroud-of-turin-carbon-dating-files/shroud-me-15.jpg"><img src="shroud-of-turin-carbon-dating-files/shroud-me-15.jpg?w=400" style="width: 100%"></a></td>
     </tr>
 </table>
+
 
 
 
@@ -294,6 +303,7 @@ Many researchers have found cotton threads or fibers in the bottom left corner o
 	<img class="rounded lightbox" src="shroud-of-turin-carbon-dating-files/rogers-2002-splice.jpg?w=230">
     <p markdown="1">"Raes thread #1 shows distinct encrustation and color on one end, but the other end is nearly white... Fibers have popped out of the central part of the thread, and the fibers from the two ends point in opposite directions. This section of yarn is obviously an end-to-end splice of two different batches of yarn. No splices of this type were observed in the main part of the Shroud."[^rogers-2002]</p>
 </aside>
+
 
 Why do the estimated amounts of cotton vary so much?  Likely because:
 
@@ -352,6 +362,7 @@ Per the figure below, the shroud would need to be in the fire for 4 hours at 150
     <br>    
     The figure is annotated in red and green to show the temperatures in celcius and farenheight.    
 </aside>
+
 <img src="shroud-of-turin-carbon-dating-files/maloney-2014-figure-3.png" style="width: 100%" class="lightbox inverted">
 
 Even ignoring these calculations, the presence of vanillin in the carbon dated corner but not the main body of the shroud is still evidence the two regions have a different source and/or a different history.
@@ -375,6 +386,7 @@ Consistent with the carbon dated area having a lighter material, measurements at
     <p markdown="1">The the water stain should intersect the lower part of the area cut to be carbon dated (above).  But a leftover "reserve" sample not destroyed for carbon dating  (below) had no water stain:[^benford-2008:c]</p>
     <img class="rounded lightbox" src="shroud-of-turin-carbon-dating-files/benford-2008-reserve-sample.jpg?w=230">
 </aside>
+
 
 ### Interrupted Water Stain
 
@@ -423,6 +435,8 @@ Timothy Jull participated in the carbon-dating a sample of the shroud at the Uni
 #### Inconsistencies and Lack of Rigor
 
 Several aspects of the Freer-Waters and Jull report lacked the rigor of previous studies, and some aspects call into question whether the piece they studied even came from the Shroud:
+
+==TODO:  Damon et all said the pieces were all cleaned.  Is that why Jull found no coatings?:  "Because it was not known to what degree dirt, smoke or other contaminants might affect the linen samples, all three laboratories subdivided the samples, and subjected the pieces to several different mechanical and chemical cleaning procedures"==
 
 1. **Low magnification:**  Freer-Waters and Jull only used 320x optical magnification.[^freer-waters-2010:d]  Chemist Ray Rogers uses 800x magnification[^rogers-2005] and microscopist John Brown used an electron microscope.[^brown-2005] Both Rogers and Brown very clearly show a dye coating the threads in their images.  Although Freer-Waters and Jull noted some cotton and unidentified fibers, Thibault Heimburger suggested at least 400x magnification was necessary to identify cotton fibers with certainty.[^heimburger-2009:c]  Although others differed on what magnification was needed.[^heimburger-2009:f] [^brown-2005:b]
 
@@ -531,6 +545,7 @@ In spite of rejecting the repair hypothesis, Lemberg suggested the presence of e
     <img class="lightbox rounded" src="shroud-of-turin-carbon-dating-files/without-a-trace-after.jpg?w=230"><br>Before and after images of fabric repair from <a href="https://withoutatrace.com">withoutatrace.com</a>.
 </aside>
 
+
 While we have the three textile experts above who say they see signs of an invisible repair in the carbon-dated corner of the shroud, some have questioned whether it's even possible to perform an invisible repair.  For example, Archaeologist William Meacham in 2000:
 
 > it is highly questionable that any medieval restorer would have had the skill and/or taken the time to do a re-weaving that would not be immediately obvious to a textile expert.[^meacham-2000]
@@ -591,6 +606,7 @@ Shroud researcher Mark Antonacci claims that a water stain intersects the corner
 </div>
 
 
+
 However, Gian Carlo Durante's 2002 photo of the carbon dated corner from [ShroudStory.com](http://www.sindonology.org/shroudScope/shroudScope.shtml?zl=8&image=3&lon=551.0&lat=16368.0&carbon=t) (right) shows the water stain would descend below the samples sent to the carbon dated lab.  Shroud researchers Sue Benford and Joe Marino likewise note:
 
 > [T]he reserve sample (Figure 16) does not appear to have any water stain markings. According to the illustration of the water stain area, the stain should have gone directly through the mid-section of the reserve sample forming a distinct marking discoloration. Since the sample does not show any evidence of a water stain marking, this could very well be explained by the later addition of a patch in this area.[^benford-2008:c]
@@ -606,6 +622,7 @@ However, Gian Carlo Durante's 2002 photo of the carbon dated corner from [Shroud
 The combined evidence from chemical kinetics, analytical chemistry, cotton content, and pyrolysis/ms proves that the material from the carbon dated  area of the shroud is significantly different from that of the main cloth.  The carbon dated sample was thus not part of the original cloth and is invalid for determining the age of the shroud.[^rogers-2005]
 </blockquote>
 </aside>
+
 Raymond Rogers published extensive evidence showing the carbon-dated samples were taken from a repaired area, discussed above.  Professional skeptic Joe Nickell, among others, alleged Rogers only reached that conclusion out of bias:
 
 > Science has proved the Shroud of Turin a medieval fake, but defenders of authenticity turn the scientific method on its head by starting with the desired conclusion and working backward to the evidence—picking and choosing and reinterpreting as necessary.  It is an approach I call "shroud science."[^nickell-2005]
@@ -622,7 +639,7 @@ However:
 
 5. Rogers reached concluded the corner was repaired only after setting out to disprove the idea.  Archaeologist Paul Maloney recounts of Rogers:
 
-   > [Rogers] told one of our colleagues, "I’ll prove them [the repair hypothesis proponents] wrong in five minutes." Several hours later he called back and said, in some consternation, "They may be right after all!"[^maloney-2014]
+    > [Rogers] told one of our colleagues, "I’ll prove them [the repair hypothesis proponents] wrong in five minutes." Several hours later he called back and said, in some consternation, "They may be right after all!"[^maloney-2014]
 
 STURP photographer Barrie Schwortz, who is Jewish, gives a more thorough defense of Ray Rogers's reputation and extensive credentials as a chemist.[^schwortz-2014-2]
 
@@ -630,13 +647,30 @@ STURP photographer Barrie Schwortz, who is Jewish, gives a more thorough defense
 
 Some claim that Rogers's studies can't be trusted because nobody knows how he acquired fibers from the Shroud.  However Rogers acquired fibers from three sources:
 
-#### The 1978 Examination.
+#### Samples from Gilbert Raes
 
-Rogers was a member of STURP who took sticky tape samples during the famous 1978 examination.[^schwalbe-1982] [^rogers-2005-4:a] [^kohlbeck-1984:a]
+Rogers reported in 2002 that he was also given several threads from the fragment Gilbert Raes cut in 1973.[^rogers-2002:f]
 
-#### Samples from the 1988 radiocarbon sample
+> I received some of the 1973 Raes threads from Luigi Gonella on 14 October 1979. If they were spurious, a person I consider to be a good scientist, Luigi, lied to me. The fact that they agreed with Raes' observations seems to confirm their validity. Their location on the Shroud shows that they must share at least some yarn segments with the radiocarbon sample[^rogers-2005-4:a]
 
-Rogers was also given samples from Luigi Gonella.  Philip Ball wrote in the leading science journal, *Nature*:
+The threads came from Monsignor Caramello, who gave them to Gonella, and were sent to Rogers by way of Pietro M. Rinaldi and John Jackson:
+
+> Today, from the hands of Prof. Luigi Gonella, of Turin, I have received on delivery a Thread extracted from the Holy Shroud which I undertake to bring personally to Prof. Raymond Rogers, member of the SHROUD OF TURIN RESEARCH PROJECT, Inc.[^bracaglia-2021]
+
+> Dear Father Rinaldi:
+> December 6, 1979, I hereby certify that today I have received from you a fragment of a thread from the Holy Shroud of Turin. It is my understanding that said fragment is to be entrusted to Ray Rogers of Los Alamos, N.M., as per request of Prof. Luigi Gonella, of Turin, Italy.[^bracaglia-2021]
+
+Although documentation about where and how these threads were removed is lacking, and Gonella later questioned the chain of custody since Rogers's threads had starch and shroud threads should not have starch.[^bracaglia-2021]
+
+#### Rogers' Own Samples from 1978.
+
+Rogers was a member of STURP who took sticky tape samples during the famous 1978 examination.[^schwalbe-1982] [^kohlbeck-1984:a]
+
+> I also have many fibers from different parts of the Shroud and the Holland cloth that I took with adhesive tape in 1978. I marked them in Turin, and I know they are authentic. The radiocarbon sample can be compared against real fibers from the Shroud as well as real samples from the Holland cloth, which certainly has a known age.[^rogers-2005-4:a]
+
+#### Gonella's Samples from the 1988 radiocarbon sample
+
+Rogers also used samples from Luigi Gonella.  Philip Ball wrote in the leading science journal, *Nature*:
 
 > Luigi Gonella, the Archbishop of Turin's scientific adviser, provided Rogers with a few threads from the piece cut for dating, which he compared with the samples he collected during the Shroud of Turin Research Project.[^ball-2005]
 
@@ -644,11 +678,11 @@ Rogers recounts the same:
 
 > On 12 December 2003 I received samples of both warp and weft threads that Prof. Luigi Gonella had taken from the radiocarbon sample before it was distributed for dating. Gonella reported that he excised the threads from the center of the radiocarbon sample.[^gonella-2007:a]
 
-#### Samples from Gilbert Raes
 
-Rogers reported in 2002 that he was also given several threads from the fragment Gilbert Raes cut in 1973.[^rogers-2002:f]
 
 ==TODO the fibers from the sticky tape were "laboriously cleaned" by Joan Janney, did this remove vanillin? - https://www.shroud.com/pdfs/rogers4.pdf   Rogers 2005 says "the adhesive could be removed by washing with xylene".==
+
+==TODO: [This French site](https://www.agoravox.fr/actualites/technologies/article/suaire-de-turin-sciences-et-avenir-87117) says in 1999, Gonella denied giving samples to Rogers:  "Gonella formally denied ever having done so, as was reported at the 1999 Paris symposium (read the review Montre nous ton visage, MNTV n°34 on this subject)."==
 
 ### 8.  "Ray Rogers found Furfural, not the Pentosan from Gum Arabic."
 
@@ -687,6 +721,7 @@ Unfortunately the Catholic Church rarely allows researchers access to the shroud
     <p>The linen, three-in-one herringbone weave Cope of Saint Louis d'Anjou, created around 1290 to 1310.
     </p>
 </aside>
+
 Separate from the reweave theory above, some evidence suggests members of the 1988 C14 dating team discretely swapped the samples taken from the Shroud with samples from a 13th century piece of Saint Louis d'Anjou's cloak, or linen from a mummy of Cleopatra of Thebes:
 
 ### Evidence of a Plot
@@ -735,6 +770,7 @@ This theory could be confirmed if the shroud was tested for other isotopes that 
 <img src="shroud-of-turin-carbon-dating-files/rucker-2020-figure3.png" style="width: 100%" class="lightbox inverted">
     <p>The carbon dates of the three shroud samples (top) versus Robert Rucker's carbon 14 curve (bottom).  But see caveats to the left.</p>
 </aside>
+
 
 Rucker has pointed out that we see carbon-14 dates increase with distance from the edge of the cloth.[^rucker-2020:a]  If the resurrected body was emitting neutrons, it's natural that areas of the cloth closer to the body would absorb more neutrons, thus creating more carbon-14.[^walsh-1999]  From this data, Robert Rucker used the Monte Carlo N-Particle (MCNP) software to predict what C14 ages would be measured on other parts of the shroud, based on cloth distance from the body.[^rucker-2020:a]
 
@@ -789,6 +825,7 @@ Therefore the 1988 carbon dating is not a valid argument against the Shroud of T
 [^benford-2008:d]: <small>Page 12, top right:  "a sample containing ~ 67 percent cal AD 1500 radiocarbon and ~ 33 percent cal AD should yield a calibrated date of ~ cal AD 1210."</small>
 [^benford-2008:e]: <small>"the entire C-14 sample area was outside the water stain region"</small>
 [^berchi-1988]: Berchi, M.  "Un test molito indiscreto."  in Il Sabato, November 19-25.  1988.<small>On Page 29.  [Cited and translated by Emanuela Marinelli](https://www.shroud.com/pdfs/marinelliv.pdf).  Marinelli writes:  "[Luigi] Gonella [professor of Physics Instrumentation at the Polytechnic of Turin and scientific consultant of the Cardinal] accuses the laboratories of 'intoxication by success' and adds: 'Misconducts there were tons. The colleagues of the 14C behaved in a disgusting manner. Those scientists have hatched a true plot to discredit the Shroud. At first, when they did ask us to examine a sample of the Shroud, assured us of the utmost seriousness and completeness of the analyses, along with the collaboration with the Custodian of the Shroud, that is the Bishop of Turin, and his scientific advisor, i.e. the undersigned. Driven by celebrity fever, those scientists began to turn their backs on their own commitments: no more interdisciplinary examinations, only 14C. They flooded even Rome with pressures so that Turin had to accept their conditions. They used the then president of the Pontifical Academy of Sciences, professor Chagas, to get the undersigned out of the way and go their own way”. It is natural to ask Gonella: then why did the Holy See and Cardinal Ballestrero accept it? 'Because Chagas - the professor of the Polytechnic says - acted alone, bypassing other academics. The Vatican was continually threatened by the laboratories themselves, who went on repeating: if you don’t leave it to us, only to us, the results will not be acceptable. So, in the end, Ballestrero had to surrender, though suffering badly. And I to submit. Also because these gentlemen did everything to support the argument that the Church was throwing a spanner in the works of science.'  Gonella explains: 'It was blackmail. They put us up against the wall just with a blackmail. Either we accepted the test of 14C on the terms imposed by the laboratories, or it would break out a campaign of accusations saying the Church fears the truth and is an enemy of Science.'"</small>
+[^bracaglia-2021]: Bracaglia, Giorgio.  "[Raes Problematic 14 Sample Threads](https://holyshroudguild.org/public-blog-page/raes-problematic-14-sample-threads) 2021.
 [^brown-2005]: Brown, John L.  "[Microscopical Investigation of Selected Raes Threads from the Shroud of Turin](https://www.shroud.com/pdfs/brown1.pdf)."  2005.<small>Brown is a retired research scientist and microscopist from the Georgia Institute of Technology.  Ray Rogers [reports](https://www.academia.edu/90785257/APPENDIX_TO_Raymond_Rogers_Communications_to_the_Shroud_Science_Group_on_the_Anomalous_Nature_of_the_C_14_Corner) sending him Raes threads #7 and #14 to study.  The paper appears not to have been published in any journal.</small>
 [^brown-2005:a]: <small>Page 2:  "The thread has a yellow-brown coating with the exception of indented regions which are white. These indented regions are at the intersection with the warp [vertical] thread. The weave was tight enough that the application of a relatively viscous gum/mordant/dye solution did not penetrate the intersection of the threads.  This would appear to be obvious evidence of a medieval artisan’s attempt to dye a newly added repair region of fabric to match the aged appearance of the remainder of the Shroud."</small>
 [^brown-2005:b]: <small>"The cotton fibers found by previous investigators are evident during examination of thread R14 in a stereomicroscope at 100X magnification.  Cotton can be identified by its tape-like structure and frequent sharp bends."</small>
@@ -962,7 +999,7 @@ Therefore the 1988 carbon dating is not a valid argument against the Shroud of T
 [^rogers-2005:l]:  <small>"++Pyrolysis-mass-spectrometry++ results from the sample area coupled with microscopic and microchemical observations prove that the radiocarbon sample was not part of the original cloth of the Shroud of Turin. The radiocarbon date was thus not valid for determining the true age of the shroud."</small>
 [^rogers-2005-2]:  Rogers, Raymond N.  "[Summary Resumé](https://www.shroud.com/pdfs/rogersresume.pdf)."  2005.<small>"Editor, Thermochimica Acta, 1970 to 1988."</small>
 [^rogers-2005-3]:  Rogers, Raymond N.  "[Frequently Asked Questions (FAQs)](https://www.shroud.com/pdfs/rogers5faqs.pdf)."  2005.
-[^rogers-2005-4]:  Rogers, Raymond N.  "Ghiberti's pronouncement on my analyses."  2005.
+[^rogers-2005-4]:  Rogers, Raymond N.  "[Ghiberti's pronouncement on my analyses](http://www.shroud.it/ROGERS-5.PDF)."  2005.
 [^rogers-2005-4:a]:  <small>"I received some of the 1973 Raes threads from Luigi Gonella on 14 October 1979. If they were spurious, a person I consider to be a good scientist, Luigi, lied to me. The fact that they agreed with Raes' observations seems to confirm their validity. Their location on the Shroud shows that they must share at least some yarn segments with the radiocarbon sample. They proved to my satisfaction that the radiocarbon sample was spurious. I then received samples of the authentic radiocarbon sample on 12 December 2003. Their composition was identical to that of the Raes threads, proving the relationship between the samples. AM*STAR received the authentic radiocarbon samples from Luigi. Unless he lied again, they are authentic samples. The fact that they show identical compositions to the Raes samples seems to confirm their provenience. Incidentally, I am not a member of AM*STAR, they did not fund my work, and they did not have any control over my methods or conclusions. I also have many fibers from different parts of the Shroud and the Holland cloth that I took with adhesive tape in 1978. I marked them in Turin, and I know they are authentic. The radiocarbon sample can be compared against real fibers from the Shroud as well as real samples from the Holland cloth, which certainly has a known age."</small>
 [^rogers-2005-4:b]:  <small>"Msgr. Ghiberti does not have to rely on my chemistry to observe a difference between the radiocarbon sample and the main part of the Shroud.  He can look at the ultraviolet fluorescence photographs taken by Vern Miller in 1978. They show the sampling area as a dark zone, proving that its chemical composition was not the same as the main cloth. The dark area is not a result of dirt or a shadow. I can explain fluorescence in great detail, but it is based totally on chemical composition."</small>
 [^rogers-2008]:  Rogers, Raymond N.  "[A Chemist's Perspective On The Shroud of Turin](https://www.amazon.com/dp/B001QJB0K8)."  2008.
@@ -1004,7 +1041,7 @@ Therefore the 1988 carbon dating is not a valid argument against the Shroud of T
 [^tite-1990]: "[An Interview with Michael Tite](https://www.shroud.com/pdfs/n25part1.pdf)."  BSTS Newsletter 25.  1990.
 [^tite-1990:a]: <small>Michael Tite said, "A mediaeval sample is very difficult to find. There was none in the British Museum that we were permitted to destroy. I asked Vial, Evin, Wilson and others. When I arrived in Turin I learned that Evin had found some mediaeval threads."</small>
 [^tite-1990:b]: <small>Michael Tite is asked "Why was the blind test not carried out according to the protocol?"  He responds:  "There were two aspects. We decided in January that we would rather not have a blind test because that could be done only by unravelling the samples, and that makes it much more difficult to clean. The decision to abandon the blind test was made in Turin at the moment of the cutting. As for Ballestrero and I going into a separate room, that was quite unnecessary."</small>
-[^tyrer-1981]: Tyrer, John.  "[Looking at the Turin Shroud as a Textile](http://www.sindone.info/TYRER1.PDF)."  Textile Horizons.  1981.
+[^tyrer-1981]: Tyrer, John.  "[Looking at the Turin Shroud as a Textile](http://www.sindone.info/TYRER1.PDF)."  Textile Horizons.  1981.<small>Mirrors:  [Archive.org](https://web.archive.org/web/20220325055606/http://www.sindone.info/TYRER1.PDF)</small>
 [^tyrer-1981:a]: <small>"[Gilbert] Raes was clearly dealing with a seam and its sewing thread and with fabrics of different quality particulars on either side. If, however, one examines large photographs of the Shroud, the place where Raes' sample was taken can be seen between the main area of the Shroud and a rectangular patch. (This is close to the lower right foot of the frontal image.) This patch is below the ‘edging strip’ and appears in photographs as different in tone and hue to the main area. There is therefore some doubt as to whether the sample described by Professor Raes as ‘Piece II’ is the edging strip or part of a patch. It is important that this matter be resolved if it is intended that the forthcoming carbon dating tests are to be made on Raes' sample. The patch is probably mediaeval."</small>
 [^tyrer-1983]: "[Looking at the Shroud as a Textile](https://www.shroud.com/pdfs/ssi06part6.pdf)."  Shroud Spectrum International.  1983.  <small>This is an expanded version of John Tyrer's publication by the same name in Textile Horizons.</small>
 [^tyrer-1983:a]: Tyrer writes on page 42:  "It is not easy to determine what is involved here from photographs alone, but doubt remains as to what Raes' Piece II' may have been. Was it wholly edging strip or was it partly a sewn-on mediaeval patch? This should be resolved if it is intended to use the Raes sample in the eventual carbon-dating tests."<br><br>On page 36, Tyrer points out where the backing cloth can be seen through a missing region of the Shroud.  This is a different area than where Tyrer notices inconsistency in the weave, and thus Tyrer did not confuse the two.

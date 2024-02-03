@@ -1,10 +1,10 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 
 $page_title = 'Low-Effort Arguments in the Evolution Debate | Berean Archive';
-$image = '/articles/biology/low-effort-arguments-files/header-square.jpg';
-$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .4)), url('low-effort-arguments-files/header.jpg')";
+$page_image = '/articles/biology/low-effort-arguments-files/header-square.jpg';
+$page_headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .4)), url('low-effort-arguments-files/header.jpg')";
 
 
 // $page_content
@@ -655,4 +655,5 @@ the risk of doing violence to the positions of some of the people at the meeting
 <?php $page_content = ob_get_clean();
 
 
-require_once 'common/includes/theme.php';
+$page_theme = 'common/includes/theme.php';
+require_once $page_theme;

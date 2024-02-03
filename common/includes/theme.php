@@ -1,21 +1,15 @@
 <?php
 /**
- * @param string $page_title
- * @param string $image
- * @param string $headerStyle
- * @param string $caption
- * @param string $bodyClasses
- * @param string $page_content
- * @param bool $sideBars
+ * @var string $page_title
+ * @var string $page_image
+ * @var string $page_headerStyle
+ * @var string $page_caption
+ * @var string $bodyClasses
+ * @var string $page_content
+ * @var bool $sideBars
  */
 
-/*
-$pdo = new PDO('sqlite:test.sqlite3');
-//$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-$pdo->query("PRAGMA synchronous = OFF");
-$pdo->query("PRAGMA journal_mode = OFF"); no rollbacks, db corrupt on app or system crash.
-$pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:22')");
-*/
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,13 +17,13 @@ $pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0">
 
-		<?php if (isset($image)): // Image preview used by facebook when sharing hte article. ?>
-			<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?><?=htmlspecialchars($image)?>">
+		<?php if (isset($page_image)): // Image preview used by facebook when sharing hte article. ?>
+			<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?><?=htmlspecialchars($page_image)?>">
 		<?php else:?>
 			<meta property="og:image" content="http://<?=$_SERVER['SERVER_NAME']?>/common/img/site/berea-fb.jpg">
 		<?php endif?>
-		<?php if (isset($description)): // Image preview used by facebook when sharing hte article. ?>
-			<meta property="og:description" content="<?=htmlspecialchars($description)?>">
+		<?php if (isset($page_description)): // Image preview used by facebook when sharing hte article. ?>
+			<meta property="og:description" content="<?=htmlspecialchars($page_description)?>">
 		<?php else:?>
 			<meta property="og:description" content="An open source, excessively cited library of Christian evidence.">
 		<?php endif?>
@@ -58,7 +52,7 @@ $pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:
 		<script defer src="/common/js/footnotes.js"></script>
 		
 		<link rel="icon" type="image/png" href="/favicon.png" crossorigin="anonymous">
-		<?=@$header?>
+		<?=@$page_header?>
 	</head>
 
 	<body class="<?=$_COOKIE['mode']??''?> <?=@$bodyClasses?> <?=isset($markdownFile) ? 'markdown' : ''?>">
@@ -104,9 +98,9 @@ $pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:
 			</div>
 
 
-			<div id="imageHeader" style="<?=@$headerStyle?>">
+			<div id="imageHeader" style="<?=@$page_headerStyle?>">
 				<div class="caption">
-					<?=@$caption?>
+					<?=@$page_caption?>
 				</div>
 			</div>
 
@@ -114,11 +108,11 @@ $pdo->query("INSERT INTO logs (message, created) VALUES('hi', '2008-12-22 12:33:
 
 
 			<div id="content">
-				<?php if ($sideBars ?? true):?>
+				<?php if ($page_sideBars ?? true):?>
 					<div id="side1"><?php include 'common/includes/nav-with-toc.php'?></div>
 				<?php endif?>
 				<div id="main" class="text"><?=@$page_content?></div>
-				<?php if ($sideBars ?? true):?>
+				<?php if ($page_sideBars ?? true):?>
 					<div id="side2"></div>
 				<?php endif?>
 			</div>

@@ -1,6 +1,8 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
+
+$page_title = '';
 ?>
 <html lang="en">
 

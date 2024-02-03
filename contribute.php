@@ -1,9 +1,9 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 
 
 $page_title       = 'Contributing Guidelines | Berean Archive';
-$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('/contribute-files/header-wide.jpg'); background-position: 75% 50%";
+$page_headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('/contribute-files/header-wide.jpg'); background-position: 75% 50%";
 $sideBars    = false;
 
 
@@ -46,7 +46,7 @@ ob_start()?>
 	<li>Large image header</li>
 	<li>Meta info:&nbsp; authors, created, modified, history</li>
 	<li>Summary with short list of key points.
-	<li>Detailed Points 1..N</li>
+	</li><li>Detailed Points 1..N</li>
 	<li>Common Objections</li>
 	<li>Issues and Unanswered Questions (if applicable)</li>
 	<li>Further Reading</li>
@@ -133,13 +133,11 @@ ob_start()?>
 			<br>
 			<small>Comment about the source.&nbsp; Mirrors:&nbsp; <a href="#">Mirror 1</a> | <a href="#">Mirror 2 </a>| <a href="#">Local copy with notes</a></small>
 		</li>
-		<li>Behe, Michael J.&nbsp; "<a href="http://www.nytimes.com/2005/02/07/opinion/design-for-living.html">Design for Living</a>."
-			&nbsp;
-			<i>New York Times</i>.&nbsp; Feb 7, 2005.&nbsp;
-			<small>Behe is a biochemist and a leading proponent of Intelligent Design.
-				&nbsp;Mirrors:&nbsp; <a href="http://web.archive.org/web/20150415000000*/http://www.nytimes.com/2005/02/07/opinion/design-for-living.html">Archive.org</a> | <a href="#">Local copy</a></small>
-							
-		</li>
+		<li>Behe, Michael J.&nbsp;
+		"<a href="http://www.nytimes.com/2005/02/07/opinion/design-for-living.html">Design for Living</a>."&nbsp; <i>New York Times</i>.&nbsp; Feb 7, 2005.&nbsp;
+		<small>Behe is a biochemist and a leading proponent of Intelligent Design.
+		&nbsp;Mirrors:&nbsp;
+		<a href="http://web.archive.org/web/20150415000000*/http://www.nytimes.com/2005/02/07/opinion/design-for-living.html">Archive.org</a> | <a href="#">Local copy</a></small></li>
 	</ol>
 </div>
 <h4>Book Examples:</h4>
@@ -167,8 +165,7 @@ ob_start()?>
 		<li>Last, First.
 			&nbsp;"Paper Title."&nbsp; <em>Journal Name, Year. </em> Pages.</li>
 		<li>Behe,
-			Micahel J.&nbsp; "<a href="http://www.journals.uchicago.edu/doi/full/10.1086/656902"
-			>Experimental Evolution, Loss-of-function Mutations, and 'the First Rule of Adaptive Evolution'</a>".
+			Micahel J.&nbsp; "<a href="http://www.journals.uchicago.edu/doi/full/10.1086/656902">Experimental Evolution, Loss-of-function Mutations, and 'the First Rule of Adaptive Evolution'</a>".
 			&nbsp;
 			<i>Q Rev Biol</i>
 			2010.&nbsp; Page 419 (top left).
@@ -206,8 +203,7 @@ ob_start()?>
 <div class="footnotes">
 	<ol class="compact">
 		<li>west_of_everywhere.&nbsp;
-			"<a href="https://www.reddit.com/r/askscience/comments/1l3zfx/how_come_theres_a_amoeba_with_200_times_larger/cbvsn0n"
-			>Re: How come there's a Amoeba with 200 times larger gene set than humans?</a>"&nbsp; Aug 27, 2016.<br>
+			"<a href="https://www.reddit.com/r/askscience/comments/1l3zfx/how_come_theres_a_amoeba_with_200_times_larger/cbvsn0n">Re: How come there's a Amoeba with 200 times larger gene set than humans?</a>"&nbsp; Aug 27, 2016.<br>
 			<small>west_of_everywhere <a href="https://www.reddit.com/r/askscience/comments/znlk6/askscience_special_ama_we_are_the_encyclopedia_of/">describes his/herself as</a>
 				"a grad student in Statistics in the Bickel group at UC Berkeley" who was part of the ENCODE Analysis Working Group.&nbsp; Mirrors: <a href="#">Local copy</a></small>
 		</li>
@@ -234,8 +230,10 @@ Naming conventions for locally mirrored sources (pdfs / images / html pages)
 	</li>
 </ol>
 
-<?php $page_content = ob_get_clean();
+<?php
+$page_content = ob_get_clean();
 
 
 
-require_once 'common/includes/theme.php';
+$page_theme = 'common/includes/theme.php';
+require_once $page_theme;

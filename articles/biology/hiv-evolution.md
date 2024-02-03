@@ -1,9 +1,9 @@
 ---
-title:        HIV Evolution | Berean Archive
-headerStyle:  background-image: url('/articles/biology/hiv-evolution-files/header-wide.jpg')
-image:        /articles/biology/hiv-evolution-files/header-square.jpg
-caption:      A computer rendered HIV-1 particle.[^dubrow-2014]
-theme:        common/includes/theme.php
+page_title:        HIV Evolution | Berean Archive
+page_headerStyle:  background-image: url('/articles/biology/hiv-evolution-files/header-wide.jpg')
+page_image:        /articles/biology/hiv-evolution-files/header-square.jpg
+page_caption:      A computer rendered HIV-1 particle.[^dubrow-2014]
+page_theme:        common/includes/theme.php
 ---
 
 # HIV Evolution

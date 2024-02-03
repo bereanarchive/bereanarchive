@@ -6,7 +6,7 @@ var scrollHighlightEnabled = true;
 $(function() {
 	
 	// Build the table of contents
-	var toc = createToc($('#main')[0]); // returns an array of a tags.
+	var toc = createToc($('#content')[0]); // returns an array of a tags.
 	var navToc = $('#navToc')[0];
 	$(navToc).html('<div style="position: relative"></div>').find('div').append(toc);
 
@@ -90,7 +90,7 @@ function highlightTocBasedOnScroll(tocHighlight) {
 	var heading = null;
 	var scrollTop = $(window).scrollTop();
 	var windowHeight = window.innerHeight;
-	$('#main h2, #main h3').addClass('__heading'); // Giving them a temporary class makes sure we find them in order.
+	$('#content h2, #content h3').addClass('__heading'); // Giving them a temporary class makes sure we find them in order.
 	$('.__heading').removeClass('__heading').each(function() {
 		var top = $(this).offset().top;
 		if (!heading || top + 10 < scrollTop + windowHeight) { // If it's above the bottom of the scroll

@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 
 
 // Process form
@@ -36,9 +36,9 @@ if (!empty($_POST)) {
 
 // Setup page.
 $page_title = 'Contact';
-$image = '/contact-files/header-wide.jpg';
-$headerStyle = "background: url('contact-files/header-wide.jpg') no-repeat 93% 0; background-size: cover";
-$caption = 'Header image from <a href="https://commons.wikimedia.org/wiki/File:Woodswink03.jpg">WikiMedia Commons</a>, slightly modified to enhance colors and remove objects.';
+$page_image = '/contact-files/header-wide.jpg';
+$page_headerStyle = "background: url('contact-files/header-wide.jpg') no-repeat 93% 0; background-size: cover";
+$page_caption = 'Header image from <a href="https://commons.wikimedia.org/wiki/File:Woodswink03.jpg">WikiMedia Commons</a>, slightly modified to enhance colors and remove objects.';
 $sideBars = false;
 
 
@@ -100,4 +100,5 @@ ob_start()?>
 <?php $page_content = ob_get_clean();
 
 
-require_once 'common/includes/theme.php';
+$page_theme = 'common/includes/theme.php';
+require_once $page_theme;

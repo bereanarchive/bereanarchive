@@ -1,13 +1,10 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 
 $page_title = 'Predictions of Junk versus Functional DNA | Berean Archive';
-$image = '/articles/biology/functional-dna-predictions-files/header-square.jpg';
-$headerStyle = "background-image: url('functional-dna-predictions-files/header-wide.jpg')";
-$caption = 'A circuit board.&nbsp; Because DNA is way too small for good photos.';
-
-
-
+$page_image = '/articles/biology/functional-dna-predictions-files/header-square.jpg';
+$page_headerStyle = "background-image: url('functional-dna-predictions-files/header-wide.jpg')";
+$page_caption = 'A circuit board.&nbsp; Because DNA is way too small for good photos.';
 
 
 // $page_content
@@ -2116,4 +2113,5 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 <?php $page_content = ob_get_clean();
 
 
-require_once 'common/includes/theme.php';;
+$page_theme = 'common/includes/theme.php';
+require_once $page_theme;

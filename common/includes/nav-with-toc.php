@@ -11,22 +11,22 @@
 		</ul>
 		<div id="navSlideContainer" style="transform: translate(-50%, 0);">
 			<div id="navSiteMap">
-				<?php include 'common/includes/articles-list.php'?>
+				<?php include 'common/includes/articles-list.php' /** @var $articleCategories */ ?>
 				<?php foreach ($articleCategories as $categoryName=>$articles):?>
 					<h3><?=$categoryName?></h3>
 					<ul>
-						<?php foreach ($articles as $article):?>						
+						<?php foreach ($articles as $article):?>
 							<li><a href="<?=htmlspecialchars($article->url)?>"
 									title="<?=$article->description?>">
 									<div>
 										<img src="<?=htmlspecialchars($article->thumb)?>?w=32"/>
 									</div>
-									<div>								
+									<div>
 										<?=$article->name?>
-									</div>	
+									</div>
 								</a>
 							</li>
-								
+
 						<?php endforeach?>
 					</ul>
 				<?php endforeach?>

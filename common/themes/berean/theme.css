@@ -1,0 +1,252 @@
+
+@font-face {
+	font-family: "Open Sans";
+	font-weight: 300;
+	src: url("/common/fonts/Open Sans 300.woff2") format("woff")
+}
+@font-face {
+	font-family: "Open Sans";
+	font-weight: 400;
+	src: url("/common/fonts/Open Sans 400.woff2") format("woff")
+}
+@font-face {
+	font-family: "Open Sans";
+	font-weight: bold;
+	src: url("/common/fonts/Open Sans 600.woff2") format("woff")
+}
+@font-face {
+	font-family: "Alegreya Sans";
+	font-weight: 100;
+	src: url("/common/fonts/Alegreya Sans 100.woff2") format("woff")
+}
+
+/* Old Styles */
+::-webkit-scrollbar { background: transparent }
+::-webkit-scrollbar-thumb { background: #bbb; border-radius: 6px }
+
+
+.sliding-underline { display: inline-block; position: relative; padding-bottom: 5px }
+.sliding-underline:after { content: ''; display: block; margin: auto; height: 5px; width: 0; margin-bottom: -5px; background: transparent; transition: width 0.2s ease, background-color 0.2s ease }
+.sliding-underline.selected:after, .sliding-underline:hover:after { width: 100%; background: #008800 }
+
+html body { font: 400 16px "Open Sans"; line-height: 1.6 }
+
+body.scrolled #navScrollWithPage { position: fixed; top: 0 }
+
+.bereanLogo { background: url('/common/img/site/berean-archive-logo.svg') no-repeat top left; background-size: contain }
+.bereanLogoSmall { background: url('/common/img/site/berean-archive-small-logo.svg') no-repeat top left; background-size: contain }
+
+
+/* New Styles */
+#header { background: black; color: gray }
+#topMenu ul { margin: 0; padding: 0; list-style-type: none; font-size: 80%; }
+#topMenu ul li a { display: block; padding: 0 10px 0 10px; color: #89a; text-decoration: none }
+#topMenu ul li a:hover { color: #abc }
+
+/* Top image */
+#banner1 { position: relative; min-height: 300px }
+#banner1 > div { background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; height: 100% }
+
+/* Caption */
+#banner2 { font-size: 80%; text-align: right; color: #888; background: black; padding: 2px 6px }
+#banner2 :is(a, a:visited) { color: inherit; opacity: .7; text-decoration: none }
+#banner2 a:is(:active, :hover) { text-decoration: underline }
+
+
+
+
+/* ┌─────────────────╮
+ * |Nav + TOC        |
+ * └─────────────────╯*/
+/* TODO: Simplify this? */
+#left { position: sticky; top: 0; width: 230px }
+
+#nav { width: 100%; box-sizing: border-box; min-height: 80px; color: #777; white-space: normal; vertical-align: top }
+#navScrollWithPage { width: 230px; box-sizing: border-box; overflow: hidden; margin-left: 0; margin-top: 0 }
+a#bereanLogo { display: table; margin: 20px auto 26px auto }
+a#bereanLogo span { width: 155px; height: 50px; display: block; transition: width 0.3s linear, height 0.3s linear }
+
+/* Site Map and This Article tabs.*/
+#nav ul.tabs { list-style-type: none; margin: 0; padding: 0; text-align: center }
+#navScrollWithPage li { display: inline-block; margin: 0 20px 0 0; padding: 0; font-weight: bold }
+#navScrollWithPage li:last-child { margin-right: 0 }
+#navScrollWithPage a { text-decoration: none; color: #444; cursor: pointer }
+
+
+/* Moves left or right depending on what tab is clicked.  Has a vertical scrollbar if contents don't fit. */
+#navSlideContainer { font-size: 80%; white-space: nowrap; position: relative; width: 200%; height: 100%;
+	transition: transform 0.25s cubic-bezier(0.215, 0.61, 0.355, 1); table-layout: fixed; margin-top: 0 }
+#navSlideContainer > div { box-sizing: border-box; width: 50%; display: block; float: left; white-space: normal; overflow-y: auto;
+	overflow-x: hidden; padding-bottom: 20px }
+
+/* Site Map */
+#navSlideContainer #navSiteMap { max-height: calc(100vh - 130px) }
+#navSiteMap input { border-radius: 5px; padding: 2px 10px; border: 1px solid #cccccc } /* search box, not used yet. */
+#navSiteMap h3 { font-size: 130%; line-height: 1.3; margin: .5em 5px .5em 0; padding: 4px 7px; border-radius: 5px; background-color: white; box-shadow: 0 0 2px rgba(0, 0, 0, 0.35) }
+
+
+#navSiteMap ul { padding-left: 0; list-style-type: none }
+#navSiteMap li { font-size: 110%; margin: 0 0 0 0.5em }
+#navSiteMap li a { text-decoration: none; color: #555; display: flex; align-items: center; line-height: 1.1 }
+#navSiteMap li a:hover { text-decoration: underline }
+#navSiteMap li div { margin-bottom: 3px; vertical-align: middle }
+#navSiteMap li img { border: 1px solid black; border-radius: 6px; margin-right: 6px }
+
+
+/* This Article */
+#navToc {  max-height: calc(100vh - 130px); padding-left: 10px; /* Leave room for highlighter */ }
+#navToc a { display: block; box-sizing: border-box; text-decoration: none; color: inherit; line-height: 110%; margin: .5em 0 .5em 0 }
+#navToc a:hover { text-decoration: underline }
+#navToc a.h2:first-child { margin-top: 0.5em }
+#navToc a.h2 { font-size: 110%; font-weight: bold; margin: 1em 5px .5em 0;
+	 padding: 4px 7px; border-radius: 5px; background-color: white; box-shadow: 0 0 2px rgba(0, 0, 0, 0.35) }
+
+#navToc a.h3 { color: #555; margin-left: 0.5em }
+#navToc a.h4 { display: none }
+#navToc a.h5 { display: none }
+#navToc a.h3 + #navToc a.h4 { margin-top: -0.5em }
+
+#navToc div.tocHighlight { position: absolute; width: 5px; height: 20px; background-color: #008800; transition: all 0.3s ease }
+
+
+/* ┌─────────────────╮
+ * |Content          |
+ * └─────────────────╯*/
+
+/* Headers */
+#content { position: relative; max-width: 800px; padding: 30px 50px }
+#content h1 { font-size: 470%; font-family: Alegreya Sans, serif; font-weight: 100; line-height: 1; margin: 0;
+	color: white; position: absolute; bottom: calc(100% + 30px); left: 0; z-index: 3;
+	text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #000000, 0 0 8px #000000 }
+#content h2 { color: #542; font-weight: 300; font-size: 240%; line-height: 125%; margin: 2em 0 0 0;
+	border-bottom: 2px solid #553300; font-family: Open Sans, sans-serif; letter-spacing: -0.01em }
+#content h3 { margin: 1.5em 0 0 0; font-size: 152%; line-height: 150%; color: #526847; font-weight: normal;
+	font-family: Cabin, sans-serif }
+#content h4 { color: black; font-size: 105%; line-height: 120%; font-weight: bold; margin: 1.5em 0 0 0;
+	border-bottom: 2px solid #0006; display: table }
+#content h5 { color: black; font-size: 100%; font-weight: normal; margin: .75em 0 0 0; text-decoration: underline }
+
+/* Misc Elements */
+#content :is(a, a:visited) { color: #00c; text-decoration: none; position: relative }
+#content a:hover { text-decoration: underline }
+#content :is(p, blockquote, .highlight) { margin: 1.5em 0 .25em 0 }
+#content dfn { font-style: inherit; cursor: help; border-bottom: 2px dotted rgba(64, 0, 255, 0.3); line-height: 90%; display: inline-block }
+#content label { font-weight: bold; font-size: 85% }
+/*#content :is(input, textarea, button) { padding: 5px }*/
+
+
+/* Quotes */
+#content blockquote { position: relative; margin-top: .25em; padding: .6em .6em .6em 2.2em; border-radius: 5px; background-color: #efeeed; font-size: 95%;  }
+#content blockquote:before { position: absolute; font-family: Arial, sans-serif; content: '“'; height: 0; width: 0;
+	line-height: 0; top: 0.5em; left: 0.1em; color: #8884; font-size: 400%;
+}
+#content q { font-style: italic; font-weight: 200; font-family: Open Sans, sans-serif; font-size: 90%; display: block; margin-bottom: 10px }
+#content q:before { content: '' }
+#content q:after { content: '' }
+
+/* Lists */
+#content :is(ol, ul) { margin: 1em 0 .25em 0; padding-left: 1.1em }
+#content :is(ol, ul).highlight { padding-left: 2.2em; padding-bottom: .7em }
+
+#content li { margin: 0; padding: 0 0 1em 1em }
+#content li:last-of-type { padding-bottom: 0 }
+#content li p { margin-top: .5em }
+
+#content :is(ol, ul) li li:last-child { margin-bottom: 0 }
+#content li :is(ol, ul) { margin-bottom: .5em }
+
+
+/* Reduce margin between some elements */
+#content :is(h1 + h2, h2 + h3, h3 + h4, h2 + p, h3 + p, h4 + p, h2 + blockquote, h3 + blockquote, h4 + blockquote, aside + p) { margin-top: .25em !important }
+#content :is(h1, h2, h3, h4, h5, h6, blockquote, p):first-child { margin-top: 0 }
+#content :is(h1, h2, h3, h4, h5, h6, blockquote, p):last-child { margin-bottom: 0 }
+
+/* Tables */
+#content table { font-size: inherit; line-height: inherit; width: 100% }
+#content table :is(th, td) { text-align: left }
+
+
+/* lines separating each row */
+#content table.style1 { table-layout: fixed; margin-bottom: 1.5em;}
+#content table.style1 th { text-align: left;}
+
+#content table.style1 tr { border-bottom: 1px solid #cccccc }
+#content table.style1 :is(th, td) { padding: 5px 15px 5px 2px }
+#content table.style1 :is(th, td):last-child { padding-right: 0 }
+
+#content table.style2 { margin-bottom: 1.5em;}
+#content table.style2 th { text-align: left }
+#content table.style2 :is(th, td) { padding: 5px 15px 5px 2px }
+#content table.style2 :is(th, td):last-child { padding-right: 0 }
+
+
+/* A two column table of quotes, with a portrait in the first column and the quote in the second. */
+#content table.quotes { table-layout: fixed;}
+#content table.quotes td:first-child { text-align: center; padding: 7px 0 20px 0; width: 20%;}
+#content table.quotes img { width: 100%; border-radius: 10px; border: 1px solid black }
+
+#content table.quotes td:nth-child(2) { padding: 0 0 20px 20px }
+
+#content table.calculation { table-layout: fixed; border-top: 1px solid #ccc; border-left: 1px solid #ccc;}
+#content table.calculation input { border-width: 0; width: 100% }
+#content table.calculation td { padding: 2px 5px 3px 5px; border-right: 1px solid #ccc; border-bottom: 1px solid #cccccc }
+#content table.calculation td:first-child { background-color: #eee; font-size: 90%; font-weight: bold; width: 65%; text-align: right }
+
+#content table.small { font-size: 85%; margin-left: 0; margin-top: 0 }
+
+/* Footnotes */
+#content .footnotes { font-size: 90%; line-height: 1.3; color: #333; margin-left: 0; margin-top: 0 }
+#content .footnotes li { padding-bottom: .5em }
+#content .footnotes li ol { margin-top: .25em; margin-bottom: 0; padding-bottom: 0 }
+#content .footnotes li li { padding-bottom: .25em; margin-bottom: 0 }
+
+/* Useful classes */
+#content p.compact { margin: 0 }
+#content :is(ol, ul).compact li { padding-bottom: 0.1em }
+/*small, .small { font-size: 80%; color: #777; line-height: 1.3 }*/
+#content img.rounded { border-radius: 10px; border: 1px solid black }
+#content .highlight { background-color: #d8efcc; border: 1px dashed #443300; border-radius: 5px; padding: 0.5em 0.4em 0.2em 1em; display: table }
+#content .highlight h4 { margin-top: 0 }
+
+#content div.companionArticle { display: flex; margin: 1.5em 0 1.5em 0; background-color: #ccd8ef; border: 1px dashed #443300;
+	border-radius: 5px; padding: 0.5em 0.4em 0.5em .5em }
+#content div.companionArticle img { width: 90px; height: 90px; margin-right: 12px; border: 1px solid black; border-radius: 12px }
+
+#content .wide { width: calc(100% + 290px); max-width: initial; position: relative; z-index: 0; background-color: white;
+	border-top-right-radius: 12px; border-bottom-right-radius: 12px }
+	/* Width of right sidebar (30px right margin, 30px right padding, 230px sidebar width) */
+
+/* Home page Items */
+#content div.item { display: flex; margin: 5px 0 15px 0 }
+#content div.item img { width: 90px; height: 90px; margin-right: 12px; border: 1px solid black; border-radius: 12px }
+#content div.item h4 { margin: 0; border-bottom: none }
+
+
+
+
+/* Asides */
+#content aside { position: absolute; clear: right; left: calc(100% + 30px); min-width: 180px; max-width: 230px; width: 100%;
+	color: black; font-size: 85%; line-height: 1.4; z-index: 1}
+#content aside img { width: 100%; margin-top: 1.5em; margin-bottom: 5px }
+#content aside ol li:before { color: inherit } /* override gray color */
+
+#content aside.companionArticle { box-sizing: border-box; background-color: #ccd8ef; border: 1px dashed #024;
+	border-radius: 5px; padding: .5em .5em .4em .5em !important; color: #448 }
+#content aside.companionArticle img { border: 1px solid black; border-radius: 10px } /* Same as img rounded. */
+
+/* Added by Parsedown.*/
+#content  div.footnotes hr,
+#content  .footnote-backref { display: none }
+
+
+
+
+
+
+/* ┌─────────────────╮
+ * |Footer           |
+ * └─────────────────╯*/
+#footer3 { background: black; color: #777; text-align: center; box-sizing: border-box; padding: 30px 20%; font-size: 80% }
+#footer3 :is(a, a:visited) { color: #47a; text-decoration: none }
+#footer3 a:is(:active, :hover) { text-decoration: underline }
+#footer3 p { line-height: 1.2 }

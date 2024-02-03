@@ -1,10 +1,10 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 
 $page_title = 'Ancient Israel:  Slavery, Servanthood, and Social Welfare | Berean Archive';
-$image = '/articles/history/ancient-israel-slavery-servanthood-and-social-welfare-files/header-square.jpg';
-$headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('ancient-israel-slavery-servanthood-and-social-welfare-files/header-wide.jpg')";
-$caption = '<em>Ancient Mesopotamia</em>, a painting by Jeff Brown.[^painting] Some aspects
+$page_image = '/articles/history/ancient-israel-slavery-servanthood-and-social-welfare-files/header-square.jpg';
+$page_headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('ancient-israel-slavery-servanthood-and-social-welfare-files/header-wide.jpg')";
+$page_caption = '<em>Ancient Mesopotamia</em>, a painting by Jeff Brown.[^painting] Some aspects
 		may be anachronistic for Ancient Israel.';
 
 
@@ -718,4 +718,5 @@ style="width: 100%;">
 <?php $page_content = ob_get_clean(); // end $page_content
 
 
-include 'common/includes/theme.php';
+$page_theme = 'common/includes/theme.php';
+require_once $page_theme;

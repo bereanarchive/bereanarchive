@@ -15,7 +15,7 @@ class Markdown {
 			foreach ($frontMatterParams as $name=>$value) {
 				$value = addslashes($value);
 				$frontMatterPhp .= "\$$name = '$value';\r\n";
-				if ($name === 'theme')
+				if ($name === 'page_theme')
 					$hasTheme = true;
 			}
 			if ($hasTheme)
@@ -57,7 +57,7 @@ class Markdown {
 
 
 		if ($hasTheme)
-			$markdown .= "<?php\r\n\$content = ob_get_clean();\r\ninclude \$theme;?>";
+			$markdown .= "<?php\r\n\$page_content = ob_get_clean();\r\ninclude \$page_theme;?>";
 
 		// Add attributes to the subsequent element with {[attribute="..."]}
 		// We use ^½ to match anything, since ½ is rarely used.
@@ -88,6 +88,8 @@ class Markdown {
 //			return ' id="'.$id.'"';
 //		}, $markdown);
 
+
+		//print htmlspecialchars($markdown);
 
 
 		return $markdown;
