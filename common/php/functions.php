@@ -1,21 +1,6 @@
 <?php
+/** @deprecated */
 
-class Parse {
-	// Read data from inside the given tagname.
-	public static function getTagContent(string $text, string $startTag, string $endTag, &$end = 0) : string {
-		$start = strpos($text, $startTag);
-		if ($start === false)
-			return '';
-		$start += strlen($startTag);
-		$end = strpos($text, $endTag, $start);
-		if ($end === false)
-			return '';
-		$length = $end - $start;
-		$end += strlen($endTag);
-		return substr($text, $start, $length);
-	}
-
-}
 
 
 /**
@@ -79,28 +64,4 @@ function modifiedSince($serverModifiedTime, $serverETag=null) {
 
 
 
-
-
-/**
- * Parse a string into an associative array
- * @param string $string
- * @param string $splitOuter regex used to split the string into key/value pairs, defaults to ','
- * @param string $splitInner regex used to split each key/value, defaults to '='
- * @return array
- * @example
- * strToAA("a=b,c=d,e=f", ',', '='); // returns array('a'=>'b', 'c'=>'d', 'e'=>'f') */
-function splitAA( $string, $splitOuter=';', $splitInner=':') {
-	if (!strlen($string))
-		return [];
-	$kvpairs = preg_split('/'.$splitOuter.'/i', $string);
-	$result = [];
-	foreach ($kvpairs as $kv) {
-		$kvsplit = preg_split('/'.$splitInner.'/i', $kv, 2);
-		if (isset($kvsplit[1]))
-			$result[$kvsplit[0]] = $kvsplit[1];
-		else
-			$result[$kvsplit[0]] = '';
-	}
-	return $result;
-}
 

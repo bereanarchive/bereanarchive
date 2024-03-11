@@ -124,6 +124,9 @@ mutation
 molecular clock
 : Molecular clocks estimate time by counting how many nucleotide (letters) are different between the genetic material of two organisms, and estimating how long it would take for mutations to create those differences.
 
+myristoylation
+: Adding a special fat called a myristate to a protein that helps a protein attach to the cell's membrane.
+
 natural selection, selection
 : The process where weaker organisms are less likely to survive and pass on their genes.
 

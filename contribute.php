@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 
 $page_title       = 'Contributing Guidelines | Berean Archive';
 $page_headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('/contribute-files/header-wide.jpg'); background-position: 75% 50%";
-$sideBars    = false;
+$page_left = '';
 
 
 // $page['content']['main']
@@ -77,11 +77,11 @@ ob_start()?>
 
 <h4>Omissions:</h4>
 <ol class="compact">
-	<li>Website name and Publisher may be omitted if they are not significant.</li>
-	<li>Access dates should be omitted for brevity.</li>
+	<li>Website name and publisher may be omitted if they are not significant.</li>
+	<li>Access dates may be omitted for brevity.</li>
 	<li>Since all journal articles names should be a link to their source, volume and issue numbers
 		may be omitted.</li>
-	<li>Words like Web and Print should be omitted--including page numbers indicates the
+	<li>Words like "web" and "print" should be omitted--including page numbers indicates the
 		source was originally in print.</li>
 	<li>Long article names may be abbreviated, or subtitles omitted.</li>
 </ol>
@@ -106,19 +106,15 @@ ob_start()?>
 		the abstract.&nbsp; If arXiv.org or someone else has a full source PDF published
 		on their blog, it can be listed in the mirrors.</li>
 </ol>
-<h4>Abbreviations:</h4>
+<h4>Citing Sources:</h4>
 <ol class="compact">
 	<li>"Ibid." should be replaced with list sub-items with a page number and at least some of the relevant text quoted.</li>
-	<li>Journal names may use their approved abbreviations.&nbsp; <a href="http://journalseek.net/">This site</a> can
-		convert journal names to abbreviations.</li>
 </ol>
 <h4>Miscellaneous:</h4>
 <ol class="compact">
-	<li>Citation notes are surrounded with &lt;small&gt;, which makes the text
-		smaller and lighter.</li>
+	<li>Use two spaces after each period to improve readability.</li>
 	<li>Since sites sometimes shut down, include mirror links in the comments, such as archive.org, archive.is, a screenshot of
 		the source, or a local copy of the source in its entirity, if fair use allows it.</li>
-	<li>Use two spaces after each period to improve readability.</li>
 </ol>
 <img src="/about-files/credible-hulk.jpg" id="img1" style="width: 80%;">
 
@@ -126,7 +122,7 @@ ob_start()?>
 <h3>Berean Modified MLA Examples</h3>
 <p>Here are several examples of what article citations should look like:</p>
 <h4>Website Examples:</h4>
-<div class="footnotes">
+<div class="footnotes expanded">
 	<ol class="compact">
 		<li>Last, First.&nbsp; "<a href="#">Article Title</a>".&nbsp; <i>Webiste Name</i>.
 			&nbsp;Article Date.
@@ -141,8 +137,8 @@ ob_start()?>
 	</ol>
 </div>
 <h4>Book Examples:</h4>
-<div class="footnotes">
-	<ol class="compact">
+<div class="footnotes expanded">
+	<ol>
 		<li>Last, First.
 			<em>Book Name.</em> Publisher.&nbsp;
 			Year.&nbsp; Page 1.
@@ -160,8 +156,8 @@ ob_start()?>
 	</ol>
 </div>
 <h4>Journal Examples:</h4>
-<div class="footnotes">
-	<ol class="compact">
+<div class="footnotes expanded">
+	<ol>
 		<li>Last, First.
 			&nbsp;"Paper Title."&nbsp; <em>Journal Name, Year. </em> Pages.</li>
 		<li>Behe,
@@ -186,8 +182,8 @@ ob_start()?>
 	</ol>
 </div>
 <h4>Video Examples:</h4>
-<div class="footnotes">
-	<ol class="compact">
+<div class="footnotes expanded">
+	<ol >
 		<li>Last, First.&nbsp; "
 			<a href="#">Video Title</a>."&nbsp; Video Date.&nbsp; Seek to video time
 		</li>
@@ -200,8 +196,8 @@ ob_start()?>
 </div>
 <h4>Forum, blog, or newsgroup comment:</h4>
 <p>Based on the guidelines <a href="https://www.reddit.com/r/AskReddit/comments/punqw/citations_from_an_iama_for_thesis_papers_mla_style/">here</a>.</p>
-<div class="footnotes">
-	<ol class="compact">
+<div class="footnotes expanded">
+	<ol>
 		<li>west_of_everywhere.&nbsp;
 			"<a href="https://www.reddit.com/r/askscience/comments/1l3zfx/how_come_theres_a_amoeba_with_200_times_larger/cbvsn0n">Re: How come there's a Amoeba with 200 times larger gene set than humans?</a>"&nbsp; Aug 27, 2016.<br>
 			<small>west_of_everywhere <a href="https://www.reddit.com/r/askscience/comments/znlk6/askscience_special_ama_we_are_the_encyclopedia_of/">describes his/herself as</a>
@@ -217,17 +213,11 @@ ob_start()?>
 
 <h2>File organization</h2>
 
-<p>Articles live in the <code>articles</code> folder, which is organized by scholarly disciplein (biology, history, etc).</p>
-
-
-
-
-Naming conventions for locally mirrored sources (pdfs / images / html pages)
+<p>Articles live in the <code>articles</code> folder, which is organized by scholarly disciplein (biology, history, etc).
+Naming conventions for locally mirrored sources (pdfs / images / html pages)</p>
 <ol class="compact">
-	<li>lastname-article-title-year-pages23-25.png</li>
-	<li>username-forum-thread-title-website-year.html
-		<br>
-	</li>
+	<li>lastname-article-title-year-pages-23-25.png</li>
+	<li>username-forum-thread-title-website-year.html</li>
 </ol>
 
 <?php
@@ -235,5 +225,5 @@ $page_content = ob_get_clean();
 
 
 
-$page_theme = 'common/includes/theme.php';
+$page_theme = 'common/themes/berean/theme.php';
 require_once $page_theme;

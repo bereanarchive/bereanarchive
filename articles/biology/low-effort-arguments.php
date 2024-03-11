@@ -655,5 +655,5 @@ the risk of doing violence to the positions of some of the people at the meeting
 <?php $page_content = ob_get_clean();
 
 
-$page_theme = 'common/includes/theme.php';
+$page_theme = 'common/themes/berean/theme.php';
 require_once $page_theme;

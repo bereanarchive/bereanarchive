@@ -1,10 +1,10 @@
 ---
-page_title:        Shroud of Turin:  Carbon Dating
+page_title:        "Shroud of Turin:  Carbon Dating"
 page_description:  Carbon dating puts the shroud in the middle ages. This article disproves that date.
 page_image:        /articles/history/shroud-of-turin-carbon-dating-files/header-square.jpg
-page_headerStyle:  background-image: url('shroud-of-turin-carbon-dating-files/header-wide.jpg')
-page_caption:      Negative, color-enhanced image of the Shroud of Turin
-page_theme:        common/includes/theme.php
+page_headerStyle:  "background-image: url('shroud-of-turin-carbon-dating-files/header-wide.jpg')"
+page_banner2:      Negative, color-enhanced image of the Shroud of Turin
+page_theme:        common/themes/berean/theme.php
 
 ---
 
@@ -74,7 +74,7 @@ On April  21, 1988, a 1cm x 7cm sample was cut from the the bottom left corner o
 
 | The Shroud of Turin                                          | Linen from 11th-12th century tomb at  Nubia                  | 2nd century Thebes mummy linen                               | Cope of  Lous d'Anjou threads.  ~1300 AD                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="shroud-of-turin-carbon-dating-files/arizona-shroud2-front.jpg?w=180" style="width: 100%" class="lightbox"/> | <img src="shroud-of-turin-carbon-dating-files/arizona-nubia-front.jpg?w=180" style="width: 100%" class="lightbox" class="lightbox"/> | <img src="shroud-of-turin-carbon-dating-files/arizona-thebes-front.jpg?w=180" style="width: 100%" class="lightbox" /> | <img src="shroud-of-turin-carbon-dating-files/arizona-d'anjou-front.jpg?w=180" style="width: 100%" class="lightbox" /> |
+| <img src="shroud-of-turin-carbon-dating-files/arizona-shroud2-front.jpg?w=180" style="width: 100%" class="lightbox"/> | <img src="shroud-of-turin-carbon-dating-files/arizona-nubia-front.jpg?w=180" style="width: 100%" class="lightbox"/> | <img src="shroud-of-turin-carbon-dating-files/arizona-thebes-front.jpg?w=180" style="width: 100%" class="lightbox" /> | <img src="shroud-of-turin-carbon-dating-files/arizona-d'anjou-front.jpg?w=180" style="width: 100%" class="lightbox" /> |
 | <img src="shroud-of-turin-carbon-dating-files/arizona-shroud2-back.jpg?w=180" style="width: 100%" class="lightbox" /> | <img src="shroud-of-turin-carbon-dating-files/arizona-nubia-back.jpg?w=180" style="width: 100%" class="lightbox" /> | <img src="shroud-of-turin-carbon-dating-files/arizona-thebes-back.jpg?w=180" style="width: 100%" class="lightbox" /> | <img src="shroud-of-turin-carbon-dating-files/arizona-d'anjou-back.jpg?w=180" style="width: 100%" class="lightbox" /> |
 
 Images ©2012 STERA, Inc:[^schwortz-2012-2]

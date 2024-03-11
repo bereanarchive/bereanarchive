@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 $page_title = 'Predictions of Junk versus Functional DNA | Berean Archive';
 $page_image = '/articles/biology/functional-dna-predictions-files/header-square.jpg';
 $page_headerStyle = "background-image: url('functional-dna-predictions-files/header-wide.jpg')";
-$page_caption = 'A circuit board.&nbsp; Because DNA is way too small for good photos.';
+$page_banner2 = 'A circuit board.&nbsp; Because DNA is way too small for good photos.';
 
 
 // $page_content
@@ -1348,7 +1348,7 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 </ol>
 <p>Multiplying the 45 haploid mutations times the 10% chance a mutaiton will destroy a gene gives
 	4.5 genes being destroyed each generation.&nbsp; From there we can extrapolate:<br></p>
-<table class="small style2" style="width: 100%;">
+<table class="small style1" style="width: 100%;">
 	<tbody>
 		<tr>
 			<th>Age of Humans</th>
@@ -2113,5 +2113,5 @@ without obvious function... Less than 5 percent of the human DNA has a coding fu
 <?php $page_content = ob_get_clean();
 
 
-$page_theme = 'common/includes/theme.php';
+$page_theme = 'common/themes/berean/theme.php';
 require_once $page_theme;

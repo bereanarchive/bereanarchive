@@ -1,8 +1,8 @@
 ---
 page_title:        About
-page_headerStyle:  background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .75)), url('/common/img/site/header-books.jpg')
-page_theme:        common/includes/theme.php
-page_sidebars:     false
+page_headerStyle:  "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .75)), url('/common/img/site/header-books.jpg')"
+page_theme:        common/themes/berean/theme.php
+page_left:         ''
 ---
 
 # About
@@ -52,7 +52,7 @@ Is that claim really true?  Does the source really say what we claim it does?  W
 
 ### 9.  Open source
 
-The Berean Archive is run like an open source software project.  The whole site (all code and articles) is hosted on [GitHub](https://github.com/bereanarchive/bereanarchive) and we use pull requests to accept additions, improvements, and corrections.  See the [contributing guidelines](/articles/contribute) for details.
+The Berean Archive is run like an open source software project.  The whole site (all code and articles) is hosted on [GitHub](https://github.com/bereanarchive/bereanarchive) and we use pull requests to accept additions, improvements, and corrections.  See the [contributing guidelines](/contribute) for details.
 
 ### 10.  Public Domain
 
@@ -74,5 +74,5 @@ Topics out of scope:  Economic policy, foreign affairs, dealing with various spi
 
 The Internet is a strange, dangerous, and permanent place.  I go by John Berea here, which is not my real name.  I run this website and serve as a benevolent dictator deciding what content is allowed.  I'm a convinced Christian with conservative views on most topics.  I'm educated in computer science.  That's all you need to know about me.
 
-The goal is to have many other people [contribute](/articles/contribute) to this site.  What they reveal about themselves is up to them.
+The goal is to have many other people [contribute](/contribute) to this site.  What they reveal about themselves is up to them.
 

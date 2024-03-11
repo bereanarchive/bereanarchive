@@ -38,8 +38,8 @@ if (!empty($_POST)) {
 $page_title = 'Contact';
 $page_image = '/contact-files/header-wide.jpg';
 $page_headerStyle = "background: url('contact-files/header-wide.jpg') no-repeat 93% 0; background-size: cover";
-$page_caption = 'Header image from <a href="https://commons.wikimedia.org/wiki/File:Woodswink03.jpg">WikiMedia Commons</a>, slightly modified to enhance colors and remove objects.';
-$sideBars = false;
+$page_banner2 = 'Header image from <a href="https://commons.wikimedia.org/wiki/File:Woodswink03.jpg">WikiMedia Commons</a>, slightly modified to enhance colors and remove objects.';
+$page_left = false;
 
 
 // $page_content
@@ -100,5 +100,5 @@ ob_start()?>
 <?php $page_content = ob_get_clean();
 
 
-$page_theme = 'common/includes/theme.php';
+$page_theme = 'common/themes/berean/theme.php';
 require_once $page_theme;

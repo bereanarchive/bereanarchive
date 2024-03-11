@@ -1,20 +1,16 @@
 ---
 page_title:        Functional DNA is Evidence of Design | Berean Archive
-page_headerStyle:  background-image: url('functional-dna-files/header-wide.jpg')
+page_headerStyle:  "background-image: url('functional-dna-files/header-wide.jpg')"
 page_image:        /articles/biology/functional-dna-files/header-square.jpg
-page_caption:      The pufferfish[^pufferfish] genome is 8 times smaller than the human genome, a fact used by some to argue that most human DNA is unused junk.
-page_theme:        common/includes/theme.php
+page_banner2:      The pufferfish[^pufferfish] genome is 8 times smaller than the human genome, a fact used by some to argue that most human DNA is unused junk.
+page_theme:        common/themes/berean/theme.php
 ---
 
 # Functional DNA is Evidence of Design
 
 <aside>
-    Published May 2017<br>
-	Last updated 
-    <time datetime="<?=date('Y-m-d H:i:s', $modified)?>" 
-          title="<?=gmdate('Y-m-d H:i:s', $modified)?> UTC">
-    	<?=date('M j, Y', $modified)?>
-    </time>
+    Published:  May 2017<br>
+	Updated:  Feb 9, 2024
 </aside>
 <q>“It’s likely that 80 percent [estimate of functional human DNA] will go to 100 percent. We don’t really have any large chunks of redundant DNA. This metaphor of junk isn’t that useful." — ENCODE lead researcher Ewan Birney.[^yong-2012]</q>
 
@@ -364,17 +360,19 @@ If evolutionary theory is true, then most DNA in complex organisms must have no 
 
 ### Genetic load
 
-Genetic load (also called mutational load) is the average number of deleterious (harmful) mutations per organism in a population. If the genetic load is too high, the population will not survive.
+Genetic load is the average decrease in fitness due to deleterious (harmful) mutations in a population. If the genetic load is too high, the population will not survive.
 
-Organisms with more DNA generally have more mutations, since the number of errors increases as more is copied. If most of the DNA in large genome organisms (e.g. mammals) is functional, then these mutations will usually break important functions. Humans get about 100 mutations per generation.[^moran-2013] 
+Organisms with more DNA generally have more mutations, since cells are more likely to make errors when copying more DNA.  And the more DNA in an organism that is functional, the more likely it is that mutations will break important functions. Humans get about 100 mutations per generation.[^moran-2013] 
 
-But if most DNA does nothing, or does not have specific information, then most mutations will be harmless. Therefore because of this genetic load problem, evolutionary theory both predicts and requires only a small amount of DNA in large genome organisms will be functional.  Writing in 1972, Susumu Ohno was among other early geneticists who recognized this problem:
+But if most DNA does nothing, or does not have specific information, then most mutations will be harmless.  Therefore, evolutionary theory both predicts and requires only a small amount of DNA in large genome organisms (like us and other mammals) will be functional.  
+
+Writing in 1972, Susumu Ohno was among other early geneticists who recognized this problem:
 
 > The moment we acquire 105 gene loci, the overall deleterious mutation rate per generation becomes 1.0 which appears to represent an unbearably heavy genetic load... Even if an allowance is made for the existence in multiplicates of certain genes, it is still concluded that at the most, only 6% of our DNA base sequences is utilized as genes[^ohno-1972]
 
 By "genes," Ohno is referring to functional elements, not only protein coding genes.  
 
-The fact that a high deleterious mutation rate leads to decline has been tested rigorously using computer simulations. In one study with strong natural selection and only 10 harmful mutations per generation, fitness continued to decline perpetually.[^gibson-2011]
+The fact that a high deleterious mutation rate leads to fitness decline has been tested using computer simulations. In one study with strong natural selection and only 10 harmful mutations per generation, fitness continued to decline perpetually.[^gibson-2011]
 
 #### Why Genetic Load Matters
 

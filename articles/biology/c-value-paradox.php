@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 $page_title = 'The C-Value Paradox | Berean Archive';
 $page_image = '/articles/biology/c-value-paradox-files/header-square.jpg';
 $page_headerStyle = "background-image: url('c-value-paradox-files/header-wide.jpg')";
-$page_caption = '"The Onion Test" has become a common argument of junk DNA proponents.';
+$page_banner2 = '"The Onion Test" has become a common argument of junk DNA proponents.';
 
 
 
@@ -207,5 +207,5 @@ ob_start()?>
 	</div>
 <?php $page_content = ob_get_clean();
 
-$page_theme = 'common/includes/theme.php';
+$page_theme = 'common/themes/berean/theme.php';
 require_once $page_theme;

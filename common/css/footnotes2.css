@@ -1,0 +1,24 @@
+
+/* This is the wrapper around the tooltip that pops up (or slides down on mobile) */
+.cleanTooltip { box-sizing: border-box; min-width: 240px; max-width: 550px; z-index: 10;
+	padding: 15px 15px 25px 25px; line-height: 1.3; background: black; border-radius: 10px;
+	color: #949a9f; box-shadow: 0 0 2px #fff6 }
+@media (max-device-width: 768px) { .cleanTooltip { width: 100%; max-width: 100% } }
+
+/* The content of the tooltip. */
+.cleanTooltip .cleanTooltipClose { position: absolute; top: -5px; right: 0; padding: 5px 7px 15px 15px }
+.cleanTooltip p { margin: 0 !important }
+.cleanTooltip ol { margin: 0 !important; padding-left: 12px }
+.cleanTooltip ol ol { padding-top: .5em; list-style-type: lower-alpha }
+
+.cleanTooltip li { padding: 0 0 8px 8px }
+.cleanTooltip li li { font-size: 13px; color: #747a7f; line-height: 1.2 }
+.cleanTooltip small { display: inline-block; font-size: 13px; color: #747a7f; line-height: 1.2 }
+.cleanTooltip :is(a, a:visited) { color: #47a; text-decoration: none }
+.cleanTooltip :is(a:active, a:hover) { text-decoration: underline }
+
+/* Hide outline on citation superscripts. */
+.cleanTooltip sup.cleanFootnoteNumber a { outline-width: 0 }
+
+.cleanTooltip a.viewInFootnotes { position: absolute; right: 15px; bottom: 5px; font-size: 80%; }
+

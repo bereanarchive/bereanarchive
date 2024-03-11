@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 $page_title = 'Ancient Israel:  Slavery, Servanthood, and Social Welfare | Berean Archive';
 $page_image = '/articles/history/ancient-israel-slavery-servanthood-and-social-welfare-files/header-square.jpg';
 $page_headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, .5)), url('ancient-israel-slavery-servanthood-and-social-welfare-files/header-wide.jpg')";
-$page_caption = '<em>Ancient Mesopotamia</em>, a painting by Jeff Brown.[^painting] Some aspects
+$page_banner2 = '<em>Ancient Mesopotamia</em>, a painting by Jeff Brown.[^painting] Some aspects
 		may be anachronistic for Ancient Israel.';
 
 
@@ -18,7 +18,7 @@ ob_start()?>
 </aside>
 
 
-<h1 style="font-size: 400%">Ancient Israel:&nbsp; Slavery, Servanthood, and Social Welfare</h1>
+<h1>Ancient Israel:&nbsp; Slavery, Servanthood, and Social Welfare</h1>
 <h2>Overview</h2>
 <p>This article corrects the common misconception that slavery/servanthood
 	in the legal code of ancient Israel was comparable to the harsh slavery of other
@@ -718,5 +718,5 @@ style="width: 100%;">
 <?php $page_content = ob_get_clean(); // end $page_content
 
 
-$page_theme = 'common/includes/theme.php';
+$page_theme = 'common/themes/berean/theme.php';
 require_once $page_theme;

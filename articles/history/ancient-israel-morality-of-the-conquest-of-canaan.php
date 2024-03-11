@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/sitecrafter/init.php';
 $page_title = 'Ancient Israel:  Morality of the Conquest of Canaan | Berean Archive';
 $page_image = '/articles/history/ancient-israel-morality-of-the-conquest-of-canaan-files/header-square.jpg';
 $page_headerStyle = "background-image: linear-gradient(transparent, transparent, rgba(56, 48, 32, .6)), url('ancient-israel-morality-of-the-conquest-of-canaan-files/header-wide.jpg')";
-$page_caption = 'Ai is taken by Joshua, depicted by James Tissot[^tissot-ai]';
+$page_banner2 = 'Ai is taken by Joshua, depicted by James Tissot[^tissot-ai]';
 
 
 // $page_content
@@ -913,4 +913,4 @@ And  not all were even taken:  "Nebuzaradan the captain of the guard left in the
 
 
 
-include 'common/includes/theme.php';
+include 'common/themes/berean/theme.php';

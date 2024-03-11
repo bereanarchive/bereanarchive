@@ -68,13 +68,12 @@ function createToc(container) {
 /**
  * Put the toc highlighter next to el */
 function highlightToc(el, tocHighlight) {
-	var offset = $(el).position();
-	offset.top += parseInt($(el).css('margin-top'));
-	offset.left += parseInt($(el).css('margin-left')) - 10;
-	offset.height = $(el).outerHeight();	
+	var offset = {top: el.offsetTop, left: el.offsetLeft}
+	offset.left -= 10;
+	offset.height = el.offsetHeight;
 	$(tocHighlight).css(offset);
 	$(el).addClass('selected').siblings().removeClass('selected');
-
+	
 	var navToc = $('#navToc')[0];
 	var diff = offset.top - $(navToc).innerHeight();
 	if (diff - navToc.scrollTop > 0)

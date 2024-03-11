@@ -2,8 +2,8 @@
 page_title: The Shroud of Turin
 page_image: /articles/history/shroud-of-turin-files/header-square.jpg
 page_headerStyle: "background-image: url('/articles/history/shroud-of-turin-files/header-wide.jpg')"
-page_caption: Unlike ancient depictions of Christ, the shroud image (center, inverted+colored) matches no known artistic style.
-page_theme: common/includes/theme.php
+page_banner2: Unlike ancient depictions of Christ, the shroud image (center, inverted+colored) matches no known artistic style.
+page_theme: common/themes/berean/theme.php
 ---
 
 
@@ -1276,7 +1276,7 @@ See also the "Jews didn't use burial shrouds." objection above.
 
 Perhaps Jesus' head was covered with a cloth as he was taken to the tomb, that cloth was removed, then Jesus was wrapped in a shroud.
 
-#### Aloe and Myrhh weren't found on the shroud
+#### Aloe, Myrhh, and Spices weren't found on the shroud
 
 
 

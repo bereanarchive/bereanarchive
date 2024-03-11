@@ -3,38 +3,47 @@
 	RewriteEngine on
 	RewriteBase /
 
+	# If we navigate to an extensionless markdown file with a trailing slash, redirect to remove the slash.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME}.md -f
+    RewriteRule (.*)/$ $1 [R]
+
+    # If we navigate to an extensionless markdown file with a trailing slash, redirect to remove the slash.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule (.*)/$ $1 [R]
+
 	# Make the .php extension optional.
 	# If there exists a filename.php that matches the requested path, and the url doesn't end with /, then use filename.php.
-	# TODO: this 500's from too many redirects if requesting products/a.php and products.php exists but products/a.php doesn't exist.
-	# It seems to happen because it first processes /products ?
-	# TODO: If a file and a directory have the same name, prefer the filename, unless the directory has an index.php
-	# TODO: Experiment with RewriteRule /^(.*)$ $1.php [L,QSA] (has a leading slash)
-	RewriteCond %{REQUEST_FILENAME} !-f
+	# No B flag because that escapes slashes which breaks the RewriteCond.
 	RewriteCond %{REQUEST_FILENAME}.php -f
-	RewriteCond %{REQUEST_URI} !/$
-	RewriteRule ^(.*)$ $1.php [L,QSA]
+	RewriteCond %{REQUEST_URI} !\.php$ [NC]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.+?)/?$ $1.php [L,QSA]
 
 	# Map all image resize commands to the image resizer
+	# B to make spaces work:  https://stackoverflow.com/a/75696284
+	# NE for no-escape (doesn't seem to work)
+	# NS For no-sub-request
+	# https://httpd.apache.org/docs/2.2/mod/mod_rewrite.html
 	RewriteCond %{QUERY_STRING} (^|&)w=|(^|&)h=|(^|&)s=|(^|&)format=
-	ReWriteRule ^(.*)\.(jpg|jpeg|png|gif|webp)$ /sitecrafter/lib/tools/resize-image.php [NC,QSA]
+	ReWriteRule ^(.*)\.(jpg|jpeg|png|gif|webp)$ /sitecrafter/lib/tools/resize-image.php [B,NE,NC,QSA]
 
 	# Map ?build and jsx/ts/tsx to build.php
 	RewriteCond %{QUERY_STRING} (^|&)(build|min)
 	ReWriteRule ^(.*)\.(css|js)$ /sitecrafter/lib/tools/build.php [NC,QSA]
-	ReWriteRule ^(.*)\.(jsx|ts|tsx)$ /sitecrafter/lib/tools/build.php [NC,QSA]
+	ReWriteRule ^(.*)\.(jsx|ts|tsx)$ /sitecrafter/lib/tools/build.php [B,NE,NC,QSA]
+
+
 
 	# Map url's ending in .md to the markdown compiler.
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME}.md -f
-    RewriteRule (.*) common/tools/md2html.php?$1.md [QSA]
-
-    # Old:
-
-	# Map all url's that end in .less to the .less compiler.
-	ReWriteRule ^(.*)\.less$ /common/tools/less.php?$1.less [nc,QSA]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME}.md -f
+	RewriteRule (.*)$ sitecrafter/lib/tools/md2html.php?$1.md [QSA]
 </IfModule>
 
-# Don't allow downloading sqlite3 files that may have sensitive content.
+# Don't allow downloading .sqlite3 and .env files that may have sensitive content.
 RedirectMatch 404 \.sqlite3$
-
+RedirectMatch 404 \.env$
 
