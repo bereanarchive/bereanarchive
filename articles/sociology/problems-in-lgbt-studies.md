@@ -17,7 +17,7 @@ page_theme:        common/themes/berean/theme.php
 
 There are times when a scientific field at large abandons science and becomes agenda driven, for example:
 
-> Internal sugar industry documents [show] five decades of research into nutrition and heart disease, including many of today’s dietary recommendations, may have been largely shaped by the sugar industry.[^oconnor-2016]
+> Internal sugar industry documents... suggest that five decades of research into nutrition and heart disease, including many of today’s dietary recommendations, may have been largely shaped by the sugar industry.[^oconnor-2016]
 
 Other such examples abound.[^brownell-2009:a] [^nature-2010:a] [^arnold-2017:a] [^marks-2020:a]  A similar phenomenon appears to be happening in LGBT studies.  Some gays and transgenders are deeply offended by data showing their lifestyles are associated with negative outcomes, or conversely that therapy is sometimes successful to resolve unwanted same-sex attraction and gender identity.[^armelli-2012:c] [^friedman-2013:c] [^mccall-2018:b] [^higbee-2020:a]  A new LGBT "civil rights" movement has emerged, taking control of LGBT studies and conforming it to meet activists' demands.  
 
@@ -39,16 +39,18 @@ In LGBT studies we see frequent publication of obviously incorrect data, fabrica
     - Foreign medical experts from some countries are surprised that the U.S. hasn't banned or severely restricted hormonal treatments for gender dysphoric children.[^eappen-2023:c] [^kaltiala-2023:b] [^kao-2023:a]
 
 - **Lies and Propaganda**
-    - From 1976 to 2015, a staggering 161 articles published in law, social science, and medical journals estimated that more than one million kids, and sometimes as high as 14 million kids in the US were being raised by same-sex parents.[^schumm-2016:a]    An absurd estimate since the total kids in the US is around 60 to 70 million.[^schumm-2018:f]  Only 17 papers were found during this time estimated below one million kids.[^schumm-2016:a]  These fabricated numbers were used to bolster support for legalizing same-sex marriage.[^schumm-2018:k]
+    - From 1976 to 2015, a staggering 161 articles published in law, social science, and medical journals estimated that more than one million kids, and sometimes as high as 14 million kids in the US were being raised by same-sex parents.[^schumm-2016:a]    An absurd estimate since the total kids in the US is around 60 to 70 million.[^schumm-2018:f]  Only 17 papers were found during this time that estimated below one million kids.[^schumm-2016:a]  These fabricated numbers were used to bolster support for legalizing same-sex marriage.[^schumm-2018:k]
     - Many falsely claim scientific consensus says there's no difference between kids raised by same-sex and opposite-sex parents.
     - Nearly all major medical organizations say sexual orientation change efforts don't work and are harmful.  And many say the same about gender identity change efforts.
-    - In 2018, LGBT activist Sam Brinton claimed his childhood "conversion therapy" involved being strapped to a table and tortured with ice, heat, and electricity as he was forced to watch gay sex.  Major news outlets including the New York Times shared his story to advocate for an end to all sexual orientation change efforts.[^brinton-2018]  Even after pro-LGBT journalist Wayne Besen found many fatal inconsistencies in Brinton's story,[^besen-2022] the news outlets never issued retractions or disclaimers.  One  wonders how much these lies contribute to the negative perception of sexual orientation change efforts.
+    - In 2018, LGBT activist Sam Brinton claimed his childhood "conversion therapy" involved being strapped to a table and tortured with ice, heat, and electricity as he was forced to watch gay sex.  Major news outlets including the New York Times shared his story to advocate for an end to all sexual orientation change efforts.[^brinton-2018]  Even after pro-LGBT journalist Wayne Besen found many fatal inconsistencies in Brinton's story,[^besen-2022] the news outlets never issued retractions or disclaimers.  One wonders how much these lies contribute to the negative perception of sexual orientation change efforts.
 
 These among other issues are all discussed in greater detail below.
 
 ## Politics Over Science
 
-In 2009 the American Psychological Association (APA) republished its opposition to sexual orientation change efforts.  But they rejected all conservative nominations to the task force that was to review the literature and write a position.  They instead filled all seven positions with gay rights activists.  Five were openly homosexual and one was bisexual.[^calbreath-2015:b] [^rosik-2016:c] 
+### Bias against Conservatives
+
+When the American Psychological Association (APA) republished its opposition to sexual orientation change efforts (SOCE) in 2009, they rejected all conservatives nominated to the task force responsible for reviewing the literature and writing a position.  They instead filled all seven positions with gay rights activists.  Five were openly homosexual and one was bisexual.[^calbreath-2015:b] [^rosik-2016:c] 
 
 Other indicators of politicization:
 
@@ -58,8 +60,6 @@ Other indicators of politicization:
 In 2023, 21 clinicians from 9 different countries published a statement in *The Wall Street Journal*:
 
 > The politicization of transgender healthcare in the U.S. is unfortunate. The way to combat it is for medical societies to align their recommendations with the best available evidence—rather than exaggerating the benefits and minimizing the risks.[^kaltiala-2023]
-
-### Bias against Conservatives
 
 Darel E. Paul is a professor of political science at Williams University whose research focuses on "elite ideologies in Western countries and the manifestation of those ideologies in public policies."[^paul-2023]  In 2018, he described how those with traditional views of marriage were purged from psychological and related research: 
 
@@ -125,6 +125,24 @@ Walter Schumm is a conservative professor in the Department of Family Studies an
 Schumm conducted a massive literature review of nearly 400 studies specifically on the topic of children with same-sex parents.  He concluded:
 
 > It is remarkable that one could find 90% of over 70 literature reviews having drawn incorrect conclusions about some aspects of same-sex parenting.[^schumm-2018:g]
+
+### WPATH and John Hopkins
+
+In 2017, the pro-transgender organization WPATH hired the University Evidence-Based Practice Centre (EPC) of John Hopkins University to study youth transgender medicine.  But instead of allowing researchers to follow the data, WPATH sought to control the results.  The Economist reports:
+
+> From early on in the contract negotiations, WPATH expressed a desire to control the results of the Hopkins team’s work. In December 2017, for example, Donna Kelly, an executive director at WPATH, told Karen Robinson, the EPC’s director, that the WPATH board felt the EPC researchers “cannot publish their findings independently”. A couple of weeks later, Ms Kelly emphasised that, “the [WPATH] board wants it to be clear that the data cannot be used without WPATH approval.”[^economist-2024]
+
+EPC director Karen Robinson push back against WPATH:
+
+> In general, my understanding is that the university will not sign off on a contract that allows a sponsor to stop an academic publication.[^economist-2024]
+
+> Hopkins as an academic institution, and I as a faculty member therein, will not sign something that limits academic freedom in this manner [nor] language that goes against current standards in systematic reviews and in guideline development.[^economist-2024]
+
+For a time WPATH relented, but in 2020 WPATH notified Robinson that it was implementing a new policy to "nip papers in the bud" if WPATH disagreed with their conclusions.[^economist-2024:a]After this, John Hopkins only published one other research paper on transgender medicine, a review that found "Hormone therapy was associated with increased [quality of life], decreased depression, and decreased anxiety"[^baker-2021]  The authors claimed WPATH had no influence on the study's design or approval:
+
+> WPATH provided the research question and reviewed the protocol, evidence tables, and report. WPATH had no role in study design, data collection, analysis, interpretation, or drafting... The authors are responsible for all content.[^baker-2021]
+
+However, documents uncovered by court discovery reveal the opposite:  An employee of WPATH was involved "in the design, drafting of the article and final approval of [that] article."  WPATH and John Hopkins have not responded to multiple inquiries from the Economist regarding this matter.[^economist-2024:b]
 
 ## Researcher Discrimination
 
@@ -201,6 +219,8 @@ In 2017, Zucker was scheduled to speak at a panel for the pro-transgender organi
 
 ### Lisa Littman and ROGD Teens
 
+<aside><img src="problems-in-lgbt-studies-files/the-science.jpg?w=220" class="lightbox rounded"></aside>
+
 In 2018, Lisa Littman conducted a study on what she called "rapid onset gender dysphoria" or ROGD.  Littman is no conservative, describing herself as liberal and pro-LGBT,[^kesslen-2022] and even claiming "some [kids] may ultimately benefit from transition."[^littman-2018]  She gathered participants from three left-leaning, pro-LGB websites that caution against transitioning children with gender dysphoria via medicine and surgery,[^4thwavenow-2018:a] [^littman-2018:d] [^transgender-trend-2023:a] [^youthtranscriticalprofessionals-2018:a] but also from an 8000 member private Facebook group that encourages child transitioning.[^littman-2018:c]  Her survey only included parents who indicated that their child's gender dysphoria began rapidly and after puberty.[^littman-2018:b]  256 such parents completed the survey.  Littman found:
 
 > Clusters of gender dysphoria outbreaks occurring in pre-existing friend groups with multiple or even all members of a friend group becoming gender dysphoric and transgender-identified in a pattern that seems statistically unlikely based on previous research... This suggests a localized increase to more than 70 times the expected prevalence rate.[^littman-2018]
@@ -249,7 +269,7 @@ Finally, note that lead author Suzanna Diaz's name is a pseudonym.  Researchers 
 
 ### Ryan T. Anderson's Book
 
-<aside><img src="problems-in-lgbt-studies-files/when-harry-became-sally.jpg" class="lightbox"></aside>
+<aside><img src="problems-in-lgbt-studies-files/when-harry-became-sally.jpg" class="lightbox rounded"></aside>
 
 Anderson is a conservative Catholic philosopher well known for being involved in the debate on LGBT issues since the early 2000's, including arguing against the legalization of same-sex marriage.
 
@@ -277,7 +297,7 @@ This section documents major untruths that persist in the psychological literatu
 
 ### "Millions of U.S. kids grew up with same-sex parents"
 
-<aside><img src="problems-in-lgbt-studies-files/rookie-numbers.jpg?w=250" class="lightbox"></aside>
+<aside><img src="problems-in-lgbt-studies-files/rookie-numbers.jpg?w=250" class="lightbox rounded"></aside>
 
 For almost four decades, gay studies researchers severely over estimated the number of families with homosexual parents.  The goal was to argue that such a family structure was more commonplace than it really was and therefore same-sex marriage should be legal.[^schumm-2018:d]
 
@@ -304,11 +324,11 @@ For almost four decades, gay studies researchers severely over estimated the num
 
 The list above is only a sample.  Walter Schumm and his associates catalogued 90 law journal articles and 71 social science/medical journal articles between 1976 and 2015 that estimated the number of kids being raised by same-sex parents at greater than one million.  While only four law articles and 13 social science/medical articles had estimates below one million.[^schumm-2016:a]  Schumm noted that the high estimates peaked in the 2000's, "possibly to meet the needs of legal teams arguing in favour of same-sex marriage."[^schumm-2018:k]
 
-<aside><img src="problems-in-lgbt-studies-files/sleeping-editor.webp?w=250" class="lightbox">"Sleeping Editor" by ChatGPT</aside>
+<aside><img src="problems-in-lgbt-studies-files/sleeping-editor.webp?w=250" class="lightbox rounded">"Sleeping Editor" by ChatGPT</aside>
 
 These estimates are remarkable given that the total number of US children was less than 63 million in 1984, and since that time has never exceeded 75 million.[^schumm-2018:f]  At the higher end, these researchers were claiming up to 14/63 = 22% of all kids in the United States were being raised by same-sex parents in the '80s and '90s.  Remarkably most of the above papers are published in peer-reviewed social and legal journals that specialize in family studies.  Were the editors and reviewers asleep for forty years?
 
-A much better estimate of number of children living in stable homes with two same sex parents is probably around 200,000 to 400,000,[^schumm-2018:e] [^gates-2015:a] with perhaps 2 to 3.7 million children under 18 having a lesbian, gay, bisexual, or transgender parent.[^gates-2015:a]  This means some of the above estimates are 35 to 70 times too high.
+Recent and better estimates of number of children living in stable homes with two same sex parents is probably around 200,000 to 400,000,[^schumm-2018:e] [^gates-2015:a] with perhaps 2 to 3.7 million children under 18 having a lesbian, gay, bisexual, or transgender parent.[^gates-2015:a]  These numbers were likely lower in decades past when fewer people were LGBT.  This means some of the above estimates are 35 to 70 times too high.
 
 If medical, social, and legal journals published such obviously wrong data, and continued to do so over four decades, can they be trusted on facts that are more subtle and hard to check?
 
@@ -376,7 +396,7 @@ Study participants were often recruited from gay rights organizations:
 
 #### Rosenfeld's 2014 "No Difference" study
 
-<aside><img src="problems-in-lgbt-studies-files/survey-trash.webp?w=250" class="lightbox">"Discarded Survey" by ChatGPT</aside>
+<aside><img src="problems-in-lgbt-studies-files/survey-trash.webp?w=250" class="lightbox rounded">"Discarded Survey" by ChatGPT</aside>
 
 One often-cited example of the "no difference" thesis is Michael Rosenfeld report in the *Journal of Marriage and Family*, where he used national survey data to compare married heterosexual couples to homosexual couples who were either legally married or considered themselves to be in a marriage-like relationship.  Rosenfeld reported:
 
@@ -404,12 +424,13 @@ As of December 2023, *The Wiley Online Library* reports Rosenberg's research has
 ### "Sexual Orientation Change Efforts Don't Work and are Harmful"
 
 <aside>
-    <img src="problems-in-lgbt-studies-files/bbq-survey.jpg?w=250" class="lightbox">
+    <img src="problems-in-lgbt-studies-files/bbq-survey.jpg?w=250" class="lightbox rounded">
     <p markdown="1">Proponents of banning SOCE often used biased sampling to reach particular conclusions.  For example, the American Medical Association says "One study showed that 77% of SOCE participants reported significant long-term harm,"[^ama-2022] citing Shidlo 2001.  But that study used the phrase "Homophobic Therapies: Documenting the Damage," to recruite some of their participants,[^shidlo-2001:a] which is likely to deter those who benefitted.  This is akin to surveying BBQ restaurant customers about whether they were able to become vegetarians.  The AMA did not mention those severe imitations.</p>
     <br>
-    <img src="problems-in-lgbt-studies-files/spitzer-2003-figure2.png?w=250" class="lightbox inverted">
+    <img src="problems-in-lgbt-studies-files/spitzer-2003-figure2.png?w=250" class="lightbox inverted rounded">
     <p markdown="1">Robert Spitzer's 2003 study did the opposite and interviewed any patient who had seen at least a 10% change toward heterosexual gender identity, but most of his participants saw much greater change than that.[^spitzer-2003]</p>
 </aside>
+
 
 The American Medical Association said in 2022 that there's consensus that sexual orientation and gender identity can't be changed:
 
@@ -448,7 +469,7 @@ But none of that's true.  Sexual orientation and gender identity change efforts 
 
 Many surveys have found significant change in sexual orientation, when patients are motivated to change and the therapy is well designed:
 
-<aside><img src="problems-in-lgbt-studies-files/1970s-san-francisco-psychologist.webp?w=250" class="lightbox">"1970's San Francisco Psychologist" by ChatGPT</aside>
+<aside><img src="problems-in-lgbt-studies-files/1970s-san-francisco-psychologist.webp?w=250" class="lightbox rounded">"1970's San Francisco Psychologist" by ChatGPT</aside>
 
 1. In 1962, Irving Bieber and 9 colleagues started with 72 exclusively homosexual men.  After therapy, 14 (**19%**) were exclusively heterosexual and 14 (**19%**) were bisexual in behavior, although they didn't measure attraction.[^spitzer-2003:a]
 2. In 1978, Charles Socarides reported that 20 of his 45 patients (**44%**) came to have "full heterosexual functioning," although this term wasn't defined.[^spitzer-2003:b]
@@ -466,6 +487,8 @@ Many surveys have found significant change in sexual orientation, when patients 
 2. Two of the studies in Cantor's list above involved patients from Dr. Zucker's famous Toronto clinic who had received treatment for gender dysphoria (Drummond et al 2008 and Singh 2012).  Among those, only **12%** of girls and **13.3%** of boys grew up to take a transgender identity.[^zucker-2012:a]
 3. However, children who are encouraged to persist in gender dysphoria typically do.  In a 2011 Dutch study, **all 70 kids** who began puberty blocking drugs began cross-sex hormones an average of 1.88 years later.[^devries-2011:a]  Some think this happens because the minds of children are especially malleable.[^cretella-2016:a] [^hruz-2017:a]
 
+==TODO:  https://www.theguardian.com/society/2024/apr/10/gender-medicine-built-on-shaky-foundations-cass-review-finds .==
+
 Studies of sexual orientation and gender identity change efforts will be covered in greater detail in upcoming articles.
 
 ### Sam Brinton's Fabricated "Conversion Therapy" Torture
@@ -476,7 +499,7 @@ In 2018 Sam Brinton (yes, that Sam Brinton[^land-2023]) wrote an op-ed for *The 
 >
 > But it didn’t stop with these hurtful talk-therapy sessions. The therapist ordered me bound to a table to have ice, heat and electricity applied to my body. I was forced to watch clips on a television of gay men holding hands, hugging and having sex. I was supposed to associate those images with the pain I was feeling to once and for all turn into a straight boy. In the end it didn’t work.[^brinton-2018]
 
-<aside><img src="problems-in-lgbt-studies-files/conversion-therapy-tv.webp?w=250" class="lightbox">"Conversion Therapy" by ChatGPT</aside>
+<aside><img src="problems-in-lgbt-studies-files/conversion-therapy-tv.webp?w=250" class="lightbox rounded">"Conversion Therapy" by ChatGPT</aside>
 
 Brinton then goes on to say "Nearly 700,000 adults in the country have received conversion therapy at some point," and pleads for it to be banned in every state.[^brinton-2018]  In a bait-and-switch, U.S. states are enacting legislation to ban licensed therapists from giving talk therapy for children and teens with unwanted same-sex attraction who desire to change.
 
@@ -491,11 +514,11 @@ In 2022, pro-LGBT journalist Wayne Besen questioned Brinton's "conversion therap
 
 Among other inconsistencies.  As of March 2024, Brinton's horrific account is still accessible in *The New York Times*, as well as [*NBC News*](https://www.nbcnews.com/feature/nbc-out/outfront-lgbtq-activist-fights-end-conversion-therapy-n708816), [*The Guardian*](https://www.theguardian.com/world/2015/apr/11/survivors-crusade-conversion-therapy-ban-pray-gay-away), *[Time Magazine](https://time.com/2907989/bornperfect-gay-conversion-reparative-therapy/)*, [*USA Today*](https://www.usatoday.com/story/opinion/voices/2018/12/27/gay-conversion-therapy-lgbtq-law-harm-column/2413310002/), [*The Huffington Post*](https://www.huffpost.com/entry/gay-conversion-therapy_b_997330), and many other major news outlets.
 
-As of 2022, Brinton says his campaign, #50Bills50States, through the Trevor Project has "passed more than 20 laws ending "conversion therapy," protecting future generations from ever having to go through what I went through."[^jonescooper-2022]  This is despite the fact that modern sexual orientation change efforts have nothing in common with what Brinton described, and any of its practitioners would be horrified by what he describes.  One has to wonder how much these lies have contributed to the widespread negative perception of sexual orientation change efforts.
+As of 2022, Brinton says his campaign, #50Bills50States, through the Trevor Project has "passed more than 20 laws ending "conversion therapy," protecting future generations from ever having to go through what I went through."[^jonescooper-2022]  This is despite the fact that modern sexual orientation change efforts have nothing in common with Brinton's alleged experience, and any of its practitioners would be horrified by what he describes.  One has to wonder how much these lies have contributed to the widespread negative perception of sexual orientation change efforts.
 
 ### "No studies show harm of gender transition"
 
-<aside><img src="problems-in-lgbt-studies-files/sterilizing.jpg?w=250" class="lightbox"></aside>
+<aside><img src="problems-in-lgbt-studies-files/sterilizing.jpg?w=250" class="lightbox rounded"></aside>
 
 In 2023, Stephen R. Hammes, president of the Endocrine Society wrote in *The Wall Street Journal*:
 
@@ -516,11 +539,13 @@ The negative outcomes began to really emerge at 10 years post-surgery and beyond
 
 Oddly, Cornell University cites several other papers by the same authors, but why not this one?  It's certainly not an obscure study, as it was cited by the United States Centers for Medicare & Medicaid Services in 2016.[^cms-2016:a]
 
-Likewise, Hammes claim was disputed in a follow-up WSJ op-ed by 21 medical professionals in 9 countries:
+Likewise, Hammes's claim was disputed in a follow-up WSJ op-ed by 21 medical professionals in 9 countries:
 
 > Dr. Hammes’s claim that gender transition reduces suicides is contradicted by every systematic review, including the review published by the Endocrine Society... There is no reliable evidence to suggest that hormonal transition is an effective suicide-prevention measure.[^kaltiala-2023]
 
 ## Conclusion
+
+<aside><img src="problems-in-lgbt-studies-files/larson-smokers.jpg?w=250" class="lightbox rounded">Comic by Gary Larson.</aside>
 
 This article could have been much longer.  It will likely still grow as time allows.  But the current extent of bias is enough to make anyone trust favorable LGBT studies research about as much as we trust favorable asbestos,[^nature-2010:a] sugar,[^oconnor-2016] or tobacco[^brownell-2009:a] industry documents. 
 
@@ -532,9 +557,19 @@ Articles about the medical science surrounding homosexuality and transgenderism 
 
 ==TODO== Pick up on editing the article here.
 
+### "Citation Cartel"
+
+https://www.realityslaststand.com/p/gender-medicines-citation-cartel
+
+### Porn / Transgenderism Link:
+
+https://twitter.com/ReduxxMag/status/1767556892295835839
+
 ### Puberty Blockers are Reversible
 
 https://www.thenewatlantis.com/publications/growing-pains
+
+> The NHS has now updated the information on its Gender Dysphoria page which previously claimed that blockers are “fully reversible.”  https://www.transgendertrend.com/current-evidence/
 
 ### Gender Affirming Surgery improves mental health
 
@@ -549,6 +584,24 @@ Op Ed by 21 doctors and researchers from 9 countries:
 ### Transition regret rates are misrepresented:
 
 > Nor should we put much faith in a study that recruited subjects for an online survey by advertising “on online groups and discussion forums that were dedicated to FTM [female-to-male] members...   https://thefederalist.com/2022/03/10/the-studies-cited-to-support-gender-bending-kids-are-largely-junk-science/
+
+### Withholding data
+
+> Cass revealed that six of the seven adult gender clinics in the U.K. obstructed her deep-dive into the evidence by colluding to withhold data from her.  https://www.washingtonexaminer.com/restoring-america/courage-strength-optimism/2966643/the-cass-report-should-be-the-death-knell-for-gender-pseudoscience/
+
+The report gives more details:
+
+> It was at the point of trying to launch the 3-month opt-out period that the NHS gender clinics indicated their unwillingness to participate.  In January 2024, the Review received a letter from NHS England stating that, despite efforts to encourage the participation of the NHS gender clinics, the necessary cooperation had not been forthcoming.
+>
+> ...
+>
+> Negotiations took place between August and November 2023, after which six of the seven adult clinics declined to support the study. Common reasons given by the clinics for nonparticipation are summarised in Table 1.
+>
+> ...
+>
+> Recommendation 5: NHS England, working with DHSC should direct the gender clinics to participate in the data linkage study within the lifetime of the current statutory instrument. NHS England’s Research Oversight Board should take responsibility for interpreting the findings of the research.
+>
+> https://cass.independent-review.uk/wp-content/uploads/2024/04/CassReview_Final.pdf
 
 ### Born this way
 
@@ -576,8 +629,6 @@ YouTube and Facebook ban conversion stories? - https://www.josephnicolosi.com/
 
 I left off somewhere in Schumm chapter 5?
 
-
-
 $339 million US taxpayer dollars were spent on LGBT research in 2022,[^nih-2023] which is double the amount spent in 2016.[^nih-2021] 
 
 Quintin Van Meter, pediatric endocrinologist and president of the American College of Pediatricians says:
@@ -589,8 +640,6 @@ Dr. Hruz:
 > The panel selected included only those who supported the emerging practices [hormones and surgery for gender dysphoria] and attempts by many of the endocrinologists present to raise concerns were muted. Subsequent attempts to engage in respectful dialogue regarding serious medical and ethical treatment concerns with colleagues who are providing hormonal treatment of gender dysphoric children have similarly been rejected. (Anderson 128ish) https://www.aclu.org/wp-content/uploads/legal-documents/045-3_paul_hruz_declaration.pdf
 
 -->
-
-
 
 ## Sources
 
@@ -611,6 +660,7 @@ Dr. Hruz:
 [^arnold-2017]: Arnold, Carrie.  "[The Man Who Warned the World About Lead](https://www.pbs.org/wgbh/nova/article/herbert-needleman/)."  PBS Nova.  2017.
 [^arnold-2017:a]: "[Lead] industry claimed the gasoline additive was safe, but cases of severe, acute lead poisoning in workers who produced the stuff immediately challenged that notion.... [Lead] industry scientists tried to sow doubt about the potential for negative health effects from tetraethyl lead or gasoline fumes. Experts described workers who became sick after working with the additive as “careless” for not following instructions. As the years passed, industry efforts grew more savvy, involving clever marketing campaigns and relying on an army of public relations firms and industry consultants that actively lobbied Congress and the Environmental Protection Agency. The producers of leaded gasoline also produced the science on its safety, and leaded gasoline got a clean bill of health through the 1960s."
 [^baiocco-2015]: Baiocco et al.  "[Lesbian Mother Families and Gay Father Families in Italy:Family Functioning, Dyadic Satisfaction, and Child Well-Being](https://www.researchgate.net/publication/272664432_Lesbian_Mother_Families_and_Gay_Father_Families_in_Italy_Family_Functioning_Dyadic_Satisfaction_and_Child_Well-Being)."  Sexuality Research and Social Policy.  2015.
+[^baker-2021]: Baker, Kellan E.  "[Hormone Therapy, Mental Health, and Quality of Life Among Transgender People: A Systematic Review](https://academic.oup.com/jes/article/5/4/bvab011/6126016)."  Journal of the Endocrine Society.  Oxford Academic.  2021.
 [^baska-2021]: Baska, Maggie.  "[Psychotherapist blocked from studying ‘trans regret’ takes case to the EU human rights court](https://www.thepinknews.com/2021/02/09/james-caspian-transgender-trans-bath-spa-european-court-human-rights/)."  Pink News.  2021.
 [^bass-2023]: Bass, Kevin.  "[Wokification of American psychology, slow version](https://twitter.com/kevinnbass/status/1741540394398106082)."  2023.  <small>Kevin Bass has a doctorate and [describes himself](https://nypost.com/2024/02/17/opinion/americas-medical-system-has-become-totally-woke/) as "a lifelong Democrat."  NotTheBee [provides](https://notthebee.com/article/this-med-student-compiled-graphs-showing-how-different-professions-have-shifted-far-left-over-the-past-decades-the-one-about-doctors-really-surprised-me-</small>) more info about Bass's data.</small>
 [^bazelon-2022]: Bazelon, Emily.  "[The Battle Over Gender Therapy](https://www.nytimes.com/2022/06/15/magazine/gender-therapy.html)."  The New York Times.  2022.
@@ -669,6 +719,9 @@ Dr. Hruz:
 [^eappen-2023:a]: "At this year’s meeting, we had frank and fruitful discussions with endocrinologists who provide hormonal treatments to kids with gender dysphoria, as well as some who don’t. Without exception, they acknowledged that the society’s evidence base for pediatric gender transition is weak, at best.  Yet while they’re aware of the guidelines’ shortcomings, they’re afraid to voice their concerns. The society’s full-throated endorsement of gender-affirming care implied condemnation of anyone who holds differing views. Medical professionals are being cowed into silence and coerced into providing treatments they know are dangerous to children."
 [^eappen-2023:b]: "Perhaps the most telling interactions were with European endocrinologists, who were there to discuss the latest research and treatments in the specialty. Those we spoke with expressed surprise that the U.S. hasn’t banned, or at least severely restricted, such treatments for adolescents and children."
 [^eappen-2023:c]: "A few days before Judge Moody’s ruling, we attended the annual meeting of the Endocrine Society, of which one of us (Dr. Eappen) is a member. We found that endocrinologists are aware of the society’s failings and rue its elevation of transgender activism over medical expertise and patient needs."
+[^economist-2024]: "[Research into trans medicine has been manipulated](https://www.economist.com/united-states/2024/06/27/research-into-trans-medicine-has-been-manipulated)."  The Economist.  2024.  Mirrors:  [Archive.is](https://archive.is/wJCI7)
+[^economist-2024:a]: "In August the WPATH executive committee wrote to Ms Robinson that WPATH had “many concerns” about these papers, and that it was implementing a new policy in which WPATH would have authority to influence the EPC team’s output—including the power to nip papers in the bud on the basis of their conclusions."
+[^economist-2024:b]: "No one at WPATH or Johns Hopkins has responded to multiple inquiries, so there are still gaps in this timeline."
 [^fincham-2008]: Fincham, Jack E.  "[Response Rates and Responsiveness for Surveys, Standards, and the Journal](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2384218/)."  Am J Pharm Educ.  2008.
 [^fincham-2008:a]: "Nonresponse bias is a deadly blow to both the reliability and validity of survey study findings. If a survey achieves only a 30% response rate, the study suffers from a nonresponse bias of 70%. If the response rate to a survey is 20%, the nonresponse bias is 80%... Response rates approximating 60% for most research should be the goal of researchers and certainly are the expectation of the Editor and Associate Editors of the *Journal*. For survey research intended to represent all schools and colleges of pharmacy, a response rate of ≥ 80% is expected."
 [^friedman-2013]: Friedman, Andrew. "[Wrestling with reversal](https://www.jpost.com/jerusalem-report/israel/wrestling-with-reversal-334664)."  Jerusalem Post.  2013.  Mirrors:  [Archive.org](https://web.archive.org/web/20230326121607/https://www.jpost.com/jerusalem-report/israel/wrestling-with-reversal-334664), [Archive.is](https://archive.is/wip/9pEj5).
@@ -687,7 +740,7 @@ Dr. Hruz:
 [^hrc-2021]: "[Online Communities and LGBTQ+ Youth](https://web.archive.org/web/20211021071828/https://www.hrc.org/resources/online-communities-and-lgbtq-youth)."  Human Rights Campaign
 [^hrc-2021:a]: Click to expand the section titled "Read More:  Debunking So-Called Rapid Onset Gender Dysphoria."<br><br>The HRC writes:<br><br>"You may see opponents of trans people specifically use junk science by Lisa Littman at Brown University to falsely claim that access to social media and the internet has created a 'contagion' that causes many youth to mistakenly identify as transgender.  Littman’s paper contained so many erroneous statements that one of her colleagues in her same academic department, Arjee Javellana Restar, [published a critique](https://web.archive.org/web/20211021071828/https://www.researchgate.net/publication/332585185_Methodological_Critique_of_Littman's_2018_Parental-Respondents_Accounts_of_Rapid-Onset_Gender_Dysphoria/link/5f74bd3292851c14bca33236/download) of the study looking at fundamental errors in Littman’s paper."<br><br>Here are the criticisms they raise, followed by a response:<br><br>"the paper falsely treats transgender identity in a pathology framework" - This is not true at all, but she shares compelling evidence of social contagion, similar to peer influences leading to anorexia.<br><br>"responses were given information that skewed Littman’s results to meet her own personal goals to confirm her theories" - Littman's paper and the critical response paper cited by SPL gives no examples of this.<br><br>"The parents and caregivers in Littman’s data were very unsupportive, with 77% of the surveyed parents believing that their child’s identification as transgender was incorrect" - Littman's sample of parents were mostly liberals who support legal recognition of same sex marriage.  When their teens with little to no previous expression of gender dysphoria suddenly want to identify as the opposite gender, it's not surprising that 77% are concerned.
 [^hrc-2024]: "[Policy and Position Statements on Conversion Therapy](https://web.archive.org/web/20240123042217/https://www.hrc.org/resources/policy-and-position-statements-on-conversion-therapy)."  Human Rights Campaign.  Retrieved 2024.
-[^hruz-2017]: Hruz, PAul W. et al.  "[Growing Pains](https://www.thenewatlantis.com/publications/growing-pains)."  The New Atlantis.  2017.
+[^hruz-2017]: Hruz, Paul W. et al.  "[Growing Pains](https://www.thenewatlantis.com/publications/growing-pains)."  The New Atlantis.  2017.
 [^hruz-2017:a]: "The medical treatments provided for children with apparent symptoms of gender dysphoria, including affirmation of gender expression from the earliest evidence of cross-gender behaviors, may drive some children to persist in identifying as transgender when they might otherwise have, as they grow older, found their gender to be aligned with their sex."
 [^hunter-1976]: Hunter, N. D., & Polikoff, N. D.  "[Custody rights of lesbian others: Legal theory and litigation strategy](http://www.williamapercy.com/wiki/images/Custody_Rights_of_Lesbian_Mothers.pdf)."  1976.  Page 691.  Mirrors:  [Archive.is](https://archive.ph/PTZVf)
 [^jacobs-2002]: Jacobs, Melanie B.  "[Micah Has One Mommy and One Legal Stranger: Adjudicating Maternity for Nonbiological Lesbian Coparents](https://digitalcommons.law.buffalo.edu/cgi/viewcontent.cgi?article=1314&context=buffalolawreview)."  Buffalo Law Review.  2002.  Page 342.
@@ -816,5 +869,5 @@ Dr. Hruz:
 [^wright-2023:d]: "Littman’s 2018 paper generated intense backlash from activists, who successfully pressured the journal that published her findings (*PLoS One*) to take the unusual step of initiating a second round of post-publication peer review.<br>...<br>Activists repeatedly disrupted further attempts by Littman to explore ROGD [Rapid Onset Gender Dysphoria] using online surveys.
 [^youthtranscriticalprofessionals-2018]: "About."  Youth Gender Professionals.  2018.  Mirrors:  [Archive.org](https://web.archive.org/web/20180107195012/https://youthtranscriticalprofessionals.org/about/)
 [^youthtranscriticalprofessionals-2018:a]: "There are two principal authors of this site. One is a clinical social worker, the other is a university professor. We are left-leaning, open-minded, and pro-gay rights. However, we are concerned about the current trend to quickly diagnose and affirm young people as transgender, often setting them down a path toward medical transition."
-[^zucker-2012]:	Zucker, Kenneth.  "[A developmental, biopsychosocial model for the treatment of children with gender identity disorder](https://pubmed.ncbi.nlm.nih.gov/22455326/)."  Journal of Homosexuality.  2012.  Mirrors:  [ResearchGate](https://www.researchgate.net/publication/223135175_A_Developmental_Biopsychosocial_Model_for_the_Treatment_of_Children_with_Gender_Identity_Disorder).
+[^zucker-2012]:	Zucker, Kenneth.  "[A developmental, biopsychosocial model for the treatment of children with gender identity disorder](https://pubmed.ncbi.nlm.nih.gov/22455326/)."  Journal of Homosexuality.  2012.  Mirrors:  [ResearchGate](https://www.researchgate.net/publication/223135175_A_Developmental_Biopsychosocial_Model_for_the_Treatment_of_Children_with_Gender_Identity_Disorder).<small>Zucker led the Child Youth and Family Gender Identity Clinic in Toronto, one of the world's most well-known clinics for children and teens with gender dysphoria.  He led the group that wrote the DSM-5's gender dysphoria entry, currently serves as chief editor of the *Archives of Sexual Behavior* Journal, and is one of the most frequently cited names on gender identity and dysphoria.</small>
 [^zucker-2012:a]: " In our own follow-up studies, we have found a persistence rate of 12% for GID girls (n = 25; Drummond et al., 2008) and a persistence rate of 13.3% for GID boys (n = 135; Singh et al., 2010). Thus, there is a fair bit of variation in persistence rates."

@@ -29,7 +29,7 @@ class BereanArchive {
 				(object)[
 					'name'=>'Junk Versus Functional DNA Predictions',
 					'url'=>'/articles/biology/functional-dna-predictions',
-					'thumb'=>'/articles/biology/functional-dna-predictions-files/header-square-small.jpg',
+					'thumb'=>'/articles/biology/functional-dna-predictions-files/header-square.webp',
 					'description'=>'Evolution proponents prediced most DNA in complex organisms would be junk, while intelligent design proponents predicted the opposite.'
 				],
 				(object)[
@@ -74,7 +74,7 @@ class BereanArchive {
 				(object)[
 					'name'=>'Shroud of Turin:  1988 Carbon Dating',
 					'url'=>'/articles/history/shroud-of-turin-carbon-dating',
-					'thumb'=>'/articles/history/shroud-of-turin-carbon-dating-files/header-square.jpg',
+					'thumb'=>'/articles/history/shroud-of-turin-carbon-dating-files/header-square.webp',
 					'description'=>"The Shroud of Turin is a linen burial cloth with the image and blood of a man having wounds matching the crucifixion of Christ, as if the imprint of his body was flash-burned into the shroud's fibers.  However, carbon dating in 1988 puts the shroud in the middle ages, not the time of Christ.  This article disproves that carbon date."
 				]
 
@@ -99,7 +99,7 @@ class BereanArchive {
 						<li><a href="<?=htmlspecialchars($article->url)?>"
 							title="<?=htmlspecialchars($article->description)?>">
 							<div>
-								<img src="<?=htmlspecialchars($article->thumb)?>?w=32"/>
+								<img src="<?=htmlspecialchars($article->thumb)?>?w=32" loading="lazy" style="width: 32px; height: 32px"/>
 							</div>
 							<div>
 								<?=htmlspecialchars($article->name)?>

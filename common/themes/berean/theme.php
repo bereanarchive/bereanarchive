@@ -11,7 +11,7 @@ $page_stretchVertical ??= false;
 /**
  * @var string Title shown in the browser tab, in search engine results, and when sharing on social media.
  * It's printed inside the <code>&lt;title&gt;</code> and <code>&lt;meta&nbsp;property="og:title"&gt;</code> tags. */
-$page_title = "";
+$page_title ??= "";
 
 /**
  * @type string|textarea
@@ -149,9 +149,10 @@ if (isset($_GET['raw'])) {
 	die;
 }
 
+$protocol = ($_SERVER['HTTPS'] ?? '') ? 'https://' : 'http://';
 ?>
 <!DOCTYPE html>
-<html lang="en" class="rex-layout">
+<html lang="en" class="eternium-layout">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -160,8 +161,8 @@ if (isset($_GET['raw'])) {
 
 
 	<!-- Styles -->
-	<link rel="stylesheet" href="/sitecrafter/lib/css/rex.css">
-	<link rel="stylesheet" href="/common/themes/berean/theme.css">
+	<link rel="stylesheet" href="/sitecrafter/lib/css/eternium.css">
+	<link rel="stylesheet" href="/common/themes/berean/theme.css?2">
 	<link rel="stylesheet" href="/common/css/footnotes2.css">
 	<link rel="stylesheet" href="/common/css/magnific.css">
 
@@ -186,17 +187,12 @@ if (isset($_GET['raw'])) {
 		<meta name="twitter:description" content="<?=htmlspecialchars($page_description)?>">
 	<?php endif?>
 	<?php if (!empty($page_image)):?>
-		<?php $pageImageUrl = (($_SERVER['HTTPS'] ?? '') ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] .
-			str_replace('#', '%23', $page_image)?>
+		<?php $pageImageUrl = $protocol . $_SERVER['HTTP_HOST'] . str_replace('#', '%23', $page_image)?>
 		<meta property="og:image" content="<?=htmlspecialchars($pageImageUrl)?>">
 		<meta name="twitter:image" content="<?=htmlspecialchars($pageImageUrl)?>">
 	<?php endif?>
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="<?="https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"?>">
-
-
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="<?="$_SERVER[SERVER_PROTOCOL]://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"?>">
+	<meta property="og:url" content="<?="$protocol$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"?>">
 	<style>
 		/* ┌─────────────────────────────╮
 		 * | Main Layout                 |
@@ -218,10 +214,10 @@ if (isset($_GET['raw'])) {
 		.slideContainer > #mobileMenu { transform: translateX(-200px) } /* Hide menu by default.*/
 
 		/* Button */
-		#mobileMenuButton { position: fixed; z-index: 1; top: 0; right: 0; padding: 8px; line-height: .8;
+		#mobileMenuButton { position: fixed; z-index: 1000; top: 0; right: 0; padding: 8px; line-height: .8;
 			border-bottom-left-radius: 10px; cursor: pointer; font-size: 30px; font-weight: bold;
 			color: white; background: black;
-			}
+		}
 		@media (max-width: 768px) {	#mobileMenu { display: none } }
 		@media (min-width: 769px) {	#mobileMenuButton { display: none } }
 
@@ -282,7 +278,7 @@ if (isset($_GET['raw'])) {
 				<div id="left"><?=$page_left?></div>
 			<?php endif?>
 
-			<div id="container" class="col stretch">
+			<div id="container" class="col">
 
 				<?php if (trim($page_banner3)):?>
 					<div id="banner3"><?=$page_banner3?></div>
@@ -349,7 +345,7 @@ if (isset($_GET['raw'])) {
 		let footnotes = document.body.querySelector('div.footnotes');
 		if (footnotes) {
 			let div = document.createElement('div');
-			div.innerHTML = `<div class="expand row center"><a href="javascript:;">Expand</a></div>`
+			div.innerHTML = `<div class="expand row center"><a href="javascript:;">Show All</a></div>`
 			let expand = div.firstChild;
 
 

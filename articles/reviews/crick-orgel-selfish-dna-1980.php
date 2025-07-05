@@ -12,8 +12,7 @@ $page_head = '';
 
 //$page_content
 ob_start()?>
-<div class="authorship">by John Berea
-	<br>Published: Jan 2017
+<div class="authorship">Published: Jan 2017
 	<br>Updated:
 	<?=date('F j, Y', filemtime(__FILE__))?>
 </div>

@@ -133,10 +133,13 @@ body { font: 400 16px/1.6 'Open Sans'; color: var(--textColor); background: var(
 #banner1 > div { background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; height: 100% }
 
 /* Caption */
-#banner2 { border-top: 1px solid #222; padding: 2px 6px; font-size: 80%; text-align: right; color: var(--darkText);
+#banner2 { line-height: 24px; height: 24px; border-top: 1px solid #222; padding: 2px 6px;
+	font-size: 80%; text-align: right; color: var(--darkText);
 	background: black; white-space: nowrap; overflow: hidden }
 #banner2 :is(a, a:visited) { color: inherit; opacity: .7; text-decoration: none }
 #banner2 a:is(:active, :hover) { text-decoration: underline }
+@media (max-width: 768px) { #banner2 { font-size: 10px; font-family: 'Arial Narrow', 'Open Sans', sans-serif } }
+@media (max-width: 512px) { #banner2 { font-size: 0 } }
 
 .darkModeToggle { position: fixed; top: 0; padding: 0 0 5px 5px; right: 2px; z-index: 100;
 	color: white; mix-blend-mode: difference; cursor: pointer  }
@@ -210,7 +213,7 @@ a#bereanLogo span { width: 155px; height: 50px; display: block; transition: widt
 /* Headers */
 #content { position: relative; max-width: min(800px, 100%); padding: 20px; margin-left: 30px; background: var(--pageBgColor) }
 @media (max-width: 768px) { #content { margin-left: 10px } }
-@media (max-width: 512px) { #content { padding: 5px; margin-left: 0 } }
+@media (max-width: 512px) { #content { padding: 8px; margin-left: 0 } }
 
 #content h1 {
 	position: absolute; bottom: calc(100% + 30px); left: 20px; z-index: 3; margin: 0; width: calc(100% + 200px);
@@ -223,7 +226,7 @@ a#bereanLogo span { width: 155px; height: 50px; display: block; transition: widt
 @media (max-width: 768px) { #content h1 { font: 300 280%/1 'Open Sans'; left: 20px; width: calc(100vw - 40px) } }
 @media (max-width: 512px) { #content h1 { font-size: 220%; left: 5px; width: calc(100vw - 25px) } }
 
-#content h2 { display: table; color: var(--h2Color); font: 300 240%/125% 'Open Sans'; margin: 2em 0 0 0;
+#content h2 { display: table; color: var(--h2Color); font: 300 240%/125% 'Open Sans'; margin: 2em 0 .5em 0;
 	border-bottom: 2px solid var(--h2Color);  letter-spacing: -0.01em }
 #content h3 { margin: 1.5em 0 0 0; font: normal 24px/1.5 Cabin, sans-serif; color: var(--h3Color) }
 #content h4 { color: var(--h4Color); font: bold 18px/1.2 'Open Sans'; margin: 1.5em 0 0 0;
@@ -245,6 +248,7 @@ a#bereanLogo span { width: 155px; height: 50px; display: block; transition: widt
 /* Quotes */
 #content blockquote { position: relative; display: table; margin-top: .25em; padding: .6em .6em .6em 2.2em;
 	border-radius: 5px; background: var(--quoteBg); font-size: 95%;  }
+#content :is(th,td) blockquote { display: block }
 #content blockquote:before { position: absolute; font-family: Arial, sans-serif; content: '“'; height: 0; width: 0;
 	line-height: 0; top: 0.5em; left: 0.1em; color: var(--quoteColor); font-size: 400%;
 }
@@ -273,7 +277,7 @@ a#bereanLogo span { width: 155px; height: 50px; display: block; transition: widt
 #content h2 + :is(p, blockquote, ol, ul),
 #content h3 + :is(p, blockquote, ol, ul),
 #content h4 + :is(p, blockquote, ol, ul),
-#content p + blockquote,
+#content :not(blockquote) + blockquote,
 #content aside + p { margin-top: 0 !important }
 
 
@@ -291,20 +295,24 @@ a#bereanLogo span { width: 155px; height: 50px; display: block; transition: widt
 
 /* lines separating each row */
 #content table.style1 { table-layout: fixed; margin-bottom: 1.5em;}
-#content table.style1 :is(th, td) { padding: 5px 15px 5px 2px; border-bottom: 1px solid var(--tableBorder) }
-#content table.style1 :is(th, td):last-child { padding-right: 0 }
+#content table.style1 :is(th, td) { padding: 5px 15px 5px 2px }
+#content table.style1 th,
+#content table.style1 tr:not(:last-of-type) td { border-bottom: 1px solid var(--tableBorder) }
+#content table.style1 :is(th, td):last-child { padding-right: 5px }
 
+/* Same as above, but no lines */
 #content table.style2 { margin-bottom: 1.5em;}
 #content table.style2 :is(th, td) { padding: 5px 15px 5px 2px }
-#content table.style2 :is(th, td):last-child { padding-right: 0 }
+#content table.style2 :is(th, td):last-child { padding-right: 5px }
 
 
 /* A two column table of quotes, with a portrait in the first column and the quote in the second. */
-#content table.quotes { table-layout: fixed;}
-#content table.quotes td:first-child { text-align: center; padding: 7px 0 20px 0; width: 20%;}
+#content table.quotes { table-layout: fixed }
+#content table.quotes th { font-weight: normal }
+#content table.quotes :is(th,td):first-child { padding: 7px 0 20px 0; width: 20%; text-align: center; vertical-align: top }
 #content table.quotes img { width: 100%; border-radius: 10px; border: 1px solid black }
 
-#content table.quotes td:nth-child(2) { padding: 0 0 20px 20px }
+#content table.quotes :is(th,td):nth-child(2) { padding: 0 0 20px 20px; vertical-align: top; width: 80% }
 
 #content table.small { font-size: 85%; margin-left: 0; margin-top: 0 }
 
@@ -327,11 +335,11 @@ a#bereanLogo span { width: 155px; height: 50px; display: block; transition: widt
 	border-radius: 5px; padding: 0.5em 0.4em 0.2em 1em; display: table }
 #content .highlight h4 { margin-top: 0 }
 
-#content div.companionArticle { display: flex; margin: 1.5em 0 1.5em 0; background-color: var(--companionBg); border: 1px dashed var(--companionBorder);
+#content div.companionArticle { display: flex; gap: 12px; margin: 1.5em 0 1.5em 0; background-color: var(--companionBg); border: 1px dashed var(--companionBorder);
 	border-radius: 5px; padding: 0.5em 0.4em 0.5em .5em; color: var(--companionColor) }
-#content div.companionArticle img { width: 90px; height: 90px; margin-right: 12px; border: 1px solid var(--imgBorder); border-radius: 12px }
+#content div.companionArticle img { min-width: 90px; max-width: 90px; min-height: 90px; max-height: 90px; border: 1px solid var(--imgBorder); border-radius: 12px }
 
-#content .wide { width: calc(100% + 290px); max-width: initial; position: relative; z-index: 0; background-color: var(--pageBg);
+#content .wide { width: calc(100% + 290px); max-width: initial; position: relative; z-index: 0; background-color: var(--pageBgColor);
 	border-top-right-radius: 12px; border-bottom-right-radius: 12px }
 	/* Width of right sidebar (30px right margin, 30px right padding, 230px sidebar width) */
 @media (max-width: 1340px) { #content .wide { width: 100% } }
@@ -345,27 +353,26 @@ a#bereanLogo span { width: 155px; height: 50px; display: block; transition: widt
 
 
 /* Asides */
-#content aside { position: absolute; clear: right; left: calc(100% + 30px); min-width: 180px; max-width: 230px; width: 100%;
+#content aside { position: absolute; clear: right; left: calc(100% + 30px); width: 230px;
 	font-size: 85%; line-height: 1.4; z-index: 1; color: var(--smallColor) }
+@media (max-width: 1340px) { /* Move asides within #content */
+	#content aside { position: relative; left: 0; width: min(230px, 40vw); z-index: 1; float: right; padding: 0 5px 0 10px; margin-left: 15px; margin-bottom: 10px }
+}
+
+
 #content aside img { max-width: 100% }
 #content aside ol li:before { color: inherit } /* override gray color */
 
 #content aside.companionArticle { box-sizing: border-box; background-color: var(--companionBg); border: 1px dashed var(--companionBorder);
 	border-radius: 5px; padding: .5em .5em .4em .5em !important; color: var(--companionColor) }
 #content aside.companionArticle img { border: 1px solid var(--imgBorder); border-radius: 10px } /* Same as img rounded. */
-@media (max-width: 1340px) { /* Move asides within #content */
-	#content aside { position: relative; z-index: 1; float: right; left: 0; padding: 0 5px 0 10px; margin-left: 20px; margin-bottom: 10px }
-}
 
 /* Added by Parsedown.*/
 #content div.footnotes hr,
 #content .footnote-backref { display: none }
 
 div.footnotes { padding-left: 15px } /* Make room for list numbers */
-div.footnotes:not(.expanded) { max-height: 150px; overflow: auto }
-
-
-
+div.footnotes:not(.expanded) { max-height: 150px; overflow: auto; position: relative; mask-image: linear-gradient(0, transparent, black, black)  }
 
 /* ┌─────────────────╮
  * |Footer           |

@@ -20,7 +20,7 @@ page_theme: common/themes/berean/theme.php
     <p>Image from the June 1980 isue of National Geographic[^weaver-1980] showing the main features of the shroud.</p>
 </aside>
 
-The Shroud of Turin was the burial cloth of Christ, with blood from crucifixion wounds, as well as the 3D image of his crucified body photochemically flashed into its fibers in a way that can only be explained by the resurrection. This conclusion compels itself so inescapably from  numerous and diverse data that it's shocking it's not already widely known and accepted.  Especially since the shroud is or is among the most studied artifacts in the world.[^pellicori-1981:c] [^benford-2002:a] [^currie-2004:a] [^pitts-2013:a] [^de-caro-2022:d] [^farey-2022:a] 
+The Shroud of Turin was the burial cloth of Christ, with blood from crucifixion wounds, as well as the 3D image of his crucified body photochemically flashed into its fibers in a way that can only be explained by the resurrection. This conclusion compels itself so inescapably from  numerous and diverse data that it's shocking it's not already widely known and accepted.  Especially since the shroud is or is among the most studied artifacts in the world.[^pellicori-1981:c] [^benford-2002:a] [^currie-2004:a] [^pitts-2013:a] [^lascio-2018:a] [^mcavoy-2019:a] [^de-caro-2022:d] [^farey-2022:a] 
 
 Specifically, we have a linen burial sheet in Turin, Italy bearing the wounds of Jesus described in the gospels (100s of scourge marks, crown of thorns, bruised face, pierced wrists and feet, and spear wound), with chemical tests identifying human blood, which forensics experts say could only have happened by contact with real wounds. It's dusted with an uncommon form of limestone powder known as travertine aragonite, along with iron and strontium impurities, also found in tombs near Jerusalem.
 
@@ -31,6 +31,8 @@ The most extensive study of the shroud was performed in 1978 by the Shroud of Tu
 In 1988, the a sample from a corner repaired in the middle ages was carbon dated to the middle ages, and this is often cited to discredit the shroud as a medieval forgery.  Even though prior to the carbon dating, two archaeologists and a textile expert each independently warned that the corners may not be original material.  Subsequent examination of fibers from that corner revealed cotton woven into the original linen, that was dyed to look older, obvious signs of repair. Work testing the mechanical wear of shroud fibers, infrared spectroscopy to measure flax discoloration with aging, x-ray crystallographic measure of flax chain breaks, as well as Ray Rogers' work with vanillin decomposition all put the shroud in or around the first century.
 
 There's more misinformation than information being printed about it, so pack a lunch, this will be a long trip.
+
+==More than 170 peer-reviewed academic papers have been published about the mysterious linen since the 1980s, with many concluded it to be genuine.  https://www.dailymail.co.uk/sciencetech/article-13758359/scientists-discovery-jesus-cloth-buried-shroud-turin.html .==
 
 ## Features of the Shroud
 
@@ -66,11 +68,19 @@ The shroud's linen weave appears more crude and uneven than the shroud's backing
 
 The stitching of the hems and of the side-seam closely match that on cloths found at the Jewish palace-fortress of Masada, from 73 AD.[^bsts-2000:b]  Although such stitching is also found in the middle ages.[^shamir-2015:i]
 
+
+
+#### Folds
+
+TODO:  nice diagram here:  https://www.facebook.com/BSTSNews/posts/pfbid0BuAczHCvZdcgFepMgQs5VPpiYqWD4TTD74rjAUMGvaeSCQHH92NKwN4fTCWztE9Bl
+
 ### The Body
 
 About 174±2 cm[^fanti-1999:a] although estimates have ranged from 162cm to 187cm.[^crispino-1979]
 
-Ethnically Mediterranean or Semitic.[^fanti-1999:c]
+Ethnically Mediterranean or Semitic.[^fanti-1999:c] [^wilcox-1977:a]
+
+
 
 Images drawn from the shroud in the 1500s and 1600s are less anatomically precise than the shroud.[^fanti-1999:d]
 
@@ -127,11 +137,15 @@ The red areas on the shroud corresponding to the location of crucifixion wounds 
 
 ==TODO: AB was common among ancient Israelites:  https://pubmed.ncbi.nlm.nih.gov/888938/ .==
 
+Only 4% of people in France have AB+ or AB- https://www.sliderbase.com/spitem-614-1.html
+
 ==TODO:  More info here [here](https://www.shroud.com/pdfs/anc-kearse-pap3.pdf).  Need to find photos of serum halos.==
 
 Areas on the shroud with blood clots show a serum halo around the blood as if from contact with real wounds,[^pellicori-1980:c] [^heller-1981:d] [^miller-1981:b] [^pellicori-1981:f] [^bucklin-1982:d] [^adler-1996:a] [^bsts-2000:d] which wouldn't happen if blood was simply painted onto the shroud.[^jumper-1984:i]
 
 Additionally, nothing else was found in the blood areas except blood--they haven't been "improved" with red paints or dyes.[^jumper-1984:j]  ==TODO: Fanti's paper claiming the opposite?== As expected, areas on the shroud without blood test negative for blood proteins.[^heller-1981:f] [^jumper-1984:h]  
+
+==TODO Evidence of asphyxiation==
 
 #### Contact with a crucified man.
 
@@ -155,62 +169,25 @@ There's general agreement among medical investigators that the cloth made contac
 
 ==But Hugh Farey [says](https://talesoftimesforgotten.com/2020/02/24/sorry-the-shroud-of-turin-is-definitely-a-hoax/#comment-32117):  "almost everything asserted by Robert Bucklin, famous pathologist from Los Angeles and firm believer in the authenticity of the Shroud is firmly denied by Fred Zugibe, famous pathologist from New York and firm believer in the authenticity of the Shroud. Clearly the pathological evidence is not as clear as either of the eminent pathologists thought."==
 
-### The Image
+### Image Coloration
 
-#### 3D Properties
+#### Not paint, pigment, or dye
 
-The image on the shroud is a negative 3D ++heightmap++, in that darker regions correspond to areas where the cloth would be closest to the body, and lighter areas further away,[^vignon-1902:b] [^jumper-1984:e] [^jackson-1989:c] fading off completely at a cloth-body distance of about 3.7cm.[^jackson-1982:a] When the shroud's "height" information is corrected based on the measured distances between a linen cloth and a volunteer, the 3D image of a human body emerges.[^jackson-1982:b]  The image has a resolution of about 0.5cm.[^pellicori-1980:b] [^schwalbe-1982:p]
+The shroud image is definitely not colored by any paint, pigment, dye, or other coating[^morris-1980:a] [^pellicori-1980:e] [^miller-1981:d] [^heller-1981:h] [^pellicori-1981:b] [^pellicori-1981-2:c] [^schwalbe-1982:g] [^jumper-1984:k] [^kohlbeck-1986:c] [^adler-1996:c] 
 
-#### Vertically Collimated
-
-<aside>
-    <img src="shroud-of-turin-files/fanti-2015b-figure1.jpg?w=230" style="width: 230px" class="lightbox">
-	<p markdown="1">        
-The front image from the Shroud of Turin versus a non-vertically collimated image created on cloth via coronal discharge on a manequin.[^fanti-2015]</p>
-</aside>
-Whatever caused the image on the shroud, it appears it shot vertically straight up and down from the body,[^jackson-1989:b] instead of in all directions outward from the surface of the body:
-
-> [O]nly mapping in a vertical direction produces nearly correct correspondence between points on the body and cloth.  Projections normal [perpendicular] to either the body or cloth surfaces should produce an image with significantly greater distortions.  In fact, projection normal [perpendicular] to the body surface would produce a region of "confusion" between the side of the nose and cheek.[^ercoline-1982:b]
-
-Otherwise we would see the sides of many anatomical features not visible on the shroud, such as the sides of the head and body.[^ercoline-1982:c]  The images to the right illustrates the very clear difference, with the vertically-collimated shroud image on the left versus a non-vertically collimated image created via ++coronal discharge++ from a mannequin on the right.
-
-#### Anatomical Distortions
-
-To a casual observer the shroud man appears anatomically accurate, but careful measurements reveal "significant distortions which can't be explained by anatomical variation or cloth stretching... broadening of the hips, elongation of the arms and fingers, lateral displacement of the hair away from the side of face."[^ercoline-1982]  
-
-But experiments show these distortions are "consistent with a cloth draped over a 3 dimensional body."[^ercoline-1982]  What appears to be long fingers can be explained by the image actually revealing bones in the hand,[^jackson-1990:k] or perhaps the cloth was wrapped around the ends of the fingers, adding the fingertips and inside area of the fingers to the image.[^crispino-1979:c]  Other distortions are likely caused by folds and an slightly uneven draping of the cloth over the body.[^ercoline-1982:c] [^jackson-1989:a]
-
-==TODO: Put this under anatomy?==
-
-#### Matches No Known Art Style
-
-The image on the shroud matches no known art style from any point in history.[^vignon-1902:a]
-
-> Finally, any applied pigment is incapable of rendering all of the image characteristics found on this cloth. It is highly improbable that any 14th century artist would produce a "reversed" image or could encode the degree of three dimensional, computer readable information found in this image and leave no other surviving historical evidence of his evident genius.[^heller-1981:m]
+There's no evidence of any coating, paint, flowing liquids or cementation between fibers, except on the parts of the shroud with blood.[^heller-1981:a] [^schwalbe-1982:e] [^jumper-1984:m]
 
 Likewise there are no brush strokes.[^schwalbe-1982:h]
 
-#### Fiber Coloration
+#### Not a scorch
 
-The shroud image is definitely not colored by any paint, pigment, dye, or other coating[^morris-1980:a] [^pellicori-1980:e] [^miller-1981:d] [^heller-1981:h] [^pellicori-1981:b] [^pellicori-1981-2:c] [^schwalbe-1982:g] [^jumper-1984:k] [^kohlbeck-1986:c] [^adler-1996:c] Rather, the image on the shroud is formed exclusively from dehydrated cellulose in the linen fibers,[^heller-1981:b] [^pellicori-1981-2:e] [^schwalbe-1982:n] [^jumper-1984:d] [^adler-1996:b] which makes it appear more yellow or straw-colored.[^pellicori-1980:d] [^jumper-1984:l]  Specifically:
+The fiber coloration is not a scorch, because scorch marks fluoresce under UV light while the body image does not.[^pellicori-1981:h] [^pellicori-1981-2:b] [^devan-1982:d] 
 
-1. The fiber coloration is not a scorch, because scorch marks fluoresce under UV light while the body image does not.[^pellicori-1981:h] [^pellicori-1981-2:b] [^devan-1982:d] 
-2. About 200 nm (nanometers) of the outer cells of the flax making the fibers are darkened, which is about the thickness of flax cell walls.  Only the outermost 2 to 4 fibers of each thread are darkened.[^pellicori-1981:d] [^devan-1982:b] [^jumper-1984:c] [^fanti-2010:a] [^lazzaro-2012:a] [^fanti-2015-2:a]
-3. All image fibers are the same darkness.  Areas of the image that appear darker are instead caused by the presence of more darkened fibers, giving the image a half-tone quality.[^pellicori-1981:g] [^devan-1982:a] [^schwalbe-1982:d] [^jumper-1984:b] [^rogers-2002:a] [^garlaschelli-2010:a]
-4. Image fibers are colored all the way around their radius.[^fanti-2018:a]  The color will preferentially follow a fiber for some length even when adjacent fibers are uncolored, except when a fiber's thread passes below another thread.[^jumper-1984:a] [^fanti-2010:c]
-5. There's no evidence of any coating, paint, flowing liquids or cementation between fibers, except on the parts of the shroud with blood.[^heller-1981:a] [^schwalbe-1982:e] [^jumper-1984:m]
-6. There's no image beneath the bloodstains.[^bucklin-1982] [^jumper-1984:f] [^fanti-2010:d] [^fanti-2011:c]  ==TODO add this source:  "It implies that the bloodstains were formed on the Shroud before the still not reproduced body-image was." https://www.scirp.org/(S(lz5mqp453edsnp55rrgjct55))/reference/referencespapers.aspx?referenceid=1619652.==
-7. Sticky tape applied to image areas comes off more easily, and seems to bring more flax particles with it, supporting the idea of greater degradation.[^schwalbe-1982:b]
+#### Dehydrated Cellulose
 
-==TODO: cite the above list from [Rogers 1978](https://www.sciencedirect.com/science/article/abs/pii/S0003267001852636?via%3Dihub) and other sources from Fanti 2010's list and Fanti 2005==
+Rather, the image on the shroud is formed exclusively from dehydrated cellulose in the linen fibers,[^heller-1981:b] [^pellicori-1981-2:e] [^schwalbe-1982:n] [^jumper-1984:d] [^adler-1996:b] which makes it appear more yellow or straw-colored.[^pellicori-1980:d] [^jumper-1984:l]
 
-Below, sections of colored (darker brown) and non-colored (lighter brown) fibers can be seen on shroud threads.  The difference is barely noticeable when viewed close up.  Red arrows show fibers where color abruptly stops.  Black arrows point to color concentrations in furrows.[^fanti-2010:b]  For scale, each thread is about 0.15 mm thick.[^motern-1979:a] 
-
-<img src="shroud-of-turin-files/fanti-2010-figure7a.jpg">
-
-This diagram shows the distribution of colored versus non-colored fibers in each thread.  Warp threads are vertical and and pass over and under the horizontal weft threads:[^fanti-2010]
-
-<img src="shroud-of-turin-files/fanti-2010-figure8.png">
+Sticky tape applied to image areas comes off more easily, and seems to bring more flax particles with it, supporting the idea of greater degradation.[^schwalbe-1982:b]]
 
 Here we see a shroud fiber from an image area (top) and not from an image area (bottom) as seen through an optical microscope.  Note the outer layer of coloring in the top fiber:[^fanti-2015-2]
 
@@ -228,11 +205,29 @@ Likewise modern linen fibers become corrugated when exposed to ++coronal dischar
 
 <img src="shroud-of-turin-files/fanti-2015-2-figure-16.jpg">
 
+#### Superficiality
 
+About 200 nm (nanometers) of the outer cells of the flax making the fibers are darkened, which is about the thickness of flax cell walls.  Only the outermost 2 to 4 fibers of each thread are darkened.[^pellicori-1981:d] [^devan-1982:b] [^jumper-1984:c] [^fanti-2010:a] [^lazzaro-2012:a] [^fanti-2015-2:a]  ==TODO== : Turin commission saw the same:  "A thread in square 32r ... broke on extraction so two fragments were obtained [and] It was observed that the reddish tint [body image color] of the thread was limited to the surface, while the inside appeared to be perfectly white""  https://theshroudofturin.blogspot.com/2024/05/report-of-1973-turin-commission-on.html
 
+#### Circumscribed Fibers
 
+Image fibers are colored all the way around their radius.[^fanti-2018:a]  The color will preferentially follow a fiber for some length even when adjacent fibers are uncolored, except when a fiber's thread passes below another thread.[^jumper-1984:a] [^fanti-2010:c]
 
-#### Source of Fiber Coloration
+#### Monochome Halftone
+
+All image fibers are the same darkness.  Areas of the image that appear darker are instead caused by the presence of more darkened fibers, giving the image a half-tone quality.[^pellicori-1981:g] [^devan-1982:a] [^schwalbe-1982:d] [^jumper-1984:b] [^rogers-2002:a] [^garlaschelli-2010:a
+
+This diagram shows the distribution of colored versus non-colored fibers in each thread.  Warp threads are vertical and and pass over and under the horizontal weft threads:[^fanti-2010]
+
+<img src="shroud-of-turin-files/fanti-2010-figure8.png">
+
+Below, sections of colored (darker brown) and non-colored (lighter brown) fibers can be seen on shroud threads.  The difference is barely noticeable when viewed close up.  Red arrows show fibers where color abruptly stops.  Black arrows point to color concentrations in furrows.[^fanti-2010:b]  For scale, each thread is about 0.15 mm thick.[^motern-1979:a] 
+
+<img src="shroud-of-turin-files/fanti-2010-figure7a.jpg">
+
+==TODO: cite the above list from [Rogers 1978](https://www.sciencedirect.com/science/article/abs/pii/S0003267001852636?via%3Dihub) and other sources from Fanti 2010's list and Fanti 2005==
+
+#### Recreating the Coloration
 
 There have been hundreds of attempts to reproduce the characteristics of the shroud image using colors, powders and other chemical contact, but these inevitably fail to reproduce the microscopic properties shown above, and often fail at the macroscopic level too.[^fanti-2010:e] [^prostak-2011:a] [^lazzaro-2012:f] [^moon-2022:a]  Attempts using radiation fare better.[^prostak-2011:a]
 
@@ -252,11 +247,15 @@ Some experiments with linen cloth,VUV radiation, and using heat to artificially 
 
 Exposure to ultraviolet light can also explain why the blood on the shroud has remained so red despite being so old.==TODO original source==
 
-Interestingly, the Gospel of Matthew describes Jesus emitting intense light when he appeared in glorified form during the Transfiguration.  Matthew 17:2:
+Jesus, who called himself "the light of the world" would sometimes emit intense light.  Such as in the Gospel of Matthew when he appeared in glorified form during the Transfiguration.  Matthew 17:2:
 
 > And he was transfigured before them, and his face shone like the sun, and his clothes became white as light.
 
+Or to Paul on the road to Damascus.
+
 ==TODO Lazzarro's 2023 work:  https://www.nydailynews.com/news/national/shroud-turin-fake-researchers-scientists-unable-replicate-cloth-christ-like-image-article-1.995661 .==
+
+==TODO: Summary of energy calculations 100's of nuclear plants - https://x.com/AngelicMindX/status/1826706186252796197 .==
 
 #### Delayed Coloration
 
@@ -264,7 +263,41 @@ John P. Jackson's paper from 2014:
 
 "the same phenomenon should occur at room temperature, but over a much longer time scale"
 
-### Image Formation via Radiation Fall-Through
+### Image Features
+
+#### Matches No Known Art Style
+
+The image on the shroud matches no known art style from any point in history.[^vignon-1902:a]
+
+> Finally, any applied pigment is incapable of rendering all of the image characteristics found on this cloth. It is highly improbable that any 14th century artist would produce a "reversed" image or could encode the degree of three dimensional, computer readable information found in this image and leave no other surviving historical evidence of his evident genius.[^heller-1981:m]
+
+Likewise there are no brush strokes.[^schwalbe-1982:h]
+
+#### 3D Properties
+
+The image on the shroud is a negative 3D ++heightmap++, in that darker regions correspond to areas where the cloth would be closest to the body, and lighter areas further away,[^vignon-1902:b] [^jumper-1984:e] [^jackson-1989:c] fading off completely at a cloth-body distance of about 3.7cm.[^jackson-1982:a] When the shroud's "height" information is corrected based on the measured distances between a linen cloth and a volunteer, the 3D image of a human body emerges.[^jackson-1982:b]  The image has a resolution of about 0.5cm.[^pellicori-1980:b] [^schwalbe-1982:p]
+
+#### Anatomical Distortions
+
+To a casual observer the shroud man appears anatomically accurate, but careful measurements reveal "significant distortions which can't be explained by anatomical variation or cloth stretching... broadening of the hips, elongation of the arms and fingers, lateral displacement of the hair away from the side of face."[^ercoline-1982]  
+
+But experiments show these distortions are "consistent with a cloth draped over a 3 dimensional body."[^ercoline-1982]  What appears to be long fingers can be explained by the image actually revealing bones in the hand,[^jackson-1990:k] or perhaps the cloth was wrapped around the ends of the fingers, adding the fingertips and inside area of the fingers to the image.[^crispino-1979:c]  Other distortions are likely caused by folds and an slightly uneven draping of the cloth over the body.[^ercoline-1982:c] [^jackson-1989:a]
+
+#### Vertically Collimated
+
+<aside>
+    <img src="shroud-of-turin-files/fanti-2015b-figure1.jpg?w=230" style="width: 230px" class="lightbox">
+	<p markdown="1">        
+The front image from the Shroud of Turin versus a non-vertically collimated image created on cloth via coronal discharge on a manequin.[^fanti-2015]</p>
+</aside>
+
+Whatever caused the image on the shroud, it appears it mostly shot vertically straight up and down from the body,[^jackson-1989:b] instead of in all directions outward from the surface of the body:
+
+> [O]nly mapping in a vertical direction produces nearly correct correspondence between points on the body and cloth.  Projections normal [perpendicular] to either the body or cloth surfaces should produce an image with significantly greater distortions.  In fact, projection normal [perpendicular] to the body surface would produce a region of "confusion" between the side of the nose and cheek.[^ercoline-1982:b]
+
+Otherwise we would see the sides of many anatomical features not visible on the shroud, such as the sides of the head and body.[^ercoline-1982:c]  The images to the right illustrates the very clear difference, with the vertically-collimated shroud image on the left versus a non-vertically collimated image created via ++coronal discharge++ from a mannequin on the right.
+
+#### The Fall-Through Hypothesis
 
 The image on the shroud's linen has some unusual features that don't match a simple model of a body emitting radiation in all directions.  
 
@@ -285,7 +318,7 @@ This model explains numerous otherwise difficult to explain image features:
 5. The blood is a different color when it covers image areas.[^jackson-1990:i]  ==TODO:  shroud scope shows this on man's left elbow (right side).  Add photo to article, then blur to measure average redness.  Also add to red blood objection==
 6. The front image is on both sides of the cloth, having traveled through the body, but the back image is only on one side.[^fanti-2004:a] ==TODO show figures 11 and 13 from Fanti 2004==
 7. The image has "motion blur" in areas where it would be the most tense/stretched over the body, such as the ankles due to complex wrapping of the foot region, where the cloth likely would not have taken a simple path straight down.[^jackson-1990:j]
-8. Unlike the back image, the front image appears to capture internal body features to some degree, such as the bones in the hand, since it passed through the irradiating body.[^jackson-1990:k]
+8. Unlike the back image, the front image appears to capture internal body features to some degree, such as the bones in the hand, since it passed through the irradiating body.[^carter-1984:a] [^jackson-1990:k]
 
 This explanation may seem contrived, but it can be derived only from after-the-fact knowledge of the image without knowledge of the resurrection.  No other image formation model accounts for all characteristics of the shroud image.
 
@@ -298,6 +331,14 @@ Jackson's model shouldn't be confused with Mark Antonacci's "Historically Consis
 ==TODO include image of a face in a bed of nails pin art toy.  "the height of each pin represents the time the cloth spent in contact with the body when falling through it"==
 
 
+
+#### Not Beneath the bloodstains
+
+There's no image beneath the bloodstains.[^bucklin-1982:a] [^jumper-1984:f] [^fanti-2010:d] [^fanti-2011:c]  ==TODO add this source:  "It implies that the bloodstains were formed on the Shroud before the still not reproduced body-image was." https://www.scirp.org/(S(lz5mqp453edsnp55rrgjct55))/reference/referencespapers.aspx?referenceid=1619652.==
+
+
+
+==TODO: Cicero Moraes who seems unfamiliar with Jackson's work== https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5003510
 
 ### Other Residues on the Cloth
 
@@ -349,7 +390,7 @@ While King Abgar V would've reigned until about 50 AD, the following accounts we
 
 The Doctrine of Addai (or Teaching of Addai) is a Syriac text written in the 4th or early 5th century.  It has several anachronisms, which draw some doubt on its authenticity.[^ramelli-2017]
 
-The document describes the interactions of Addai the Apostile (one of the 70 "extended" disciples of Jesus) with King Abgar V of Edessa, who reigned from about 33 to 50 AD.  In one part, King Abgar V had his servant Hannan send a letter to Jesus, inviting him to come to Edessa to heal Abgar of a sickness:
+The document describes the interactions of Addai the Apostle (one of the 70 "extended" disciples of Jesus) with King Abgar V of Edessa, who reigned from about 33 to 50 AD.  In one part, King Abgar V had his servant Hannan send a letter to Jesus, inviting him to come to Edessa to heal Abgar of a sickness:
 
 > And when I heard of these great wonders which Thou doest, I decided in my mind that either Thou art God, who hast come down from heaven and doest these things, or Thou art the Son of God, who doest all these things.  Therefore, I have written to request of Thee to come to me who adore Thee, and to heal the disease which I have, as I believe in Thee.[^addai-400]
 
@@ -367,7 +408,7 @@ Around 313 AD, church historian Eusebius also mentions Abgar being ill and a cor
 
 A very late Greek source from between 544 and 944 AD claims the image was made miraculously, using the phrase "doubled in four" to describe the cloth.  This term is used exclusively of the Mandylion.==TODO Source==
 
-> A towel [Greek *tetradiplon* - doubled in four] was given Him; and when He had washed Himself, He wiped His face with it. And His image having been imprinted upon the linen, He gave it to Ananias, saying: Give this, and take back this message, to him that sent thee: Peace to thee and thy city![^acts-of-thaddeus-600]
+> A towel [Greek *tetradiplon* - doubled in four] was given Him [Jesus]; and when He had washed Himself, He wiped His face with it. And His image having been imprinted upon the linen, He gave it to Ananias [the courier], saying: Give this, and take back this message, to him [Abgarus of Edessa] that sent thee: Peace to thee and thy city![^acts-of-thaddeus-600]
 
 ### Early 2nd Century - Gospel of the Hebrews
 
@@ -377,11 +418,13 @@ The Gospel of the Hebrews was written perhaps in the late first or early second 
 
 ### 1st to 3rd Century - Hymn of the Pearl
 
-The Hymn of the Pearl is a poem found within the apocryphal Acts of Thomas, written in Syriac,  in Edessa, sometime during the first to third centuries.[^burns-2013:a] [^iranica-2022:a]  Part of it references a garment that shows the image of person, sometimes translated as the "King of kings," as a "divided" "mirror" image:
+The Hymn of the Pearl is a poem found within the apocryphal Acts of Thomas, written in Syriac,  in Edessa, sometime during the first to third centuries.[^burns-2013:a] [^iranica-2022:a]  
+
+It mentions two halves of a body image mirrored on a garment--the image of the King of Kings.  
 
 > But, when suddenly I saw **my garment reflected as in a mirror**, I perceived in it my whole self as well and through it I knew and saw myself. For **though we originated from the one and the same we were partially divided, then again we were one, with a single form.** The treasurers too who had brought the garment I saw as two beings, but there existed a single form in both, One royal symbol consisting of two halves…And **the image of the King of Kings** was all over it.[^elliott-2008] [^houtman-2008]
 
-The shroud is a single cloth with the mirror image of Jesus on the front and back of it.  It's difficult to think of any object matches this poem better than the shroud.  Especially since it comes from Edessa, where we have other references to a cloth bearing an image of Jesus.
+The shroud is a single cloth with the mirror image of Jesus on the front and back of it.  While the poem has other details not relating to the shroud, It's difficult to think of an object better than the shroud to inspire such a poem.  Especially since it comes from Edessa where we have  the Doctrine of Addai, The Acts of Thaddeus, and Evagrius Scholasticus also mentioning a cloth with an image of Jesus.
 
 Dan Porter provides six other English translations of this passage on his blog.[^porter-2012]
 
@@ -392,6 +435,14 @@ In 590 AD, historian Evagrius Scholasticus tells in his Ecclesiastical History t
 > So, when they came to complete despair, they brought the divinely created image, which human hands had not made, the one that Christ the God sent to Abgar when he yearned to see Him. Then, when they brought the all-holy image into the channel they had created and sprinkled it with water, they applied some to the pyre and the timbers. And at once the divine power... the timbers caught fire.[^scholasticus-590]
 
 Miracles aside, this further attests that the Edessans believed they possessed a miraculous image of Jesus.
+
+
+
+### Acts of Thaddeus
+
+The  6th century The Acts of Thaddeus refers to the Mandylion as a "tetradiplon" which means "doubled in four."  The shroud has fold marks in it that suggest it was once in this configuration, making only the face visible.
+
+==TODO: Include more from Shoud-claims to establish this was a full-body image==
 
 ### 6th Century - Christ Pantokrator of St. Catherine's Monastery at Sinai
 
@@ -419,7 +470,7 @@ The first time an image of Jesus appeared on a coin, it bore many similarities t
 
 ### 944 to 1207 AD - In Constantinople
 
-In 943, the Byzantine Emperor Romanus Lecapenus sent an army to the then-Muslim-controlled Edessa to and retrieved an image of Jesus on a cloth and bring it back to Edessa.[^scavone-1989:a]  Once there, Emperor Constantine VII described the image:
+In 943, the Byzantine Emperor Romanus Lecapenus sent an army to the then-Muslim-controlled Edessa to and retrieved an image of Jesus on a cloth and bring it back to Constantinople.[^scavone-1989:a]  Once there, Emperor Constantine VII described the image:
 
 > As for the image, it is more of a moist secretion without colors or art of a painting.  And the face is formed on the linen cloth in a way which made the perishable cloth indestructible.[^scavone-1989:b]
 
@@ -457,7 +508,7 @@ In 1201 AD, Nicholas Mesarites, the Keeper of the Imperial Treasury in Constanti
 
 In 1204 AD, the crusader Robert de Clari reported seeing in Constantinople the burial cloth of Jesus, complete with a body image:
 
-> There was another church which was called My Lady St Mary of Blachernae, where there was another *sydoine* [sidon, shroud] in which our Lord was wrapped, and which each Friday stood straight up, so that it was possible to see the figure of our Lord.  But when the city was taken, no one, whether Greek or French, knew what became of it.[^scavone-1989:f] [^wilson-2010:e]
+> There was another church which was called My Lady St Mary of Blachernae, where there was another *sydoine* [sidon, shroud] in which our Lord was wrapped, and which each Friday stood straight up, so that it was possible to see the figure of our Lord.  But when the city was taken, no one, whether Greek or French, knew what became of it.[^declari-1216:a] [^scavone-1989:f] [^wilson-2010:e]
 
 In 1207, Mesarites again describes a cloth bearing the image of Jesus among the items in the Imperial Treasury in Constantinople:
 
@@ -563,8 +614,6 @@ Fanti and his team also performed ++Raman++ spectral analysis, dating the shroud
     </p>
 </aside>
 
-
-
 In 2019, seven researchers used x-ray crystallography (a common tool) in a new way--to measure the age of linen samples by counting the number of chain breaks in the linen's cellulose, with reasonable success.[^de-caro-2019]
 
 In a 2022 follow-up study, five of the researchers repeated the measurement on a thread from the shroud near where the 1988 carbon dating was performed.[^note-1]  Although their method is much less precise than carbon dating, and it can't determine the age without knowing a cloth's temperature and humidity history, they showed the shroud must be much older than the 13th century when it was claimed to be forged:
@@ -573,7 +622,7 @@ In a 2022 follow-up study, five of the researchers repeated the measurement on a
 
 Having the shroud kept at extremely hot temperatures for the last 700 years obviously can't be the case, since it's universally accepted the shroud has been indoors in southern Europe for at least the last 700 years, with an average room temperature of 8.5 to 9 °C (47.3 to 48.2F).[^de-caro-2022:b]  
 
-They calculated that for the shroud to be 2000 years old, it would need to have been kept at an average temperature of 20 to 22.5C (68 to 72.5F) and 55 to 75% humidity for the first 13 centuries after Christ, a good fit to the middle-east climate.[^de-caro-2022:a]  These temperatures represent the average of warmer summers and cooler winters, not that the temperature would always need to be within those ranges  
+They calculated that for the shroud to be 2000 years old, it would need to have been kept at an average temperature of 20 to 22.5C (68 to 72.5F) and 55 to 75% humidity for the first 13 centuries after Christ, a good fit to the middle-east climate.[^de-caro-2022:a]  These temperatures represent the average of warm days and cold nights, warm summers and cold winters, not that the temperature would always have to stay within that range.
 
 Additionally, they showed that the 1534 fire would've had negligible effect, as exposure to temperatures > 200C for over an hour had negligible effect on the number of cellulose chain breaks.[^de-caro-2022:c] As mentioned above, the shroud has  ++pentose++ impurities which would've degraded after 4 hours at only 100C, as well as blood spots that also degrade when heated.[^maloney-2014:a]
 
@@ -585,21 +634,9 @@ This research was summarized in the National Catholic Register.[^pentin-2022]
 
 ## The Sudarium of Oviedo
 
-## Problems with a Medieval Shroud
 
-Glaring anachronisms emerge when entertaining theories that the shroud was forged in medieval times, or earlier:
 
-- The concept of a photographic negative was unknown prior to 1826.[^moon-2022:b]
-- No concept of a 3D heightmap, or a computer to reconstruct a 3D model to ensure that distance information is accurately encoded to fiber coloration.[^moon-2022:c]
-- Anatomical detail
-- Keeps pace with new science in modern forensics.
-- Gold dust matching Byzantine coins and possibly a roman coin.
-
-To those who believe the shroud wrapped the resurrected Jesus, it's no surprise that the shroud keeps pace with the ever advancing techniques of modern science used to probe it.
-
-==TODO: https://www.facebook.com/carissasquilts/posts/pfbid02igiUgRCNXE1Yg38auA2HTwAQJudv7JVQaFe84phxR63J84UuPyNmGMNaHFu3eivwl==
-
-## Failed Image Explanations
+## Reproduction Attempts
 
 
 
@@ -691,12 +728,12 @@ Perhaps the best naturalistic way to create a shroud-like image is to drape a cl
 However, they noted some "major problems" with using this technique to produce the Shroud image:
 
 1. **Detail:**  From the quote above, the image produced is "not quite as good in detail" as the Shroud.
-2. **Blood Masking:**  Since there's no image under the blood on the shroud, the blood must be applied to the linen cloth first, and then it must be placed over the metal figure in a way that lines the wounds up with their anatomical origin.  In several hundredths of a second before the linen becomes too scorched.
-3. **Superficiality:**  This method scorches the cloth all the way through, instead of just only on the upper fibers of the cloth.  To get a very light thermal discoloration but still get a 3d image, the cloth would need to be on the metal for only "several hundredths of a second."  Dampening the cloth to extend this time produced a significantly worse image.[^jackson-1982:m]
-4. **Contrast:**  In order to get coloration of the lighter areas of the shroud, the linen cloth must be on the heated metal figure long enough to produce a "deep brown scorch" on the darker areas, much darker than the faint shroud image.  In order to overcome this, the metal statue must have a depth of less than a millimeter, making it exceedingly difficult for a craftsman to encode accurate height information.[^jackson-1982:n]  Even if this was achieved, such a flat surface will no longer produce the cloth-drape effects seen in the shroud image.[^jackson-1982:o]
-5. **Hot spots:**  Point where the shroud touches the metal statue would've produced "hot spots" of enhanced image density from thermal conduction, but the shroud has none.[^schwalbe-1982:i]
-6. **Fluorescence:**  Scorch marks on the shroud fluoresce, but the body image doesn't fluoresce.[^pellicori-1981:h] [^devan-1982:d]
-7. **Fiber coloration pattern:** TODO
+2. **Superficiality:**  This method scorches the cloth all the way through, instead of just only on the upper fibers of the cloth.  To get a very light thermal discoloration but still get a 3d image, the cloth would need to be on the metal for only "several hundredths of a second."  Dampening the cloth to extend this time produced a significantly worse image.[^jackson-1982:m]
+3. **Contrast:**  In order to get coloration of the lighter areas of the shroud, the linen cloth must be on the heated metal figure long enough to produce a "deep brown scorch" on the darker areas, much darker than the faint shroud image.  In order to overcome this, the metal statue must have a depth of less than a millimeter, making it exceedingly difficult for a craftsman to encode accurate height information.[^jackson-1982:n]  Even if this was achieved, such a flat surface will no longer produce the cloth-drape effects seen in the shroud image.[^jackson-1982:o]
+4. **Hot spots:**  Point where the shroud touches the metal statue would've produced "hot spots" of enhanced image density from thermal conduction, but the shroud has none.[^schwalbe-1982:i]
+5. **Fluorescence:**  Scorch marks on the shroud fluoresce, but the body image doesn't fluoresce.[^pellicori-1981:h] [^devan-1982:d]
+6. **Fiber coloration pattern:** TODO.  Doesn't produce halftone.
+7. **Blood Masking:**  Since there's no image under the blood on the shroud, the blood must be applied to the linen cloth first, and then it must be placed over the metal figure in a way that lines the wounds up with their anatomical origin.  In several hundredths of a second before the linen becomes too scorched.
 
 ### Powder on Bas Relief
 
@@ -791,6 +828,22 @@ https://www.shroud.com/pdfs/craig.pdf
 
 https://realseekerministries.wordpress.com/2021/08/07/shroud-solo-show-part-11-sunlight-based-hypotheses-proto-photo-shadow-solar-reflex-models/
 
+### Shadow Shroud
+
+the difficulty is in reproducing the microscopic properties of the shroud image.
+
+"Image-fibers... have a corrugated surface that is not typical of non-image fibers, but that is typical of fibers exposed to intense sources of radiation... fibers of flax exposed to Corona Discharge and to Excimer Lasers... show a similar feature." [https://shs-conferences.org/.../shsconf_atsi2014_00004.html](https://shs-conferences.org/articles/shsconf/abs/2015/02/shsconf_atsi2014_00004/shsconf_atsi2014_00004.html?fbclid=IwZXh0bgNhZW0CMTAAAR3wVBORU7lssub1T70Mmt5F9WxLAyjH7t4-OHN8lajTXDZt2yCOXQhckJo_aem_OWPfQLLQAjNYnMrOVKwfdg)
+
+To get very thin (200nm) heat damage on delicate linen, you need high intensity energy for very short duration. That's the opposite of sunlight exposure. Lazzaro et al 2012 spent 5 years experimenting with different techniques and finally reproduced shroud-like coloration w/ 12 nanoseconds pulses of UV light at a crazy 11MW per cm².
+
+[https://web.archive.org/.../opac.../RT/2012/2012_16_ENEA.pdf](https://web.archive.org/web/20131009234047/http://opac.bologna.enea.it:8991/RT/2012/2012_16_ENEA.pdf)
+
+Image of the shroud image fibers below, under normal and polarized light:
+
+
+
+Additionally, the image fibers are colorized in a half-tone pattern, where darker coloration is not caused by darker fibers, but is instead caused by having more colored fibers in the same area. Colored fibers are colored all the way around their radius. Sun bleaching wouldn't do this, and so far I don't have a good explanation from anyone on any side.
+
 ### Issues with engravings
 
 Tyrer 1981, "It has to be remembered that in 1350 it would still be at least a generation before the introduction of printing, woodcuts and engravings into Europe."
@@ -798,6 +851,22 @@ Tyrer 1981, "It has to be remembered that in 1350 it would still be at least a g
 ### Issues common to all reproduction attempts
 
 ## Common Objections
+
+### The shroud is from the middle ages
+
+Glaring anachronisms emerge when entertaining theories that the shroud was forged in medieval times, or earlier:
+
+- The concept of a photographic negative was unknown prior to 1826.[^moon-2022:b]
+- No concept of a 3D heightmap, or a computer to reconstruct a 3D model to ensure that distance information is accurately encoded to fiber coloration.[^moon-2022:c]
+- Anatomical detail
+- Keeps pace with new science in modern forensics.
+- Gold dust matching Byzantine coins and possibly a roman coin.
+
+To those who believe the shroud wrapped the resurrected Jesus, it's no surprise that the shroud keeps pace with the ever advancing techniques of modern science used to probe it.
+
+==TODO: https://www.facebook.com/carissasquilts/posts/pfbid02igiUgRCNXE1Yg38auA2HTwAQJudv7JVQaFe84phxR63J84UuPyNmGMNaHFu3eivwl .==
+
+Given the state of forensic science in the middle ages it wouldn't have taken much more than a stick figure to pull it off.   Yet we have the shroud's forensically accurate wounds and a negative image that's a 3D heightmap, the concept of which neither existed until modern times.
 
 ### Walter McCrone
 
@@ -849,6 +918,16 @@ The rare paint particles on the shroud are not of a high enough concentration to
 >
 >  on their site, removed them.  https://www.academia.edu/86012387/The_Rev_H_David_Sox_His_Intriguing_Role_in_the_Shrouds_C_14_Dating
 
+McCrone only had sticky tape given to him by Rogers, didn't examine the cloth itself.
+
+Maloney [wrote](https://www.academia.edu/40272184/The_Invisible_Reweave_and_Other_Challenges_to_the_Turin_Shrouds_C_14_Medieval_Dating_A_Review):  "There is now a new way of looking at the presence of that madder rose. Although this is some distance from the “Raes Corner” such trace amounts can now be conjectured to explain the dye that was used, along with the aluminum mordant and the gum arabic as a binder to create the wash to finish the re-weave. Thus, it may now be seen not as a contaminant from an artist’s studio, but rather a contaminant from the weaver’s workshop."
+
+"Walter McCrone was not a direct participant in our research nor did he ever examine (or even see) the actual Shroud." https://www.shroud.com/pdfs/answering.pdf
+
+"Walter never corrected the mistaken assumption that he was a member of STURP and even contributed to that assumption with some of the articles he wrote" https://www.shroud.com/pdfs/lionsden.pdf
+
+"Was McCrone a member of STURP?  No! Despite the fact that McCrone claimed that he was a member, he never was. He wrote that he had been "drummed out" of the group because they did not like his conclusions. It is true that they did not like his conclusions. They were absurd in light of all the evidence gathered in Turin. But McCrone had refused to agree to STURP’s professional standards agreement including non-disclosure. He was thus not accepted as part of STURP."  https://shroudstory.com/2011/12/14/forensic-chemistry-handbook-an-embarrassingly-unscientific-chapter/
+
 ### How are non-STURP members getting shroud fibers to study?
 
 The shroud’s official custodian, Archbishop Cesare Nosiglia of Turin claimed in 2013:
@@ -868,6 +947,10 @@ Barrie Schwortz:
 > Our team included three Jewish members (Al Adler, Don Devan and me), one Mormon, one Evangelical, several Catholics, several Protestants and some avowed atheists and agnostics.  Had religion ever been a criterion for membership, most of the STURP team members would never have agreed to participate. Even the Church custodians and the emissary of King Umberto (the owner of the Shroud in 1978) did nothing to interfere with or influence our work. They did not want it to even appear that that might be the case and consequently gave us complete autonomy,[^schwortz-2014]
 
 Ray Rogers doesn't believe in miracles.
+
+John Heller:
+
+> “Every member of the team came aboard bound and determined to prove this was a forgery,” said John Heller, a biophysicist at the New England Institute. He and nearly all of the 30 members of the team are coming away convinced it is not a fraud.  https://www.christianitytoday.com/ct/1981/february-20/shroud-of-truin-scientists-conclude-its-not-forgery.html
 
 #### Dye to Blood
 
@@ -929,7 +1012,11 @@ We don't have a recorded confession by the forger.  We have third hand testimony
 
 <!--
 
+People in the middle ages who had no knowledge of modern forensic science thought it was fake, so we should trust them over all the modern scientific tests.
+
 "Cyr Ulysse Chevalier, who conducted a thorough study of all the documents dealing with the Shroud — it was he who revealed the d’Arcis memorandum to the modern era" http://www.denisdutton.com/requiem.htm
+
+d'Arcis's letter:  https://priory-of-sion.com/biblios/links/memorandum.html
 
 Check sources here:  https://theshroudofturin.blogspot.com/2018/07/chronology-of-turin-shroud-fourteenth.html#1389f
 
@@ -963,6 +1050,8 @@ It's unknown whether Gamaliel refers to Gamaliel the Elder (20 to 40 AD) or his 
 
 #### "The shroud surfaced in France exactly at the height of the 'holy relic' craze."
 
+What's the cause and what's the effect?
+
 #### "The shroud looks like other medieval art of Jesus."
 
 #### "The shroud could be any crucifixion victim"
@@ -988,8 +1077,8 @@ Remained on the sheet for only a short time.
 Another variant of this objection is that linen cloth can't last 2000 years.  However, much older linen cloths have been found, such as:
 
 - King Tut's linen curtains from around 1323 BC.[^tyrer-1981:i] [^mumcuoglu-2020:a]
-- King Rameses linen girdle from around 1479 BC is described as being in "remarkably good" condition and having "a considerable amount of strength in spite of its great age," and "a perfect specimen," other than a hole, one or two cracks, and some ragged edges.[^lee-1912:b]
-- A linen and wool shroud found in a damp Jerusalem tomb carbon dates to between 1 and 50 AD.[^millstein-2009:a]
+- King Rameses linen girdle from around 1479 BC ==TODO: Correct this date== is described as being in "remarkably good" condition and having "a considerable amount of strength in spite of its great age," and "a perfect specimen," other than a hole, one or two cracks, and some ragged edges.[^lee-1912:b]
+- A linen and wool shroud from Jerusalem carbon dates to between 1 and 50 AD.  It's in worse condition than the shroud of Turin but it was found in a damp cave.[^milstein-2009:a]
 
 #### "Shroud is too big."
 
@@ -1004,6 +1093,8 @@ Another variant of this objection is that linen cloth can't last 2000 years.  Ho
 
 Some argue that a 3-in-1 herringbone weave couldn't have been produced in the time of Christ.  Or that a loom with 4 shafts, on which the shroud's 3-in-1 weave was likely produced,[^tyrer-1981:g] didn't exist until the middle ages.
 
+##### Near Israel
+
 While thread spun with a z-twist[^shamir-2015:f] and fabric with a twill weave[^shamir-2015:g] is less common, ancient 2-2 and 2-1 twill fabric and fabric with z-twist thread has been found at:
 
 1. Alkemada cave, fabric having thread with a z-twist[^shamir-2015:f] 
@@ -1016,6 +1107,8 @@ While thread spun with a z-twist[^shamir-2015:f] and fabric with a twill weave[^
 8. Sha'ar Ramon, two wool items with a twill.[^shamir-2015:g]
 9. And other places in Israel during the Roman period.[^klein-2016:a]
 
+##### Elsewhere in Antiquity
+
 Similar weaves, including those requiring a four-shaft loom have been found across a wide ranges of times and places in the ancient world:
 
 ==TODO:  Tyrer 1981:  "There is a working model loom exhibited in Norwich Castle Museum, the design of which is based upon archaeological finds that date from the late Bronze Age. It has three healds and has successfully woven twill-based patterns... No more than four healds would be re quired to weave the linen [of the shroud of Turin]."==
@@ -1023,8 +1116,8 @@ Similar weaves, including those requiring a four-shaft loom have been found acro
 ==TODO:  Marino 2023:  https://www.academia.edu/97028137/Is_the_Shroud_of_Turin_More_Likely_Ancient_or_Medieval_Based_on_Textile_Evidence_What_do_the_Scholars_Say .==
 
 1. "Herringbone twill textiles are known from Europe and Egypt."[^shamir-2015:g]
-2. An illustration of a cloth having a herringbone weave from Antinoöpolis in Greece from 130 AD.[^tyrer-1981:k]
-3. A textile with a 2:2 herringbone twill weave was found at Pompeii, from 79 AD.[^tyrer-1981:j] [^fulbright-2010:f]
+2. An illustration of a cloth having a herringbone weave from Antinoöpolis in Greece from 130 AD.[^tyrer-1983:b]
+3. A textile with a 2:2 herringbone twill weave was found at Pompeii, from 79 AD.[^tyrer-1983:a] [^fulbright-2010:f]
 4. The wool Gerum cloak in Sweden dates to 360 to 100 BC and has a 2:2 twill weave.[^tyrer-1981:c] [^kelly-2022]
 5. Numerous twill weave textiles were found in Dura Europos in Syria fromaround 300 BC to 256 AD.[^fulbright-2010:e]
 6. A loom with four shafts capable of producing complex twill weaves existed in China at prior to 120 BC.[^tyrer-1981:d]
@@ -1034,17 +1127,27 @@ Similar weaves, including those requiring a four-shaft loom have been found acro
 10. A loom with three shafts existed in the late Bronze age.[^tyrer-1981:b]
 11. King Rameses II's linen girdle from around 1479 BC had a weave pattern far more complex than the shroud of Turin that would've perhaps required 9 shafts.[^lee-1912:a] [^foulkes-2009:a]
 
+##### Commentary
+
 Due to various twills and twists existing throughout place and time, textile expert Gilbert Raes commented:
 
 > At the beginning of our age both cotton and linen were known in the Middle East. The type of weave [in the Shroud of Turin] is not particularly distinctive and does not enable us to determine the period in which it was produced.[^raes-1976]
 
 Jerusalem was at the crossroads between the East and the West, and in perhaps the best position to come in contact with a wide variety of woven cloths and weaving techniques.
 
-A 3-in-1 herringbone weave was "very difficult to find"[^tite-1990:a] from medieval times, but he was looking specifically for one he could destroy, and he did exist in the Cope of Saint Louis d'Anjou, created around 1290 to 1310.[^petrosillio-1989] Leading shroud skeptic Hugh Farey, who argues in favor of a medieval loom to create the shroud,[^farey-2019] says the weave is neither "typical or common in either a first or fourteenth century context."[^farey-2023:a]  Textile expert Gabrial Vial likewise describes the textile features of the shroud as "incomparable."[^vial-1988:a]
+A 3-in-1 herringbone weave was "very difficult to find"[^tite-1990:a] from medieval times, but he was looking specifically for one he could destroy, and he did exist in the Cope of Saint Louis d'Anjou, created around 1290 to 1310.[^petrosillio-1989] Leading shroud skeptic Hugh Farey, who argues in favor of a medieval loom to create the shroud,[^farey-2019] says the weave is neither "typical or common in either a first or fourteenth century context."[^farey-2023:a]  Textile expert Gabrial Vial likewise describes the textile features of the shroud as "incomparable" to any period.[^vial-1988:a]
 
-==TODO:  Tyrer 1981:  "linen textiles similar to the Shroud have not survived in any number from the early 14th century"==
+==TODO:  Tyrer 1981:  "linen textiles similar to the Shroud have not survived in any number from the early 14th century" and Michael Tite couldn't find a 3:1 weave==  TODO add that to the C14 article.
+
+==TODO== Gove 1990:  "In any case, the distinctive 3 to 1 herringbone twill weave of the shroud could not be matched as the British Museum officials discovered when they attempted to find such for control samples."  
 
 Finally, errors in the shroud's linen suggest it was woven on a loom more primitive than those in medieval times.[^tyrer-1981:f]
+
+> looms in antiquity, particularly those in Egypt, could be up to 3.5 metres wide, enabling them to turn out continuous lengths of cloth far longer and wider than the Shroud. The high quality of the Shroud's weaving strongly suggests it to have been made on a 'professional' loom of this kind.  https://www.shroud.com/pdfs/n51part2.pdf
+
+> The impressive width of the cloth indicates that it was woven on a ground loom with beams of more than two meters long. This “could not have been accomplished by a single weaver, nor even by two, as often depicted in Egyptian wall paintings” [13]. Three, even four weavers would have been required, as is still practiced by Bedouin weavers.   http://www.acheiropoietos.info/proceedings/fulbrightakeldamaweb.pdf
+
+When we find a new type of textile in antiquity, we don't say it must not actually be that old because it doesn't match other ancient textiles.
 
 ==TODO: Hugh Farey's comments:  https://www.facebook.com/groups/7934806138/posts/10159271866061139/?comment_id=10159287519941139&reply_comment_id=10159291353791139 .==
 
@@ -1056,13 +1159,15 @@ Some contend that the shroud could not have been used by first century Jews beca
 
 Additionally, Jews had no problem using a cloth of both cotton and linen.  While Leviticus 19:19 states, "You shall not... wear a garment of cloth made of two kinds of material," Deuteronomy 22:11 explains this means cotton and wool, "You shall not wear cloth of wool and linen mixed together."  Even still, the Mishnah and the Babylonian Talmud allowed Jews to use material of mixed cotton and wood for burial shrouds.[^babylonian-talmud:b] [^babylonian-talmud:c] [^mishnah:a]
 
+ Flury-Lemberg:
+
+> The linen cloth of the Shroud of Turin does not display any weaving or sewing techniques which would speak against its origin as a high quality product of the textile workers of the first century.  https://www.pbs.org/wnet/secrets/shroud-of-christ-interview-with-mechthild-flury-lemberg/7130/
+
 ### Image Objections
 
 #### "No wrap-around distortion"
 
 The radiation that created the image is vertically collimated--going straight up and down parallel to the field of gravity.[^jackson-1989:b]  When accounting for that we even see small cloth distortions in the image consistent with volunteers wrapped in fabric,[^ercoline-1982:c] [^jackson-1989:a] as well as 3D heightmap data that crime scene artists failed to reproduce. 
-
-No explanations other than vertically collimated radiation/energy can explain the image.
 
 ==TODO:  See my notes on John P. Jackson's paper, "Is the image on the Shroud due to a process heretofore unknown to modern science?"==
 
@@ -1074,7 +1179,7 @@ No explanations other than vertically collimated radiation/energy can explain th
 
 #### "Shroud man is too tall"
 
-Some shroud skeptics say the body image on the shroud "is unusually tall, compared to the average height of a first-century Jewish man."[^cserhati-2020]  However, estimates of the height range from 162 cm (5' 3½") to 187 cm (6' 1½"),[^crispino-1979] with a more recent and detailed estimate of 174±2 cm (5'8.5" +-1").[^fanti-1999]
+Some shroud skeptics say the body image on the shroud "is unusually tall, compared to the average height of a first-century Jewish man."[^cserhati-2020]  However, estimates of the body image height range from 162 cm (5' 3½") to 187 cm (6' 1½"),[^crispino-1979] with a more recent and detailed estimate of 174±2 cm (5'8.5" +-1").[^fanti-1999]
 
 Of 10 male skeletal remains found near Jerusalem from the second temple period, one was about as tall (170 to 178cm, 5'7" to 5'10") and one was taller (181 cm, 6').  The average height of all 10 males was 167 cm (5'6").[^lynn-1980:a]
 
@@ -1096,7 +1201,7 @@ Giulio Fanti et al, who provide the images above in the same paper, list complic
 
 1. How much of the top of the head image is captured on the shroud.
 2. How much the head is bent forward.
-3. Hw much the linen has lengthened over time from mechanical stress, perhaps more in some places than others.
+3. How much the linen has lengthened over time from mechanical stress, perhaps more in some places than others.
 4. How much the cloth was stretched when wrapped around the body.
 5. If wrapped bandages brought the back of the cloth up toward the back of the bent knees.
 6. If there are some folds in the sheet.
@@ -1107,7 +1212,7 @@ The arms would be too long if the man was laying flat, but the position of the h
 
 "So much material was stuffed against the lance-wound that the right arm was printed far to the outside, as if dissevered from the shoulder. Forearm and upper arm are too long, due to the cloth’s wrinkling in the elbow."[^crispino-1979]
 
-Additionally, shoulder dislocation during crucifixion was likely common.[^borders-2020:a]
+Additionally, shoulder dislocation during crucifixion was likely common.[^bordes-2020:a]
 
 #### "Fingers are too long"
 
@@ -1126,6 +1231,8 @@ However, Rigor mortis will be present from about 3 to 36 hours after death, and 
 Likewise, being wrapped in the linen shroud may have also prevented the elbows from falling.  John 11:38 describes a different burial--that of Lazarus--having linen cloths used to bind his hands and feet which also could keep them in place.
 
 #### "The eyes are too high"
+
+If the cloth were pressed down against the nose then it would make the bridge of the nose appear taller.
 
 <img src="shroud-of-turin-files/shroud-face-anatomy.jpg">
 
@@ -1176,6 +1283,10 @@ Goldoni: "In fact, it is known that the irradiation of blood with ultraviolet li
 https://www.scirp.org/(S(lz5mqp453edsnp55rrgjct55))/journal/paperinformation.aspx?paperid=70628
 
 https://www.scirp.org/journal/paperinformation.aspx?paperid=70628
+
+#### The 1973 Turin Comission Failed to detect blood.
+
+> They had, however, already warned "that researches by generic and specific diagnoses of blood on material of a very ancient date ... can have a real probative import only if the results are positive. In effect, the specific proteins of the blood, and of the relative pigment, if subjected ... to processes of' degeneration or decay, can lose the characteristics which allow identification"[[JM76](https://theshroudofturin.blogspot.com/2024/05/report-of-1973-turin-commission-on.html#JM76), 52]. In other words the Shroud was so old that only a positive result counted... That no blood had been detected on the Shroud was at least balanced by the fact that no fraudulent substance had been identified either[[WI79](https://theshroudofturin.blogspot.com/2024/05/report-of-1973-turin-commission-on.html#WI79), 77]... Adler explained that Frache, et al., were unsuccessful in identifying blood in their Shroud samples because they were unable to get the blood into a solution in order to perform the necessary wet chemical test[[RC99](https://theshroudofturin.blogspot.com/2024/05/report-of-1973-turin-commission-on.html#RC99), 74-75].   https://theshroudofturin.blogspot.com/2024/05/report-of-1973-turin-commission-on.html
 
 #### No sodium, chlorine, or potassium found in the blood.
 
@@ -1231,7 +1342,22 @@ Their work was presented at a forensics conference but the details will be publi
 
 ==TODO Diagram of arms vertical during scourging?  But scourging blood would've been dry already?  https://www.researchgate.net/publication/19648788_On_the_Physical_Death_of_Jesus_Christ .==
 
+==TODO Fanti's July 2024 bloodflow analysis:  https://www.researchgate.net/publication/382507253_New_Insights_on_Blood_Evidence_from_the_Turin_Shroud_Consistent_with_Jesus_Christ's_Tortures .==
+
 ### Biblical Objections
+
+#### The gospel writers don't mention an image on the shroud
+
+John Calvin:
+
+> How is it possible that those sacred historians, who carefully related all the miracles that took place at Christ’s death, should have omitted to mention one so remarkable as the likeness of the body of our Lord remaining on its wrapping sheet? This fact undoubtedly deserved to be recorded. St. John, in his Gospel, relates even how St. Peter, having entered the sepulchre, saw the linen clothes lying on one side, and the napkin that was about his head on the other; but he does not say that there was a miraculous impression of our Lord’s figure upon these clothes, and it is not to be imagined that he would have omitted to mention such a work of God if there had been any thing of this kind.
+
+John P. Jackson exposed linen to UV rays, but the UV exposed areas only darkened after he then baked the linen in an oven.  He wrote, "By inference, according to Arrhenius extrapolations, the same phenomenon should occur at room temperature, but over a much longer time scale."  https://www.shroudofturin.com/Resources/ShroudFallThroughSDTV2.0.pdf  
+This suggests the shroud image perhaps only appeared after some time.  
+
+Or even if it was present, the faint shroud image probably wouldn't have been visible at all inside a dark tomb.
+
+
 
 #### The Gospel of John says Jesus was buried in strips of cloth, not one large sheet.
 
@@ -1272,11 +1398,17 @@ Note that these did not wrap the whole body as we imagine an Egyptian mummy.  Gr
 
 See also the "Jews didn't use burial shrouds." objection above.
 
-#### The gospel of John says Jesus head was wrapped in a cloth
+#### John 20:7 says Jesus head was wrapped in a cloth
 
 Perhaps Jesus' head was covered with a cloth as he was taken to the tomb, that cloth was removed, then Jesus was wrapped in a shroud.
 
+NET translator's note:
+
+> it seems more probable that the phrase describing the face cloth should be understood to mean it was separated from the other graveclothes in a different place inside the tomb. 
+
 #### Aloe, Myrhh, and Spices weren't found on the shroud
+
+
 
 
 
@@ -1285,7 +1417,7 @@ Perhaps Jesus' head was covered with a cloth as he was taken to the tomb, that c
 1 Cor 11:14, "Does not nature itself teach you that if a man wears long hair, it
 is degrading to him."
 
-2022 discovery of Jewish man's hair:
+2022 discovery of 1st century Jewish man's hair in Jerusalem :
 
 > The hair was lice-free, and was trimmed or cut evenly, probably indicating that the family buried in this tomb practiced good hygiene and grooming. The length of the hair was medium to short, averaging 3-4 inches. The color was reddish.
 
@@ -1293,21 +1425,45 @@ https://jamestabor.com/the-only-authentic-1st-century-burial-shroud-ever-discove
 
 https://www.biblicalarchaeology.org/daily/ancient-cultures/ancient-israel/the-only-ancient-jewish-hair-ever-found/
 
+This third century Jew had short hair:  https://www.jerusalemperspective.com/20850/
+
 "In Talmudic times, when a man was to be buried, his hair was cut (M. Ḳ. 8b). This custom seems to be no longer followed."  https://www.jewishencyclopedia.com/articles/7061-hair
 
 If being "cut" is 3-4 inches that suggests the normal hair length for men was longer than that.
+
+Artwork depicting Jewish men from the Second Temple period is exceedingly rare, due to religious prohibitions against creating graven images, as outlined in the Second Commandment.
+
+Vespasian coin shows captive Jewish male with shorter hair:  https://en.wikipedia.org/wiki/Judaea_Capta_coinage#/media/File:Sestertius_-_Vespasiano_-_Iudaea_Capta-RIC_0424.jpg
+
+https://en.wikipedia.org/wiki/Judaea_Capta_coinage#/media/File:Titus_Augustus_Denarius.png
+
+Third century depiction of Moses with short hair.  May represent Roman influence in style by then?  https://smarthistory.org/synagogue-dura-europos/
+
+Mosaic of Jew with long hair, but when and where is it from?  https://www.artartworks.com/exhibitions/tree-of-paradise-jewish-mosaics-from-the-roman-empire-1670/  ChatGPT thinks it's the Roman goddess Athena.
+
+Roman with long hair in 1st-2nd century Tunisia:  https://www.brooklynmuseum.org/opencollection/objects/17100
 
 #### Plucked hair out of beard
 
 
 
+The Hebrew word in Isaiah 50:6 means "jaw, cheek 1a) jaw, jawbone (of animal) 1b) cheek (of man)"
+
+
+
 #### Nails should go through hands, not the wrists
 
+Acts 12:7 is often translated "the chains fell of his wrists" (https://biblehub.com/acts/12-7.htm) and has the same Greek word (Strong's 5495) translated as "hand" in John 20:25. 
 
+> I think the answer to the problem is fairly straightforward, once we look at the Greek text. The Greek word for *hand* – χειρ – which is used twice in the passage cited above means “A hand or any relevant portion of the hands, including, for example, the fingers.” (Nida & Louw, *Greek-English Lexicon of the New Testament Based on Semantic Domains*, Vol. 1, p. 98.). The question is whether the word “hand” in Greek also included the wrist. The word “wrist” or “wrists” appears only in Acts 12:7 in the NIV New Testament. In the Old Testament it appears twice in the Genesis 38:27 & 30, in Jeremiah 40:4 and Ezekiel 13:18. In Acts 12:7 and in the Septuagint of the OT verses the “wrist” is a translation of χειρ. So, it would seem that “wrist” was included within the semantic range of χειρ and so the problem seems to be solved. John 20:27 could quite accurately be translated: “…See my *wrists*. Reach out your hand and put it into my side. Stop doubting and believe.”  https://biblicalstudies.org.uk/blog/where-were-the-nail-prints-in-jesus-hands-in-his-wrists-or-his-palms/
+
+John 20:25 - χερσὶν  (Strong's 5495)
+
+Acts 12:7 - χειρὶ (Strong's 5495)
 
 "Furthermore, ossuary findings and the Shroud of Turin have documented that the nails commonly were driven through the wrists rather than the palm" https://www.researchgate.net/publication/19648788_On_the_Physical_Death_of_Jesus_Christ
 
-Hands won't support body weight.[^borders-2020:b]
+Hands won't support body weight.[^bordes-2020:b]
 
 #### The body should be unrecognizeable
 
@@ -1321,11 +1477,19 @@ The centurion was surprised Jesus had already died before sunset.
 
 "The severe scourging, with its intense pain and appreciable blood loss, most probably left Jesus in a  preshock state. Moreover, hematidro- sis had rendered his skin particularly  tender. The physical and mental  abuse meted out by the Jews and the  Romans, as well as the lack of food,  water, and sleep, also contributed to  his generally weakened state. There- fore, even before the actual crucifix- ion, Jesus’ physical condition was at  least serious and possibly critical. "
 
+
+
+Someone on twitter:  "On the road to Emmaus the disciples did not recognise the resurrected Jesus. So why do you think the image in the shroud would have to resemble the crucified mortal body of Jesus?"
+
  https://www.researchgate.net/publication/19648788_On_the_Physical_Death_of_Jesus_Christ
 
 ==TODO:  Was the body washed?==
 
+### Graven / Carved images
 
+2nd Commandment.
+
+God commanded that gold cherubim angels hammered and be placed on top of the ark of the covenant.
 
 ### Miscellaneous Objections
 
@@ -1342,6 +1506,8 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 > Pope Benedict described the shroud, which allegedly bears blood stains and the facial imprint of a long-haired, bearded man, as an icon that once “wrapped the remains of a crucified man in full correspondence with what the Gospels tell us of Jesus.” https://www.csmonitor.com/World/Europe/2010/0503/Pope-Benedict-says-Shroud-of-Turin-authentic-burial-robe-of-Jesus
 
 
+
+> The Catholic Church did not authorise the DNA test and reacted by forbidding anyone from conducting any more such testing for fear of some nefarious attempt to clone Jesus.”  https://www.express.co.uk/news/world/1953573/shroud-turin-created-clone-jesus
 
 ## What the Shroud tells us about Jesus
 
@@ -1406,7 +1572,9 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^buklin-1982:o]: "The most logical mechanism for death by crucifixion is development of respiratory asphysia related to failure of the cardiovascular system from shock and pain. The posture of the victim, the duration of the suspension, and the lack of adequate support for the body weight all serve to promote a condition of diminished respiratory capacity, resulting in cardiac failure and subsequent fluid accumulation in body cavities."
 [^burns-2013]: Burns, Dylan M.  "'The garment poured its entire self over me':  Christian Baptismal Traditions and the Origins of the Hymn of the Pearl" in "[Gnosticism, Platonism and the Late Ancient World](https://www.google.com/books/edition/Gnosticism_Platonism_and_the_Late_Ancien/BfiZAAAAQBAJ?hl=en&gbpv=1&pg=PA261&printsec=frontcover)."  2013.
 [^burns-2013:a]: On page 261:  "While the Acts were probably written in Syriac, the wide use of Parthian terminology in the *Hymn* hinting at a dating somewhere in the Sassian-occupied Syria (thus in the first two centuries CE), the origins of the poem remain a mystery."<br>[screenshot](shroud-of-turin-files/burns-2013.png).
-[^carlino-2017]: Rarlino, Elvio, Liberato De Caro, Cinzia Giannini, and Giulio Fanti.  "[Atomic Resolution studies detect new biologic evidences on the Turin Shroud](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0180487)."  PLOS One.  2017.<small>Note that PLOS One retracted this paper one year after it was published, because:<br>1.  They didn't compare the blood with animal blood from centuries ago.<br>2.  Finding creatine alone isn't difinitive evidence of trauma or violence.<br>3.  They analyzied only a single fiber, and it's not known if that fiber is representative of the shroud.<br>4.  They didn't declare the sample was provided by STERA.  However, the paper declares that twice.</small>
+[^carlino-2017]: Rarlino, Elvio, Liberato De Caro, Cinzia Giannini, and Giulio Fanti.  "[Atomic Resolution studies detect new biologic evidences on the Turin Shroud](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0180487)."  PLOS One.  2017.<small>Note that PLOS One retracted this paper one year after it was published, because:<br>1.  They didn't compare the blood with animal blood from centuries ago.<br>2.  Finding creatine alone isn't difinitive evidence of trauma or violence.<br>3.  They analyzied only a single fiber, and it's not known if that fiber is representative of the shroud.<br>4.  They didn't declare the sample was provided by STERA.  However, the paper declares that twice.<br><br>The authors respond to these criticisms [here](https://journals.plos.org/plosone/article/comment?id=10.1371/annotation/1db55bd5-b398-468c-9536-524cb6340480).</small>
+[^carter-1984]: Carter, Giles F.  "[Formation of the Image on the Shroud of Turin by x-Rays: A New Hypothesis](https://pubs.acs.org/doi/10.1021/ba-1984-0205.ch021)." in Archaeological Chemistry III.  The American Chemical Society.  1984.
+[^carter-1984:a]: Page 432: "The author's suggestion is that the finger images may be due at least in part to x-rays emanating from the bones in the body. Finger bones continue throughout much of the hand, and they could cause the fingers to look too long."<br><br>Page 433:  "A second curious part of the Shroud image is the mouth area. Close inspection, particularly of slides from a distance, shows the presence of inspection, particularly of slides from a distance, shows the presence of what appear to be eight or more objects, two rows of four or six (see Figure 4). Perhaps these could be teeth images, but other observers disagree with this assessment. Because the lips probably covered the teeth of the body of the Shroud, any images of teeth may indicate that x-rays have been involved in the formation of the Shroud image (or perhaps the skin decayed and shrank before the image was completely formed). A third observation indicating possible image formation by x-rays is the high, pronounced cheekbones. The face is somewhat skull-like, especially in the appearance of the high cheekbones. Part of the backbone may be visible on the dorsal image, but again others have stated that they do not see any bonne or teeth images."
 [^cataldo-2014]: Cataldo, Sébastien, and Yannick Clement.  "[The Mandylion Or The Story Of A Man-Made Relic](https://www.academia.edu/11767479/The_Mandylion_Or_The_Story_Of_A_Man_Made_Relic?auto=download)."  Shroud of Turin: The Controversial Intersection of Faith and Science (conference).  2014.
 [^catholic-news-2009]: "[Experts question scientist’s claim of reproducing Shroud of Turin](https://www.catholicnewsagency.com/news/17323/experts-question-scientists-claim-of-reproducing-shroud-of-turin)."  Catholic News.  2009.
 [^catholic-news-2009:a]: <small>"Dr. Jackson from the Turin Shroud Center also touched on the same point, saying, 'The shroud’s image intensity varies with' the distances in between the cloth and the body. While he admitted that the images of Garlaschelli’s shroud on the internet look authentic, when taken from a 3-D perspective, 'it’s really rather grotesque.' 'The hands are embedded into the body and the legs have unnatural looking lumps and bumps,' he explained."</small>
@@ -1424,6 +1592,8 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^de-caro-2022:b]: <small>"The European secular average room temperature is around 8.5–9 °C"</small>
 [^de-caro-2022:c]: <small>"we measured the WAXS maps of linen samples before and after exposure to a temperature of 200 °C in an oven for half an hour, without any control of the relative humidity, which became very low during the fabric’s exposure at these temperatures, as happens in real accidental fires.  After this thermal treatment, the WAXS map of the samples was unaltered... In particular, detailed experimental tests about the yellowing of the linen have demonstrated that a few minutes at a temperature of 200 °C could be enough to cancel out the TS [Turin Shroud] image."  The negligible change in cellulose chain breaks in response to heat is illustrated in this paper's figure 4.</small>
 [^de-caro-2022:d]: "The Turin Shroud (TS) is the most-studied archaeological object in the world."
+[^declari-1216]: De Clari, Robert.  "[Account of the Fourth Crusade.](https://deremilitari.org/2014/01/robert-of-claris-account-of-the-fourth-crusade/)"  1214.
+[^declari-2016:a]: See chapter 92.
 [^devan-1982]: Devan, D. and V. Miller, "[Quantitative Photography of the Shroud of Turin,](https://www.shroud.com/pdfs/Quantitative Photography Devan Miller 1982 OCRsm.pdf)" IEEE.1982 Proceedings of the International Conference on Cybernetics and Society.  1982.
 [^devan-1982:a]: <small>"The apparent visual variations in Shroud image intensity appear not to be due to inherent coloration variation in the discolored thread fibrils themselves, but rather due to variations in the areal density of more-or-less uniformly discolored fibrils. I.e., the apparent macro-scale shading variations observed on the Shroud are, in effect, due to 'halftone' properties of the fine-scale image."</small>
 [^devan-1982:b]: <small>Photomicrographs (see Figure 4) reveal that the image-forming discoloration is carried by only the outer few fibril layers of the bundles which comprise the linen threads used to weave the cloth. The body-image discoloration is surficial only and does not penetrate into the the threads. Similarly, the discoloration itself is generally restricted to the crowns of the weave and falls off on the side portions of the threads."</small>
@@ -1440,7 +1610,7 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^ercoline-1982:c]: <small>Page 578, top right: "The face does not appear to be distorted, however, but careful analysis does indicate that geometric distortions probably exist.  At the edges of the face on both sides we note in Figure 6 that the image is sharply truncated.  These regions occur at precisely the place where the herringbone weave pattern of the Shroud changes direction; hence the truncation is probably an artifact of the cloth and not of the image itself.  Further, there is a blood image on the right of the face and forehead level indicating that a supportive structure for this blood could have been present in the region where apparently no image was formed... Comparing this image with Figure 5, shows that the facial image on the Shroud could be distorted in accordance with the draping characteristics of a cloth over a face.  On the Shroud, the hair seems to hang abnormally off to each side of the face, but what could have happened is that the hair was actually in contact with the sides of the face but displaced away by geometric distortion."</small>
 [^eusebius-313]: Eusebius.  "Church History."  ~313 AD.
 [^eusebius-313:a]: [Book 1](https://www.newadvent.org/fathers/250101.htm), chapter 13: "For instance the King Abgarus, who ruled with great glory the nations beyond the Euphrates, being afflicted with a terrible disease which it was beyond the power of human skill to cure, when he heard of the name of Jesus, and of his miracles, which were attested by all with one accord sent a message to him by a courier and begged him to heal his disease.  But he did not at that time comply with his request; yet he deemed him worthy of a personal letter in which he said that he would send one of his disciples to cure his disease, and at the same time promised salvation to himself and all his house. Not long afterward his promise was fulfilled. For after his resurrection from the dead and his ascent into heaven, Thomas, one of the twelve apostles, under divine impulse sent Thaddeus, who was also numbered among the seventy disciples of Christ, to Edessa, as a preacher and evangelist of the teaching of Christ.  And all that our Saviour had promised received through him its fulfillment. You have written evidence of these things taken from the archives of Edessa, which was at that time a royal city. For in the public registers there, which contain accounts of ancient times and the acts of Abgarus, these things have been found preserved down to the present time. But there is no better way than to hear the epistles themselves which we have taken from the archives and have literally translated from the Syriac language in the following manner."
-[^fanti-1999]: anti, Giulio, Emanuela Marinelli, and Alesssandro Cagnazzo.  [Computerized anthropometric analysis of the Man of the Turin Shroud](https://www.shroud.com/pdfs/marineli.pdf).  1999.
+[^fanti-1999]: Fanti, Giulio, Emanuela Marinelli, and Alesssandro Cagnazzo.  "[Computerized anthropometric analysis of the Man of the Turin Shroud](https://www.shroud.com/pdfs/marineli.pdf)."  Computer Science, Engineering.  1999.
 [^fanti-1999:a]: "The height of the Man, 174±2 cm, was therefore measured with different techniques and the results obtained were compared with the anthropometric indices derived from bibliography."
 [^fanti-1999:b]: "[I]t must be observed that it is not enough to define two characteristic points such as the top of the head and the sole of the feet, and then to measure the distance between them. It must be considered that the cloth was wrapped around a man not lying completely flat, but rather with his legs flexed and his head bent forward."
 [^fanti-1999:c]: "It must be noted that the Man of the Shroud’s features are very similar to those relative to the Mediterranean race (bold), even if analogies with other races cannot be excluded. Particularly, the tibio-femoral index of the Man of the Shroud turned out to be 83.8%. If the data is compared with the indices typical of different races, it is evident that the value is very close to that of the Semitic race, characterised by an index of 83.66%. This analysis cannot show that the Man of the Shroud was certainly Jewish because of the uncertainty of the data obtained (in the order of some percentage point) and because the data obtained by bibliographic research is not completely exhaustive, but it is certainly significant that an anthropometric analysis carried out with the greatest possible objectivity could have led to such an extraordinary result."
@@ -1448,16 +1618,16 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^fanti-2004]: Fanti, Giulio and Robert Maggiolo.  "[The double superficiality of the frontal image of the Turin Shroud](https://astro1.panet.utoledo.edu/~ljc/shroud_rev.pdf)."  Journal of Optics A: Pure and Applied Optics.  2004.<small>Mirrors:  [Archive.org](https://web.archive.org/web/20100704005624/https://astro1.panet.utoledo.edu/~ljc/shroud_rev.pdf)</small>
 [^fanti-2004:a]: "Photographs of the back surface of the Turin Shroud were analysed to verify the existence of a double body image of a man. The body image is very faint and the background not uniform; i.e., the signal-to-noise ratio is lower than one. Therefore, image processing, developed ad hoc, was necessary to highlight body features. This was based on convolution with Gaussian filters, summation of images, and filtering in spatial frequency by direct and inverse bidimensional Fourier transformations. Body features were identified by template matching. The face and probably also the hands are visible on the back of the Turin Shroud, but not features related to the dorsal image.<br>...<br>After restoration of the TS by the nuns in Chambery, ´ following the 1532 fire which had seriously damaged it, a piece of Holland cloth was sewn to the back of the TS. The points at which the two pieces of cloth were put together prevented observation of the back surface of the TS until 2000, when the central part was unstitched to allow the passage of a scanner. Images of the back surface of the TS corresponding to the frontal and dorsal images could thus be acquired. In 2002, the TS was completely unstitched from the Holland cloth and its back surface was photographed (Ghiberti 2002), both overall and in detail. Lastly, a new reinforcing cloth, which again now prevents direct observation of the back of the TS, was sewn in place."
 [^fanti-2010]: Fanti, Giulio.  "[Microscopic and Macroscopic Characteristics of the Shroud of Turin Image Superficiality](https://library.imaging.org/admin/apis/public/api/ist/website/downloadArticle/jist/54/4/art00001)."  Imaging Science and Technology.  2010.<small>This is a review article of research performed by others.<br>Mirrors:  [Academia.edu](https://www.academia.edu/en/4294684/Microscopic_and_macroscopic_characteristics_of_the_Shroud_of_Turin_image_superficiality)</small>
-[^fanti-2010:a]: <small>"At the fiber level the image is superficial in the sense that the color alteration of the fiber is restricted to chemical changes in the approximately 200 nm thick external cell layer. At the thread level the coloration is superficial in the sense that the it extends only to depths of 2 or 3 fibers into the thread. At the fabric level these superficial colorations at the thread and fiber levels cumulatively produce the phenomenon called 'the image.'"</small>
+[^fanti-2010:a]: "At the fiber level the image is superficial in the sense that the color alteration of the fiber is restricted to chemical changes in the approximately 200 nm thick external cell layer. At the thread level the coloration is superficial in the sense that the it extends only to depths of 2 or 3 fibers into the thread. At the fabric level these superficial colorations at the thread and fiber levels cumulatively produce the phenomenon called 'the image.'"
 [^fanti-2010:b]: <small>See figure 8.</small>
-[^fanti-2010:c]: <small>"The image has a distinct preference for running along the individual fibers making up a yarn, coloring some but not others. Fibers further from a flat surface, tangent to the fabric, are less colored, but from the photographs a color concentration can be detected in correspondence to crevices where two or three yarns cross each other."</small>
-[^fanti-2010:d]: <small>"No image is found formed under the blood stains."</small>
+[^fanti-2010:c]: "The image has a distinct preference for running along the individual fibers making up a yarn, coloring some but not others. Fibers further from a flat surface, tangent to the fabric, are less colored, but from the photographs a color concentration can be detected in correspondence to crevices where two or three yarns cross each other."<
+[^fanti-2010:d]: "No image is found formed under the blood stains."
 [^fanti-2010:e]: "Many experiments have been carried out and many hypotheses have been formulated about the body image formation mechanism but none of them have been able to experimentally reproduce and completely explain what can be directly seen looking at the TS [Turin Shroud]."
 [^fanti-2011]: Fanti, Giulio and Thibault Heimburger.  "[Letter to the Editor Comments on 'Life-Size Reproduction of the Shroud of Turin and Its Image” by L. Garlaschelli.'](https://library.imaging.org/jist/articles/55/2/art00002)"  Journal of Imaging Science and Technology.  2011.  
-[^fanti-2011:a]: <small>"At the fiber level, contrary to TS [Turin Shroud] fibers that circumferentially show uniform color1 around the fibers, tests similar to Garlaschelli’s second experiment show that the color is only on the side of the fiber’s surface exposed to the acid (see Figure 3)."</small>
-[^fanti-2011:b]: <small>"The image [from Garlaschelli] is not continuous and has no fuzzy contour. There is no color at all in noncontact areas. The image/nonimage spatial variation (image resolution) in Garlaschelli’s experiment is less than 1 mm while it is 4.9 mm for the TS [Turin Shroud]."</small>
-[^fanti-2011:c]: <small>"Finally, the proven fact that there is no image color under the blood stains on the TS [Turin Shroud], which demonstrated that the blood was first on the linen and prevented the formation of the image in those areas, remains very difficult to understand in any hypothesis involving a forger (including Garlaschelli’s hypothesis)."</small>
-[^fanti-2011:d]: <small>"Incidentally, from Garlaschelli himself (personal email to the second author), there is, as expected, no fluorescent halo around his “blood stains” made of pigments, contrary to the serum haloes present on the TS [Turin Shroud]."</small>
+[^fanti-2011:a]: "At the fiber level, contrary to TS [Turin Shroud] fibers that circumferentially show uniform color1 around the fibers, tests similar to Garlaschelli’s second experiment show that the color is only on the side of the fiber’s surface exposed to the acid (see Figure 3)."
+[^fanti-2011:b]: "The image [from Garlaschelli] is not continuous and has no fuzzy contour. There is no color at all in noncontact areas. The image/nonimage spatial variation (image resolution) in Garlaschelli’s experiment is less than 1 mm while it is 4.9 mm for the TS [Turin Shroud]."
+[^fanti-2011:c]: "Finally, the proven fact that there is no image color under the blood stains on the TS [Turin Shroud], which demonstrated that the blood was first on the linen and prevented the formation of the image in those areas, remains very difficult to understand in any hypothesis involving a forger (including Garlaschelli’s hypothesis)."
+[^fanti-2011:d]: "Incidentally, from Garlaschelli himself (personal email to the second author), there is, as expected, no fluorescent halo around his “blood stains” made of pigments, contrary to the serum haloes present on the TS [Turin Shroud]."
 [^fanti-2015]: Fanti, Gulio et al.  "[Mechanical and opto-chemical dating of the Turin Shroud](https://www.matec-conferences.org/articles/matecconf/pdf/2015/17/matecconf_wopsas2015_01001.pdf)."  MATEC Web of Conferences.  2015.
 [^fanti-2015:a]: <small>See tables 1 and 2.</small>
 [^fanti-2015:b]: <small>"The TS [Turin Shroud] dating have been performed using flax fibers sampled from the TS by STURP members; the first Author has their traceability documents that is also reported in Ref. [14]. For example in the case of the mechanical dating, eight different TS fibers, coming from the “h” Filter (corresponding to a dusts vacuumed from the back of the TS in correspondence of the glutes area) have been recognized as such by the first author among others using a petrographic microscope and a particular technique based on cross-polarization. TS fibers in fact present a greater number of transversal defects (kink bands) than other more recent flax fibers and it is therefore relatively easy to detect them."</small>
@@ -1472,7 +1642,7 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^fanti-2015:k]: <small>See the last two columns in table 7 on page 11.</small>
 [^fanti-2015-2]: Fanti, Giulio.  "[Optical features of flax fibers coming from the Turin Shroud](https://www.shs-conferences.org/articles/shsconf/abs/2015/02/shsconf_atsi2014_00004/shsconf_atsi2014_00004.html)."  SHS Web of Conferences.  2015.<small>Mirror:  [ResearchGate.net](https://www.researchgate.net/publication/276400494_Optical_features_of_flax_fibers_coming_from_the_Turin_Shroud)</small>
 [^fanti-2015-2:a]: <small>"Raman and FT-IR analyses conﬁrm some chemical information relative to the TS [Turin Shroud] image-ﬁbers:  the image is not made by pigments but is caused by an oxidation, dehydration and conjugation of the polysaccharides PCW [Primary Cell Wall] about 200 nm thick."</small>
-[^fanti-2015-2:b]: <small>"The external structure of TS [Turin Shroud] image-ﬁbers is peculiar and worth of a detailed discussion. Image-ﬁbers, see Figs. 13, 14 and 15 (taken from STURP-1EB tape coming from the right ankle of the dorsal bodyimage), have a corrugated surface that is not typical of TS non-image ﬂax ﬁbers, but that is typical ofﬂax ﬁbers exposed to intense sources of radiation. In fact experimentally colored ﬁbers of ﬂax exposedto Corona Discharge, see Fig. 16 and to Excimer Lasers, see Fig. 17, show a similar feature.  The PCW  [Primary Cell Wall] corrugation can be explained as the result of a SCW [Secondary Cell Wall] shrinking caused by a chemical modiﬁcation that could be related to dehydration, oxidation and/or conjugation produced by intense radiations. This process of SCW shrinking can also be increased by aging and this hypothesis can alsohelp to explain the increasing of the number of dislocations per unit length with age of the ﬂax ﬁbers."</small>
+[^fanti-2015-2:b]: "The external structure of TS [Turin Shroud] image-ﬁbers is peculiar and worth of a detailed discussion. Image-ﬁbers, see Figs. 13, 14 and 15 (taken from STURP-1EB tape coming from the right ankle of the dorsal body image), have a corrugated surface that is not typical of TS non-image ﬂax ﬁbers, but that is typical of ﬂax ﬁbers exposed to intense sources of radiation. In fact experimentally colored ﬁbers of ﬂax exposed to Corona Discharge, see Fig. 16 and to Excimer Lasers, see Fig. 17, show a similar feature.  The PCW  [Primary Cell Wall] corrugation can be explained as the result of a SCW [Secondary Cell Wall] shrinking caused by a chemical modiﬁcation that could be related to dehydration, oxidation and/or conjugation produced by intense radiations. This process of SCW shrinking can also be increased by aging and this hypothesis can also help to explain the increasing of the number of dislocations per unit length with age of the ﬂax ﬁbers."
 [^fanti-2015-2:c]: See figures 14 and 15.
 [^fanti-2015-2:d]: See figure 17.
 [^fanti-2015-2:e]: See figure 16.
@@ -1491,7 +1661,7 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^farey-2018:b]: "Luigi Garlaschelli is a showman and professional debunker... In 2010 his widely publicised reproduction of the Shroud was fiercely criticised not only for its failure to replicate some diagnostic features of the real Shroud image, but also for his cheerfully unrepentant overconfidence, and the publicity conscious addition of crude representations of the blood flows and burn marks."
 [^farey-2019]: Farey, Hugh.  "[The Medieval Weave](https://medievalshroud.com/the-medieval-weave/)."  The Medieval Shroud Blog.  2019.<small>Farey is a leadying shroud skeptic who argues in favor of a medieval loom to create the shroud.</small>
 [^farey-2022]: Farey, Hugh.  "[The Most Studied Artefact?](https://medievalshroud.com/the-most-studied-artefact/)" The Medieval Shroud Blog.  2022.<small>who argues in favor of a medieval loom to create the shroud.<br>Mirrors:  [Archive.org](https://web.archive.org/web/20221002210950/https://medievalshroud.com/the-most-studied-artefact/), [Archive.ph](https://archive.ph/wip/QUzuk)</small>
-[^farey-2022:a]: Farey is perhaps the most prolific skeptic of the Shroud of Turin in the 2010s and 2020s, and he disagrees that the shroud is the most studied artifact.  He writes:  "Of all the most widely circulated canards about the Shroud, probably the commonest is that the Shroud is the most studied artefact, “in human history,” “in Christendom.” “in the history of the world,” “of all time” (to quote just the front page of a Google search), and no doubt many more... But it’s all nonsense. The truth is that the Shroud has hardly been studied at all, let alone so extensively as to place things like the tomb of Tutankhamun, Stonehenge or the Dead Sea Scrolls in the shade... The online search engine for academic journals, JSTOR, lists 2700 papers on the Turin Shroud. Tutankhamun gets 3100, Machu Picchu 3500, the Great Pyramid 4000, the Colosseum 5100, the Rosetta Stone 5400, the Mona Lisa 8900, Stonehenge 11100, the Dead Sea Scrolls 17200 and the Titanic 29100."<br><br>However, Joe Marino [responded](https://shroudstory.com/2022/10/04/the-biggest-shroud-of-turin-canard/#comment-218691) (Mirrors: [Archive.org](https://web.archive.org/web/20221004122747/https://shroudstory.com/2022/10/04/the-biggest-shroud-of-turin-canard/), [Archive.ph](https://archive.ph/wip/Na8jx)) to Farey's post:  "I remember reading as far back as the 1980s that STURP had spent “hundreds of thousands of hours” studying it. How does he know it’s “nonsense?” Is it another case of him just “not believing for a second” that such was the case? Perhaps the people that reported that STURP had spent that much time on it had actually interviewed STURP members and got that directly from them... . I can also add that about 5 years ago or so I asked Dr. John Jackson how much time he had personally spent on the Shroud. He told me at that time about 40,000 hours. One can add many more thousands of hours since then... When claims are made that it is the most studied artifact in history, people are considering the number of hours STURP spent as well as the number of hours other commissions researchers have spent writing books, reports, thousands of articles, putting on dozens of conferences, producing hundreds of videos, blog postings(!) and so on."<br><br>In a reply, Farey remarked, "Joe makes a couple of valid criticisms, and I have amended my post at medieval shroud.com accordingly," but the quotes above are from after Farey's amending.
+[^farey-2022:a]: Farey is perhaps the most prolific skeptic of the Shroud of Turin in the 2010s and 2020s, and he disagrees that the shroud is the most studied artifact.  He writes:  "Of all the most widely circulated canards about the Shroud, probably the commonest is that the Shroud is the most studied artefact, “in human history,” “in Christendom.” “in the history of the world,” “of all time” (to quote just the front page of a Google search), and no doubt many more... But it’s all nonsense. The truth is that the Shroud has hardly been studied at all, let alone so extensively as to place things like the tomb of Tutankhamun, Stonehenge or the Dead Sea Scrolls in the shade... The online search engine for academic journals, JSTOR, lists 2700 papers on the Turin Shroud. Tutankhamun gets 3100, Machu Picchu 3500, the Great Pyramid 4000, the Colosseum 5100, the Rosetta Stone 5400, the Mona Lisa 8900, Stonehenge 11100, the Dead Sea Scrolls 17200 and the Titanic 29100."<br><br>However, Joe Marino [responded](https://shroudstory.com/2022/10/04/the-biggest-shroud-of-turin-canard/#comment-218691) (Mirrors: [Archive.org](https://web.archive.org/web/20221004122747/https://shroudstory.com/2022/10/04/the-biggest-shroud-of-turin-canard/), [Archive.ph](https://archive.ph/wip/Na8jx)) to Farey's post:  "I remember reading as far back as the 1980s that STURP had spent “hundreds of thousands of hours” studying it. How does he know it’s “nonsense?” Is it another case of him just “not believing for a second” that such was the case? Perhaps the people that reported that STURP had spent that much time on it had actually interviewed STURP members and got that directly from them... I can also add that about 5 years ago or so I asked Dr. John Jackson how much time he had personally spent on the Shroud. He told me at that time about 40,000 hours. One can add many more thousands of hours since then... When claims are made that it is the most studied artifact in history, people are considering the number of hours STURP spent as well as the number of hours other commissions researchers have spent writing books, reports, thousands of articles, putting on dozens of conferences, producing hundreds of videos, blog postings(!) and so on."<br><br>In a reply, Farey remarked, "Joe makes a couple of valid criticisms, and I have amended my post at medieval shroud.com accordingly," but the quotes above are from after Farey's amending.
 [^farey-2023]: Farey, Hugh.  [Comment in The Holy Shroud Facebook group](https://www.facebook.com/groups/7934806138/posts/10159271866061139/?comment_id=10159287519941139&reply_comment_id=10159291353791139).  January, 2023.<small>Mirrors:  [Screenshot](shroud-of-turin-files/farey-2023.png)</small>
 [^farey-2023:a]: "The question of the weave also continues to be worth further investigation. The Shroud is unique, and for anyone to claim that its weave is "typical" or "common" in either a first or a fourteenth century context is deluding themselves. To try to fit the Shroud into such a context means looking in detail at textiles, looms and manufacturing techniques from both eras and seeing which seems to encompass it best."
 [^foulkes-2009]: Foulkes, Susan J.  "[Ramesses Girdle:  a weaving marvel](.https://www.academia.edu/61702437/Ramesses_Girdle_a_weaving_marvel)"  Journal for Weavers Spinners and Dyers.  2009.
@@ -1510,13 +1680,13 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^garlaschelli-2010:a]: <small>"The apparent visual variations in Shroud image intensity appear not to be due to inherent coloration variation in the discolored thread fibrils themselves, but rather due to variations in the areal density of more-or-less uniformly discolored fibrils. I.e., the apparent macro-scale shading variations observed on the Shroud are, in effect, due to "halftone" properties of the fine-scale image."</small>
 [^heller-1980]: Heller, John H. and Alan D. Adler.  "[Blood on the Shroud of Turin](https://www.shroud.com/pdfs/Blood%20On%20The%20Shroud%20Heller%20Adler%201980%20OCR.pdf)."  Applied Optics.  1980.
 [^heller-1980:a]: "the Shroud image contains areas from the wrists, arms, and feet that correspond to the blood stigmata of a classical crucifixion."
-[^heller-1981]: Heller, J.H. and A.D. Adler.  "[A chemical investigation of the Shroud of Turin](https://www.tandfonline.com/doi/abs/10.1080/00085030.1981.10756882)."  Canadian Society of Forensic Sciences Journal.  1981.<small>The authors, Heller and Adler, are both chemists and STURP members who studied the shroud in person in 1978.<br>Mirrors:   [Shroud.com](https://www.shroud.com/pdfs/Chemical%20Investigation%20%20Heller%20Adler%201981%20OCR.pdf)</small>
-[^heller-1981:a]: <small>Although iron in several forms is found over the whole cloth its distribution is shown to be accounted for by natural processes rather than as an added pigment. There is no chemical evidence for the application of any pigments, stains, or dyes on the cloth to produce the image found thereon."</small>
-[^heller-1981:b]: <small>Page 81, top:  "The chemical differences between image and non-image areas of the cloth indicate that the image was produced by some dehydrative oxidative process of the cellulose structure of the linen to yield a conjugated carbonyl group as the chromophore [coloring agent]."</small>
-[^heller-1981:c]: <small>Page 81, top:  "The presence of whole blood was established by detection of heme derivatives, bile pigments, and proteins."<br><br>Page 89 bottom left:  "we tested for heme breakdown products, i.e., bile pigments such as bilirubin, with... the commercially available American Monitor "525" bilirubin test kit.  [C]haracteristic blue azobilirubin colors could be positively detected in reflected light of the surfaces of the olive colored shards, the orange globs, and, also weakly on the more orange colored red coated fibrils...  In the previous spectral work.  it was noted that a peak does appear both in the whole cloth reflection studies and in microspectrophotometry of the tape samples at about 450 nm. This is quite typical of bilidienes and similar bile pigment structures, thus further indicating their presence on the Shroud itself in the "blood" image areas by both chemical test and spectroscopy."<br><br>Page 90, bottom right, describes how enzymes that eat proteins were found to dissolve the blood:  "One further direct and specific test was carried out for proteins. namely, the effect of proteolytic enzymes. For these purposes a fresh concentrated mixture of trypsin, chymotrypsin, carboxypeptidase, and lysozyme in pH 8.4 buffer was employed. Within a half hour this solution completely "'dissolved" the non-birefrigent red paniculate coated fibril coatings, leaving no particulate residues. This further indicates that these particulates are blood and not Fe2O3. impregnated protein binder.  This protease treatment also removes the golden yellow coating from the golden yellow fibrils, corroborating their identification as "'serum" coated fibrils. Interestingly, fibrils freed of their coatings using this technique closely resemble the nonimage fibrils when viewed under phase contrast... Proteases had absolutely no effect on the yellow (body) image or pale yellow non-image fibrils of the Shroud... Further, in our opinion, the totality of these tests does confirm the blood image areas as blood. The question as to whether or not the blood is human blood is best left to future immunologic testing."<br><br>"the indication of bile pigments and serum type proteins, i.e. albumin, allows one to form the opinion that it is, in fact, whole blood on the cloth and not just heme protein. Further, the observations that nonheme proteins can be detected in border areas adjacent to blood images supports Barbet's contention that these blood images generally represent cloned blood and not free blood flows. These conclusions are further supported by the UV photographic studies which show "serum" halo effects about the scourge marks and at the margins of blood clots. That such a chemically and anatomically correct representation could have been produced by any means other than direct contact of the cloth with a wounded human body is difficult to conceive. The detail in the scourge-marks as revealed in the fluorescence photography also supports this suggestion of intimate contact."</small>
-[^heller-1981:d]: <small>"Positive Bromcresol Green tests indicating albumin could be obtained for the larger, deeper yellow orange globs and also for the golden yellow ("serum") coated fibrils. Thus, this indicates that blood constituents other than hemoproteins are present in the blood areas. Similar albumin positive tests were also found in areas adjacent to the blood, e.g., the lance wound area. Elsewhere, expressed 'serum,' apparently due to clot retraction, is noted as might be expected if the wounds truly represent clotted images as proposed by Barbet."</small>
+[^heller-1981]: Heller, J.H. and A.D. Adler.  "[A chemical investigation of the Shroud of Turin](https://www.tandfonline.com/doi/abs/10.1080/00085030.1981.10756882)."  Canadian Society of Forensic Sciences Journal.  1981.The authors, Heller and Adler, are both chemists and STURP members who studied the shroud in person in 1978.<br>Mirrors:   [Shroud.com](https://www.shroud.com/pdfs/Chemical%20Investigation%20%20Heller%20Adler%201981%20OCR.pdf)
+[^heller-1981:a]: Although iron in several forms is found over the whole cloth its distribution is shown to be accounted for by natural processes rather than as an added pigment. There is no chemical evidence for the application of any pigments, stains, or dyes on the cloth to produce the image found thereon."
+[^heller-1981:b]: Page 81, top:  "The chemical differences between image and non-image areas of the cloth indicate that the image was produced by some dehydrative oxidative process of the cellulose structure of the linen to yield a conjugated carbonyl group as the chromophore [coloring agent]."
+[^heller-1981:c]: Page 81, top:  "The presence of whole blood was established by detection of heme derivatives, bile pigments, and proteins."<br><br>Page 89 bottom left:  "we tested for heme breakdown products, i.e., bile pigments such as bilirubin, with... the commercially available American Monitor "525" bilirubin test kit.  [C]haracteristic blue azobilirubin colors could be positively detected in reflected light of the surfaces of the olive colored shards, the orange globs, and, also weakly on the more orange colored red coated fibrils...  In the previous spectral work.  it was noted that a peak does appear both in the whole cloth reflection studies and in microspectrophotometry of the tape samples at about 450 nm. This is quite typical of bilidienes and similar bile pigment structures, thus further indicating their presence on the Shroud itself in the "blood" image areas by both chemical test and spectroscopy."<br><br>Page 90, bottom right, describes how enzymes that eat proteins were found to dissolve the blood:  "One further direct and specific test was carried out for proteins. namely, the effect of proteolytic enzymes. For these purposes a fresh concentrated mixture of trypsin, chymotrypsin, carboxypeptidase, and lysozyme in pH 8.4 buffer was employed. Within a half hour this solution completely "'dissolved" the non-birefrigent red paniculate coated fibril coatings, leaving no particulate residues. This further indicates that these particulates are blood and not Fe2O3. impregnated protein binder.  This protease treatment also removes the golden yellow coating from the golden yellow fibrils, corroborating their identification as "'serum" coated fibrils. Interestingly, fibrils freed of their coatings using this technique closely resemble the nonimage fibrils when viewed under phase contrast... Proteases had absolutely no effect on the yellow (body) image or pale yellow non-image fibrils of the Shroud... Further, in our opinion, the totality of these tests does confirm the blood image areas as blood. The question as to whether or not the blood is human blood is best left to future immunologic testing."<br><br>"the indication of bile pigments and serum type proteins, i.e. albumin, allows one to form the opinion that it is, in fact, whole blood on the cloth and not just heme protein. Further, the observations that nonheme proteins can be detected in border areas adjacent to blood images supports Barbet's contention that these blood images generally represent cloned blood and not free blood flows. These conclusions are further supported by the UV photographic studies which show "serum" halo effects about the scourge marks and at the margins of blood clots. That such a chemically and anatomically correct representation could have been produced by any means other than direct contact of the cloth with a wounded human body is difficult to conceive. The detail in the scourge-marks as revealed in the fluorescence photography also supports this suggestion of intimate contact."
+[^heller-1981:d]: "Positive Bromcresol Green tests indicating albumin could be obtained for the larger, deeper yellow orange globs and also for the golden yellow ("serum") coated fibrils. Thus, this indicates that blood constituents other than hemoproteins are present in the blood areas. Similar albumin positive tests were also found in areas adjacent to the blood, e.g., the lance wound area. Elsewhere, expressed 'serum,' apparently due to clot retraction, is noted as might be expected if the wounds truly represent clotted images as proposed by Barbet."
 [^heller-1981:e]: <small></small>
-[^heller-1981:f]: <small>Page 90, middle right:  "Positive fluorescamine tests were obtained on both the red and golden yellow coated fibrils, on the shards, and on both the orange and brown globs. The fluorescamine tests were definitely negative on all fibrils away from blood areas. This specifically includes yellow (body image) fibrils and the birefringent red particulate coated fibrils (these a.re found primarily in the water stain margins.). Thus, protein is only found associated with "blood" areas and is definitely not present as a "pigment binder" in the body image areas above the nanogram level."</small>
+[^heller-1981:f]: Page 90, middle right:  "Positive fluorescamine tests were obtained on both the red and golden yellow coated fibrils, on the shards, and on both the orange and brown globs. The fluorescamine tests were definitely negative on all fibrils away from blood areas. This specifically includes yellow (body image) fibrils and the birefringent red particulate coated fibrils (these a.re found primarily in the water stain margins.). Thus, protein is only found associated with "blood" areas and is definitely not present as a "pigment binder" in the body image areas above the nanogram level."
 [^heller-1981:g]: <small></small>
 [^heller-1981:h]: <small>Page 91, bottom left:  "While an individual test may be equivocal. the tests taken in combination enable positive identification of the presence of major elements... The uncoated fibrils (non-image, image. and water stain) all give relatively strong positive tests only for Ca and Fe, except for those from the inside of the water stains which give somewhat weaker, though still definite positive reactions. Thus, we find no evidence for any other metallic species on the body image fibrils at a level that would provide color evident to the eye."<br><br>Page 94, middle left:  "The results of these metal tests are in agreement with the general conclusions reached by X-ray fluorescence which found only in Ca, Fe and Sr on the Shroud above truce levels. However, the chemical testing allows us to be much more specific in the assignment of actual structures of the metallic compounds present. These results do not support the hypothesis that the image is painted with inorganic pigments."<br><br>Page 94 middle right: "With the exception of positive aldehyde and cellulosic carboxyl tests, all other species tested for tested negatively.  Thus we see no evidence for stains or dyes on the body image fibrils at levels that would be evident to the eye."<br><br>Page 96 top left:  "Thus the solvent, redox, and acid-base tests are also consistent with the lack or any applied stains or dyes, but are consistent with the chemistry of carbony groups as a chrompphore.  These results are like the metal tests, consistent with previously reported spectroscopic studies on the Shroud which also found no evidence for the presence of dyes or stains.  However, again, the chemical studies permit us to be more specific in postulating chromophores, which appear to be integral to the cellulosic structure itself."</small>
 [^heller-1981:i]: "The Shroud is a linen cloth, bearing the image of what appears to be a crucified man with the classical stigmata of Christ's crucifixion."<br>...<br>"This 4.36 x 1.10 m. linen cloth, now kept as a relic at the Cathedral of St. John in Turin, Italy, has had a long and controversial history, as it is alleged to be the authentic burial shroud of Jesus Christ. It bears both a complete head-to-head, front and back, straw yellow colored 'reversed' image of what appears 10 be a crucified man with 'blood-colored' wounds and scourge marks in accordance with Biblical description in the four Gospels."
@@ -1592,7 +1762,7 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^jumper-1984:l]: "In white light, the color of the body-only image is yellow [c.f. spectra (4,6)]. It is interesting that the image has been described prior to the 1978 testing (as a monotonic sepia color; however, the perceptual judgement of color is extremely sensitive to lighting and the distance from the cloth to the observer.  Under low color temperature lighting, it is possible that the color could be mistaken for sepia because the yellow is due to a brood absorption of the blues (shorter wavelengths in the visible spectra)."
 [^jumper-1984:m]: "Because the yellow fibrils comprising the body-only image are confined to the uppermost portions of the threads of the cloth, mechanisms that would evidence migration by capillary action can be excluded."
 [^jumper-1984:n]: "These appear to be somewhat different from the other two types of blood images. Under UV fluorescence, they appear to be darker than the image and, also, to be much more sharply defined than they appear in visible light [Miller, 1980], as would be expected on the basis of the known spectral characteristics of iron porphyrin compounds [Heller, 1981]. The geometric similarity of groups of these dumbbell-shaped marks is also quite striking [Bucklin, 1980]. Fine 'scratches' from the distal ends of these dumbbell-shaped marks appear in the UV-stimulated fluorescence photographs [Miller, 1980]."
-[^jumper-1984:o]: "The threads are seen in the x-radiographs to be inhomogeneous and the weave is somewhat uneven, as would he expected of a hand-spun, hand-loomed linen"
+[^jumper-1984:o]: "The threads are seen in the x-radiographs to be inhomogeneous and the weave is somewhat uneven, as would he expected of a hand-spun, hand-loomed linen."
 [^kelly-2022]: Kelly, Katie.  "[History of Houndstooth](https://www.plumager.com/blogs/plumager-print-design/history-of-houndstooth)."  Plumager.  2022.  <small>Mirrors:  [Archive.org](https://web.archive.org/web/20220520075703/https://www.plumager.com/blogs/plumager-print-design/history-of-houndstooth), [Archive.is](https://archive.ph/wip/HvMF2)<br>"Houndstooth plaid is... woven in a standard, simple 2:2 weave... The Houndstooth check is known to have been first woven in the Scottish Lowlands. This appearance in the 1800’s is considered to be the first ‘contemporary’ version of this plaid, with the very first version of the fabric being found to be from Sweden, from between the times of 360 and 100 BC, and known as ‘Gerum Cloak’."</small>
 [^klein-2016]: Klein, Eitan, and Roi Porat.  "[Nahal ʽArugot](https://www.hadashot-esi.org.il/report_detail_eng.aspx?id=25101&mag_id=124#bibliography)."  Excavations and Surveys in Israel.  2016.<small>Mirrors:  [Archive.org](https://web.archive.org/web/20220712071444/https://www.hadashot-esi.org.il/report_detail_eng.aspx?id=25101&mag_id=124). [Archive.ph](https://archive.ph/wip/we30Q)</small>
 [^klein-2016:a]: "Among the many pieces of fabrics that were cataloged and analyzed [from Nahal ‘Arugot Cave (Cave of the Rope)], only 13 pieces (Nos. 1–13; Table 1) were dated to ancient periods, based on how the thread was spun, the weaving, the raw material and the design pattern and color. Seven fabrics (1–7) were dated to the Roman period, five of them (1–5) made of linen (*Linum usitatissimum L.*).... Numbers 6 and 7 are made of wool... Number 7 is folded in two and is a bordeaux color that has partially faded and changed to a shade of brown (Fig. 10).  The threads were Z-spun, an atypical production method in the country (Sheffer and Granger-Taylor 1994:236). In addition, the textile was twill-weaved, a rarity among the textiles discovered in sites in Israel and uncharacteristic of local textile production (Sheffer and Granger-Taylor 1994:237). Therefore, this is presumably an imported textile. Similar fabrics were found, among other places, at the Murabaʽat Cave (Crowfoot and Crowfoot 1961:51–52, 54–55), Masada (Sheffer and Granger-Taylor 1994:166, 237) and Mo’a (Shamir 2005:100); this apparently reflects on trade relations or perhaps, an association with the Roman army (Shamir 2006:214–215)."
@@ -1601,6 +1771,8 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^kohlbeck-1986:b]: Page 24 bottom right:  "On the sticky tapes taken from the 'blood' areas are red particles (left).  These red particles are not found in other areas of the shroud... I then stored the three other samples I had immersed in Cargille oil.  Two and a half months later, I took out these samples to look at them again (left top).  Most of the red particles had changed from red to black; a yellow color was now exuding from the black; further examination of the black particles showed what appeared to be a cluster of cell-like structures where there was once a cluster of red particles  Those particles that had previously measured one or two microns in diameter now appeared tohave nuclei.  These apparent nuclei continued to change.  Over time, I continued to observe these particles with nuclei and gradually they became colorless and difficult to see.<br><br>Several conclusions can be drawn from these observations.  The red particles are organic rather than inorganic.  Absolute identification cannot be made, but most likely these particles are blood-related, as reported by John Heller and Alan Adler. [Heller and Adler, 1980]  Heller and Adler earlier reported the presence of blood using chemical tests.  The observations here are supportive of their analysis.<br><br>Some time ago, Dr. Walter McCrone of the McCrone Research Institute declared that the red particles he had observed adhering to the flax fibers on the shroud were not blood, but rather iron oxide, [McCrone and Skirius 1980] as could be found in red paint, hinting at the work of an artist or forger.  McCrone then proceeded to demonstrate a non-brush stroke technique by finger painting iron oxide onto a cloth.  We do not question that some strong iron oxide contaminant can be found on the sticky tape samples, but the red particles we examined were shown to be organic, not inorganic.  Accordingly, the red particles that changed cannot be iron oxide.<br><br>There are other conclusions to be drawn from our observations.  The change in the color of the red particles over time suggests--for the first time--that the shroud is a dynamic rather than a static system.  Thus there is a continuous state of change, albeit at a very slow rate.<br><br>With this possibility in mind, we reexamined blood area fibers from other untreated samples (see above).  They showed numerous colorless or slightly yellow particles that may have originally been red and undergone a change similar to the changes noted in our study.  Particles in all colors were found on these untreated shroud samples, ranging from colorless to black, with red predominating.  In short, some of the now colorless, black and yellow particles may originally have been blood.  By contrast iron oxide particles show an even red coloration throughout and are not affected by age.  They cannot explain the blood-appearing substance that can be seen on the shroud."
 [^kohlbeck-1986:c]: Page 25, bottom right:  "A further observation:  I prepared a massive catalogue of all the significant items to be seen on the sticky tapes taken by the STURP team.  This showed that there are proportionally not enough particle-covered fibers to produce the image.  In short, the image on the shroud must have been created by a change within the cellulose of the flax, not by the particles attached to the fibers.  In this, we agree with the STURP team."
 [^kohlbeck-1986:d]: Note 13 on page 29:  "There are a number of possible explanations for the rare paint contaminant, if that is what iron oxide is.  Quite often an inscription concerning the dead was written in red paint above the niche (or kokh) where the body was to be laid.  Blue paint was used over earthen graves of the poor to warn people that a dead body was there and the area unclean.  Yellow was often used on ossuaries.  In addition, the tomb caves were often decorated with frescoes of various colors.  Any or all of these could have found their way onto the shroud in microscopic amounts.  In addition, medieval copies of the shroud were laid on top of the shroud to produce 'touch relics'; these could also have been sources of some types of paint contamination."
+[^lascio-2018]: Lascio, A. Di et. al.  "[Investigating the color of the blood stains on archaeological cloths: the case of the Shroud of Turin](https://pubmed.ncbi.nlm.nih.gov/30129604/)."  Applied Optics.  2018.
+[^lascio-2018:a]: "The Shroud is considered one of the most studied archaeological objects in history."
 [^lazzaro-2012]: Di Lazzaro, Paolo et al.  "[Superficial and Shroud-like coloration of linen by short laser pulses in the vacuum ultraviolet](https://pubmed.ncbi.nlm.nih.gov/23262596/)."  Applied Optics.  2012.<small>Mirrors:  [Archive.org](https://web.archive.org/web/20140123090438/https://www.frascati.enea.it/fis/lac/excimer/sindone/Di%20Lazzaro%20AO%20revised.pdf).  <br>A [very similar version](https://web.archive.org/web/20131009234047/http://opac.bologna.enea.it:8991/RT/2012/2012_16_ENEA.pdf) of this article was published in an ENEA report.</small>
 [^lazzaro-2012:a]: <small>"The Shroud’s image is superficial as the color resides on the outer surface of the fibers that make up the threads of the cloth.  Recent measurements on image fibers of the Shroud confirmed that the coloration depth is approximately 200 nm, which corresponds to the thickness of the primary cell wall of the linen fiber. In a single linen thread, there are some 200 fibers... The coloration of the Shroud image was formed by an unknown process that caused oxidation, dehydration, and conjugation of polysaccharide structure of fibers to produce a conjugated carbonyl group as the chromophore [coloring agent]. To some extent, the color is a result of an accelerated aging process of the flax."</small>
 [^lazzaro-2012:b]: <small>See the table and discussion in section 4 on page 6.</small>
@@ -1614,7 +1786,7 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^lee-1912:b]: Page 85, third paragraph.  "The condition of the girdle is remarkably good for, with the exception of the hole mentioned above, and one or two cracks and places where the edge is ragged, it is a perfect specimen."<br><br>Page 85, fourth paragraph:  "It is very evenly spun, and still has a considerable amount of strength in spite of its great age."
 [^lucotte-2022]: Lucotte, Gérard.  "[Gold and Silver Particles on the Turin Shroud, Studied by Scanning Electron Microscopy and Elemental Analysis](https://www.scirp.org/journal/paperinformation.aspx?paperid=120356)."  Archaeological Discovery.  2022.
 [^lynn-1980]: Lynn, Donald. J.  "[Some Anthropological Evidence Pertinent to the Shroud of Turin](https://www.shroud.com/pdfs/Lynn%20circa%201980%20OCR.pdf)."  1980.<small>Donald Lynn was an image analysis expert and member of STURP who studied the Shroud in person in 1978.</small>
-[^lynn-1980:a]: "[O[f the ten adult males described in Table 1, one... was estimated to be 181 cm (~6') tall and another... between 170 and 178 cm (5'7" and 5'10"). Several are described as being very robust or muscular. This would indicate that an individual of the stature imaged on the Shroud would not necessarily have been overly large for a man living in Jesus' time."<br><br>The average height of the 10 males is (174+167.5+167+157+167+160+168+162+181+167)/10 = 167 cm.
+[^lynn-1980:a]: Page 3:  "Of the ten adult males described in Table 1, one... was estimated to be 181 cm (~6') tall and another... between 170 and 178 cm (5'7" and 5'10"). Several are described as being very robust or muscular. This would indicate that an individual of the stature imaged on the Shroud would not necessarily have been overly large for a man living in Jesus' time."<br><br>The average height of the 10 males is (174+167.5+167+157+167+160+168+162+181+167)/10 = 167 cm.
 [^maloney-2014]: Maloney, Paul C.  "[What Went Wrong With the Shroud’s Radiocarbon Date?  Setting it all in Context](https://www.shroud.com/pdfs/ohiomaloneypaper.pdf)."  2014.  <small>Maloney is an archaeologist.  The paper is peer reviewed although the appendices are not, as noted on page 16.</small>
 [^maloney-2014:a]: <small>Chemist Ray Rogers provides a comment to Maloney on page 38: "Remember there are blood spots all over the cloth, and sulfoproteins evolve H2S at low temperatures and they evolve hydroxyproline through roughly the same temperature ranges. Only blood spots near the scorches showed degradation. Your figure 3 shows a t/T curve. The same applies to the other compounds on the cloth. For example, pentose impurities on the non-image areas A (or even the hexose ketoses) would have shown degradation within 4 hrs at 100C."</small>
 [^marino-2022]: Marino, Joe.  "[Appendix To:  Raymond Rogers' Communications to the Shroud Science Group on the Anomalous Nature of the C-14 Corner](https://www.academia.edu/90785257/APPENDIX_TO_Raymond_Rogers_Communications_to_the_Shroud_Science_Group_on_the_Anomalous_Nature_of_the_C_14_Corner)."  2022.<small>This is a compilation of emails sent by STURP chemist Ray rogers in the years before his death in 2005.</small>
@@ -1623,6 +1795,8 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^marino-2022-2]: Marino, Joe.  "[Musings Regarding the Shroud of Turin - Including 'How is it that Practically Everyone Thinks They're an Authority?'](https://www.academia.edu/92570504/Musings_Regarding_the_Shroud_of_Turin_Including_How_is_it_that_Practically_Everyone_Thinks_Theyre_an_Authority_)"  2022.<small>This paper is not peer reviewed.  But the author, Joe Marino, is a leading experts on the shroud of Turin, prominent for first discovering evidence the radicarbon dated corner of the shroud was in a rewoven / repaired area.  He [describes his credentials as of 2022](https://www.academia.edu/92570504/Musings_Regarding_the_Shroud_of_Turin_Including_How_is_it_that_Practically_Everyone_Thinks_Theyre_an_Authority_):  "I have studied the Shroud of Turin for over forty-five years and innumerable hours. I have read all the major works on it in the English language. I have written two books and dozens of articles about it. I have made presentations at international conferences and know some of the scientists that did hands-on testing of it. I have one of the largest personal English-language collections of Shroud materials in the world and make it a point to scour the Internet for the latest information constantly. The Shroud is something I think about a lot. It is a solitary focus in my life."</small>
 [^marino-2022-2:a]: "Two deceased pathologists who each spent about fifty years studying the Shroud, Dr. Robert Bucklin and Dr.Fred Zugibe performed about a combined 50,000 autopsies."
 [^marino-2023]: Personal communication from shroud researcher Joe Marino, who spoke with John P. Jackson.  Jan 31, 2023.
+[^mcavoy-2019]: McAvoy, Thomas.  [Analysis of UV photographs of the Shroud of Turin](https://opg.optica.org/ao/abstract.cfm?uri=ao-58-25-6958).  Applied Optics.  2019.
+[^mcavoy-2019:a]: "The Shroud of Turin is one of the most widely studied ancient relics in history."
 [^mcdaniel-2020]: McDaniel, Spencer.  "[The Shroud of Turin is Definitely a Hoax]()https://talesoftimesforgotten.com/2020/02/24/sorry-the-shroud-of-turin-is-definitely-a-hoax/."  2020.
 [^medievalist-2019]: "[The Shroud of Turin was in the Byzantine Empire before 1204 AD, researchers suggest](https://www.medievalists.net/2019/09/the-shroud-of-turin-was-in-the-byzantine-empire-before-1204-ad-researchers-suggest/)."  The Medievalist.  2019.<small>Mirrors:  [Archive.org](https://web.archive.org/web/20191114013819/https://www.medievalists.net/2019/09/the-shroud-of-turin-was-in-the-byzantine-empire-before-1204-ad-researchers-suggest/), [Archive.is](https://archive.is/kCCvn)</small>
 [^mesarites]: "[Excerpts from 'The Palace Revolution of John Comnenus](https://www.shroud.com/pdfs/ssi17part4.pdf)."  Shroud Spectrum International.  1985.
@@ -1632,7 +1806,7 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^miller-1981:c]: "Some scourge marks appear only in the fluorescence photos: examples are noted between the hands and forearm areas."
 [^miller-1981:d]: On page 77:  "Body Image:  [Under UV Fluorescence] No color; prevents or absorbs the background fluorescence."<br><br>On page 84:  "A quite frequent hypothesis is that the body image was painted. The binders used in paints as early as the 14th century would be made of proteinaceous materials, animal collagen being a favored material; egg white and gelatin are other examples.  But these collagens would inherently be contaminated by fluorescing amino acids."
 [^miller-1981:e]: "The sharp detail revealed for the first time, particularly in the scourges, suggests that intimate cloth-body contact occurred."
-[^milstein-2009]: Millstein, Mati.  "[Shroud of Turin Not Jesus', Tomb Discovery Suggests](https://web.archive.org/web/20091219155935/https://news.nationalgeographic.com/news/2009/12/091216-shroud-of-turin-jesus-jerusalem-leprosy.html)."  National Geographic News.  2009.
+[^milstein-2009]: Milstein, Mati.  "[Shroud of Turin Not Jesus', Tomb Discovery Suggests](https://web.archive.org/web/20091219155935/https://news.nationalgeographic.com/news/2009/12/091216-shroud-of-turin-jesus-jerusalem-leprosy.html)."  National Geographic News.  2009.
 [^milstein-2009:a]: "The tight seal apparently allowed the shroud—radiocarbon-dated to between A.D. 1 and 50—to survive the high humidity levels characteristic of Jerusalem-area caves.... The newfound shroud was something of a patchwork of simply woven linen and wool textiles,
 [^mishnah]: 
 [^mishnah:a]: See [Kilayim 9:4](https://www.sefaria.org/Mishnah_Kilayim.9.4):  "Shrouds for the dead, and the packsaddle of a donkey are not subject to the law of kilayim."
@@ -1727,7 +1901,7 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^schwortz-2022]: Schwortz, Barrie.  "[The 1978 STURP Team](https://www.shroud.com/78team.htm)."  Retrieved Oct 2022.
 [^scottish-2023]: "[Tartan Details - Falkirk](https://www.tartanregister.gov.uk/tartanDetails?ref=1146)."  The Scottish Register of Tartans.  Accessed Jan 2023.<small>Mirrors: [Archive.org](https://web.archive.org/web/20230118183212/https://www.tartanregister.gov.uk/tartanDetails?ref=1146), [Archive.is](https://archive.is/Um0dl)</small>
 [^scottish-2023:a]: "The original Falkirk 'Tartan' ,now in the National Museum of Scotland, has a place in history as one of the earliest examples of Scottish cloth in existence. It is a direct link back to the Roman occupation of the area around 250 A.D.and was found stuffed into a pot filled with over 2000 silver coins. This early Celtic tweed used undyed yarn to give a herringbone pattern in brown hues and is considered to be a 'poor man's plaid'."
-[^shamir-2015]: Shamir, Orit.  "[A burial textile from the ﬁrst century CE in Jerusalem compared to roman textiles in the land of Israel and the Turin Shroud](https://www.researchgate.net/publication/307702798)."  SHS Web of Conferences.  2015.
+[^shamir-2015]: Shamir, Orit.  "[A burial textile from the ﬁrst century CE in Jerusalem compared to roman textiles in the land of Israel and the Turin Shroud](https://www.shs-conferences.org/articles/shsconf/abs/2015/02/shsconf_atsi2014_00010/shsconf_atsi2014_00010.html)."  SHS Web of Conferences.  2015.  Mirrors:  [ResearchGate](https://www.researchgate.net/publication/307702798), [Semantic Scholar](https://www.semanticscholar.org/reader/2c5dcae69c45b2951414ea268f49c537763250da).
 [^shamir-2015:a]: "The use of wool textile in primary use for burials and shrouds is less common than linen in the Land of Israel and was usually used for shrouds in secondary use. Linen shrouds have been discovered at burials sites in the Land of Israel. Linen shrouds dating from the Roman period have been found also at ‘En Gedi, Gesher Haziv, and Jericho – imprints of textiles were found on bones and skulls; the material used was identiﬁed as linen because of an equal number of threads in the warp and the weft. Shrouds were also found at Nahal David and Ze’elim, but the ﬁber material was not speciﬁed in Ref. [16] and we could not examine them because they did not arrive to the Israel National collections."
 [^shamir-2015:b]: "Wearing garments of mixed wool and linen – which is called in the Hebrew sources sha’atnez –is forbidden by the Jewish law but it can be used to make shrouds for the deceased. But none of the Jewish shrouds found in the above-mentioned archaeological sites and none of the shrouds made from reused textiles (see below) are made of sha’atnez.  Although thousands of textiles in the Land of Israel have been examined, no one piece of sha’atnez has been recovered from any Roman Jewish site. This is in contrast with the Roman sites in neighboring areas, as for example in Syria at sites such as Dura Europos and Palmyra, and in Coptic Egypt, which have yielded a great deal of textiles made of mixed linen and wool. Yet a few pre-Roman sites in the Land of Israel have yielded sha’atnez textiles: Kuntillat ‘Ajrud (Hurbat Teman) in Sinai dated to the ﬁrst half of the 8th century BCE – the Iron Age II and Wadi ed-Dâliyeh (located 14 km northwest of Jericho) contained artefacts belonged to Samaritan refugees and is dated to the Hellenistic Period. In both cases it was explained as belonging to the High Priest and priests respectively which, according to the Hebrew Bible, was required to wear sha’atnez while serving in the Temple."
 [^shamir-2015:c]: "Preparation for a Jewish burial consisted mainly of washing the corpse and wrapping it in shrouds [39].  Shrouds were specially-prepared or freshly laundered garments for the purpose of wrapping the corpse.  The Hebrew word for these burial shrouds, takrikim, connotes wrapping and binding more than dressing as is also indicated by Tractate Semahot: “Man may wrap and bind men but not women, but women may wrap and bind both men and women” [40]. In preparation for burial, spices and incense are often placed upon the shroud [41]."
@@ -1760,8 +1934,11 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^tyrer-1981:g]: "No more than four healds [shafts] would be required to weave the linen and, even though the image appears upon the long, warp floats on the 3/1 face, the cloth would almost certainly have been woven back-up as a 1/3 lift to reduce strain upon the warp and reduce thread breaks. The Shroud might therefore have been a less formidable task for a handloom weaver than may be thought at first sight."
 [^tyrer-1981:h]: "Their appearance would indicate that even though the cloth was piece bleached, the yarns must also have been at least part bleached before weaving, probably in hank form. Moreover, the difference in shade between adjacent individual yarns appears to be as great as between image and non-image areas of the cloth."
 [^tyrer-1981:i]: "There would appear to be no reason why the Shroud linen could not have survived from the first century. Much older linen fabrics are available, for example, Tutankhamun's curtains."
-[^tyrer-1981:j]: "Vittorio Marchis: "Interrogativi e risposte sul tessuto della Sindone"; Sindon, Dec. 1960. The author mentions a piece of cloth woven diagonally, found in the excavations of Pompei."
-[^tyrer-1981:k]: "Pietro Savio, SDB: Ricerche sul tessuto della Santa Sindone: Grottaferrata, 1973. A compilation of ancient texts. There is an illustration of a cloth woven in herringbone pattern, dated 130 AD, which had been discovered by Gayet in the excavations of the necropolis of Antinoe."
+[^tyrer-1981:j]: 
+[^tyrer-1981:k]: 
+[^tyrer-1983]: Tyrer, John.  "Looking at the Shroud as a Textile."  1983.<small>This is an expanded version of Tyrer 1981 which appeared in *Textile Horizons*.
+[^tyrer-1983:a]: "Vittorio Marchis: "Interrogativi e risposte sul tessuto della Sindone"; Sindon, Dec. 1960. The author mentions a piece of cloth woven diagonally, found in the excavations of Pompei."
+[^tyrer-1983:b]: "Pietro Savio, SDB: Ricerche sul tessuto della Santa Sindone: Grottaferrata, 1973. A compilation of ancient texts. There is an illustration of a cloth woven in herringbone pattern, dated 130 AD, which had been discovered by Gayet in the excavations of the necropolis of Antinoe."
 [^vial-1988]: Vial, Gabriel.  "[The Shroud of Turin:  A Technical Study](https://www.shroud.com/pdfs/ssi3839part4.pdf)."  1988.<small>Vial is a textile expert who was involved in cutting a sample during the 1988 carbon dating of the shroud.</small>
 [^vial-1988:a]: "The only herringbone in linen so far analysed and published is that cited in note 10. It is very late — second half of the XVIth century — and much simpler than that of Turin. The number of threads per centimeter in its main warp is practically half of the Turin count (19.5 instead of 38) and the proportion of warp/weft reductions is less: 19.5/16 = 1.22 instead of 38/26 = 1.46 for Turin. The important main warp of the latter thus offered a much smoother surface to the reproduction of the image.  If one takes into account the three constitutive elements of a textile — the structure, the primary material, and the reductions of warp and weft — one must acknowledge that the Shroud of Turin is truly 'incomparable.'"
 [^vignon-1902]: Vignon, Paul.  "[The Shroud of Christ](https://archive.org/details/TheShroudOfChrist/page/n133/mode/2up)."  1902.<small>Vignon was a biologist and one of the few scientists allowed to study the Shroud in-depth during the Shroud Exhibition of 1933.  [See more here](https://www.shroud.com/pdfs/ssi06part7.pdf)</small>
@@ -1770,8 +1947,10 @@ The catholic Church has no clear position on the Shroud of Turin, with different
 [^vignon-1902:c]: Page 165:  "[W]e are convinced that a linen cloth which had been saturated with oil and aloes would, after a lapse of years, or rather centuries, look like an ordinary cloth except in those parts where it had been subjected to the action of ammoniacal vapours. In these parts it would be covered with blotches, varying in intensity, more or less shaded at the edges, the colour of rust, or rather resembling blood-stains. And this, we must remember, is the aspect presented by the Holy Shroud."
 [^villarreal-2012]: Villarreal, Roberto, and Roberta Villarreal.  "[A New Look at the Validity of the Carbon-14 Dating of the Shroud](https://www.shroud.com/pdfs/villarrealvtxt.pdf)."  2014.<small>Author Roberto Villarreal is a chemist who worked under STURP chemist Ray Rogers.</small>
 [^weaver-1980]: Weaver, K.F.  "[The Mystery of the Shroud](https://nationalgeographicbackissues.com/product/national-geographic-june-1980/)."  National Geographic.  1980.
+[^wilcox-1977]: Wilcox, Robert.  "[The Truth about the Shroud of Turin: Solving the Mystery]()."  1977.
+[^wilcox-1977:a]: Wilcox sent photos of the shroud to Harvard professor Carlton S. Coon, who he describes as "one of the world's most distinguished ethnologists."<br><br>Coon replied, "Whoever the individual represented may have been, he is of a physical type  found in modern times among Sephardic Jews and noble Arabs. The soft parts of the nose have shrunken a bit, which is simply a sign of death. I have seen the same thing in the mummies of  Egyptian pharaohs. ‘For what it is worth, that is my opinion.’"<br><br>[Screenshot of page 136](shroud-of-turin-files/wilcox-1977-page-136.png).  In modern times, many consider some of Coon's ideas about race to be controversial or discredited.
 [^wilson-2010]: Wilson, Ian.  "The Shroud."  2010.
-[^wilson-2010:a]: Page 181.  [Screenshot](shroud-of-turin-files/wilson-2010-page-181.png).
+[^wilson-2010:a]: Page 181, "For what we see is not only a box-like lower casket, much like the one in which the Shroud was stored between 1604 and 1998, but rising from this a rectangular gold-covered panel, much larger than anything which might be expected for a mere face cloth.  Displayed on the panel's gold cover is what might at first be mistaken for the Image itself, until we notice that the artist has been at pains, by the deliberately unconvincing way he has depicted the cloth's fringe, to show that this is merely a token of the true original cloth which we may infer to be hidden behind the gold covering. Usefully supporting and supplementing this is a verbal description of the Image's storage arrangements as recorded in Latin by clearly intrigued visitor to Constantinople around 1090: 'This wonderful linen cloth with the face of the Lord Jesus, marked by direct contact, is kept with greater veneration than the other relics in the palace, and held in such great esteem that it is always kept in a golden case and very carefully locked up. And when all the other palace relics are shown to the faithful at certain times, this linen cloth on which the face of our redeemer is depicted is not shown to anyone and is not opened except for the emperor of Constantinople.'" [Screenshot](shroud-of-turin-files/wilson-2010-page-181.png).
 [^wilson-2010:b]: Page 177.  [Screenshot](shroud-of-turin-files/wilson-2010-page-177.png).
 [^wilson-2010:c]: Page 182.  "Nevertheless, as corroboration that from this time on there was a growing, albeit very tacit, awareness of the Shroud's full body imprint, some significant things happened in the field of art.  As has been shown by the same Professor Kurt Weitzmann whose team found the Constantine VII-Agbar icon at Sinai, from the eleventh century on what had been a mummy-style mode of depicting Jesus' entombment gradually gave way to a new concept of how Jesus was buried.  The Byzantine Greeks called this new mode the Threnos, or Lamentation, its main feature being that Jesus is wrapped in a large cloth readily comparable with today's Turin Shroud."  [Screenshot](shroud-of-turin-files/wilson-2010-pages-182-183.png).
 [^wilson-2010:d]: Page 185.  [Screenshot](shroud-of-turin-files/wilson-2010-page-185).

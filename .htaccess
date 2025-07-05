@@ -6,12 +6,12 @@
 	# If we navigate to an extensionless markdown file with a trailing slash, redirect to remove the slash.
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME}.md -f
-    RewriteRule (.*)/$ $1 [R]
+    RewriteRule (.*)/$ $1 [R,L]
 
-    # If we navigate to an extensionless markdown file with a trailing slash, redirect to remove the slash.
+    # If we navigate to an extensionless php file with a trailing slash, redirect to remove the slash.
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME}.php -f
-    RewriteRule (.*)/$ $1 [R]
+    RewriteRule (.*)/$ $1 [R,L]
 
 	# Make the .php extension optional.
 	# If there exists a filename.php that matches the requested path, and the url doesn't end with /, then use filename.php.
@@ -28,19 +28,17 @@
 	# NS For no-sub-request
 	# https://httpd.apache.org/docs/2.2/mod/mod_rewrite.html
 	RewriteCond %{QUERY_STRING} (^|&)w=|(^|&)h=|(^|&)s=|(^|&)format=
-	ReWriteRule ^(.*)\.(jpg|jpeg|png|gif|webp)$ /sitecrafter/lib/tools/resize-image.php [B,NE,NC,QSA]
+	ReWriteRule ^(.*)\.(jpg|jpeg|png|gif|webp)$ /sitecrafter/lib/tools/resize-image.php [B,NE,NC,QSA,L]
 
 	# Map ?build and jsx/ts/tsx to build.php
 	RewriteCond %{QUERY_STRING} (^|&)(build|min)
-	ReWriteRule ^(.*)\.(css|js)$ /sitecrafter/lib/tools/build.php [NC,QSA]
-	ReWriteRule ^(.*)\.(jsx|ts|tsx)$ /sitecrafter/lib/tools/build.php [B,NE,NC,QSA]
-
-
+	ReWriteRule ^(.*)\.(css|js)$ /sitecrafter/lib/tools/build.php [NC,QSA,L]
+	ReWriteRule ^(.*)\.(jsx|ts|tsx)$ /sitecrafter/lib/tools/build.php [B,NE,NC,QSA,L]
 
 	# Map url's ending in .md to the markdown compiler.
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME}.md -f
-	RewriteRule (.*)$ sitecrafter/lib/tools/md2html.php?$1.md [QSA]
+	RewriteRule (.*)$ sitecrafter/lib/tools/md2html.php?$1.md [QSA,L]
 </IfModule>
 
 # Don't allow downloading .sqlite3 and .env files that may have sensitive content.

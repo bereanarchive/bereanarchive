@@ -72,7 +72,7 @@ Topics out of scope:  Economic policy, foreign affairs, dealing with various spi
 
 ## Who are you?
 
-The Internet is a strange, dangerous, and permanent place.  I go by John Berea here, which is not my real name.  I run this website and serve as a benevolent dictator deciding what content is allowed.  I'm a convinced Christian with conservative views on most topics.  I'm educated in computer science.  That's all you need to know about me.
+The Internet is a strange, dangerous, and permanent place.  I run this website and serve as a benevolent dictator deciding what content is allowed.  I'm a convinced Christian with conservative views on most topics.  I'm educated in computer science.  That's all you need to know about me.
 
 The goal is to have many other people [contribute](/contribute) to this site.  What they reveal about themselves is up to them.
 

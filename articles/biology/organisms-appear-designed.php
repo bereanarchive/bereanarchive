@@ -272,7 +272,7 @@ ob_start()?>
 <div class="footnotes">
 	<ol>
 		<li>[^moth]:"<a href="https://en.wikipedia.org/wiki/External_morphology_of_Lepidoptera#/media/File:Butterfly_tongue.jpg">Scanning electron micrograph of the proboscis of a moth from family Pyralidae</a>."
-			Wikipedia.&nbsp; 2006.<span class="comment">Wikpedia says the image is public domain.&nbsp; I (JohnBera) modified it to give it false color.</span>
+			Wikipedia.&nbsp; 2006.<span class="comment">Wikpedia says the image is public domain.&nbsp; Modified it to give it false color.</span>
 		</li>
 		<li>[^simpson-plan-purpose]:Simpson, George Gaylord.&nbsp; "<a href="https://www.jstor.org/stable/19203?seq=1"
 			>The problem of plan and purpose in nature</a>."&nbsp; Scientific Monthly.&nbsp; 1947
